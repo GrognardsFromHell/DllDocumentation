@@ -1,0 +1,876 @@
+Multiple SF/GSF:
+Insert at 000E1BBF:
+		74 09			jz ...
+		81 78 10 50 C0 0F 10	cmp [eax + 0x10], 0x100FC050
+
+Greater Spell Focus:
+Insert at 000FC083:
+		8D 96 C9 FF FF FF	lea edx, [esi + 0xFFFFFFC9]
+		3B D1			cmp edx, ecx
+		75 19			jnz 000FC0A6
+000FC081	75 19			jnz ...
+000FC081	74 0A			jz 000FC08D
+
+Add level six+ spells to radial menu:
+115B1EE0 --> 11E76CE4
+115B1EE8 --> 11E76CEC
+115B1EF0 --> 11E76CF4
+115B1F08 --> 11E76D0C
+115B1F1C --> 11E76D20
+
+000F1311	83 FF 48		cmp edi, 0x48
+000F1311	83 FF 68		cmp edi, 0x68
+
+000F131A	B9 06 00 00 00		mov ecx, 0x00000006
+000F131A	B9 0A 00 00 00		mov ecx, 0x0000000A
+
+000F1353	83 FF 1E		cmp edi, 0x1E
+000F1353	83 FF 22		cmp edi, 0x22
+
+000F136C	83 FF 2A		cmp edi, 0x2A
+000F136C	83 FF 36		cmp edi, 0x36
+
+000F137C	83 FF 24		cmp edi, 0x24
+000F137C	83 FF 2C		cmp edi, 0x2C
+
+000F1387	83 C7 E2		add edi, 0xE2
+000F1387	83 C7 DE		add edi, 0xDE
+
+000F1387	83 C7 DC		add edi, 0xDC
+000F1387	83 C7 D4		add edi, 0xD4
+
+000F14D0	83 F8 06		cmp eax, 0x06
+000F14D0	83 F8 0A		cmp eax, 0x0A
+
+000F150D	83 C0 1E		add eax, 0x1E
+000F150D	83 C0 22		add eax, 0x22
+
+000F1514	83 C0 24		add eax, 0x24
+000F1514	83 C0 2C		add eax, 0x2C
+
+000F1520	83 C0 2A		add eax, 0x2A
+000F1520	83 C0 36		add eax, 0x36
+
+000F1545	83 00 30		add [eax], 0x30
+000F1545	83 00 40		add [eax], 0x40
+
+000F154A	83 C0 36		add eax, 0x36
+000F154A	83 C0 4A		add eax, 0x4A
+
+000F1556	83 C0 3C		add eax, 0x3C
+000F1556	83 C0 54		add eax, 0x54
+
+000F1561	83 C0 42		add eax, 0x42
+000F1561	83 C0 5E		add eax, 0x5E
+
+000F2750	C7 44 24 18 06 00 00 00	mov [esp + 0x18], 0x00000006
+000F2750	C7 44 24 18 0A 00 00 00	mov [esp + 0x18], 0x0000000A
+
+Let sorcerers take level six+ spells:
+001A60A7	3D 29 03 00 00		cmp eax, 0x00000329
+001A60A7	3D 2D 03 00 00		cmp eax, 0x0000032D
+
+001A60BB	3D 4B 06 00 00		cmp eax, 0x0000064B
+001A60BB	3D 4F 06 00 00		cmp eax, 0x0000064F
+
+001A6503	81 FF 29 03 00 00	cmp edi, 0x00000329
+001A6503	81 FF 2D 03 00 00	cmp edi, 0x0000032D
+
+001A65EE	3D 29 03 00 00		cmp eax, 0x00000329
+001A65EE	3D 2D 03 00 00		cmp eax, 0x0000032D
+
+001A66D6	81 F9 29 03 00 00	cmp ecx, 0x00000329
+001A66D6	81 F9 2D 03 00 00	cmp ecx, 0x0000032D
+
+001A674B	81 FA 29 03 00 00	cmp edx, 0x00000329
+001A674B	81 FA 2D 03 00 00	cmp edx, 0x0000032D
+
+001A67C3	81 FA 29 03 00 00	cmp edx, 0x00000329
+001A67C3	81 FA 2D 03 00 00	cmp edx, 0x0000032D
+
+001A683D	81 FA 29 03 00 00	cmp edx, 0x00000329
+001A683D	81 FA 2D 03 00 00	cmp edx, 0x0000032D
+
+001A754F	3D 4B 06 00 00		cmp eax, 0x0000064B
+001A754F	3D 4F 06 00 00		cmp eax, 0x0000064F
+
+Fix right side of sorcerer's spell dialogue during level up:
+001A62C6	81 FE 29 03 00 00	cmp esi, 0x00000329
+001A62C6	81 FE 2D 03 00 00	cmp esi, 0x0000032D
+
+001A6A20	3D 29 03 00 00		cmp eax, 0x00000329
+001A6A20	3D 2D 03 00 00		cmp eax, 0x0000032D
+
+001A6A36	3D 4B 06 00 00		cmp eax, 0x0000064B
+001A6A36	3D 4F 06 00 00		cmp eax, 0x0000064F
+
+001A6A6D	3D 29 03 00 00		cmp eax, 0x00000329
+001A6A6D	3D 2D 03 00 00		cmp eax, 0x0000032D
+
+001A6A83	3D 4B 06 00 00		cmp eax, 0x0000064B
+001A6A83	3D 4F 06 00 00		cmp eax, 0x0000064F
+
+001A6AC3	81 F9 29 03 00 00	cmp ecx, 0x00000329
+001A6AC3	81 F9 2D 03 00 00	cmp ecx, 0x0000032D
+
+001A6ADB	3D 29 03 00 00		cmp eax, 0x00000329
+001A6ADB	3D 2D 03 00 00		cmp eax, 0x0000032D
+
+001A6AF3	81 F9 4B 06 00 00	cmp ecx, 0x0000064D
+001A6AF3	81 F9 4F 06 00 00	cmp ecx, 0x0000064F
+
+001A6B02	3D 4B 06 00 00		cmp eax, 0x0000064B
+001A6B02	3D 4F 06 00 00		cmp eax, 0x0000064F
+
+001A6B0F	81 F9 4B 06 00 00	cmp ecx, 0x0000064D
+001A6B0F	81 F9 4F 06 00 00	cmp ecx, 0x0000064F
+
+001A6B1E	3D 4B 06 00 00		cmp eax, 0x0000064B
+001A6B1E	3D 4F 06 00 00		cmp eax, 0x0000064F
+
+001A796F	81 F9 4B 06 00 00	cmp ecx, 0x0000064D
+001A796F	81 F9 4F 06 00 00	cmp ecx, 0x0000064F
+
+001A79F0	3D 29 03 00 00		cmp eax, 0x00000329
+001A79F0	3D 2D 03 00 00		cmp eax, 0x0000032D
+
+001A7A05	3D 4B 06 00 00		cmp eax, 0x0000064B
+001A7A05	3D 4F 06 00 00		cmp eax, 0x0000064F
+
+001A7A46	3D 29 03 00 00		cmp eax, 0x00000329
+001A7A46	3D 2D 03 00 00		cmp eax, 0x0000032D
+
+001A7A54	3D 4B 06 00 00		cmp eax, 0x0000064B
+001A7A54	3D 4F 06 00 00		cmp eax, 0x0000064F
+
+Show all nine spell levels on left side during level up:
+	uninitialized space movement:
+10C73E64 --> 11E76030 (001A62CE, 001A6BDE)
+10C74AF0 --> 11E76CBC (001A7D93)
+
+0017EDB9	3D 29 03 00 00		cmp eax, 0x00000329
+0017EDB9	3D 2D 03 00 00		cmp eax, 0x0000032D
+
+001A69C0	3D 29 03 00 00		cmp eax, 0x00000329
+001A69C0	3D 2D 03 00 00		cmp eax, 0x0000032D
+
+001A69D7	3D 29 03 00 00		cmp eax, 0x00000329
+001A69D7	3D 2D 03 00 00		cmp eax, 0x0000032D
+
+001A6BD6	81 FE 29 03 00 00	cmp esi, 0x00000329
+001A6BD6	81 FE 2D 03 00 00	cmp esi, 0x0000032D
+
+001A73DE	83 C0 06		add eax, 0x06
+001A73DE	83 C0 0A		add eax, 0x0A
+
+001A73FA	C7 81 10 D9 C4 10 28 03 00 00	mov [ecx + 10C4D910], 0x00000328
+001A73FA	E8 D1 01 ED FF		call 000775D0
+001A73FF	90 90 90 90 90		nops
+
+001A7440	81 F9 29 03 00 00	cmp ecx, 0x00000329
+		7C 5F			jl 001A74B1
+		8B 4D 00		mov ecx, [ebp + 0x00]
+001A7440	81 F9 2D 03 00 00	cmp ecx, 0x0000032D
+
+001A753A	3D 29 03 00 00		cmp eax, 0x00000329
+001A753A	3D 2D 03 00 00		cmp eax, 0x0000032D
+
+001A7DC1	83 F9 06		cmp ecx, 0x06
+001A7DC1	83 F9 0A		cmp ecx, 0x0A
+
+000775C0	C7 81 10 D9 C4 10 28 03 00 00	mov [ecx + 10C4D910], 0x00000328
+000775CA	C7 81 D0 D9 C4 10 29 03 00 00	mov [ecx + 10C4D9D0], 0x00000329
+000775D4	C7 81 90 DA C4 10 2A 03 00 00	mov [ecx + 10C4DA90], 0x0000032A
+000775DE	C7 81 50 DB C4 10 2B 03 00 00	mov [ecx + 10C4DB50], 0x0000032B
+000775E8	C7 81 10 DC C4 10 2C 03 00 00	mov [ecx + 10C4DC10], 0x0000032C
+000775F2	C3			retn
+
+Empower Spell:
+000B8173	A8 01			test al, 0x01
+000B8173	A8 F0			test al, 0xF0
+
+000B8275	A8 01			test al, 0x01
+000B8275	A8 F0			test al, 0xF0
+
+Maximize Spell:
+000B8184	F6 84 24 3C 10 00 00 10	test [esp + 0x0000103C], 0x10
+000B8184	F6 84 24 3C 10 00 00 01	test [esp + 0x0000103C], 0x01
+
+000B8292	F6 84 24 38 10 00 00 10	test [esp + 0x00001038], 0x10
+000B8292	F6 84 24 38 10 00 00 01	test [esp + 0x00001038], 0x01
+
+Widen Spell:
+00097B46	E8 55 F7 FD FF		call 000772A0
+00097B46	E8 45 FA FD FF		call 00077590
+
+00077590	57			push edi
+00077591	8B 44 24 0C		mov eax, [esp + 0x0C]
+00077595	8B 40 F4		mov eax, [eax + 0xF4]
+00077598	8B 7C 24 08		mov edi, [esp + 0x08]
+0007759C	C1 E8 14		shr eax, 0x14
+0007759F	83 E0 0F		and eax, 0x0F
+000775A2	40			inc eax
+000775A3	8B 97 B0 00 00 00	mov edx, [edi + 0x000000B0]
+000775A9	F7 E2			mul edx
+000775AB	89 87 B0 00 00 00	mov [edi + 0x000000B0], eax
+000775B1	5F			pop edi
+000775B2	E9 E9 FC FF FF		jmp 000772A0
+
+Extend Spell:
+00010349	74 3C			jz 00010387
+00010349	EB 3C			jmp 00010387
+
+000BF030	89 41 54		mov [ecx + 0x54], eax
+000BF033	83 C4 04		add esp, 0x04
+000BF036	8B C1			mov eax, ecx
+000BF030	E8 1B 85 FB FF		call 00077550
+000BF035	83 C4 04		add esp, 0x04
+
+00077550	52			push edx
+00077551	8B 91 98 02 00 00	mov edx, [ecx + 0x00000298]
+00077557	C1 EA 0C		shr edx, 0x0C
+0007755A	83 E2 0F		and edx, 0x0F
+0007755D	42			inc edx
+0007755E	F7 E2			mul edx
+00077560	89 41 54		mov [ecx + 0x54], eax
+00077563	5A			pop edx
+00077564	89 C8			mov eax, ecx
+00077566	C3			retn
+
+Heighten Spell:
+move 00077550 (see code1.txt) to 0007770F
+0007772E	8B CE			mov ecx, esi
+00077730	8A 83 DE 0A 00 00	mov al, [ebx + 0x00000ADE]
+00077736	24 0F			and al, 0x0F
+00077738	01 C1			add ecx, eax
+
+Enlarge spell:
+00097AE3	8A 44 24 28		mov al, byte ptr [esp + 0x28]
+00097AE7	83 C4 1C		add esp, 0x1C
+00097AEA	A8 02			test al, 0x02
+00097AEC	74 13			jz 00097B01
+00097AEE	A1 F0 A8 86 11		mov eax, [1186A8F0]
+00097AF3	8B 88 28 16 00 00	mov ecx, [eax + 0x00001628]
+00097AF9	D1 E1			shl ecx, 0x01
+00097AFB	89 88 28 16 00 00	mov [eax + 0x00001628], ecx
+
+00097AE3	83 C4 1C		add esp, 0x1C
+00097AE6	C1 E8 08		shr eax, 0x08
+00097AE9	83 E0 0F		and eax, 0x0F
+00097AEC	40			inc eax
+00097AED	8B 0D F0 A8 86 11	mov ecx, [1186A8F0]
+00097AF3	8B 91 28 16 00 00	mov edx, [ecx + 0x00001628]
+00097AF9	F7 E2			mul edx
+00097AFB	89 81 28 16 00 00	mov [ecx + 0x00001628], eax
+
+Quicken spell:
+0008C05C	F6 C1 20		test cl, 0x20
+0008C05C	F6 C1 02		test cl, 0x02
+
+Still and Silent spell:
+00079529	F6 C1 40		test cl, 0x40
+00079529	F6 C1 04		test cl, 0x04
+
+00079537	84 C9			test cl, cl
+00079539	79 03			jns 0007953E
+0007953B	83 E0 FD		and eax, 0xFD
+0007953E	81 C4 C0 00 00 00	add esp, 0x000000C0
+00079544	C3			retn
+
+00079537	F6 C1 08		test cl, 0x08
+0007953A	74 03			jz 0007953F
+0007953C	83 E0 FD		and eax, 0xFD
+0007953F	81 C4 C0 00 00 00	add esp, 0x000000C0
+00079545	C3			retn
+
+Meta-magic colored balls corrections:
+001B5750	A8 01			test al, 0x01
+001B5750	A8 F0			test al, 0xF0
+
+001B57B0	F6 44 24 68 02		test [esp + 0x68], 0x02
+001B57B0	F6 44 24 69 0F		test [esp + 0x69], 0x0F
+
+001B5813	F6 44 24 68 04		test [esp + 0x68], 0x04
+001B5813	F6 44 24 69 F0		test [esp + 0x69], 0xF0
+
+001B5875	F6 44 24 68 08		test [esp + 0x68], 0x08
+001B5875	F6 44 24 6A 0F		test [esp + 0x6A], 0x0F
+
+001B58DD	F6 44 24 68 10		test [esp + 0x68], 0x10
+001B58DD	F6 44 24 68 01		test [esp + 0x68], 0x01
+
+001B593B	F6 44 24 68 20		test [esp + 0x68], 0x20
+001B593B	F6 44 24 68 02		test [esp + 0x68], 0x02
+
+001B599D	F6 44 24 68 40		test [esp + 0x68], 0x40
+001B599D	F6 44 24 68 04		test [esp + 0x68], 0x04
+
+001B5A00	8A 44 24 68		mov al, [esp + 0x68]
+001B5A04	84 C0			test al, al
+001B5A06	79 5C			jns 001B5A64
+001B5A00	F6 44 24 68 08		test [esp + 0x68], 0x08
+001B5A05	90			nop
+001B5A06	74 5C			jz 001B5A64
+
+001B5A64	8B 44 24 68		mov eax, [esp + 0x68]
+001B5A68	F6 C4 01		test ah, 0x01
+001B5A64	F6 44 24 6A 30		test [esp + 0x6A], 0x30
+001B5A69	90 90			nops
+
+Add and Removal bits:
+001B9960	81 F9 8A 00 00 00	cmp ecx, 0x0000008A
+001B9960	81 E1 00 01 00 00	and ecx, 0x00000100
+
+001B99C4	83 E0 FE		and eax, 0xFE
+001B99C7	EB 71			jmp 001B9A3A
+001B99C9	A1 C8 18 C8 10		mov eax, [10C818C8]
+001B99CE	83 E0 FD		and eax, 0xFD
+001B99C4	42			inc edx
+001B99C5	C1 E2 02		shl edx, 0x02
+001B99C8	8B CA			mov ecx, edx
+001B99CA	B2 01			mov dl, 0x01
+001B99CC	D3 E2			shl edx, cl
+001B99CE	29 D0			sub eax, edx
+001B99D0	90			nop
+
+001B99EC	83 E0 EF		and eax, 0xEF
+001B99EC	83 E0 FE		and eax, 0xFE
+
+001B9A0D	83 E0 BF		and eax, 0xBF
+001B9A0D	83 E0 FB		and eax, 0xFB
+
+001B9A17	83 E0 DF		and eax, 0xDF
+001B9A17	83 E0 FD		and eax, 0xFD
+
+001B9A21	25 7F FF FF FF		and eax, 0xFFFFFF7F
+001B9A21	25 F7 FF FF FF		and eax, 0xFFFFFFF7
+
+001B9A35	25 FF FE FF FF		and eax, 0xFFFFFEFF
+001B9A35	2D 00 00 10 00		sub eax, 0x00100000
+
+001B9A72	0F B6 80 C8 9D 1B 10	movzx eax, [eax + 101B9DC8]
+001B9A79	FF 24 85 B4 9D 1B 10	jmp [eax * 4 + 101B9DB4]
+001B9A72	0F B6 90 C8 9D 1B 10	movzx edx, [eax + 101B9DC8]
+001B9A79	FF 24 95 B4 9D 1B 10	jmp [edx * 4 + 101B9DB4]
+
+001B9A85	83 E0 FE		and eax, 0xFE
+001B9A88	EB 71			jmp 001B9AFC
+001B9A8A	A1 C8 18 C8 10		mov eax, [10C818C8]
+001B998F	83 E0 FD		and eax, 0xFD
+001B9A85	42			inc edx
+001B9A86	C1 E2 02		shl edx, 0x02
+001B9A89	8B CA			mov ecx, edx
+001B9A8B	B2 01			mov dl, 0x01
+001B9A8D	D3 E2			shl edx, cl
+001B9A8F	01 D0			add eax, edx
+001B9A91	90			nop
+
+001B9AAD	83 C8 10		or eax, 0x10
+001B9AAD	83 C8 01		or eax, 0x01
+
+001B9ACF	83 C8 40		or eax, 0x40
+001B9ACF	83 C8 04		or eax, 0x04
+
+001B9AD9	83 C8 20		or eax, 0x20
+001B9AD9	83 C8 02		or eax, 0x02
+
+001B9AE3	0D 80 00 00 00		or eax, 0x00000080
+001B9AE3	0D 08 00 00 00		or eax, 0x00000008
+
+001B9AF7	0D 00 01 00 00		or eax, 0x00000100
+001B9AF7	05 00 00 10 00		add eax, 0x00100000
+
+001B9BBC	83 E0 FE		and eax, 0xFE
+001B9BBF	EB 71			jmp 001B9C32
+001B9BC1	A1 C8 18 C8 10		mov eax, [10C818C8]
+001B9BC6	83 E0 FD		and eax, 0xFD
+
+001B9BBC	42			inc edx
+001B9BBD	C1 E2 02		shl edx, 0x02
+001B9BC0	8B CA			mov ecx, edx
+001B9BC2	B2 01			mov dl, 0x01
+001B9BC4	D3 E2			shl edx, cl
+001B9BC6	29 D0			sub eax, edx
+001B9BC7	90			nop
+
+001B9BE4	83 E0 EF		and eax, 0xEF
+001B9BE4	83 E0 FE		and eax, 0xFE
+
+001B9C05	83 E0 BF		and eax, 0xBF
+001B9C05	83 E0 FB		and eax, 0xFB
+
+001B9C0F	83 E0 DF		and eax, 0xDF
+001B9C0F	83 E0 FD		and eax, 0xFD
+
+001B9C19	25 7F FF FF FF		and eax, 0xFFFFFF7F
+001B9C19	25 F7 FF FF FF		and eax, 0xFFFFFFF7
+
+001B9C2D	25 FF FE FF FF		and eax, 0xFFFFFEFF
+001B9C2D	2D 00 00 10 00		add sub, 0x00100000
+
+001B9D30	C9 99 1B 10
+001B9D34	D3 99 1B 10
+001B9D38	DD 99 1B 10
+replace with	BF 99 1B 10
+
+001B9DB8	8A 9A 1B 10
+001B9DBC	94 9A 1B 10
+001B9DC0	9E 9A 1B 10
+replace with	80 9A 1B 10
+
+001B9E40	C1 9B 1B 10
+001B9E44	CB 9B 1B 10
+001B9E48	D5 9B 1B 10
+replace with	B7 9B 1B 10
+
+New metamagic UI init (downshift 0x14 bytes):
+001BA6B5	8B 3D C8 18 C8 10	mov edi, [10C818C8]
+001BA6BB	BE 04 19 C8 10		mov esi, 0x10C81904
+001BA6C0	33 C9			xor ecx, ecx
+001BA6C2	F7 C7 01 00 00 00	test edi, 0x01
+001BA6C8	74 08			jz 001BA7D2
+001BA6CA	C7 04 8E 03 01 00 00	mov [ecx * 4 + esi], 0x00000103
+001BA6D1	41			inc ecx
+001BA6D2	F7 C7 02 00 00 00	test edi, 0x02
+001BA6D8	74 08			jz 001BA7E2
+001BA6DA	C7 04 8E 0F 01 00 00	mov [ecx * 4 + esi], 0x0000010F
+001BA6E1	41			inc ecx
+001BA6E2	F7 C7 04 00 00 00	test edi, 0x04
+001BA6E8	74 08			jz 001BA7F2
+001BA6EA	C7 04 8E 0F 01 00 00	mov [ecx * 4 + esi], 0x00000118
+001BA6F1	41			inc ecx
+001BA6F2	F7 C7 08 00 00 00	test edi, 0x08
+001BA6F8	74 08			jz 001BA802
+001BA6FA	C7 04 8E 0F 01 00 00	mov [ecx * 4 + esi], 0x00000152
+001BA701	41			inc ecx
+001BA702	8B C7			mov eax, edi
+001BA704	C1 F8 04		shr eax, 0x04
+001BA707	83 E0 0F		and eax, 0x0F
+001BA70A	85 C0			test eax, eax
+001BA70C	74 10			jz 001BA71E
+001BA70E	83 F9 09		cmp ecx, 0x09
+001BA711	73 0B			jae 001BA71E
+001BA713	C7 04 8E 19 00 00 00	mov [ecx * 4 + esi], 0x00000019
+001BA71A	48			dec eax
+001BA71B	41			inc ecx
+001BA71C	EB EC			jmp 001BA70A
+001BA71E	8B C7			mov eax, edi
+001BA720	C1 F8 08		shr eax, 0x08
+001BA723	83 E0 0F		and eax, 0x0F
+001BA726	85 C0			test eax, eax
+001BA728	74 10			jz 001BA73A
+001BA72A	83 F9 09		cmp ecx, 0x09
+001BA72D	73 0B			jae 001BA73A
+001BA72F	C7 04 8E 1B 00 00 00	mov [ecx * 4 + esi], 0x0000001B
+001BA736	48			dec eax
+001BA737	41			inc ecx
+001BA738	EB EC			jmp 001BA726
+001BA73A	8B C7			mov eax, edi
+001BA73C	C1 F8 0C		shr eax, 0x0C
+001BA73F	83 E0 0F		and eax, 0x0F
+001BA742	85 C0			test eax, eax
+001BA744	74 10			jz 001BA756
+001BA746	83 F9 09		cmp ecx, 0x09
+001BA749	73 0B			jae 001BA756
+001BA74B	C7 04 8E 31 00 00 00	mov [ecx * 4 + esi], 0x00000031
+001BA752	48			dec eax
+001BA753	41			inc ecx
+001BA754	EB EC			jmp 001BA742
+001BA756	8B C7			mov eax, edi
+001BA758	C1 F8 10		shr eax, 0x10
+001BA75B	83 E0 0F		and eax, 0x0F
+001BA75E	85 C0			test eax, eax
+001BA760	74 10			jz 001BA772
+001BA762	83 F9 09		cmp ecx, 0x09
+001BA765	73 0B			jae 001BA772
+001BA767	C7 04 8E 8A 00 00 00	mov [ecx * 4 + esi], 0x0000008A
+001BA76E	48			dec eax
+001BA76F	41			inc ecx
+001BA770	EB EC			jmp 001BA75E
+001BA772	8B C7			mov eax, edi
+001BA774	C1 F8 14		shr eax, 0x14
+001BA777	83 E0 03		and eax, 0x03
+001BA77A	85 C0			test eax, eax
+001BA77C	74 10			jz 001BA78E
+001BA77E	83 F9 09		cmp ecx, 0x09
+001BA781	73 0B			jae 001BA78E
+001BA783	C7 04 8E 85 02 00 00	mov [ecx * 4 + esi], 0x00000285
+001BA78A	48			dec eax
+001BA78B	41			inc ecx
+001BA78C	EB EC			jmp 001BA77A
+001BA78E	89 0D 00 19 C8 10	mov [10C81900], ecx
+001BA794	EB 3D			jmp 001BA7D3)
+001BA7D3
+
+eax - cur count
+ecx - count
+edx - feat
+edi - initial flags
+esi - feat array
+
+Bards spells can not use Silent feat:
+		52			push edx
+		50			push eax
+001BA65E	E8 7D 1D EC FF		call 0007C3D0
+		83 C3 0C		add esp, 0x0C
+001BA65E	E8 2D CF EB FF		call 00077590
+
+00077590	81 7C 24 0C 18 01 00 00	cmp [esp + 0x0C], 0x00000118
+00077598	75 0F			jnz 000775A9
+0007759A	81 3D BC 18 C8 10 88 00 00 00	cmp [10C818BC], 0x00000088
+000775A4	75 03			jnz 000775A9
+000775A6	33 C0			xor eax, eax
+000775A8	C3			retn
+000775A9	E9 22 4E 00 00 		jmp 0007C3D0
+000775AE	90 90			nops
+
+or insert (0x14 bytes):
+001BA656	81 FA 18 01 00 00	cmp edx, 0x00000118
+001BA65C	75 0C			jnz 001BA66A
+001BA65E	81 3D BC 18 C8 10 88 00 00 00	cmp [10C818BC], 0x00000088
+001BA668	74 xx			jz ...
+
+Changing the packed spell from iimmlcfs to iimmmcf(s/l):
+00077800	8B 44 24 04		mov eax, [esp + 0x04]
+00077804	66 8B 4C 24 08		mov cx, [esp + 0x08]
+00077809	8A 54 24 0C		mov dl, [esp + 0x0C]
+0007780D	66 89 08		mov [eax], cx
+00077810	8A 4C 24 10		mov cl, [esp + 0x10]
+00077814	88 48 04		mov [eax + 0x04], cl
+00077817	66 0F B6 4C 24 18	movzx cx, [esp + 0x18]
+0007781D	88 50 05		mov [eax + 0x05], dl
+00077820	8A 54 24 14		mov dl, [esp + 0x14]
+00077824	88 50 06		mov [eax + 0x06], dl
+00077827	66 89 48 02		mov [eax + 0x02], cx
+0007782B	C6 40 07 00		mov byte ptr [eax + 0x07], 0
+0007782F	C3			retn
+00077850	8B 4C 24 0C		mov ecx, [esp + 0x0C]
+00077854	85 C9			test ecx, ecx
+00077856	8B 44 24 04		mov eax, [esp + 0x04]
+0007785A	74 05			jz 00077861
+0007785C	0F B7 10		movzx edx, word ptr [eax]
+0007785F	89 11			mov [ecx], edx
+00077861	8B 4C 24 08		mov ecx, [esp + 0x08]
+00077865	85 C9			test ecx, ecx
+00077867	74 3E			jz 000778A7
+00077869	8A 50 07		mov dl, [eax + 7]
+0007786C	F6 C2 02		test dl, 0x02
+0007786F	74 0D			jz 0007787E
+00077871	0F B6 50 04		movzx edx, byte ptr [eax + 0x04]
+00077875	8B 14 95 7C 82 27 10	mov edx, [edx * 4 + 0x1027827C]
+0007787C	EB 27			jmp 000778A5
+0007787E	F6 C2 04		test dl, 0x04
+00077881	74 0D			jz 00077890
+00077883	0F B6 50 04		movzx edx, byte ptr [eax + 0x04]
+00077887	8B 14 95 94 82 27 10	mov edx, [edx * 4 + 0x10278294]
+0007788E	EB 15			jmp 000778A5
+00077890	F6 C2 08		test dl, 0x08
+00077893	74 0D			jz 000778A2
+00077895	0F B6 50 04		movzx edx, byte ptr [eax + 0x04]
+00077899	8B 14 95 AC 82 27 10	mov edx, [edx * 4 + 0x102782AC]
+000778A0	EB 03			jmp 000778A5
+000778A2	0F B7 10		movzx edx, word ptr [eax]
+000778A5	89 11			mov [ecx], edx
+000778A7	8B 4C 24 10		mov ecx, [esp + 0x10]
+000778AB	85 C9			test ecx, ecx
+000778AD	74 06			jz 000778B5
+000778AF	0F B6 50 05		movzx edx, byte ptr [eax + 0x05]
+000778B3	89 11			mov [ecx], edx
+000778B5	8B 4C 24 14		mov ecx, [esp + 0x14]
+000778B9	85 C9			test ecx, ecx
+000778BB	74 06			jz 000778C3
+000778BD	0F B6 50 04		movzx edx, byte ptr [eax + 0x04]
+000778C1	89 11			mov [ecx], edx
+000778C3	8B 4C 24 18		mov ecx, [esp + 0x18]
+000778C7	85 C9			test ecx, ecx
+000778C9	74 05			jz 000778D1
+000778CB	0F B6 50 06		movzx edx, byte ptr [eax + 0x06]
+000778CF	89 11			mov [ecx], edx
+000778D1	8B 4C 24 1C		mov ecx, [esp + 0x1C]
+000778D5	85 C9			test ecx, ecx
+000778D7	74 06			jz 000778DF
+000778D9	0F B7 40 02		movzx eax, word ptr [eax + 0x02]
+000778DD	89 01			mov [ecx], eax
+000778DF	C3			retn
+
+00077800	8B 44 24 04		mov eax, [esp + 0x04]
+00077804	66 8B 4C 24 08		mov cx, [esp + 0x08]
+00077809	66 89 08		mov [eax], cx
+0007780C	8B 4C 24 18		mov ecx, [esp + 0x18]
+00077810	89 48 02		mov [eax + 0x02], ecx
+00077813	8A 54 24 0C		mov dl, [esp + 0x0C]
+00077817	88 50 05		mov [eax + 0x05], dl
+0007781A	8A 54 24 14		mov dl, [esp + 0x14]
+0007781E	88 50 06		mov [eax + 0x06], dl
+00077821	8A 54 24 10		mov dl, [esp + 0x10]
+00077825	C0 E2 04		sal dl, 0x04
+00077828	88 50 07		mov [eax + 0x07], dl
+0007782B	C3			retn
+0007782C	90 90 90 90		nops
+00077850	8B 4C 24 0C		mov ecx, [esp + 0x0C]
+00077854	85 C9			test ecx, ecx
+00077856	8B 44 24 04		mov eax, [esp + 0x04]
+0007785A	74 05			jz 00077861
+0007785C	0F B7 10		movzx edx, word ptr [eax]
+0007785F	89 11			mov [ecx], edx
+00077861	0F B6 50 07		movzx edx, byte ptr [eax + 0x07]
+00077865	C1 FA 04		sar edx, 0x04
+00077868	8B 4C 24 14		mov ecx, [esp + 0x14]
+0007786C	85 C9			test ecx, ecx
+0007786E	74 02			jz 00077872
+00077870	89 11			mov [ecx], edx
+00077872	8B 4C 24 08		mov ecx, [esp + 0x08]
+00077876	85 C9			test ecx, ecx
+00077878	74 32			jz 000778AC
+0007787A	F6 40 07 02		test byte ptr [eax + 7], 0x02
+0007787E	74 09			jz 00077889
+00077880	8B 14 95 7C 82 27 10	mov edx, [edx * 4 + 0x1027827C]
+00077887	EB 21			jmp 000778AA
+00077889	F6 40 07 04		test byte ptr [eax + 7], 0x04
+0007788D	74 09			jz 00077898
+0007788F	8B 14 95 94 82 27 10	mov edx, [edx * 4 + 0x10278294]
+00077896	EB 12			jmp 000778AA
+00077898	F6 40 07 08		test byte ptr [eax + 7], 0x08
+0007789C	74 09			jz 000778A7
+0007789E	8B 14 95 AC 82 27 10	mov edx, [edx * 4 + 0x102782AC]
+000778A5	EB 03			jmp 000778AA
+000778A7	0F B7 10		movax edx, word ptr [eax]
+000778AA	89 11			mov [ecx], edx
+000778AC	8B 4C 24 10		mov ecx, [esp + 0x10]
+000778B0	85 C9			test ecx, ecx
+000778B2	74 06			jz 000778BA
+000778B4	0F B6 50 05		movzx edx, byte ptr [eax + 0x05]
+000778B8	89 11			mov [ecx], edx
+000778BA	8B 4C 24 18		mov ecx, [esp + 0x18]
+000778BE	85 C9			test ecx, ecx
+000778C0	74 06			jz 000778C8
+000778C2	0F B6 50 06		movzx edx, byte ptr [eax + 0x06]
+000778C6	89 11			mov [ecx], edx
+000778C8	8B 4C 24 1C		mov ecx, [esp + 0x1C]
+000778CC	85 C9			test ecx, ecx
+000778CE	74 0A			jz 000778DA
+000778D0	8B 40 02		mov eax, [eax + 0x02]
+000778D3	25 FF FF FF 00		and eax, 0x00FFFFFF
+000778D8	89 01			mov [ecx], eax
+000778DA	C3			retn
+000778DB	90 90 90 90 90		nops
+
+Spontaneous casters using higher level spell slots:
+		39 B4 8C D4 06 00 00	cmp [esp + ecx * 4 + 0x000006D4], esi
+0007A2A9	0F 84 B1 00 00 00	jz 0007A360
+		41			inc ecx
+0007A2A9	0F 8E B1 00 00 00	jle 0007A360
+
+00093E56	A1 F0 A8 86 11		mov eax, [1186A8F0]
+00093E5B	85 C0			test eax, eax
+00093E5D	74 0E			jz short 00093E6D
+00093E5F	05 58 0B 00 00		add eax, 0x00000B58
+00093E64	50			push eax
+00093E65	E8 E6 64 FF FF		call 0008A350
+00093E6A	83 C4 04		add esp, 0x04
+00093E6D	5F			pop edi
+00093E6E	5D			pop ebp
+00093E6F	5E			pop esi
+00093E70	B8 12 00 00 00		mov eax, 0x00000012
+00093E75	5B			pop ebx
+00093E76	81 C4 F8 00 00 00	add esp, 0x000000F8
+00093E7C	C3			retn
+
+00093E56	80 46 4B 10		add [esi + 0x4B], 0x10
+00093E5A	FF 44 24 14		inc [esp + 0x14]
+00093E5E	33 DB			xor ebx, ebx
+00093E60	83 7C 24 14 0A		cmp [esp + 0x14], 0x0A
+00093E65	0F 8C 4E FF FF FF	jl 00093DB9
+00093E6B	90 90 90 90 90 90
+00093E71	E8 FA 36 FE FF		call 00077570
+00093E76	B8 12 00 00 00		mov eax, 0x00000012
+00093E7B	EB 41			jmp 00093EBE
+
+00077570	A1 F0 A8 86 11		mov eax, [1186A8F0]
+00077575	85 C0			test eax, eax
+00077577	74 0E			jz short 00077587
+00077579	05 58 0B 00 00		add eax, 0x00000B58
+0007757E	50			push eax
+0007757F	E8 CC 2D 01 00		call 0008A350
+00077584	83 C4 04		add esp, 0x04
+00077587	C3			retn
+
+move 00093EBC - 00093EC0 back to 00093EB9 (harmless move instruction)
+
+Correctly handle spell slots when replacing a lower level spell:
+move:	001B5C00	89 6C 24 18	mov [esp + 0x18], ebp
+to:	001B5CB4	89 74 24 1C	mov [esp + 0x1C], esi
+fixups:	001B5C23, 001B5C2F, 001B5C6E, 001B5C7A, 001B5C8F, 001B5CA5
+rels:	001B5C10, 001B5C17, 001B5C1E, 001B5C4D, 001B5C5A, 001B5C68, 001B5C84
+
+Widen Spell (+3 levels):
+		3D 85 02 00 00		cmp eax, 0x00000285
+00077155	74 ED			jz 00077144
+		33 C0			xor eax, eax
+00077155	74 D2			jz 00077129
+
+Resurrect constitution fix:
+		6A 02			push 0x02
+		56			push esi
+		57			push edi
+0007FD9F	E8 5C 4A FF FF		call 00074800
+		83 E8 02		sub eax, 0x02
+0007FD9F	E8 4C 4F FF		call 00074CF0
+
+Meta-magic colored balls on memorized spells:
+001B7803	83 C4 14		add esp, 0x14
+001B7806	5F			pop edi
+001B7807	5E			pop esi
+001B7808	5D			pop ebp
+001B7809	5B			pop ebx
+001B780A	81 C4 DC 01 00 00	add esp, 0x000001DC
+001B7810	E9 AB 12 03 00		jmp 001E8AC0
+
+001B7803	E8 B8 12 03 00		call 001E8AC0
+001B7808	E9 13 FD EB FF		jmp 00077520
+001B780D	90 90 90 90 90 90 90 90	nops
+00077520	8B 56 10		mov edx, [esi + 0x10]
+00077523	8B 44 24 54		mov eax, [esp + 0x54] (1AC)
+00077527	8B 8C 24 A0 00 00 00	mov ecx, [esp + 0x000000A0] (160)
+0007752E	8B 5C 24 58		mov ebx, [esp + 0x58] (1A8)
+00077532	52			push edx
+00077533	8D 54 01 02		lea edx, [ecx + eax + 0x02]
+00077537	83 C3 02		add ebx, 0x02
+0007753A	52			push edx
+0007753B	E8 00 E2 13 00		call 001B5740
+00077540	83 C4 1C		add esp, 0x1C
+00077543	5F			pop edi
+00077544	5E			pop esi
+00077545	5D			pop ebp
+00077546	5B			pop ebx
+00077547	81 C4 DC 01 00 00	add esp, 0x000001DC
+0007754D	C3			retn
+
+Ensure that the ESI isn't overwritten
+
+Resurrection post-10 fix:
+0007FDC6	8B 04 85 38 94 27 10	mov eax, [eax * 4 + 0x10279438]
+
+0007FDC6	E8 35 77 FF FF		call 00077500
+0007FDCB	90 90			nops
+00077500	53			push ebx
+00077501	8B 1C 85 00 AF 2A 10	mov ebx, [eax * 4 + 0x102AAF00]
+00077508	8B 04 85 FC AE 2A 10	mov eax, [eax * 4 + 0x102AAEFC]
+0007750F	03 D8			add eax, ebx
+00077511	D1 F8			sar eax, 1
+00077513	5B			pop ebx
+00077514	C3			retn
+
+St. Cuthbert and Strength:
+00272E00	11 00 00 00
+
+Meta-Magic to 9:
+		83 C4 04		add esp, 0x04
+001B9A4E	83 F8 05		cmp eax, 0x05
+		0F 8F C8 02 00 00	jg 001B9D1F
+001B9A4E	83 F8 09		cmp eax, 0x09
+
+Correct removal of meta-magiced spells:
+00075C28	8D 4C 24 30		lea ecx, [esp + 0x30]
+00075C2C	51			push ecx
+00075C2D	4D			dec ebp
+00075C2E	55			push ebp
+00075C36	E8 35 8B 02 00		call 0009E770
+00075C48	E8 F3 B8 02 00		call 000A1540
+
+00075C28	8D 4C 24 10		lea ecx, [esp + 0x10]
+00075C2C	6A 00			push 0x00
+00075C2E	51			push ecx
+00075C36	E8 65 FC FF FF		call 000758A0
+00075C48	90 90 90 90 90		nops
+
+Algorithmic Calculation of Attribute Spell Mods:
+000F4C73	83 F8 FF		cmp eax, 0xFF
+000F4C76	74 5F			jz 000F4CD7
+000F4C78	83 F8 01		cmp eax, 0x01
+000F4C7B	7C 5A			jl 000F4CD7
+000F4C7D	8D 14 B5 A8 A7 2E 10	lea edx, [esi * 4 + 102EA7A8]
+
+000F4C73	29 F0			sub eax, esi
+000F4C75	83 F8 00		cmp eax, 0x00
+000F4C78	7C 5D			jl 000F4CD7
+000F4C7A	C1 E8 02		sar eax, 0x02
+000F4C7D	40			inc eax
+000F4C7E	EB 59			jmp 000F4CD9
+000F4C80	90 90 90 90		nops
+
+Maximum Spell Level Known:
+		43			inc ebx
+001B64AE	83 FB 06		cmp ebx, 0x06
+		7C 90			jl 001B6443
+
+001B64AE	83 FB 0A		cmp ebx, 0x09
+
+Stop Sticking Level Five Spells at the END:
+		69 C0 70 C9 00 00	imul eax, 0x0000C970
+001B53AB	83 FE 05		cmp esi, 0x05
+		75 08			jnz 001B53B8
+001B53AB	83 FE 09		cmp esi, 0x09
+
+Allow usage of higher level spell slots:
+		89 54 24 20		mov [esp + 0x20], edx
+001B5CBA	75 5B			jnz 000B5D17
+		83 B9 50 83 C8 10 FF	cmp [ecx + 10C88350], 0xFF
+001B5CBA	7F 5B			jg 000B5D17
+
+		83 C4 04		add esp, 0x04
+		50			push eax
+		52			push edx
+001B5D05	55			push ebp
+		51			push ecx
+		53			push ebx
+		E8 43 E3 F8 FF		call 00144050
+001B5D05	56			push esi
+
+Max Targets Fix:
+00077469	0F 85 E3 00 00 00		jne max_targets_end (00077552)
+0007748E	8B 07				mov eax, [edi]
+00077490	3D C9 00 00 00			cmp eax, 0x000000C9 (greater command)
+00077495	7F 47				jg short max_targets_other
+00077497	0F 84 9F 00 00 00		jz max_targets_level
+0007749D	83 E8 07			sub eax, 7
+000774A0	83 F8 3C			cmp eax, 0x3C (command)
+000774A3	0F 87 93 00 00 00		ja max_targets_level
+000774A9	0F B6 88 AC 75 07 10		movzx ds:[eax + max_targets_table]
+000774B0	FF 24 8D 98 75 07 10		jmp ds:[ecx * 4 + max_targets_functions]
+000774B7	8B C3				mov eax, ebx
+000774B9	99				cdq
+000774BA	2B C2				sub eax, edx
+
+00077469	0F 8F E3 00 00 00		jg max_targets_end (00077552)
+0007748E	8B 46 24			mov eax, [esi + 0x24]
+00077491	F7 D8				neg eax
+00077493	99				cdq
+00077494	B9 64 00 00 00			mov ecx, 0x00000064
+00077499	F7 F1				div ecx
+0007749B	92				xchg eax, edx
+0007749C	D4 0A				aam
+0007749E	88 C1				mov cl, al
+000774A0	01 CB				add ebx, ecx
+000774A2	88 E1				mov cl, ah
+000774A4	41				inc ecx
+000774A5	89 D8				mov eax, ebx
+000774A7	F6 F1				div cl
+000774A9	85 D2				test edx, edx
+000774AB	74 04				jz short 000774AE
+000774AD	38 C2				cmp dl, al
+000774AF	72 02				jb short 000774B0
+000774B1	88 C2				mov dl, al
+000774B3	89 56 24			mov [esi + 0x24], edx
+000774B6	E9 97 00 00 00			jmp max_targets_end
+- pasted max_targets_end to 000774B6 (code consolidation)
+
+max_Targets: -abc	min(a, (caster_level + c) / (b + 1))
+
+051 Chain Lightning:	-001	caster_level + 1
+288 Magic Missile:	-511	min(5, (caster_level + 1) / 2)
+733 Scorching Ray:	-331	min(3, (caster_level + 1) / 4)
+223 Heat Metal:		-010	caster_level / 2
+547 Rage:		-020	caster_level / 3
+
+Not sure what's up with Calm Emotions.

@@ -1,0 +1,16 @@
+Fixes no break free attempt for AI controlled NPCs on entanglement. Needs updated Spell734 - Elexir of break free.py script to work correctly.
+
+v14
+code changes:
+
+old:
+100D4259  |. /0F85 C9010000 JNZ temple.100D4428
+new:
+100D4259      90            NOP
+100D425A      90            NOP
+100D425B      90            NOP
+100D425C      90            NOP
+100D425D      90            NOP
+100D425E      90            NOP
+
+

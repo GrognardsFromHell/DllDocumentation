@@ -1,0 +1,13 @@
+-rgr can now take new favored enemy at lvl15/20
+-UI is still the same, so you can only apply your bonus increase to the newly added favored enemy and the last two before that. This limits the maximum bonus you can achieve on one particular enemy.
+
+v9
+code changes:
+
+1:old
+101AD9BE     /75 1F         JNZ SHORT temple.101AD9DF
+1:new
+101AD9BE      90            NOP
+101AD9BF      90            NOP
+
+

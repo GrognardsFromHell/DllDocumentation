@@ -1,0 +1,270 @@
+Disclaimer:  I do not own temple.dll, Troika does.  Or possibly Atari.
+Anyways, I just modified it.  It may or may not work correctly for you.
+
+MAKE A BACKUP OF YOUR ORIGINAL TEMPLE.DLL BEFORE INSTALLING THIS ONE.
+
+New Flags:
+	Just for fun, I've added a "-maxlevel" flag, that'll limit the maximum level
+you can reach.  Just run "toee -maxlevel 10" if you want to play ToEE without the
+level uncapper.
+
+IMPORTANT:
+	This version of temple.dll makes some changes to the way meta-magic feats are
+stored.  As such, any previous saved games will be kind of hosed.  Do not worry.  It's
+simple to fix.  When you first load up your game, simply open your spellbook, and modify
+the metamagic feats for any spell that has metamagic feats applied to it.  Then, simply
+remove all the metamagic feats from the spell, and hit the "cancel" button.  DO NOT HIT
+THE "OK" BUTTON.  This will cause even more screwiness.  After that, you can recreate
+your metamagiced spells as normal.  (This modification will allow you to stack a
+metamagic feat multiple times on a single spell.  Empower Spell does not stack
+properly - I'm trying to figure out the best way to deal with Empower Spell/Maximize
+Spell first.)  You'll also have to replace these spells on your memorized spell list and
+rememorize them, so you may want to make sure that you're in a place you can rest first.
+	Second note: I'm not positive these changes are stable.  You may want to back
+up all your save games before doing the above, since I may end up having to revert
+the metamagic changes.
+
+Notes:
+o Do not make spells between 802 and 812 - things'll be screwy during levelup.
+
+Known Bugs:
+o Dimension Door does not allow transport of other characters
+o Temporary/Semi-permanent stat bonuses do not add to spells/day
+  (this is actually a real pain, because as far as I can tell, there's no
+  damned good way to figure out when to remove spells that are no longer known)
+  (okay, this is possible, now I just have to figure out how to hijack things
+  so that everytime any of your stats changes, all your spells are recalculated.)
+o Can cast Haste on a target 120' away at ninth level.
+o Widened spells (like fireball) do not have larger impact animations.  I tried
+  manually setting fireball's radius to 40, and the animation stayed the same, so no
+  simple solution appears to be possible.
+o Heightened spells do not count as a higher spell level for the purposes of determining
+  whether a character can cast the spell.  (The code limits sets the maximum number of
+  spells per day to zero instead.)
+o Empowered Spells will not stack - if you Empower a spell more than once, it will
+  still have 150% of it's normal effect.
+o Minor Globe of Invulnerability uses spell slot level to determine if a spell can
+  penetrate it.  Stilled fireballs penetrate MGoIs.
+
+Possible Bugs:
+o Empowered and Maximized spells may not work correctly.  I got the spell damage
+  and spell heal routines - don't know if maximize kicks in else where.  (Well,
+  there are places that maximize/empower *fail* to kick in... haven't figured out
+  what to do about those yet.)
+o Widen Spell ups the radius_Target value.  So I'm pretty sure it'll work for cone
+  and circular impact spells.  I don't know if it will work work spells that summon
+  things into an area (like Cloudkill and Spike Growth, and if it does work for
+  those two, I'm not sure the graphics will actually cover the entire area) or line
+  (Lightning Bolt) type spells.  Actually, I'm almost positive it won't work for
+  Lightning Bolt.
+
+Features to Ignore:
+o Quarterstaff can not be used as a double weapon
+o Monks can not use unarmed strikes in replacement of their on-hand attacks
+o Flurry of Blows won't work if you're using non-monk weapons
+o Spell casters with spell slots should be able to non-spontaneously memorize spells
+  using undischarged spell slots (+ 15 minute wait.)
+
+Changes, Modifications, and Fixes:
+
+o duggelz's level uncapper installed in this version.
+o Scorching Ray added.
+o My weird variant of level dependent spell maximums installed.
+  You'll need to install the Chain Lightning, Magic Missile, Scorching Ray,
+  Heat Metal, and Rage spell rules that come with this.  The basic setup is
+  for the new max_Targets is, a positive number is a fixed maximum, 0 is
+  max_Targets = caster's level, and otherwise max_Targets should be set to -abc
+  where the max_Targets of the spell is the minimum of "a" and
+  "((caster's level) + c) / (b + 1)".  So, Magic Missile would have a max_Targets
+  of -511 (min(5, ((caster's level) + 1) / (1 + 1))))
+  Incidentally, this will fix the 1 magic missile on levels 11 and up bug.
+o Halflings should now get the +4 Hide modifier due to small size
+o Skill Focus(Perform), Skill Focus(Survival), Skill Focus(Tumble),
+  Skill Focus(Use Device) should work and give +3 modifiers to the appropriate skill
+o You should no longer be able to take Power Attack at creation if you have a
+  Strength of 12 (or any other strength dependent skill.)
+o You should no longer be able to take Quick Draw at creation if you do not
+  have a BAB of +1.
+o Greater Flurry (well, the improved version of Flurry of Blows at level 11)
+  should now work.
+o Ki Strike should now add the adamantium damage type at level 16.
+o Open Hand Damage for monks should now scale up to level 20.  Also, open hand
+  damage for large sized monks should be correctly calculated.
+o Unarmed Damage for non-monk enlarged medium sized creatures should now be 1d4.
+  (May have been 1d3 before.  Not sure.)
+o Fast Movement should scale up to level 20 for monks, and Monk and Barbarian
+  Fast Movements should stack.
+o Diamond Body added.  (Copy of Venom Immunity)
+o Diamond Soul added.  (Modded version of Spell Resistance)
+o Abundant Step feat name added.  (Doesn't do anything)
+o Quivering Palm feat name added.  (Doesn't do anything)
+o Empty Body feat name added.  (Doesn't do anything)
+o Perfect Self feat name added.  (Doesn't do anything)
+o Base intelligence now used for calculating skill points.
+o Odd bug with regards to raising intelligence on level up - would occassionally
+  not give you an extra skill point even if you should've gotten one - but required
+  that you had previously selected another stat as your attribute to be raised,
+  and then selected intelligence.  Should be fixed.
+o Half point skill ranks should now display correctly in the level up dialog.
+o Class skills of cleric domains are now properly treated as actual class skills when
+  leveling up cleric.
+o Class skills of cleric domains are now always correctly treated as class skills
+  for the purposes of calculating the maximum rank possible, even when not leveling
+  up cleric.
+o Can now increase the rank of non-class skills of the class being leveled up to
+  the maximum rank possible if the skill is a class skills of another of your classes.
+o Barbarians now retain their +10 movement while wearing medium armor.
+o Barbarians no longer maintain their +10 movement while heavily encumbered.
+o Monk special abilities (Flurry of Blows, Monk AC Bonuses, and Fast Movement) no longer
+  apply while monks are medium or heavily encumbered.
+o Monk/Barbarians (all two of them) will still get their +10 movement even while wearing
+  armor.  I think.  I didn't actually have a Monk/Barbarian to test this out with.
+o stat_level_get(stat_load) and get_base_stat(stat_load) changed.  Previously, they
+  returned 3 for lightly encumbered and 1 for medium and heavily encumbered.  Now
+  they return 1 for light, 2 for medium, and 3 for heavy encumberance.  It doesn't
+  appear as if anyone was using these functions, so changing them should have no effect.
+o Monk and Barbarian Fast Movement bonuses split.  Monk Fast Movement bonus is treated
+  as an enhancement bonus (as per PHB 3.5), and thus does not stack with Haste or
+  Expeditious Retreat.  Barbarian Fast Movement is treated as an unnamed bonus, and thus
+  stacks with Expeditious Retreat.  Haste does not work correctly with it yet.
+o Stunning Fist now has (monk_level) + (non_monk_levels / 4) charges per, well...
+  rest period, probably.  Used to be (level) number of charges.
+o Selecting an attribute to improve during level up will now clear your feat selection
+  choices.  This was done as the simplest way to avoid invalid feat selections.  (I.e.,
+  raise your strength to 13, pick power attack, and then raise some other attribute.)
+o Can no longer raise skills if you have negative skill points.  (Okay, it didn't happen
+  that often, and it wouldn't actually let you finish leveling up if you did have
+  negative skill points, but it was still a bug.)
+o Flurry of Blows no longer works with a non-monk weapon wielded in the off hand
+  - on further consideration, I'm removing this - according to the 3.5 FAQ, it should
+  work.  Heck, Flurry of Blows should work even if the primary weapon is a non-monk
+  weapon
+o Power Attack will only apply the attack penalties if you are wielding a non-light
+  weapon, or your primary attack is unarmed.  Theoretically, if monks are ever capable
+  of doing unarmed strikes even while armed, Power Attack should more or less always be
+  on, but they're not, so it's not.  Now to fix damage.
+o Power Attack should apply a x1 damage bonus to unarmed attacks and one-handed weapons
+  when either an off-hand weapon is used or a shield is used.  Light weapons get no
+  damage bonus, and any other case gets a x2 damage bonus.
+o Haste now provides an enhancement bonus of min(30, target's base speed) to movement.
+  This means that it will not stack with Monk's Fast Movement, but will stack with
+  Barbarian's Fast Movement.  Furthermore, it will no longer cap movement at 2 x base
+  speed.  Note, that it's the Barbarian's base speed unmodified by Fast Movement that's
+  used.  Hasted Dwarven Barbarians move at 50.
+o You can now use a higher level spell slot to memorize a spell.  Go 20+ magic missiles!
+o The left side of the spell book should now go up to spell level nine.  Not that there
+  are any level nine spells for you to know.  Heck, I don't think there's even a
+  chain lightning scroll.
+o Level 5 metamagic feats will no longer be added to the end of the list (down by
+  level 9 spells.)
+o Deleteing meta-magiced spells should no longer be as screwy.  (The old code only
+  overwrote it with the last spell on the spellbook list - this should actually delete
+  it.)
+o Meta-magic effects can now raise a spell to level 9
+o Strength domain added to St. Cuthbert, as per manual
+o Resurrection xp penalties should now work up to level 20.
+o Weapon Focus, Weapon Finesse, and other skills that rely upon a weapon proficiency
+  will now recognize new weapon proficiencies you pick up when you multi-class into
+  another class.
+o Rapid Reload and any other feats (are there any?) that rely upon having a crossbow
+  proficiency are now selectable when you multi-class into any other class than a druid.
+  Druid/fighters rejoice!
+o The memorization list had those nifty meta-magic colored ball thingies so you can
+  tell if you really maximized that fireball or not.  Won't show up on your spell
+  casting radial menu though.
+o Resurrecting level one characters with constitution boosts should now correct
+  subtract two constitution points.  (Amusingly enough, it was taking the *current*
+  constitution, subtracting two, and setting the *base* constitution to that.  It's
+  entirely possible that dying while wearing a +6 con item, and then being raised
+  would give you a bonus to constitution.  This amuses me.)
+o Skill Focus feats now display correctly on the adding up your skill total screen
+o Widen Spell now boosts spell level by three instead of one.  May or may not actually
+  do anything though.
+o Spell DCs are now correctly calculated - using a higher level slot will no longer boost
+  the DC of the spell, normally.  If Heighten Spell is used, the level of the slot will
+  be used, then any non-Heighten Spell meta-magic feats will be deleted, and the
+  remaining spell level will be used.  (I.e., let's say you heighten a Magic Missile.
+  And you decide to Empower it also.  That gives it a base level of four.  Now let's
+  say you stick in a level five spell slot - since the spell is Heightened, it
+  gets treated as a level three spell for DC purposes (5 - 2(Empower) = 3).  Of course,
+  this is moot, since there isn't a saving throw associated with Magic Missile.)  Note:
+  There is no way to partially Heighten a spell (i.e., say only Heighten it by one spell
+  level, but place it in a spell slot two levels higher) - there isn't enough information
+  about how the heighten worked to do this.  (*Why* you'd want to do this is another
+  question entirely.)  (primary attribute limitations - that's why)
+o Replacing a higher level spell slot that has been used to hold a lower level spell
+  with a spell of the correct level no longer requires closing and reopening the spell
+  memorization interface.
+o Sorcerers and Bards can use higher level spell slots to cast lower level spells.
+  (This will again correctly deduct a higher level spell usage.  I should also note
+  that it will *always* use a higher level spell slot if no lower level spell slots
+  are available.)
+o The DirectX 9.0c looting bug appears to be patched.  It's not a real fix... not really.
+o The ntdll.dll bug was sort of bashed out of existence.  I left a dangling file handle.
+  Maybe.  It's about on par with the DX9.0c fix.
+o Bardic spells may no longer use the silent spell feat.
+o Metamagic feats should now be stackable (except still spell, silent spell, maximize
+  spell and quicken spell).
+o Widen spell should work.
+o Extend spell should work correctly.  (Note to spell writers - it'll be applied each
+  time you have a line like "spell.duration = x".  Keep this in mind - saying
+  "spell.duration = spell.duration" could have unintended effects.)
+o Left-clicking on a party member should now correctly select them again.  (Caused by
+  the original loot bug fix.)
+o Bug introduced by the MWP fix in handling Exotic Weapon Proficiencies fixed.
+o Forge Ring and Craft Staff are in.  No actual items for you to craft, but it's the
+  thought that counts, right?  (And they're now set with the right feat requirements.
+  Forgot to change them back after testing.  Meh.)
+o Grank's bandits in the Water node should no longer cause a CTD.
+o Potion of Super Heroism should work.
+o Greater Heroism spell added.
+o Craft Magical Arms and Armor now correctly sets the xp cost for crafting an already
+  magical weapon.  Why exactly the GP costs and XP costs are calculated using different
+  algorithms, I'll never know.
+o Craft Magical Arms and Armor now correctly recognizes magical shields as valid
+  targets.  For some odd reason, "Shield Enhancement Bonus" wasn't a valid type of
+  effect for CMA&A before.
+o Chain Lightning, True Seeing, and whatever the other sixth level spell is are now
+  correctly indicated as being sixth level spells during the add spells dialouge when
+  leveling up.
+o Sorcerer's (and probably Bard's) spell selection screens should no longer be screwy
+  looking when gaining level six+ spells.
+o Can actually use level six+ spell slots for the correct level when choosing spells on
+  level up.
+o Level six+ spells should now show up on the radial menu.  Now someone just needs to
+  write higher level spells.
+o Paladin Smite Evil should now be usable the appropriate number of times per day
+  at levels ten and higher.
+o Paladin Remove Disease should now be usable the appropriate number of times per week
+  at levels ten+.
+o Updated spell.mes so Co8 3.0.4's description of Scorching Ray is in, added a description
+  to Greater Heroism.
+o Nature Sense should now actually work.
+o Spells memorized using the specialist spell slots should now stay there.  (Note: if
+  you're loading up an old game, you'll have to replace the spells in your specialist
+  slot (at which point, they'll be flagged as belonging to that level's specialist
+  spell slot, and everything should go fine.))
+o Fixed a bug created by the monk feat changes, whereby feat_* names weren't available
+  for Python scripts.  So if you weren't starting out with weapons that you'd taken
+  feats in, that was why.  Probably.  And it also explained why the Flame Strike
+  script was crashing.
+o Longspear has been added to the list of simple weapons, and removed from the list of
+  martial weapons.  The MWP (longspear) feat has been disabled.  Also added longspear
+  to SWP (rogue) and SWP (bard).  Why exactly there are six different SWP variants...
+  (okay, okay, I know they wanted a cleaner looking feat list.)
+o Fixed a bug inserted by the metamagic changes - any metamagic feats were increasing
+  the a spell's effective level.  Should be limited to Heighten Spell now.
+o Fixed Greater Spell Focus.  GSF and SF were using the same function (reasonable -
+  each can be seen as adding a stackable +1 DC to the appropriate spell).  Unfortunately,
+  the function only correctly determined if the appropriate school was being used for
+  SF and GSF.
+o Spells memorized using specialist slots should now be correctly debited.
+o A character with multiple Spell Focus or Greater Spell Focus feats should now have
+  the correct +DCs.
+o Modded Spiritual weapon, so that it's BAB is equivalent to the caster's BAB.
+  ...wisdom bonus is not being added yet, because I'd like to figure out how to correctly
+  handle DR issues first.  So, still mostly broken.
+
+There's also a couple .txt files that have notes about the exact changes made.
+
+Comments and bugs will be listened to.  Look for moebius2778 on http://www.co8.org/forum

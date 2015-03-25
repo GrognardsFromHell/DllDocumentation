@@ -1,0 +1,15 @@
+Fixes the generation of the D20_STD_F flags inside the dll. The original algorithm introduced a shift of all descriptor flags by 1, thus breaking all checks via these flags. The fixed algorithm enables the application of fear save bonuses, e.g. provided by Bless, Aid, Inspire Courage or Halfling racial bonus.
+
+
+v12
+code changes:
+
+old:
+100B8454      BA 01000000   MOV EDX,1
+new:
+100B8454      BA 00000000   MOV EDX,0
+
+old:
+100B8471      8D4A 0C       LEA ECX,DWORD PTR DS:[EDX+C]
+new:
+100B8471      8D4A 0D       LEA ECX,DWORD PTR DS:[EDX+D]

@@ -1,0 +1,52 @@
+Adds calls to functions load and save in module _co8init to the internal save and load routines. This allows the use of the Co8PersistentData class as a scripting sided Co8-savegame.
+
+
+v16
+code changes:
+
+old:
+10002D29      C3            RETN
+10002D2A      90            NOP
+10002D2B      90            NOP
+10002D2C      90            NOP
+10002D2D      90            NOP
+new:
+10002D29      E8 383CEB01   CALL <temple.Co8DataHook_load>
+
+old:
+10004865      C3            RETN
+10004866      90            NOP
+10004867      90            NOP
+10004868      90            NOP
+10004869      90            NOP
+new:
+10004865      E8 D620EB01   CALL <temple.Co8DataHook_save>
+
+new:
+11EB6920  5F 63 6F 38 69 6E 69 74 00 6C 6F 61 64 00 73 61  _co8init.load.sa
+11EB6930  76 65 00 28 73 29                                ve.(s)
+
+new:
+11EB6940 <Co8DataHook_save>    FF7424 08       PUSH DWORD PTR SS:[ESP+8]
+11EB6944                       68 3369EB11     PUSH temple.11EB6933                     
+11EB6949                       FF15 E4C22610   CALL DWORD PTR DS:[<&pyToEE22.Py_BuildValue>]
+
+11EB694F                       50              PUSH EAX
+11EB6950                       68 2E69EB11     PUSH temple.11EB692E                     
+11EB6955                       68 2069EB11     PUSH temple.11EB6920                     
+11EB695A                       E8 E1741FFE     CALL temple.100ADE40
+11EB695F                       83C4 18         ADD ESP,18
+11EB6962                       33C0            XOR EAX,EAX
+11EB6964                       40              INC EAX
+11EB6965                       C3              RETN
+11EB6966 <Co8DataHook_load>    FF7424 08       PUSH DWORD PTR SS:[ESP+8]
+11EB696A                       68 3369EB11     PUSH temple.11EB6933                     
+11EB696F                       FF15 E4C22610   CALL DWORD PTR DS:[<&pyToEE22.Py_BuildValue>]
+11EB6975                       50              PUSH EAX
+11EB6976                       68 2969EB11     PUSH temple.11EB6929                     
+11EB697B                       68 2069EB11     PUSH temple.11EB6920                     
+11EB6980                       E8 BB741FFE     CALL temple.100ADE40
+11EB6985                       83C4 18         ADD ESP,18
+11EB6988                       33C0            XOR EAX,EAX
+11EB698A                       40              INC EAX
+11EB698B                       C3              RETN

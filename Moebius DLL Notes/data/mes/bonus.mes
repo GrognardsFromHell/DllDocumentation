@@ -1,0 +1,253 @@
+// bonus string construction strings
+
+{0}{(bonus lost due to }
+{1}{)}
+{2}{(no penalty due to }
+{3}{)}
+{4}{(does not stack with }
+{5}{)}
+{6}{(bonus reduced by }
+{7}{)}
+{8}{(penalty reduced by }
+{9}{)}
+{10}{(bonus capped (high) by }
+{11}{)}
+{12}{(bonus capped (low) by }
+{13}{)}
+
+// bonus description strings
+
+{101}{~Misc.~[TAG_MISC_ACTION]}
+{102}{Initial Value}
+{103}{~Strength~[TAG_STRENGTH] Bonus}
+{104}{~Dexterity~[TAG_DEXTERITY] Bonus}
+{105}{~Constitution~[TAG_CONSTITUTION] Bonus}
+{106}{~Intelligence~[TAG_INTELLIGENCE] Bonus}
+{107}{~Wisdom~[TAG_WISDOM] Bonus}
+{108}{~Charisma~[TAG_CHARISMA] Bonus}
+{109}{~Condition~[TAG_CHARACTER_CONDITIONS]}
+{110}{~Weapon~[TAG_WEAPONS]}
+{111}{~Armor~[TAG_ARMOR]}
+{112}{~Item~[TAG_GOODS]}
+{113}{~Spell~[TAG_SPELLS]}
+{114}{~Feat~[TAG_FEATS]}
+{115}{~Size Adjustment~[TAG_SIZE_MODIFIER]}
+{116}{~Fighting Defensively~[TAG_RADIAL_MENU_FIGHT_DEFENSIVELY]}
+{117}{~Firing At Opponent Engaged In Melee~[TAG_MELEE_SHOOTING]}
+{118}{~Base Attack~[TAG_MULTIPLE_ATTACKS]}
+{119}{~Second Attack~[TAG_MULTIPLE_ATTACKS]}
+{120}{~Third Attack~[TAG_MULTIPLE_ATTACKS]}
+{121}{~Off Hand~[TAG_TWO_FIGHTING]}
+{122}{~Dual Wield~[TAG_TWO_FIGHTING]}
+{123}{Natural Armor}
+{124}{~Armor~[TAG_ARMOR]}
+{125}{~Shield~[TAG_SHIELDS]}
+{126}{Bludgeoning}
+{127}{Piercing}
+{128}{Slashing}
+{129}{Acid}
+{130}{Cold}
+{131}{Electricity}
+{132}{Fire}
+{133}{Sonic}
+{134}{~Negative Energy~[TAG_TURN]}
+{135}{~Critical~[TAG_STANDARD_ACTION]}
+{136}{Target ~Helpless~[TAG_HELPLESS]}
+{137}{~Class~[TAG_CLASSES]}
+{138}{~Weapon Nonproficiency Penalty~[TAG_WEAPONS]}
+{139}{~Racial~[TAG_RACIAL_CHARACTERISTICS] Bonus}
+{140}{Synergy ~(Bluff)~[TAG_BLUFF] Bonus}
+{141}{Natural Armor ~(Barkskin)~[TAG_SPELLS_BARKSKIN]}
+{142}{~Bless~[TAG_SPELLS_BLESS]}
+{143}{~Feeblemind~[TAG_SPELLS_FEEBLEMIND]}
+{144}{~Cooperation (Search)~[TAG_SEARCH]}
+{145}{~Armor Nonproficiency Penalty~[TAG_ARMOR_PROF]}
+{146}{~Shield Nonproficiency Penalty~[TAG_SHIELD_PROF]}
+{147}{~Enhancement~[TAG_CRAFT_MAA]}
+{148}{~Deflection~[TAG_DEFLECT_ARROWS]}
+{149}{Armor Bonus ~(Mage Armor)~[TAG_SPELLS_MAGE_ARMOR]}
+{150}{~Firing Into Melee Penalty~[TAG_MELEE_SHOOTING]}
+{151}{~Prayer~[TAG_SPELLS_PRAYER]}
+{152}{~Bane~[TAG_SPELLS_BANE]}
+{153}{Condition : ~Flatfooted~[TAG_FLATFOOTED]}
+{154}{~Temporary Hit Points~[TAG_TEMPORARY_HIT_POINTS]}
+{155}{Feat : ~Combat Casting~[TAG_COMBAT_CASTING]}
+{156}{Option: ~Dealing Nonlethal Damage~[TAG_RADIAL_MENU_NONLETHAL_DAMAGE]}
+{157}{Option: ~Dealing Normal Damage~[TAG_RADIAL_MENU_NONLETHAL_DAMAGE]}
+{158}{~Total Defense~[TAG_RADIAL_MENU_TOTAL_DEFENSE] Action}
+{159}{Synergy ~(Tumble)~[TAG_TUMBLE] Bonus}
+{160}{~Charging~[TAG_CHARGE]}
+{161}{Attacker Not Visible}
+{162}{~Prone~[TAG_PRONE]}
+{163}{Dex bonus retained due to ~See Invisible~[TAG_SPELLS_SEE_INVISIBILITY]}
+{164}{Dex bonus retained due to ~Blind Fight~[TAG_BLIND_FIGHT]}
+{165}{Dex bonus retained due to ~Uncanny Dodge~[TAG_CLASS_FEATURES_BARBARIAN_UNCANNY_DODGE]}
+{166}{~Two Weapon Fighting bonus~[TAG_CLASS_FEATURES_RANGER_IMPROVED_COMBAT_STYLE] lost due to armor}
+{167}{~Light Off Hand Weapon~[TAG_TWO_WEAPONS]}	  
+{168}{~Disease~[TAG_DISEASED]}
+{169}{~Doom~[TAG_SPELLS_DOOM]}
+{170}{~Divine Favor~[TAG_SPELLS_DIVINE_FAVOR]}
+{171}{~Flare~[TAG_SPELLS_FLARE]}
+{172}{~Fear~[TAG_SPELLS_FEAR]}
+{173}{~Slow~[TAG_SPELLS_SLOW]}
+{174}{~Haste~[TAG_SPELLS_HASTE]}
+{175}{~Dispel Chaos~[TAG_SPELLS_DISPEL_CHAOS]}
+{176}{~Dispel Evil~[TAG_SPELLS_DISPEL_EVIL]}
+{177}{~Dispel Good~[TAG_SPELLS_DISPEL_GOOD]}
+{178}{~Dispel Law~[TAG_SPELLS_DISPEL_LAW]}
+{179}{~Temp Ability Score Loss~[TAG_CHANGE_ABILITY_SCORES]}
+{180}{~Perm Ability Score Drain~[TAG_CHANGE_ABILITY_SCORES]}
+{181}{~Smite~[TAG_SPELLS_HOLY_SMITE]}
+{182}{~Protective Ward~[TAG_PROTECTION_D]}
+{183}{~Feat of Strength~[TAG_STRENGTH_D]}
+{184}{~Blur~[TAG_SPELLS_BLUR]}
+{185}{~Displacement~[TAG_SPELLS_DISPLACEMENT]}
+{186}{~Endurance~[TAG_SPELLS_BEAR'S_ENDURANCE]}
+{187}{Condition: ~Cowering~[TAG_COWERING]}
+{188}{~Death Knell~[TAG_SPELLS_DEATH_KNELL]}
+{189}{~Blindness~[TAG_SPELLS_BLINDNESS_DEAFNESS]}
+{190}{~Deafness~[TAG_SPELLS_BLINDNESS_DEAFNESS]}
+{191}{~Bardic Music: Inspired Courage~[TAG_CLASS_FEATURES_BARD_INSPIRE_COURAGE]}
+{192}{~Bardic Music: Countersong~[TAG_CLASS_FEATURES_BARD_COUNTERSONG]}
+{193}{~Bardic Music: Inspired Competence~[TAG_CLASS_FEATURES_BARD_INSPIRE_COMPETENCE]}
+{194}{~Bardic Music: Inspired Greatness~[TAG_CLASS_FEATURES_BARD_INSPIRE_GREATNESS]}
+{195}{~Barbarian Rage~[TAG_CLASS_FEATURES_BARBARIAN_RAGE]}
+{196}{~Barbarian Fatigue~[TAG_CLASS_FEATURES_BARBARIAN_RAGE]}
+{197}{~Divine Grace~[TAG_CLASS_FEATURES_PALADIN_DIVINE_GRACE]}
+{198}{~Ray of Enfeeblement~[TAG_SPELLS_RAY_OF_ENFEEBLEMENT]}
+{199}{~Resistance~[TAG_SPELLS_RESISTANCE]}   
+{200}{~Shield of Faith~[TAG_SPELLS_SHIELD_OF_FAITH]}
+{201}{~Target Flanked~[TAG_FLANKING]}
+{202}{~Sneak Attack~[TAG_CLASS_FEATURES_ROGUE_SNEAK_ATTACK]}
+{203}{~Caster Level~[TAG_EXPERIENCE_AND_LEVELS]}
+{204}{~Aura of Courage~[TAG_CLASS_FEATURES_PALADIN_AURA_OF_COURAGE]}
+{205}{Magic Circle [Inward]}
+{206}{Magic Circle [Outward]}
+{207}{~Protection~[TAG_PROTECTION_D]}
+{208}{~Magic Weapon~[TAG_SPELLS_MAGIC_WEAPON]}
+{209}{~Magic Fang~[TAG_SPELLS_MAGIC_FANG]}
+{210}{~Greater Magic Fang~[TAG_SPELLS_GREATER_MAGIC_FANG]}
+{211}{Target is ~stunned~[TAG_STUNNED]}
+{212}{~Greater Magic Weapon~[TAG_SPELLS_GREATER_MAGIC_WEAPON]}
+{213}{~Magic Vestment~[TAG_SPELLS_MAGIC_VESTMENT]}
+{214}{~Fast Movement~[TAG_CLASS_FEATURES_BARBARIAN_FAST_MOVEMENT]}
+{215}{~Favored Enemy~[TAG_CLASS_FEATURES_RANGER_FAVORED_ENEMY]}
+{216}{~Rapid Shot~[TAG_RAPID_SHOT]}
+{217}{~Bull's Strength~[TAG_SPELLS_BULL'S_STRENGTH]}
+{218}{~Cat's Grace~[TAG_SPELLS_CAT'S_GRACE]}
+{219}{~Guidance~[TAG_SPELLS_GUIDANCE]}
+{220}{Invisibility bonus lost due to ~Glitterdust~[TAG_SPELLS_GLITTERDUST]}
+{221}{Dex bonus retained due to ~Glitterdust~[TAG_SPELLS_GLITTERDUST]}
+{222}{~Tree Shape~[TAG_SPELLS_TREE_SHAPE]}
+{223}{~Unholy Blight~[TAG_SPELLS_UNHOLY_BLIGHT]}
+{224}{Dex Bonus lost due to ~Stunned~[TAG_STUNNED]}
+{225}{~Precise Shot~[TAG_PRECISE_SHOT]}
+{226}{~Control Plants~[TAG_SPELLS_CONTROL_PLANTS]}
+{227}{Armor bonus lost due to ~Gaseous Form~[TAG_SPELLS_GASEOUS_FORM]}
+{228}{~Entangle~[TAG_SPELLS_ENTANGLE]}
+{229}{~Gaseous Form~[TAG_SPELLS_GASEOUS_FORM]}
+{230}{~Web~[TAG_SPELLS_WEB]}
+{231}{~d20 Roll~[TAG_LEVEL_BONUSES]}
+{232}{~Grapple~[TAG_GRAPPLE]}
+{233}{~Fog Cloud~[TAG_SPELLS_FOG_CLOUD]}
+{234}{~Grease~[TAG_SPELLS_GREASE]}
+{235}{~Desecrate~[TAG_SPELLS_DESECRATE]}
+{236}{~Consecrate~[TAG_SPELLS_CONSECRATE]}
+{237}{~Magic Stone~[TAG_SPELLS_MAGIC_STONE]}
+{238}{~Obscuring Mist~[TAG_SPELLS_OBSCURING_MIST]}
+{239}{Invisibility bonus lost due to ~Faerie Fire~[TAG_SPELLS_FAERIE_FIRE]}
+{240}{Dex bonus retained due to ~Faerie Fire~[TAG_SPELLS_FAERIE_FIRE]}
+{241}{~Masterwork Weapon~[TAG_MASTERWORK]}
+{242}{~Masterwork~[TAG_MASTERWORK]}
+{243}{~Bestow Curse~[TAG_SPELLS_BESTOW_CURSE]}
+{244}{~Enlarge Person~[TAG_SPELLS_ENLARGE_PERSON]}
+{245}{~Reduce Person~[TAG_SPELLS_REDUCE_PERSON]}
+{246}{~Keen~[TAG_SPELLS_KEEN_EDGE]}
+{247}{Invisibility bonus lost due to ~Invisibility Purge~[TAG_SPELLS_INVISIBILITY_PURGE]}
+{248}{Dex bonus retained due to ~Invisibility Purge~[TAG_SPELLS_INVISIBILITY_PURGE]}
+{249}{~Shillelagh~[TAG_SPELLS_SHILLELAGH]}
+{250}{~Divine Power~[TAG_SPELLS_DIVINE_POWER]}
+{251}{~True Strike~[TAG_SPELLS_TRUE_STRIKE]}
+{252}{~Aid~[TAG_SPELLS_AID]}
+{253}{~Shield~[TAG_SPELLS_SHIELD]}
+{254}{~Blink~[TAG_SPELLS_BLINK]}
+{255}{~Righteous Might~[TAG_SPELLS_RIGHTEOUS_MIGHT]}
+{256}{~Ghoul Touch~[TAG_SPELLS_GHOUL_TOUCH]}
+{257}{~Sleet Storm~[TAG_SPELLS_SLEET_STORM]}
+{258}{~Solid Fog~[TAG_SPELLS_SOLID_FOG]}
+{259}{Emotion ~[Despair]~[TAG_SPELLS_CRUSHING_DESPAIR]}
+{260}{Emotion ~[Hope]~[TAG_SPELLS_GOOD_HOPE]}
+{261}{Emotion ~[Rage]~[TAG_SPELLS_RAGE]}
+{262}{Action lost due to ~Sanctuary~[TAG_SPELLS_SANCTUARY]}
+{263}{~Bane~[TAG_SPELLS_BANE]}
+{264}{Protection from Monster}
+{265}{~Mind Fog~[TAG_SPELLS_MIND_FOG]}
+{266}{~Temporary Negative Level~[TAG_ENERGY_DRAINED]}
+{267}{~Negative Level~[TAG_ENERGY_DRAINED]}
+{268}{~Dispel Air~[TAG_SPELLS_DISPEL_AIR]}
+{269}{~Dispel Earth~[TAG_SPELLS_DISPEL_EARTH]}
+{270}{~Dispel Fire~[TAG_SPELLS_DISPEL_FIRE]}
+{271}{~Dispel Water~[TAG_SPELLS_DISPEL_WATER]}
+{272}{~Rage~[TAG_SPELLS_RAGE]}
+{273}{Temporary Negative Level - Item: }
+{274}{~Animal Growth~[TAG_SPELLS_ANIMAL_GROWTH]}	
+{275}{~Animal Companion~[TAG_CLASS_FEATURES_DRUID_ANIMAL_COMPANION]}
+{276}{Animal Devotion}
+{277}{~Gust of Wind~[TAG_SPELLS_GUST_OF_WIND]}
+{278}{~Familiar~[TAG_CLASS_FEATURES_SORCERER_CALL_FAMILIAR]}
+{279}{~Familiar Alertness~[TAG_ALERTNESS]}
+{280}{~Trap Sense~[TAG_CLASS_FEATURES_BARBARIAN_TRAP_SENSE]}
+{281}{Creature is Attached}
+{282}{~Chaos Hammer~[TAG_SPELLS_CHAOS_HAMMER]}
+{283}{~Expeditious Retreat~[TAG_SPELLS_EXPEDITIOUS_RETREAT]}
+{284}{~Find Traps~[TAG_SPELLS_FIND_TRAPS]}
+{285}{~Nauseated~[TAG_NAUSEATED]}
+{286}{~Flurry Of Blows~[TAG_CLASS_FEATURES_MONK_FLURRY_OF_BLOWS]}
+{287}{~Ice Storm~[TAG_SPELLS_ICE_STORM]}
+{288}{Invisibility bonus lost due to attacker not affected}
+{289}{Bonus lost due to ~Feint~[TAG_FEINT]}
+{290}{~Target has Animal Intelligence~[TAG_FEINT]}
+{291}{~Nonhumanoid Target~[TAG_FEINT]}
+{292}{~Eagle's Splendor~[TAG_SPELLS_EAGLE'S_SPLENDOR]}
+{293}{~Fox's Cunning~[TAG_SPELLS_FOX'S_CUNNING]}
+{294}{~Owl's Wisdom~[TAG_SPELLS_OWL'S_WISDOM]}
+{295}{~Reduce Animal~[TAG_SPELLS_REDUCE_ANIMAL]}
+{296}{~Glibness~[TAG_SPELLS_GLIBNESS]}
+{297}{~Longstrider~[TAG_SPELLS_LONGSTRIDER]}
+{298}{~Heroism~[TAG_SPELLS_HEROISM]}
+{299}{Greater Heroism}
+{300}{Celestial Creature: ~Smite Evil~[TAG_CLASS_FEATURES_PALADIN_SMITE_EVIL]}
+{301}{Feindish Creature: ~Smite Good~[TAG_SPELLS_UNHOLY_BLIGHT]}
+{302}{Synergy ~(Sense Motive)~[TAG_SENSE_MOTIVE] Bonus}
+{303}{~Range Penalty~[TAG_RANGE_PENALTY]}
+{304}{~Manyshot Penalty~[TAG_MANYSHOT]}
+{305}{Cannot ~Power Attack~[TAG_POWER_ATTACK] with light weapon}
+{306}{~School Specialization~[TAG_CHARGEN_WIZARD_SPECIALIZATION]}
+{307}{~Prohibited School~[TAG_CHARGEN_WIZARD_SPECIALIZATION]}
+{308}{Sword Fragarach: Always Hits}
+{309}{~Cover~[TAG_COVER]}
+{310}{~Monk Wisdom Bonus~[TAG_CLASS_FEATURES_MONK_AC_BONUS]}
+{311}{~Monk Level Bonus~[TAG_CLASS_FEATURES_MONK_AC_BONUS]}
+{312}{~Strength Bonus~[TAG_ITEM_COMPOSITE_BOW]}
+{313}{~Unsufficient Strength~[TAG_ITEM_COMPOSITE_BOW]}
+{314}{Penalty due to no ~Thieves' Tools~[TAG_THIEVES_TOOLS]}
+{315}{Bonus due to ~Thieves' Tools, Masterwork~[TAG_THIEVES_TOOLS_MASTERWORK]}
+{316}{~Size Bonus~[TAG_TRIP]}
+{317}{~Stability Bonus~[TAG_TRIP]}
+{318}{Monster Immunity}
+{319}{Racial Immunity}
+{320}{Medium Encumbrance}	// HTN - 6/25/03, this occurs after text-lock!
+{321}{Heavy Encumbrance}	// HTN - 6/25/03, this occurs after text-lock!
+{322}{~Regeneration~[TAG_REGENERATION] has changed damage type to nonlethal.}
+{323}{Magic Elixir}
+{324}{Overburdened Encumbrance}	// HTN - 7/28/03, this occurs after text-lock!
+{325}{Creature Immune to ~Sneak Attack~[TAG_CLASS_FEATURES_ROGUE_SNEAK_ATTACK]}
+{326}{Buckler bonus lost: Off-Hand or Two Handed attack made this round.}
+{327}{Off-Hand or Two Handed attack while wearing buckler.}
+{328}{Bonus due to ~Bardic Instrument, Magical~[TAG_BARDIC_INSTRUMENT_MAGICAL].}
+{329}{Fast movement lost due to armor.}
+{330}{Minimum damage}
+{331}{~Ki Strike~[TAG_CLASS_FEATURES_MONK_KI_STRIKE]: Attack Treated as Magic}
+{332}{~Ki Strike~[TAG_CLASS_FEATURES_MONK_KI_STRIKE]: Attack Treated as Magic, Lawful}
+{333}{Penalty due to no Bardic Instrument.}
+{334}{~Ki Strike~[TAG_CLASS_FEATURES_MONK_KI_STRIKE]: Attack Treated as Magic, Lawful, Adamantium}

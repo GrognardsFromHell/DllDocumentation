@@ -1,0 +1,102 @@
+-fixes druid spontaneous summoning for spell lvls 6-9
+
+Patches
+Address                                                      Size   State     Old                                        New                                                            Comment
+1:1007789E                                                       7.   Active    MOV EDX,DWORD PTR DS:[EDX*4+102782AC]      CALL <temple.druid_radial_hack_cast_spontan_spells>            								
+2:<druid_radial_hack_cast_spontan_spells> 10077964              10.   Active    NOP                                        MOVZX EDX,WORD PTR DS:[EDX*2+102782AC]
+															RETN
+3:<druid_radial_hack_select_summons> 100F0F82                   10.   Active    NOP                                        MOVZX EBP,WORD PTR DS:[EAX*2+1028D09C]
+															RETN
+4:100F1127                                                       7.   Active    MOV EBP,DWORD PTR DS:[EAX*4+1028D09C]      CALL <temple.druid_radial_hack_select_summons>                
+5:100F113F                                                       7.   Active    MOV ECX,DWORD PTR DS:[EAX*4+1028D084]      CALL <temple.druid_radial_hack_display_spontan_spellnames>    
+6:<druid_radial_hack_display_spontan_spellnames> 100F12E4       10.   Active    NOP                                        MOVZX ECX,WORD PTR DS:[EAX*2+1028D084]
+															RETN
+1:new
+1007789E     E8 C1000000              CALL <temple.druid_radial_hack_cast_spontan_spells>
+100778A3     90                       NOP
+100778A4     90                       NOP
+1:old
+1007789E     8B1495 AC822710          MOV EDX,DWORD PTR DS:[EDX*4+102782AC]
+
+2:new
+10077964 >   3E:0FB71455 AC822710     MOVZX EDX,WORD PTR DS:[EDX*2+102782AC]
+1007796D     C3                       RETN
+2:old
+10077964 >   90                       NOP
+10077965     90                       NOP
+10077966     90                       NOP
+10077967     90                       NOP
+10077968     90                       NOP
+10077969     90                       NOP
+1007796A     90                       NOP
+1007796B     90                       NOP
+1007796C     90                       NOP
+1007796D     90                       NOP
+
+3:new
+100F0F82 >   3E:0FB72C45 9CD02810     MOVZX EBP,WORD PTR DS:[EAX*2+1028D09C]
+100F0F8B     C3                       RETN
+3:old
+100F0F82 >   90                       NOP
+100F0F83     90                       NOP
+100F0F84     90                       NOP
+100F0F85     90                       NOP
+100F0F86     90                       NOP
+100F0F87     90                       NOP
+100F0F88     90                       NOP
+100F0F89     90                       NOP
+100F0F8A     90                       NOP
+100F0F8B     90                       NOP
+
+4:new
+100F1127     E8 56FEFFFF              CALL <temple.druid_radial_hack_select_summons>
+100F112C     90                       NOP
+100F112D     90                       NOP
+4:old
+100F1127     8B2C85 9CD02810          MOV EBP,DWORD PTR DS:[EAX*4+1028D09C]
+
+5:new
+100F113F     E8 A0010000              CALL <temple.druid_radial_hack_display_spontan_spellnames> 
+100F1144     90                       NOP
+100F1145     90                       NOP
+5:old
+100F113F     8B0C85 84D02810          MOV ECX,DWORD PTR DS:[EAX*4+1028D084]
+
+6:new
+100F12E4 >   3E:0FB70C45 84D02810     MOVZX ECX,WORD PTR DS:[EAX*2+1028D084]
+100F12ED     C3                       RETN
+6:old
+100F12E4 >   90                       NOP
+100F12E5     90                       NOP
+100F12E6     90                       NOP
+100F12E7     90                       NOP
+100F12E8     90                       NOP
+100F12E9     90                       NOP
+100F12EA     90                       NOP
+100F12EB     90                       NOP
+100F12EC     90                       NOP
+100F12ED     90                       NOP
+
+DATA changes:
+1:new
+102782AC  FF FF DC 01 DD 01 DE 01 DF 01 E0 01 E1 01 E2 01  ÿÿÜÝÞßàáâ
+102782BC  E3 01 E4 01 00 00 00 00 A0 0F 00 00              ãä.... ..
+1:old
+102782AC  FF FF FF FF DC 01 00 00 DD 01 00 00 DE 01 00 00  ÿÿÿÿÜ..Ý..Þ..
+102782BC  DF 01 00 00 E0 01 00 00 A0 0F 00 00              ß..à.. ..
+
+2:new
+1028D09C  FF FF D0 07 34 08 98 08 FC 08 60 09 C4 09 28 0A  ÿÿÐ4˜ü`.Ä.(.
+1028D0AC  8C 0A F0 0A 00 00 00 00 E8 03 00 00              Œ.ð.........
+2:old
+1028D09C  FF FF FF FF D0 07 00 00 34 08 00 00 98 08 00 00  ÿÿÿÿÐ..4..˜..
+1028D0AC  FC 08 00 00 60 09 00 00 E8 03 00 00              ü..`...è..
+
+3:new
+1028D084  FF FF DC 01 DD 01 DE 01 DF 01 E0 01 E1 01 E2 01  ÿÿÜÝÞßàáâ
+1028D094  E3 01 E4 01 00 00 00 00                          ãä....
+3:old
+1028D084  FF FF FF FF DC 01 00 00 DD 01 00 00 DE 01 00 00  ÿÿÿÿÜ..Ý..Þ..
+1028D094  DF 01 00 00 E0 01 00 00                          ß..à..
+
+

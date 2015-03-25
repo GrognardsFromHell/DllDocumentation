@@ -1,0 +1,123 @@
+-Fixes damage type of icy burst and shocking burst.
+-Crafting SR on armors now actually produces armors that provide SR 13.
+-Changes to the SR system:
+The spell spell resistance now provides SR of the same bonus type as the items, so that SR provided by spell and items are no longer added up.
+The SR by the spell causes now only SR checks when incoming spells are non-party (like with the items). This was done to prevent 2 SR checks per incoming spell at highest SR (one for the spell, one for the items).
+-Fixes the odd bug that crafting on a +1 armor or shield would give you +2 and +3 for free.
+
+*UPDATE(v16)*:
+-Enables defending weapon property as craftable. Downsides: The crafting system does not support differentiating between ranged and melee weapons, so it can be crafted on ranged weapons. The range you can select with the slider is fixed and not dependent on the enhancement bonus of the weapon. This range is set to 3 (highest enhancement bonus in the game). 
+
+*UPDATE(v16.0.2)*:
+-Fixes crash on crafting anarchic weapons.
+
+
+v13
+code changes:
+
+shocking
+old:
+102F0D94  08
+new:
+102F0D94  09
+
+icy
+old:
+102F0CFC  0C
+new:
+102F0CFC  08
+
+armor SR:
+old:
+10153AFC       894424 14     MOV DWORD PTR SS:[ESP+14],EAX
+10153B00       75 08         JNZ SHORT temple.10153B0A
+new:
+10153AFC     - E9 7F2DD601   JMP <temple.crafting_armorSR_hook>
+10153B01       90            NOP
+
+fix spell SR:
+old:
+100CAA54      6A 00         PUSH 0
+new:
+100CAA54      6A 24         PUSH 24
+old:
+102DF54C  50 D6 0E 10
+new:
+102DF54C  16 DE 0E 10
+
+fix +1+2+3:
+old:
+1014F4B8       5F            POP EDI
+1014F4B9       5D            POP EBP
+1014F4BA       5E            POP ESI
+1014F4BB       B8 01000000   MOV EAX,1
+new:
+1014F4B8     - E9 E373D601   JMP <temple.WAcrafting_UI_hook>
+1014F4BD       90            NOP
+1014F4BE       90            NOP
+1014F4BF       90            NOP
+
+new:
+11EB68A0 <WAcrafting_UI_hook>        8B7C24 08       MOV EDI,DWORD PTR SS:[ESP+8]
+11EB68A4                             83EF 1F         SUB EDI,1F
+11EB68A7                             83FF 02         CMP EDI,2
+11EB68AA                             7C 07           JL SHORT <temple.wuh_armor>
+11EB68AC                             83FF 03         CMP EDI,3
+11EB68AF                             7F 2B           JG SHORT <temple.wuh_true>
+11EB68B1                             EB 0D           JMP SHORT <temple.wuh_call>
+11EB68B3 <wuh_armor>                 83C7 09         ADD EDI,9
+11EB68B6                             83FF 02         CMP EDI,2
+11EB68B9                             7C 21           JL SHORT <temple.wuh_true>
+11EB68BB                             83FF 03         CMP EDI,3
+11EB68BE                             7F 1C           JG SHORT <temple.wuh_true>
+11EB68C0 <wuh_call>                  8D0476          LEA EAX,DWORD PTR DS:[ESI+ESI*2]
+11EB68C3                             50              PUSH EAX
+11EB68C4                             68 B5000000     PUSH 0B5
+11EB68C9                             53              PUSH EBX
+11EB68CA                             55              PUSH EBP
+11EB68CB                             E8 F07C1EFE     CALL <temple.obj_idxed_get>
+11EB68D0                             83C4 10         ADD ESP,10
+11EB68D3                             3BF8            CMP EDI,EAX
+11EB68D5                             7E 05           JLE SHORT <temple.wuh_true>
+11EB68D7                           - E9 D28B29FE     JMP temple.1014F4AE
+11EB68DC <wuh_true>                  5F              POP EDI
+11EB68DD                             5D              POP EBP
+11EB68DE                             5E              POP ESI
+11EB68DF                             C7C0 01000000   MOV EAX,1
+11EB68E5                             5B              POP EBX
+11EB68E6                             83C4 1C         ADD ESP,1C
+11EB68E9                             C3              RETN
+
+
+v16
+changes:
+
+old:
+10153AFC       894424 14     MOV DWORD PTR SS:[ESP+14],EAX
+10153B00       75 08         JNZ SHORT temple.10153B0A
+new:
+10153AFC     - E9 C62ED601   JMP <temple.crafting_args_hook>
+10153B01       90            NOP
+
+old:
+102967EC  D8 6A 29 10 00 00 00 00
+new:
+102967EC  B8 07 29 10 03 00 00 00
+
+new:(replaces old SR hook)
+11EB69C7 <crafting_args_hook>  - 0F84 35D129FE   JE temple.10153B02
+11EB69CD                         C74424 14 0D000>MOV DWORD PTR SS:[ESP+14],0D
+11EB69D5                         83FD 1F         CMP EBP,1F
+11EB69D8                       - 0F84 2CD129FE   JE temple.10153B0A
+11EB69DE                         C74424 14 03000>MOV DWORD PTR SS:[ESP+14],3
+11EB69E6                         83FD 24         CMP EBP,3
+11EB69E9                       - 0F84 1BD129FE   JE temple.10153B0A
+11EB69EF                         894424 14       MOV DWORD PTR SS:[ESP+14],EAX
+11EB69F3                       - E9 12D129FE     JMP temple.10153B0A
+
+v16.0.2
+old:
+10296A71  6F 61                                            oa
+new:
+10296A71  61 6F                                            ao
+

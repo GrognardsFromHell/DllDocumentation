@@ -1,0 +1,128 @@
+This file documents the changes to temple.dll for Magic.
+
+Resurrection post-10 fix:
+!0007FDC6	8B 04 85 38 94 27 10	mov eax, [eax * 4 + 0x10279438]
+
+0007FDC6	E8 35 77 FF FF		call 00077500
+0007FDCB	90 90			nops
+00077500	53		push ebx
+00077501	8B 1C 85 00 AF 2A 10	mov ebx, [eax * 4 + 0x102AAF00]
+00077508	8B 04 85 FC AE 2A 10	mov eax, [eax * 4 + 0x102AAEFC]
+0007750F	03 D8		add eax, ebx
+00077511	D1 F8		sar eax, 1
+00077513	5B		pop ebx
+00077514	C3		retn
+
+St. Cuthbert and Strength:
+00272E00	11 00 00 00
+
+Meta-Magic to 9:
+		83 C4 04		add esp, 0x04
+001B9A4E	83 F8 05		cmp eax, 0x05
+		0F 8F C8 02 00 00	jg 001B9D1F
+001B9A4E	83 F8 09		cmp eax, 0x09
+
+Correct removal of meta-magiced spells:
+00075C28	8D 4C 24 30		lea ecx, [esp + 0x30]
+00075C2C	51			push ecx
+00075C2D	4D			dec ebp
+00075C2E	55			push ebp
+00075C36	E8 35 8B 02 00		call 0009E770
+00075C48	E8 F3 B8 02 00		call 000A1540
+
+00075C28	8D 4C 24 10		lea ecx, [esp + 0x10]
+00075C2C	6A 00			push 0x00
+00075C2E	51			push ecx
+00075C36	E8 65 FC FF FF		call 000758A0
+00075C48	90 90 90 90 90		nops
+
+Algorithmic Calculation of Attribute Spell Mods:
+000F4C73	83 F8 FF		cmp eax, 0xFF
+000F4C76	74 5F			jz 000F4CD7
+000F4C78	83 F8 01		cmp eax, 0x01
+000F4C7B	7C 5A			jl 000F4CD7
+000F4C7D	8D 14 B5 A8 A7 2E 10	lea edx, [esi * 4 + 102EA7A8]
+
+000F4C73	29 F0			sub eax, esi
+000F4C75	83 F8 00		cmp eax, 0x00
+000F4C78	7C 5D			jl 000F4CD7
+000F4C7A	C1 E8 02		sar eax, 0x02
+000F4C7D	40			inc eax
+000F4C7E	EB 59			jmp 000F4CD9
+000F4C80	90 90 90 90		nops
+
+Maximum Spell Level Known:
+		43			inc ebx
+001B64AE	83 FB 06		cmp ebx, 0x06
+		7C 90			jl 001B6443
+
+001B64AE	83 FB 0A		cmp ebx, 0x09
+
+Stop Sticking Level Five Spells at the END:
+		69 C0 70 C9 00 00	imul eax, 0x0000C970
+001B53AB	83 FE 05		cmp esi, 0x05
+		75 08			jnz 001B53B8
+001B53AB	83 FE 09		cmp esi, 0x09
+
+Allow usage of higher level spell slots:
+		89 54 24 20		mov [esp + 0x20], edx
+001B5CBA	75 5B			jnz 000B5D17
+		83 B9 50 83 C8 10 FF	cmp [ecx + 10C88350], 0xFF
+001B5CBA	7F 5B			jg 000B5D17
+
+		83 C4 04		add esp, 0x04
+		50			push eax
+		52			push edx
+001B5D05	55			push ebp
+		51			push ecx
+		53			push ebx
+		E8 43 E3 F8 FF		call 00144050
+001B5D05	56			push esi
+
+Max Targets Fix:
+00077469	0F 85 E3 00 00 00		jne max_targets_end (00077552)
+0007748E	8B 07				mov eax, [edi]
+00077490	3D C9 00 00 00			cmp eax, 0x000000C9 (greater command)
+00077495	7F 47				jg short max_targets_other
+00077497	0F 84 9F 00 00 00		jz max_targets_level
+0007749D	83 E8 07			sub eax, 7
+000774A0	83 F8 3C			cmp eax, 0x3C (command)
+000774A3	0F 87 93 00 00 00		ja max_targets_level
+000774A9	0F B6 88 AC 75 07 10		movzx ds:[eax + max_targets_table]
+000774B0	FF 24 8D 98 75 07 10		jmp ds:[ecx * 4 + max_targets_functions]
+000774B7	8B C3				mov eax, ebx
+000774B9	99				cdq
+000774BA	2B C2				sub eax, edx
+
+00077469	0F 8F E3 00 00 00		jg max_targets_end (00077552)
+0007748E	8B 46 24			mov eax, [esi + 0x24]
+00077491	F7 D8				neg eax
+00077493	99				cdq
+00077494	B9 64 00 00 00			mov ecx, 0x00000064
+00077499	F7 F1				div ecx
+0007749B	92				xchg eax, edx
+0007749C	D4 0A				aam
+0007749E	88 C1				mov cl, al
+000774A0	01 CB				add ebx, ecx
+000774A2	88 E1				mov cl, ah
+000774A4	41				inc ecx
+000774A5	89 D8				mov eax, ebx
+000774A7	F6 F1				div cl
+000774A9	85 D2				test edx, edx
+000774AB	74 04				jz short 000774AE
+000774AD	38 C2				cmp dl, al
+000774AF	72 02				jb short 000774B0
+000774B1	88 C2				mov dl, al
+000774B3	89 56 24			mov [esi + 0x24], edx
+000774B6	E9 97 00 00 00			jmp max_targets_end
+- pasted max_targets_end to 000774B6 (code consolidation)
+
+max_Targets: -abc	min(a, (caster_level + c) / (b + 1))
+
+051 Chain Lightning:	-001	caster_level + 1
+288 Magic Missile:	-511	min(5, (caster_level + 1) / 2)
+733 Scorching Ray:	-331	min(3, (caster_level + 1) / 4)
+223 Heat Metal:		-010	caster_level / 2
+547 Rage:		-020	caster_level / 3
+
+Not sure what's up with Calm Emotions.

@@ -1,0 +1,535 @@
+{0}{Poison level}
+{1}{HP}
+{2}{Critical miss}
+{3}{Scarred}
+{4}{Blinded}
+{5}{Crippled arm}
+{6}{Crippled leg}
+{7}{Armor damaged}
+{8}{Weapon damaged}
+{9}{Ammo lost}
+{10}{FT}
+{11}{Dodge!}
+{12}{Critical Hit!}
+{13}{Damage +50%}
+{14}{Damage +100%}
+{15}{Damage +200%}
+{16}{Stunned}
+{17}{Unconscious}		   
+{18}{Knocked down}
+{19}{Weapon dropped}
+{20}{Item dropped}
+{21}{Armor destroyed}
+{22}{Weapon destroyed}
+{23}{Weapon broken}
+{24}{Armor broken}
+{25}{Nonlethal}
+{26}{Stabilizes}
+{27}{Dying!}
+{28}{Exertion}
+{29}{Miss!}
+{30}{DEAD!}
+{31}{Hit!}
+{32}{HP} -- The Heal Message... printed as "%d %s", hp_healed, thismessage
+{33}{Nonlethal} -- The Heal Nonlethal Message... printed as"%d%s",subdual_healed,      thismessage
+{34}{Heal Succeeded!}
+{35}{Heal Failed!}
+{36}{Cleave!}
+{37}{Great Cleave!}
+{38}{Unconscious}
+{39}{Disabled}
+{40}{Held!}
+{41}{Invisible}
+{42}{Weapon Reloaded}
+{43}{Attack of Opportunity}
+{44}{Out Of Ammo!}
+{45}{Miss (Concealment)!}
+{46}{Acid Damage!}
+{47}{Sleeping!}
+{48}{Flatfooted}
+{49}{Surprised}
+{50}{Points of Damage Absorbed.} -- temporary HP message... printed as "[%d] %s", damage, thismessage
+{51}{Cursed!}
+{52}{Afraid!}
+{53}{Diseased!}
+{54}{Spell Disrupted!}
+{55}{Poisoned!}
+{56}{Posion Secondary Damage!}
+{57}{Miscast (Armor)!}
+{58}{Miscast (Defensive Casting)!}
+{59}{Arcane Spell Failure due to Armor}
+{60}{~Concealment Check~[TAG_CONCEALMENT]}
+{61}{Blind-Fight Feat Concealment Reroll}
+{62}{Spell Succeeded}
+{63}{Prone}
+{64}{Summoned}
+{65}{Staggered!}
+{66}{Slowed!}
+{67}{Hastened!}
+{68}{Touch Attack Hit!}
+{69}{Touch Attack Miss!}
+{70}{Holding Charge: }
+{71}{Death Touch Failed!}
+{72}{Dazed!}
+{73}{Charmed!}
+{74}{Temp HP: }
+{75}{DR Points: }
+{76}{Blind!}
+{77}{Deaf!}
+{78}{Miscast (Deafness)!}
+{79}{Spell Failure due to Deafness}
+{80}{Courage}
+{81}{Fascinated}
+{82}{Greatness}
+{83}{Competence}
+{84}{Afraid}
+{85}{Turned}
+{86}{Cowering}
+{87}{Commanded}
+{88}{Grappled}
+{89}{Stunned!}
+{90}{Sneak Attack!}
+{91}{Imprisoned!}
+{92}{Endure Elements: }
+{93}{Resist Energy: }
+{94}{Protection from Energy: }
+{95}{Fire Shield}
+{96}{Ability Loss}
+{97}{Sickened!}
+{98}{Concentrating: }
+{99}{Entangled!}
+{100}{Miscast (Gaseous Form)!}
+{101}{Webbed!}
+{102}{Success}
+{103}{Failure}
+{104}{Tripped!}
+{105}{Calm.}
+{106}{Track Unsucessful}
+{107}{Friendly Fire!}
+{108}{Call Lightning}
+{109}{Mirror Image}
+{110}{Blinking!}
+{111}{Spell Failure due to Blink}
+{112}{Miscast (Blink)!}
+{113}{Confused!}
+{114}{Spell Failure due to Silence}
+{115}{Miscast (Silence)!}
+{116}{Silenced!}
+{117}{(Polymorphed)}
+{118}{(Wild Shape)}
+{119}{Spell ~Fails~[ROLL_}
+{120}{] to Overcome Spell Resistance}
+{121}{Spell ~Overcomes~[ROLL_}
+{122}{] Spell Resistance}
+{123}{Sanctuary!}
+{124}{Unaffected due to Lesser Globe of Invulnerability}
+{125}{Temporary Level Loss}
+{126}{Permanant Level Loss}
+{127}{Raging!}
+{128}{Unaffected due to Otiluke's Resilient Sphere}
+{129}{Tumble Successful!}
+{130}{Tumble Unsuccessful!}
+{131}{Movement}
+{132}{Feet}
+{133}{Primary Attack}
+{134}{Secondary Attack}
+{135}{Tertiary Attack}
+{136}{Quaternary Attack}
+{137}{Primary Attack}
+{138}{Off Hand Attack}
+{139}{Secondary Attack}
+{140}{Tertiatry Attack}
+{141}{Secondary Off Hand Attack}
+{142}{Natural Attack}
+{143}{Attempt Succeeds!}
+{144}{Attempt Fails}
+{145}{gains}
+{146}{experience points.}
+{147}{(Award reduced due to uneven class levels)}
+{148}{gains a level!}
+{149}{Paralyzed}
+{150}{Nauseated}
+{151}{Heat}
+{152}{Feint Successful!}
+{153}{Feint}
+{154}{Attached: }
+{155}{Blood Drain}
+{156}{Immune to Death Touch}
+{157}{Action Readied}
+{158}{Action Interrupted}
+{159}{~deflects attack!~[TAG_DEFLECT_ARROWS]}
+{160}{~grabs missile~[TAG_SNATCH_ARROWS] and counterattacks!}
+{161}{~grabs missile~[TAG_SNATCH_ARROWS]!}
+{162}{uses ~Manyshot~[TAG_MANYSHOT]!}
+{163}{feet}
+{164}{attacks}
+{165}{activated}
+{166}{deactivated}
+{167}{Counterspell Failed}
+{168}{Counterspell Failed}
+{169}{Counterspell}
+{170}{Counterspell Succeeded}
+{171}{Trip Attack Failed - target cannot be tripped!}
+{172}{Encumbered: Medium}		// HTN - 6/25/03, this occurs after text-lock!
+{173}{Encumbered: Heavy}		// HTN - 6/25/03, this occurs after text-lock!
+{174}{killed by ~Coup de Grace~[TAG_RADIAL_MENU_COUP_DE_GRACE]!}		
+{175}{Duration}					// HTN - 7/20/03, this occurs after text-lock!
+{176}{Elixir (Hiding)}			// apb - 7/26/03, this occurs after text-lock!
+{177}{Elixir (Sneaking)}		// apb - 7/26/03, this occurs after text-lock!
+{178}{Elixir (Vision)}			// apb - 7/26/03, this occurs after text-lock!
+{179}{Assign '}
+{180}{' key to '}
+{181}{'?}
+{182}{(Key currently unassigned)}
+{183}{(Key currently assigned to '}
+{184}{')}
+{185}{Assign Hotkey}
+{186}{Encumbered: Overburdened}		// HTN - 7/28/03, this occurs after text-lock!
+{187}{Destroyed!}
+{188}{Uses Item!}
+{189}{Mind Controlled!}				// HTN - after text lock
+{190}{AI Controlled}				// HTN - after text lock
+{191}{Assign}
+{192}{Spell Failure Chance}
+{193}{Miss Chance}
+{194}{Pass!}
+{195}{Fail!}
+{196}{Actions} // for bestow curse indicator floater
+{197}{Rolls}
+
+// Poisons
+{300}{Small Centipede}
+{301}{Greenblood Oil}
+{302}{Spider Venom}
+{303}{Blood Root}
+{304}{Purple Worm}
+{305}{Large Scorpion}
+{306}{Wyvern}
+{307}{Giant Wasp}
+{308}{Black Adder}
+{309}{Malyss Root Paste}
+{310}{Dragon Bile}
+{311}{Sassone Leaf Residue}
+{312}{Terinav Root}
+{313}{Carrion Crawler Brain Juice}
+{314}{Black Lotus Extract}
+{315}{Id Moss}
+{316}{Striped Toadstool}
+{317}{Lich Dust}
+{318}{Dark Reaver Powder}
+{319}{Burnt Othur Fumes}
+{320}{Quasit}
+{321}{Violet Fungi}
+{322}{Yellow Mold}
+{323}{Mystical}
+{324}{Other}
+{325}{Blue Whinnis}
+{326}{Shadow Essence}
+{327}{Deathblade}
+{328}{Nitharit}
+{329}{Oil of Taggit}
+{330}{Arsenic}
+{331}{Ungol Dust}
+{332}{Insanity Mist}
+
+// Diseases
+{400}{Blinding Sickness}
+{401}{Cackle Fever}
+{402}{Demon Fever}
+{403}{Devil Chills}
+{404}{Filth Fever}
+{405}{Mindfire}
+{406}{Mummy Rot}
+{407}{Red Ache}
+{408}{Shakes}
+{409}{Slimy Doom}
+
+
+// Saving Throw Messages
+{500}{Fortitude}
+{501}{Reflex}
+{502}{Will}
+
+
+// Radial Menu Text
+// Groupings
+{1000}{Root}
+{1001}{Spells}
+{1002}{Skills}		
+{1003}{Feats}
+{1004}{Class}
+{1005}{Combat}
+{1006}{Items}
+
+// Root->Skills->Alchemy
+{1007}{Alchemy}
+
+{1008}{Movement}
+{1009}{Offense}
+{1010}{Tactical}
+{1011}{Options}
+{1012}{Potions}
+{1013}{Wands}
+{1014}{Scrolls}
+{1015}{Copy Scroll}	// wizard class ability
+{1016}{Wiz}
+{1017}{Sor}
+{1018}{Brd}
+{1019}{Clr}
+{1020}{Pal}
+{1021}{Drd}
+{1022}{Rgr}
+{1023}{Domain}
+{1024}{0}
+{1025}{1}
+{1026}{2}
+{1027}{3}
+{1028}{4}
+{1029}{5}
+{1030}{6}
+{1031}{7}
+{1032}{8}
+{1033}{9}
+
+// Options
+{5000}{Single Attack}
+{5001}{Full Attack}
+{5002}{5 Foot Step}
+{5003}{Move}
+{5004}{Withdraw}
+{5005}{Run}
+{5006}{Power Attack}
+{5007}{Combat Expertise}
+{5008}{Heal}
+{5009}{Reload}
+{5010}{Fight Defensively}
+{5011}{Whirlwind Attack}
+{5012}{Touch Attack}
+{5013}{Cast Defensively}
+{5014}{Deal Nonlethal Damage}
+{5015}{Deal Normal Damage}
+{5016}{Total Defense}
+{5017}{Charge Attack}
+{5018}{Drop To Prone}
+{5019}{Stand Up}
+{5020}{Death Touch}
+{5021}{Smite}
+{5022}{Protective Ward}
+{5023}{Feat Of Strength}
+{5024}{Good Fortune}
+{5025}{Reroll Next Missed Attack}
+{5026}{Reroll Next Missed Saving Throw}
+{5027}{Reroll Next Missed Critical Confirmation}
+{5028}{Turn Undead}
+{5029}{Rebuke Undead}
+{5030}{Rebuke Fire / Turn Water Creatures}
+{5031}{Rebuke Water / Turn Fire Creatures}
+{5032}{Rebuke Air / Turn Earth Creatures}
+{5033}{Rebuke Earth / Turn Air Creatures}
+{5034}{Rebuke Plant Creatures}
+{5035}{Greater Turning}
+{5036}{Discharge Touch Attack}
+{5037}{Coup De Grace}
+{5038}{Flurry Of Blows}
+{5039}{Bardic Music}
+{5040}{Inspire Courage}
+{5041}{Inspire Competence}
+{5042}{Fascinate}
+{5043}{Countersong}
+{5044}{Inspire Greatness}
+{5045}{Barbarian Rage}
+{5046}{Fatigued}
+{5047}{Stunning Fist}
+{5048}{Spell Resistance}
+{5049}{Smite Evil}
+{5050}{Aura of Courage}
+{5051}{Lay on Hands}
+{5052}{Deflect Arrows!}
+{5053}{Rapid Shot}
+{5054}{Detect Evil}
+{5055}{Guidance}
+{5056}{+1 to next Attack Roll}
+{5057}{+1 to next Saving Throw}
+{5058}{+1 to next Skill Check}
+{5059}{Sleep Immunity}
+{5060}{Stop Concentration}
+{5061}{Break Free}
+{5062}{Trip Attack}
+{5063}{Remove Disease}
+// radial menu entry for Skills->Alchemy->Create Item
+{5064}{Create Item}
+{5065}{Wholeness of Body}
+// radial menu entry for Feats->Brew Potion
+{5066}{Brew Potion}
+// radial menu entry for Feats->Scribe Scroll
+{5067}{Scribe Scroll}
+// radial menu entry for Feats->Craft Wand
+{5068}{Craft Wand}
+// radial menu entry for Feats->Craft Rod
+{5069}{Craft Rod}
+// radial menu entry for Feats->Craft Wonderous Item
+{5070}{Craft Wonderous Item}
+// radial menu entry for Feats->Craft Magic Arms & Armor
+{5071}{Craft Magic Arms & Armor}
+// radial menu entry for Skills->Alchemy->Identify Potion
+{5072}{Identify Potion}
+// radial menu entry for Skills->Use Magic Device: Decipher Script
+{5073}{Use Magic Device: Decipher Script}
+// radial menu entry for Feats->Track
+{5074}{Track}
+// radial menu entry for charging the staff of striking
+{5075}{Staff of Striking Set Charge}
+{5076}{Wild Shape} // druidic class ability
+{5077}{Deactivate} // revert to human form after wild shape
+{5078}{Activate Defending Weapon} // Activate the defending weapon type
+{5079}{Inventory}
+{5080}{Disable Device}
+{5081}{Search (Concentrated)}
+{5082}{Sneak}
+{5083}{Stop Sneaking}
+{5084}{Autoend Turn}
+{5085}{Talk}
+{5086}{Open Lock}
+{5087}{Sleight of Hand}
+{5088}{Throw}	
+{5089}{Feint}
+{5090}{Ready Vs. Spell}
+{5091}{Ready: Counterspell}
+{5092}{Ready Vs. Approach}
+{5093}{Ready Vs. Withdrawal}
+{5094}{Full Attack - Throw}
+{5095}{Manyshot}
+{5096}{Teleport to air node}
+{5097}{Teleport to earth node}
+{5098}{Teleport to fire node}
+{5099}{Teleport to water node}
+{5100}{Barbarian Rage}
+{5101}{Dismiss Spells}				// HTN - 8/4/03, after text-lock!!!
+{5102}{Flee Combat}
+{5103}{Craft Staff}
+{5104}{Forge Ring}
+
+{6000}{Animal Companion}
+{6001}{Dismiss}
+{6002}{Not During Combat!}
+{6003}{Are you sure you want to dismiss }
+{6004}{?}     
+{6005}{Call Familiar}
+{6006}{Dismiss}
+{6007}{Are you sure you want to dismiss }
+{6008}{?  You will not be able to summon another familiar for a year and a day.}
+{6009}{OK}
+{6010}{CANCEL}
+{6011}{Name your familiar}
+{6012}{Name your animal companion}
+{6013}{Use}
+{6014}{Set}
+
+// history intereface entries (to be displayed by the help/history system)
+{7000}{Undead creature destroyed by disruption}
+{7001}{Target is immune to Death Touch}
+
+{10000}{TAG_MELEE_ATTACK} // single attack
+{10001}{TAG_FULL_ATTACK} // full attack
+{10002}{TAG_5_FOOT_STEP} // 5-foot step
+{10003}{TAG_MOVEMENT_ACTION} // move
+{10004}{TAG_WITHDRAW} // withdraw
+{10005}{TAG_RUN} // run
+{10006}{TAG_POWER_ATTACK} // power attack
+{10007}{TAG_COMBAT_EXPERTISE} // combat expertise
+{10008}{TAG_HEAL} // heal
+{10009}{TAG_WEAPONS_CROSSBOW_LIGHT} // reload
+{10010}{TAG_RADIAL_MENU_FIGHT_DEFENSIVELY} // fight defensively
+{10011}{TAG_WHIRLWIND_ATTACK} // whirlwind attack
+{10012}{TAG_TOUCH_ATTACK} // touch attack
+{10013}{TAG_RADIAL_MENU_CAST_DEFENSIVELY} // cast defensively
+{10014}{TAG_RADIAL_MENU_NONLETHAL_DAMAGE} // deal nonlethal damage
+{10015}{TAG_NORMAL_DAMAGE} // deal normal damage
+{10016}{TAG_RADIAL_MENU_TOTAL_DEFENSE} // total defense
+{10017}{TAG_CHARGE} // charge attack
+{10018}{}
+{10019}{}
+{10020}{TAG_DEATH_D} // death touch
+{10021}{TAG_DESTRUCTION_D} // smite
+{10022}{TAG_PROTECTION_D} // protective ward
+{10023}{TAG_STRENGTH_D} // feat of strength
+{10024}{TAG_LUCK_D} // good fortune
+{10025}{TAG_LUCK_D} // reroll next missed attack
+{10026}{TAG_LUCK_D} // reroll next missed saving throw
+{10027}{TAG_LUCK_D} // reroll next missed critical confirmation
+{10028}{TAG_CLASS_FEATURES_CLERIC_TURN_REBUKE_UNDEAD} // turn undead
+{10029}{TAG_CLASS_FEATURES_CLERIC_TURN_REBUKE_UNDEAD} // rebuke undead
+{10030}{TAG_FIRE_D} // Rebuke Fire / Turn Water Creatures
+{10031}{TAG_WATER_D} // Rebuke Water / Turn Fire Creatures
+{10032}{TAG_AIR_D} // Rebuke Air / Turn Earth Creatures
+{10033}{TAG_EARTH_D} // Rebuke Earth / Turn Air Creatures
+{10034}{TAG_PLANT_D} // Rebuke Plant creatures
+{10035}{TAG_SUN_D} // greater turning
+{10036}{TAG_HOLDING_A_CHARGE} // discharge touch attack
+{10037}{TAG_RADIAL_MENU_COUP_DE_GRACE} // coup de grace
+{10038}{TAG_CLASS_FEATURES_MONK_FLURRY_OF_BLOWS} // flurry of blows
+{10039}{TAG_CLASS_FEATURES_BARD_BARDIC_MUSIC} // bardic music
+{10040}{TAG_CLASS_FEATURES_BARD_INSPIRE_COURAGE} // inspire courage
+{10041}{TAG_CLASS_FEATURES_BARD_INSPIRE_COMPETENCE} // inspire competence
+{10042}{TAG_CLASS_FEATURES_BARD_FASCINATE} // fascinate
+{10043}{TAG_CLASS_FEATURES_BARD_COUNTERSONG} // countersong
+{10044}{TAG_CLASS_FEATURES_BARD_INSPIRE_GREATNESS} // inspire greatness
+{10045}{TAG_CLASS_FEATURES_BARBARIAN_RAGE} // barbarian rage
+{10046}{TAG_FATIGUED} // fatigued
+{10047}{TAG_STUNNING_FIST} // stunning fist
+{10048}{TAG_SPECIAL_ABILITIES_SPELL_RESISTANCE} // spell resistance
+{10049}{TAG_CLASS_FEATURES_PALADIN_SMITE_EVIL} // smite evil
+{10050}{TAG_CLASS_FEATURES_PALADIN_AURA_OF_COURAGE} // aura of courage
+{10051}{TAG_CLASS_FEATURES_PALADIN_LAY_ON_HANDS} // lay on hands
+{10052}{TAG_DEFLECT_ARROWS} // deflect arrows
+{10053}{TAG_RAPID_SHOT} // rapid shot
+{10054}{TAG_SPELLS_DETECT_EVIL} // detect evil
+{10055}{TAG_SPELLS_GUIDANCE} // guidance
+{10056}{TAG_SPELLS_GUIDANCE} // +1 to next attack roll
+{10057}{TAG_SPELLS_GUIDANCE} // +1 to next saving throw
+{10058}{TAG_SPELLS_GUIDANCE} // +1 to next skill check
+{10059}{TAG_ELVES} // sleep immunity
+{10060}{TAG_STOP_CONCENTRATION} // stop concentration
+{10061}{TAG_RADIAL_MENU_BREAK_FREE} // break free
+{10062}{TAG_TRIP} // trip attack
+{10063}{TAG_SPELLS_REMOVE_DISEASE} // remove disease
+{10064}{TAG_MAGIC_ITEMS} // create items
+{10065}{TAG_CLASS_FEATURES_MONK_WHOLENESS_OF_BODY} // wholeness of body
+{10066}{TAG_BREW_POTION} // brew potion
+{10067}{TAG_SCRIBE_SCROLL} // scribe scroll
+{10068}{TAG_CRAFT_WAND} // craft wand
+{10069}{TAG_ALERTNESS} // craft rod
+{10070}{TAG_CRAFT_WONDROUS} // craft wondrous item
+{10071}{TAG_CRAFT_MAA} // craft magic arms and armor
+{10072}{TAG_SPELLS_IDENTIFY} // identify potion
+{10073}{}
+{10074}{TAG_TRACK} // track
+{10075}{TAG_RADIAL_MENU_STAFF_OF_STRIKING} // staff of striking-set charge
+{10076}{TAG_CLASS_FEATURES_DRUID_WILD_SHAPE} // wild shape
+{10077}{TAG_CLASS_FEATURES_DRUID_WILD_SHAPE} // deactivate
+{10078}{TAG_RADIAL_MENU_ACTIVATE_DEFENDING_WEAPON} // activate defending weapon
+{10079}{TAG_HMU_CHAR_INVENTORY_UI} // inventory
+{10080}{TAG_DISABLE_DEVICE} // disable device
+{10081}{TAG_SEARCH} // search (concentrated)
+{10082}{TAG_RADIAL_MENU_SNEAK} // sneak
+{10083}{TAG_RADIAL_MENU_SNEAK} // stop sneaking
+{10084}{TAG_RADIAL_MENU_AUTOEND_TURN} // autoend turn
+{10085}{TAG_RADIAL_MENU_TALK} // talk
+{10086}{TAG_OPEN_LOCK} // open lock
+{10087}{TAG_SLEIGHT} // sleight of hand
+{10088}{TAG_THROW_WEAPON} // throw
+{10089}{TAG_FEINT} // feint
+{10090}{TAG_RADIAL_MENU_READY} // ready vs. spell
+{10091}{TAG_RADIAL_MENU_READY_COUNTERSPELL} // readying to counterspell
+{10092}{TAG_RADIAL_MENU_READY_APPROACH} // ready vs. approach
+{10093}{TAG_RADIAL_MENU_READY_WITHDRAWL} // ready vs. withdrawl
+{10094}{}                           
+{10095}{TAG_MANYSHOT} // manyshot
+{10096}{TAG_GOLDEN_SKULL} // teleport to air node
+{10097}{TAG_GOLDEN_SKULL} // teleport to earth node
+{10098}{TAG_GOLDEN_SKULL} // teleport to fire node
+{10099}{TAG_GOLDEN_SKULL} // teleport to water node
+{10100}{TAG_CLASS_FEATURES_BARBARIAN_RAGE} // barbarian rage
+{10101}{TAG_DISMISS_SPELL} // dismiss spell
+{10102}{TAG_CRAFT_STAFF} // craft staff
+{10103}{TAG_FORGE_RING} // forge ring

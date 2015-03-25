@@ -1,0 +1,32 @@
+Fixes that the portrait UI at character creation did only display a part of the potraits listed in portraits.mes.
+
+v15
+code changes:
+
+old:
+1017E793      8B0D 64EBC010 MOV ECX,DWORD PTR DS:[<?portrait_entry_count>]   
+1017E799      83C1 1B       ADD ECX,1B
+1017E79C      B8 93244992   MOV EAX,92492493
+1017E7A1      F7E9          IMUL ECX
+1017E7A3      03D1          ADD EDX,ECX
+1017E7A5      C1FA 04       SAR EDX,4
+1017E7A8      8BC2          MOV EAX,EDX
+1017E7AA      C1E8 1F       SHR EAX,1F
+1017E7AD      03D0          ADD EDX,EAX
+new:
+1017E793      A1 64EBC010   MOV EAX,DWORD PTR DS:[<?portrait_entry_count>]
+1017E798      B9 07000000   MOV ECX,7
+1017E79D      33D2          XOR EDX,EDX
+1017E79F      F7F1          DIV ECX
+1017E7A1      8BD0          MOV EDX,EAX
+1017E7A3      EB 0A         JMP SHORT temple.1017E7AF
+1017E7A5      90            NOP
+1017E7A6      90            NOP
+1017E7A7      90            NOP
+1017E7A8      90            NOP
+1017E7A9      90            NOP
+1017E7AA      90            NOP
+1017E7AB      90            NOP
+1017E7AC      90            NOP
+1017E7AD      90            NOP
+1017E7AE      90            NOP

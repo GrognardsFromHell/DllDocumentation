@@ -1,0 +1,11 @@
+Fixes medium armor proficiency providing heavy armor proficiency as well.
+
+
+v16.0.3
+code changes:
+
+old:
+1007C49F  |.  6A 05         PUSH 5
+new:
+1007C49F  |.  6A 06         PUSH 6
+

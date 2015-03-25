@@ -1,0 +1,37 @@
+-Fixes the immunity of dwarves to entangle and web effects.
+-Fixes moving at 5 speed when overburdened and entangled/webbed for all critters.
+
+v13
+code changes:
+
+dwarf:
+old:
+100EFEC0      8B4424 18     MOV EAX,DWORD PTR SS:[ESP+18]
+100EFEC4      50            PUSH EAX
+new:
+100EFEC0     - E9 256ADC01   JMP <temple.DwarfWebFix_hook>
+
+new:
+11EB68EA <DwarfWebFix_hook>     8B4424 18       MOV EAX,DWORD PTR SS:[ESP+18]
+11EB68EE                        50              PUSH EAX
+11EB68EF                        83B8 80030000 0>CMP DWORD PTR DS:[EAX+380],3
+11EB68F6                      - 0F85 C99523FE   JNZ temple.100EFEC5
+11EB68FC                        58              POP EAX
+11EB68FD                        33C0            XOR EAX,EAX
+11EB68FF                        C3              RETN
+
+overburdened fix:
+old:
+100EBAA0      8B4424 18     MOV EAX,DWORD PTR SS:[ESP+18]
+100EBAA4      56            PUSH ESI
+new:
+100EBAA0    - E9 5BAEDC01   JMP <temple.Overburdened_hook>
+
+new:
+11EB6900 <Overburdened_hook>     8B4424 18       MOV EAX,DWORD PTR SS:[ESP+18]
+11EB6904                         56              PUSH ESI
+11EB6905                         83B8 80030000 0>CMP DWORD PTR DS:[EAX+380],3
+11EB690C                       - 0F85 935123FE   JNZ temple.100EBAA5
+11EB6912                         5E              POP ESI
+11EB6913                         33C0            XOR EAX,EAX
+11EB6915                         C3              RETN

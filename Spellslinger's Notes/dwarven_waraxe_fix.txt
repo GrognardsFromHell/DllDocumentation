@@ -1,0 +1,19 @@
+Fixes the non-proficient penalty suffered when using the waraxe two-handed with Martial Weapons All proficiency but without the EWP.
+
+
+v16
+code changes:
+old:
+1007C5F4      83FB 39       CMP EBX,39
+1007C5F7      75 1A         JNZ SHORT temple.1007C613
+new:
+1007C5F4     /E9 5E010000   JMP temple.1007C757                     
+
+old:
+<empty>
+new:
+1007C757      83FB 39       CMP EBX,39
+1007C75A    ^ 0F84 99FEFFFF JE temple.1007C5F9
+1007C760      83FB 3A       CMP EBX,3A
+1007C763    ^ 0F84 90FEFFFF JE temple.1007C5F9
+1007C769    ^ E9 A5FEFFFF   JMP temple.1007C613

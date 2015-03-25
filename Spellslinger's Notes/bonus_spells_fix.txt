@@ -1,0 +1,211 @@
+-fixes not getting bonus spells for enhancement items like headband of intellect
+-introduces bonus spells for buff spells (not RAW), but since you cannot fill empty prepared slots in TOEE and the duration of the spells is too short, it shouldn't matter
+-TOEE does not recheck the number of memorized spells, so lowering a stat and thus losing the bonus spell does NOT result in losing the bonus spell slot. Clearing one slot of that spell level and leaving/reentering the spell selection tab will remedy this.
+
+*UPDATE(v10)*:	
+-added functionality for spell slot check, making it possible to remove surplus spell slots
+->on rest all surplus spells are removed, rendering buff bonus spell slots useless and fixing spell slots from having worn stat enhancing items before 
+
+*UPDATE(v11)*:
+-TOEE gives you bonus spells for spell levels you have not yet access to, allowing you to put lower spells in there. I changed my onRest surplus spell removal to cover this. TOEE will still display them as empty slots and lets you fill them, but after rest the illegal slots are empty once again.
+
+*UPDATE(v13_2)*:
+-Fixes specialized school spell slots being cleared by remove surplus spell slots function.
+
+code changes:
+1:old
+100F4C65      E8 A69BF5FF   CALL <temple.get_stat_without_enhancements>
+1:new
+100F4C65      E8 869BF5FF   CALL <temple.get_stat_all_bonuses>
+
+*UPDATE(v10)*:
+2:old
+1010EFE8       E8 E367F6FF   CALL 100757D0
+2:new
+1010EFE8       E8 0973DA01   CALL 11EB62F6
+
+3:new
+11EB62F6 <>  FF7424 08       PUSH DWORD PTR SS:[ESP+8]
+11EB62FA     FF7424 08       PUSH DWORD PTR SS:[ESP+8]
+11EB62FE     E8 09000000     CALL <temple.sanitizingSpellSlots>
+11EB6303     E8 C8F41BFE     CALL <temple.replenish_spells_on_camp>
+11EB6308     83C4 08         ADD ESP,8
+11EB630B     C3              RETN
+
+4:new
+void sanitizingSpellSlots(ObjId1, ObjId2)
+11EB630C <sanitizingSpellSlots>     6A 09           PUSH 9
+11EB630E                            FF7424 0C       PUSH DWORD PTR SS:[ESP+C]
+11EB6312                            FF7424 0C       PUSH DWORD PTR SS:[ESP+C]
+11EB6316                            E8 E5E41BFE     CALL 10074800
+11EB631B                            85C0            TEST EAX,EAX
+11EB631D                            74 05           JE SHORT temple.11EB6324
+11EB631F                            E8 A4010000     CALL <temple.doSanitize>
+11EB6324                            C74424 08 0A000>MOV DWORD PTR SS:[ESP+8],0A
+11EB632C                            E8 CFE41BFE     CALL 10074800
+11EB6331                            85C0            TEST EAX,EAX
+11EB6333                            74 05           JE SHORT temple.11EB633A
+11EB6335                            E8 8E010000     CALL <temple.doSanitize>
+11EB633A                            C74424 08 0D000>MOV DWORD PTR SS:[ESP+8],0D
+11EB6342                            E8 B9E41BFE     CALL 10074800
+11EB6347                            85C0            TEST EAX,EAX
+11EB6349                            74 05           JE SHORT temple.11EB6350
+11EB634B                            E8 78010000     CALL <temple.doSanitize>
+11EB6350                            C74424 08 0E000>MOV DWORD PTR SS:[ESP+8],0E
+11EB6358                            E8 A3E41BFE     CALL 10074800
+11EB635D                            85C0            TEST EAX,EAX
+11EB635F                            74 05           JE SHORT temple.11EB6366
+11EB6361                            E8 62010000     CALL <temple.doSanitize>
+11EB6366                            C74424 08 11000>MOV DWORD PTR SS:[ESP+8],11
+11EB636E                            E8 8DE41BFE     CALL 10074800
+11EB6373                            85C0            TEST EAX,EAX
+11EB6375                            74 05           JE SHORT temple.11EB637C
+11EB6377                            E8 4C010000     CALL <temple.doSanitize>
+11EB637C                            83C4 0C         ADD ESP,0C
+11EB637F                            C3              RETN
+
+5:new
+void doSanitize(ObjId1, ObjId2, casterClass)11EB64C8 <doSanitize>     51              PUSH ECX
+11EB64C9                  8BC8            MOV ECX,EAX
+11EB64CB                  6A 00           PUSH 0
+11EB64CD                  6A 01           PUSH 1
+11EB64CF                  FF7424 18       PUSH DWORD PTR SS:[ESP+18]
+11EB64D3                  FF7424 18       PUSH DWORD PTR SS:[ESP+18]
+11EB64D7                  FF7424 18       PUSH DWORD PTR SS:[ESP+18]
+11EB64DB <dos_loop>       E8 A0FDFFFF     CALL <temple.getMaxSpells>
+11EB64E0                  894424 10       MOV DWORD PTR SS:[ESP+10],EAX
+11EB64E4                  E8 71000000     CALL <temple.getMemorizedSpells>
+11EB64E9                  3B4424 10       CMP EAX,DWORD PTR SS:[ESP+10]
+11EB64ED                  7E 0B           JLE SHORT <temple.dos_ok>
+11EB64EF                  2B4424 10       SUB EAX,DWORD PTR SS:[ESP+10]
+11EB64F3                  50              PUSH EAX
+11EB64F4                  E8 C2000000     CALL <temple.removeSurplusSpells>
+11EB64F9                  58              POP EAX
+11EB64FA <dos_ok>         8BC1            MOV EAX,ECX
+11EB64FC                  FF4424 0C       INC DWORD PTR SS:[ESP+C]
+11EB6500                  837C24 0C 0A    CMP DWORD PTR SS:[ESP+C],0A
+11EB6505                ^ 0F8C D0FFFFFF   JL <temple.dos_loop>
+11EB650B                  83C4 14         ADD ESP,14
+11EB650E                  59              POP ECX
+11EB650F                  C3              RETN
+
+6:new
+int getMaxSpells(ObjId1, ObjId2, casterclass, spelllvl) EAX = casterlvl
+11EB6280 <getMaxSpells>     51              PUSH ECX
+11EB6281                    56              PUSH ESI
+11EB6282                    52              PUSH EDX
+11EB6283                    6A 00           PUSH 0
+11EB6285                    33D2            XOR EDX,EDX
+11EB6287                    8BC8            MOV ECX,EAX
+11EB6289                    8B4424 20       MOV EAX,DWORD PTR SS:[ESP+20]
+11EB628D                    FF7424 1C       PUSH DWORD PTR SS:[ESP+1C]
+11EB6291                    E8 7AEA23FE     CALL <temple.get_spell_count_by_class_lv>
+11EB6296                    83C4 04         ADD ESP,4
+11EB6299                    85C0            TEST EAX,EAX
+11EB629B                    7D 08           JGE SHORT <temple.gmas_ok>
+11EB629D                    C7C0 00000000   MOV EAX,0
+11EB62A3                    EB 36           JMP SHORT <temple.gmas_back>
+11EB62A5 <gmas_ok>          890424          MOV DWORD PTR SS:[ESP],EAX
+11EB62A8                    FF7424 18       PUSH DWORD PTR SS:[ESP+18]
+11EB62AC                    FF7424 18       PUSH DWORD PTR SS:[ESP+18]
+11EB62B0                    E8 EB7B24FE     CALL <temple.get_wiz_school>
+11EB62B5                    83C4 08         ADD ESP,8
+11EB62B8                    85C0            TEST EAX,EAX
+11EB62BA                    0F95C0          SETNE AL
+11EB62BD                    010424          ADD DWORD PTR SS:[ESP],EAX
+11EB62C0                    8B4424 1C       MOV EAX,DWORD PTR SS:[ESP+1C]
+11EB62C4                    8B7424 20       MOV ESI,DWORD PTR SS:[ESP+20]
+11EB62C8                    FF7424 18       PUSH DWORD PTR SS:[ESP+18]
+11EB62CC                    FF7424 18       PUSH DWORD PTR SS:[ESP+18]
+11EB62D0                    E8 5BE923FE     CALL <temple.get_statMod_bonus_spell_cou>
+11EB62D5                    83C4 08         ADD ESP,8
+11EB62D8                    030424          ADD EAX,DWORD PTR SS:[ESP]
+11EB62DB <gmas_back>        83C4 04         ADD ESP,4
+11EB62DE                    5A              POP EDX
+11EB62DF                    5E              POP ESI
+11EB62E0                    59              POP ECX
+11EB62E1                    C3              RETN
+
+7:new
+int getMemorizedSpells(ObjId1, ObjId2, casterclass, spelllvl)
+11EB655A <getMemorizedSp>  51              PUSH ECX                                    
+11EB655B                   56              PUSH ESI
+11EB655C                   53              PUSH EBX
+11EB655D                   52              PUSH EDX
+11EB655E                   6A 00           PUSH 0
+11EB6560                   83EC 20         SUB ESP,20
+11EB6563                   54              PUSH ESP
+11EB6564                   6A 00           PUSH 0
+11EB6566                   68 2E010000     PUSH 12E
+11EB656B                   FF7424 48       PUSH DWORD PTR SS:[ESP+48]
+11EB656F                   FF7424 48       PUSH DWORD PTR SS:[ESP+48]
+11EB6573                   E8 68821EFE     CALL 1009E7E0
+11EB6578                   85C0            TEST EAX,EAX
+11EB657A                   74 37           JE SHORT <temple.gms_back>
+11EB657C                   8BF0            MOV ESI,EAX
+11EB657E                   8B5C24 54       MOV EBX,DWORD PTR SS:[ESP+54]
+11EB6582                   81CB 80000000   OR EBX,80
+11EB6588 <gms_loop>        E8 E3811EFE     CALL 1009E770
+11EB658D                   3B5C24 18       CMP EBX,DWORD PTR SS:[ESP+18]
+11EB6591                   75 0E           JNZ SHORT <temple.gms_not>
+11EB6593                   8B4424 1C       MOV EAX,DWORD PTR SS:[ESP+1C]
+11EB6597                   3B4424 58       CMP EAX,DWORD PTR SS:[ESP+58]
+11EB659B                   75 04           JNZ SHORT <temple.gms_not>
+11EB659D                   FF4424 34       INC DWORD PTR SS:[ESP+34]
+11EB65A1 <gms_not>         FF4424 0C       INC DWORD PTR SS:[ESP+C]
+11EB65A5                   397424 0C       CMP DWORD PTR SS:[ESP+C],ESI
+11EB65A9                 ^ 0F8C D9FFFFFF   JL <temple.gms_loop>
+11EB65AF                   8B4424 34       MOV EAX,DWORD PTR SS:[ESP+34]
+11EB65B3 <gms_back>        83C4 38         ADD ESP,38
+11EB65B6                   5A              POP EDX
+11EB65B7                   5B              POP EBX
+11EB65B8                   5E              POP ESI
+11EB65B9                   59              POP ECX
+11EB65BA                   C3              RETN
+
+8:new
+removeSurplusSpells(surplus, ObjId1, ObjId2, casterclass, spelllvl)
+11EB65BB <removeSurplusS>  51              PUSH ECX                      
+11EB65BC                   53              PUSH EBX
+11EB65BD                   52              PUSH EDX
+11EB65BE                   83EC 20         SUB ESP,20
+11EB65C1                   54              PUSH ESP
+11EB65C2                   6A 00           PUSH 0
+11EB65C4                   68 2E010000     PUSH 12E
+11EB65C9                   FF7424 44       PUSH DWORD PTR SS:[ESP+44]
+11EB65CD                   FF7424 44       PUSH DWORD PTR SS:[ESP+44]
+11EB65D1                   E8 0A821EFE     CALL 1009E7E0
+11EB65D6                   85C0            TEST EAX,EAX
+11EB65D8                   74 59           JE SHORT <temple.rss_back>
+11EB65DA                   48              DEC EAX
+11EB65DB                   894424 0C       MOV DWORD PTR SS:[ESP+C],EAX
+11EB65DF                   8B5C24 50       MOV EBX,DWORD PTR SS:[ESP+50]
+11EB65E3                   81CB 80000000   OR EBX,80
+11EB65E9 <rss_loop>        E8 82811EFE     CALL 1009E770
+11EB65EE                   3B5C24 18       CMP EBX,DWORD PTR SS:[ESP+18]
+11EB65F2                   75 30           JNZ SHORT <temple.rss_not>
+11EB65F4                   8B4424 1C       MOV EAX,DWORD PTR SS:[ESP+1C]
+11EB65F8                   3B4424 54       CMP EAX,DWORD PTR SS:[ESP+54]
+11EB65FC                   75 26           JNZ SHORT <temple.rss_not>
+11EB65FE                   6A 00           PUSH 0
+11EB6600                   FF7424 14       PUSH DWORD PTR SS:[ESP+14]
+11EB6604                   68 2E010000     PUSH 12E
+11EB6609                   FF7424 10       PUSH DWORD PTR SS:[ESP+10]
+11EB660D                   FF7424 10       PUSH DWORD PTR SS:[ESP+10]
+11EB6611                   E8 8AF21BFE     CALL <temple.?remove_spell_from_spellidx>
+11EB6616                   83C4 14         ADD ESP,14
+11EB6619                   FF4C24 44       DEC DWORD PTR SS:[ESP+44]
+11EB661D                   837C24 44 00    CMP DWORD PTR SS:[ESP+44],0
+11EB6622                   74 0F           JE SHORT <temple.rss_back>
+11EB6624 <rss_not>         FF4C24 0C       DEC DWORD PTR SS:[ESP+C]
+11EB6628                   837C24 0C 00    CMP DWORD PTR SS:[ESP+C],0
+11EB662D                 ^ 0F8D B6FFFFFF   JGE <temple.rss_loop>
+11EB6633 <rss_back>        83C4 34         ADD ESP,34
+11EB6636                   5A              POP EDX
+11EB6637                   5B              POP EBX
+11EB6638                   59              POP ECX
+11EB6639                   C3              RETN
+
+
+
+

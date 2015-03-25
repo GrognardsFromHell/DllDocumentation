@@ -1,0 +1,10 @@
+-NPCs using potions now provoke AoOs (possibly on using scrolls/wands too, confirmation pending)
+
+new
+10098DE7      C705 00AC8611 44000000    MOV DWORD PTR DS:[1186AC00],44
+old
+10098DE7      C705 00AC8611 44000000    MOV DWORD PTR DS:[1186AC00],1B
+
+
+
+Heh, this looks trivial, but oh to find that little bugger... 

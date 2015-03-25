@@ -1,0 +1,9 @@
+Reputation no. 19 now causes paladins to become fallen paladins.
+
+v14
+code changes:
+
+old:
+1005481A   .  01            DB 01
+new:
+1005481A   .  00            DB 00

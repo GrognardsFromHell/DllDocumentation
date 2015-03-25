@@ -1,0 +1,32 @@
+-fixes lvl3+4 spells of the class spell lists of ranger and paladin not being added to known spells
+
+v8
+code changes:
+
+1:old
+1007661A       83FE 08       CMP ESI,8
+1007661D       7C 0C         JL SHORT temple.1007662B
+1007661F       BE 02000000   MOV ESI,2
+10076624       BF 04000000   MOV EDI,4
+1:new
+1007661A       BF 04000000   MOV EDI,4
+1007661F       E8 13FEE301   CALL temple.11EB6437
+10076624       EB 45         JMP SHORT temple.1007666B
+10076626       90            NOP
+10076627       90            NOP
+10076628       90            NOP
+
+2:old
+empty
+2:new
+11EB6437     83FE 0E         CMP ESI,0E
+11EB643A     7C 07           JL SHORT temple.11EB6443
+11EB643C     C7C6 04000000   MOV ESI,4
+11EB6442     C3              RETN
+11EB6443     83FE 0A         CMP ESI,0A
+11EB6446     7F 04           JG SHORT temple.11EB644C
+11EB6448     C1EE 02         SHR ESI,2
+11EB644B     C3              RETN
+11EB644C     C7C6 03000000   MOV ESI,3
+11EB6452     C3              RETN
+

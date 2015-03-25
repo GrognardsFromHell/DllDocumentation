@@ -1,0 +1,28 @@
+-fixes all spells cast counting towards cast spells of sorcerors/bards
+
+code changes:
+
+1:old
+10093E38       8B5424 44          MOV EDX,DWORD PTR SS:[ESP+44]
+10093E3C       8B4424 28          MOV EAX,DWORD PTR SS:[ESP+28]
+1:new
+10093E38     - E9 CD25E201        JMP temple.11EB640A
+10093E3D       90                 NOP
+10093E3E       90                 NOP
+10093E3F       90                 NOP
+
+2:old
+empty
+2:new
+11EB640A     8B5424 44            MOV EDX,DWORD PTR SS:[ESP+44]
+11EB640E     8B4424 28            MOV EAX,DWORD PTR SS:[ESP+28]
+11EB6412     817C24 40 88000000   CMP DWORD PTR SS:[ESP+40],88
+11EB641A     74 12                JE SHORT temple.11EB642E
+11EB641C     817C24 40 90000000   CMP DWORD PTR SS:[ESP+40],90
+11EB6424     74 08                JE SHORT temple.11EB642E
+11EB6426     83C4 14              ADD ESP,14
+11EB6429   - E9 1DDA1DFE          JMP temple.10093E4B
+11EB642E   - E9 0DDA1DFE          JMP temple.10093E40
+
+
+

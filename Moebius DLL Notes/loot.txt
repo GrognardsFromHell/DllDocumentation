@@ -1,0 +1,20 @@
+I guess I'll be putting all the really shoddy fixes here.
+
+Player selectino fix for DX9.0C "fix":
+00114BD0	0F 84 EA 29 F6 FF		jz ...
+
+000775C0	8B 4C 24 10			mov ecx, [esp + 0x10]
+000775C4	8B 44 24 14			mov eax, [esp + 0x14]
+000775C8	E9 E2 D6 09 00			jmp 00114CAF
+
+ntdll.dll exception during quit:
+		8B 0D F0 A3 BC 10		mov ecx, [10BCA3F0]
+		51				push ecx
+000AD550	FF D6				call esi
+000AD550	90 90				nops
+
+DirectX 9.0C/Loot Bug "Fix":
+		8B 44 24 0C			mov eax, [esp + 0x0C]
+		85 C0				test eax, eax
+00114BD0	0F 84 AC 00 00 00		jz 00114C82
+00114BD0	0F 84 D9 00 00 00		jz 00114CAF

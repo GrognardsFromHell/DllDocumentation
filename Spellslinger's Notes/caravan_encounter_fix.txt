@@ -1,0 +1,14 @@
+Increases the range of random encounter maps by 1, so that the caravan encounter can be correctly handled as random encounter.
+
+v15
+code changes:
+
+new: (was 13D4)
+1006FE1B  |.  3D D5130000   CMP EAX,13D5
+1007173C  |.  3D D5130000   CMP EAX,13D5
+1012BDF2   .  3D D5130000   CMP EAX,13D5
+1012C1EC   .  3D D5130000   CMP EAX,13D5
+1012C361  |.  3D D5130000   CMP EAX,13D5
+
+new: (was 02)
+1006ED1E                       .  04

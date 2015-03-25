@@ -1,0 +1,1213 @@
+// Item Creation Rules And Lists
+
+// 0 - Items that can be made with alchemy
+{0}{}
+
+// 1 - items that can be made with Brew Potion
+// 8003 - protection from magic
+// 8006 - cure moderate wounds
+// 8007 - cure serious wounds
+// 8008 - haste
+// 8009 - enlarge
+// 8010 - invisibility
+// 8012 - aid
+// 8013 - bull's strength
+// 8014 - cure light wounds
+// 8015 - heroism
+// 8016 
+// 8017 - neutralize poison
+// 8018 - plant control
+// 8019 - poison
+// 8020 - protection from elements (fire)
+// 8021 - super-heroism
+// 8022 - eagles splendor
+// 8023 - glibness
+// 8024 
+// 8025 - reduce person
+// 8026 - sneaking
+// 8027 - protection from undead
+// 8028 - protection from outsiders
+// 8029 - protection from earth
+// 8030 - protection from elementals
+// 8032 - protection from acid
+// 8033 - protection from electricity
+{1}{8006 8007 8008 8009 8010 8012 8013 8014 8015 8017 8019 8022 8023 8025}
+
+// 2 - items that can be made with Scribe Scroll
+// 9549 - acid splash
+// 9002 - aid
+// 9006 - animal friendship
+// 9008 - animal growth
+// 9010 - animal trance
+// 9011 - animate dead
+// 9025 - bane
+// 9027 - barkskin
+// 9148 - bear's endurance
+// 9028 - bestow curse
+// 9037 - bless
+// 9038 - bless water
+// 9542 - blight
+// 9040 - blindness/deafness
+// 9041 - blink
+// 9042 - blur
+// 9043 - break enchantment
+// 9044 - bull's strength
+// 9045 - burning hands
+// 9046 - call lightning
+// 9550 - call lightning storm
+// 9047 - calm animals
+// 9048 - calm emotions
+// 9049 - cat's grace
+// 9050 - cause fear
+// 9051 - chain lightning
+// 9054 - chaos hammer
+// 9055 - charm monster
+// 9056 - charm person
+// 9057 - charm animal
+// 9058 - chill metal
+// 9059 - chill touch
+// 9061 - circle of doom
+// 9062 - clairaudience/clairvoyance
+// 9065 - cloudkill
+// 9066 - color spray
+// 9067 - command
+// 9201 - command, greater
+// 9072 - cone of cold
+// 9073 - confusion
+// 9660 - confusion, lesser
+// 9074 - consecrate
+// 9076 - contagion
+// 9079 - control plants
+// 9551 - crushing despair
+// 9089 - cure critical wounds
+// 9090 - cure light wounds
+// 9091 - cure minor wounds
+// 9092 - cure moderate wounds
+// 9093 - cure serious wounds
+// 9094 - curse water
+// 9099 - daze
+// 9552 - daze monster
+// 9100 - death knell
+// 9101 - death ward
+// 9553 - deep slumber
+// 9104 - delay poison
+// 9107 - desecrate
+// 9110 - detect chaos
+// 9111 - detect evil
+// 9112 - detect good
+// 9113 - detect law
+// 9114 - detect magic
+// 9117 - detect secret doors
+// 9120 - detect undead
+// 9122 - dimensional anchor
+// 9123 - dimension door
+// 9125 - discern lies
+// 9128 - dismissal
+// 9543 - dispel air
+// 9129 - dispel chaos
+// 9544 - dispel earth
+// 9130 - dispel evil
+// 9545 - dispel fire
+// 9131 - dispel good
+// 9132 - dispel law
+// 9133 - dispel magic
+// 9546 - dispel water
+// 9134 - displacement
+// 9135 - disrupt undead
+// 9137 - divine favor
+// 9138 - divine power
+// 9139 - dominate animal
+// 9141 - dominate person
+// 9142 - doom
+// 9554 - eagles splendor
+// 9147 - emotion
+// 9419 - endure elements
+// 9152 - enlarge
+// 9153 - entangle
+// 9155 - entropic shield
+// 9159 - expeditious retreat
+// 9163 - faerie fire
+// 9555 - false life
+// 9165 - fear
+// 9167 - feeblemind
+// 9169 - find traps
+// 9171 - fireball
+// 9173 - fire shield
+// 9178 - flame strike
+// 9180 - flare
+// 9183 - fog cloud
+// 9556 - foxs cunning
+// 9188 - freedom of movement
+// 9189 - gaseous form
+// 9194 - ghoul touch
+// 9195 - giant vermin
+// 9557 - glibness
+// 9196 - glitterdust
+// 9311 - globe of invulnerability, lesser
+// 9199 - goodberry
+// 9558 - good hope
+// 9200 - grease
+// 9213 - guidance
+// 9214 - gust of wind
+// 9217 - halt undead
+// 9219 - haste
+// 9548 - heal
+// 9223 - heat metal
+// 9559 - heroism
+// 9665 - heroism, greater
+// 9226 - hold animal
+// 9227 - hold monster
+// 9228 - hold person
+// 9229 - hold portal (SMM: CUT)
+// 9231 - holy smite
+// 9237 - ice storm
+// 9238 - identify
+// 9246 - inflict critical wounds
+// 9247 - inflict light wounds
+// 9248 - inflict minor wounds
+// 9249 - inflict moderate wounds
+// 9250 - inflict serious wounds
+// 9253 - invisibility
+// 9244 - invisibility, greater
+// 9254 - invisibility purge
+// 9255 - invisibility sphere
+// 9256 - hide from animals
+// 9257 - hide from undead
+// 9261 - keen edge
+// 9262 - knock
+// 9275 - lightning bolt
+// 9661 - longstrider
+// 9280 - mage armor
+// 9282 - magic circle against chaos
+// 9283 - magic circle against evil
+// 9284 - magic circle against good
+// 9285 - magic circle against law
+// 9286 - magic fang
+// 9204 - magic fang, greater
+// 9288 - magic missile
+// 9290 - magic stone
+// 9291 - magic vestment
+// 9292 - magic weapon
+// 9205 - magic weapon, greater
+// 9303 - meld into stone
+// 9304 - melf's acid arrow
+// 9309 - mind fog
+// 9315 - mirror image
+// 9320 - mordenkainen's faithful hound
+// 9327 - neutralize poison
+// 9333 - obscuring mist
+// 9334 - open/close
+// 9335 - order's wrath
+// 9337 - otiluke's resilient sphere
+// 9662 - Owls wisdom
+// 9345 - phantasmal killer
+// 9352 - poison
+// 9359 - prayer
+// 9364 - produce flame
+// 9367 - protection from arrows
+// 9368 - protection from chaos
+// 9369 - protection from energy
+// 9370 - protection from evil
+// 9371 - protection from good
+// 9663 - quench
+// 9547 - rage
+// 9379 - raise dead
+// 9383 - ray of enfeeblement
+// 9384 - ray of frost
+// 9385 - read magic
+// 9664 - reduce animal
+// 9386 - reduce person
+// 9390 - remove blindness/deafness
+// 9391 - remove curse
+// 9392 - remove disease
+// 9393 - remove fear
+// 9394 - remove paralysis
+// 9396 - repel vermin
+// 9399 - resistance
+// 9400 - resist energy
+// 9401 - restoration
+// 9272 - restoration, lesser 
+// 9404 - righteous might
+// 9407 - sanctuary
+// 9408 - scare
+// 9412 - searing light
+// 9414 - see invisibility 
+// 9425 - shatter
+// 9426 - shield
+// 9427 - shield of faith
+// 9430 - shillelagh
+// 9431 - shocking grasp
+// 9432 - shout
+// 9434 - silence
+// 9437 - slay living
+// 9438 - sleep
+// 9439 - sleet storm
+// 9440 - slow
+// 9442 - soften earth and stone
+// 9443 - solid fog
+// 9445 - sound burst
+// 9451 - spell resistance
+// 9455 - spike growth
+// 9456 - spike stones
+// 9457 - spiritual weapon
+// 9460 - stinking cloud
+// 9462 - stoneskin
+// 9466 - suggestion
+// 9467 - summon monster I
+// 9468 - summon monster II
+// 9469 - summon monster III
+// 9470 - summon monster IV
+// 9471 - summon monster V
+// 9476 - summon nature's ally I
+// 9477 - summon nature's ally II
+// 9478 - summon nature's ally III
+// 9479 - summon nature's ally IV
+// 9480 - summon nature's ally V
+// 9485 - summon swarm
+// 9490 - tasha's hideous laughter
+// 9492 - teleport
+// 9505 - tree shape
+// 9508 - true seeing
+// 9509 - true strike
+// 9513 - unholy blight
+// 9515 - vampiric touch
+// 9519 - virtue
+// 9531 - web
+// 9536 - wind wall
+// 
+// 
+{2}{9002 9006 9010 9011 9025 9027 9028 9037 9038 9040 9041 9042 9043 9044 9045 9046 9047 9048 9049 9050 9051 9054 9055 9056 9057 9058 9059 9061 9062 9065 9066 9067 9072 9073 9074 9076 9079 9089 9090 9091 9092 9093 9094 9099 9552 9549 9550 9551 9100 9101 9553 9104 9107 9110 9111 9112 9113 9114 9117 9120 9122 9123 9125 9128 9129 9130 9131 9132 9133 9134 9135 9137 9138 9139 9141 9142 9554 9148 9147 9149 9152 9153 9155 9159 9163 9555 9660 9165 9167 9169 9171 9173 9178 9180 9183 9556 9188 9189 9194 9195 9196 9199 9200 9204 9205 9213 9217 9219 9223 9559 9558 9226 9227 9228 9231 9237 9238 9244 9246 9247 9249 9250 9253 9254 9255 9256 9257 9261 9262 9275 9272 9280 9282 9283 9284 9285 9286 9288 9290 9291 9292 9303 9309 9311 9315 9320 9327 9333 9334 9335 9337 9345 9352 9359 9364 9367 9368 9369 9370 9371 9372 9661 9662 9663 9664 9379 9383 9384 9385 9386 9390 9391 9392 9393 9394 9396 9399 9400 9401 9404 9407 9408 9412 9414 9425 9426 9427 9430 9431 9432 9434 9437 9438 9439 9440 9442 9443 9445 9451 9455 9456 9457 9460 9462 9466 9467 9468 9469 9470 9471 9476 9477 9478 9479 9480 9485 9490 9492 9505 9508 9509 9513 9515 9519 9531 9536 9542 9543 9544 9548 9546 9665 9304 9214 9008 9547}
+
+// 3 - items that can be made with Craft Wand
+// 12532 - wand of acid splash
+// 12533 - wand of aid
+// 12534
+// 12535 - wand of animal trance
+// 12536 - wand of bane
+// 12537 - wand of barkskin
+// 12148 - wand of bear's endurance
+// 12538 - wand of bestow curse
+// 12539 - wand of bless
+// 12540 - wand of bless water
+// 12541 - wand of blindness/deafness
+// 12542 - wand of blink
+// 12554 - wand of blight
+// 12543 - wand of blur
+// 12544 - wand of break enchantment
+// 12545 - wand of bull's strength
+// 12546 - wand of burning hands
+// 12547 - wand of call lightning (5th lvl)
+// 12575 - wand of call lightning storm
+// 12548 - wand of calm animals
+// 12549 - wand of calm emotions
+// 12550 - wand of cat's grace
+// 12551 - wand of cause fear
+// 12552 - wand of chaos hammer (8th lvl)
+// 12560 - wand of chain lightning
+// 12057 - wand charm animal
+// 12055 - wand of charm monster
+// 12056 - wand of charm person
+// 12058 - wand of chill metal
+// 12059 - wand of chill touch
+// 12062 - wand of clairaudience/clairvoyance
+// 12065 
+// 12066 - wand of color spray
+// 12067 - wand of command
+// 12201 
+// 12072 
+// 12073 - wand of confusion
+// 12570 - wand of confusion, lesser
+// 12074 - wand of consecrate
+// 12076 - wand of contagion
+// 12079 - wand of control plants
+// 12576 - wand of crushing despair
+// 12089 - wand of cure critical wounds
+// 12090 - wand of cure light wounds
+// 12091 - wand of cure minor wounds
+// 12092 - wand of cure moderate wounds
+// 12093 - wand of cure serious wounds
+// 12094 - wand of curse water
+// 12099 - wand of daze
+// 12577 - wand of daze monster
+// 12100 - wand of death knell
+// 12101 - wand of death ward
+// 12578 - wand of deep slumber
+// 12104 - wand of delay poison
+// 12107 - wand of desecrate
+// 12110 - wand of detect chaos
+// 12111 - wand of detect evil
+// 12112 - wand of detect good
+// 12113 - wand of detect law
+// 12114 - wand of detect magic
+// 12117 - wand of detect secret doors
+// 12120 - wand of detect undead
+// 12122 - wand of dimensional anchor
+// 12123 - wand of dimension door
+// 12125 - wand of discern lies
+// 12128 - wand of dismissal
+// 12555 - 
+// 12129 - 
+// 12556 - 
+// 12130 - 
+// 12557 - 
+// 12131 - 
+// 12132 -
+// 12133 - wand of dispel magic (10th lvl)
+// 12558 - 
+// 12134 - wand of displacement
+// 12135 - wand of disrupt undead
+// 12137 - wand of divine favor
+// 12138 - wand of divine power
+// 12139 - wand of dominate animal
+// 12139 - wand of dominate person
+// 12142 - wand of doom
+// 12579 - wand of eagles splendor
+// 12147 - wand of emotion
+// 12149 - wand of endure elements
+// 12152 - wand of enlarge person
+// 12153 - wand of entangle
+// 12155 - wand of entropic shield
+// 12159 - wand of expeditious retreat
+// 12163 - wand of faerie fire
+// 12580 - wand of false life
+// 12167 -
+// 12169 - wand of find traps
+// 12173 - wand of fire shield
+// 12178 - 
+// 12180 - wand of flare
+// 12006 - wand of fireball (5th lvl)
+// 12183 - wand of fog cloud
+// 12566 - wand of foxs cunning
+// 12188 - wand of freedom of movement
+// 12189 - wand of gaseous form
+// 12194 - wand of ghoul touch
+// 12195 - wand of giant vermin
+// 12567 - wand of glibness
+// 12196 - wand of glitterdust
+// 12311 - wand of globe of invulnerability, lesser
+// 12199 - wand of goodberry
+// 12581 - wand of good hope
+// 12200 - wand of grease
+// 12213 - wand of guidance
+// 12214 - wand of gust of wind
+// 12217 - wand of halt undead
+// 12219 - wand of haste
+// 12223 - wand of heat metal
+// 12569 - wand of heroism
+// 12256 - wand of hide from animals
+// 12257 - wand of hide from undead
+// 12226 - wand of hold animal
+// 12227 - 
+// 12228 - wand of hold person
+// 12229 - wand of hold portal (SMM: CUT)
+// 12231 - wand of holy smite (8th lvl)
+// 12237 - wand of ice storm
+// 12238 - wand of identify
+// 12246 - wand of inflict critical wounds
+// 12247 - wand of inflict light wounds
+// 12248 - wand of inflict minor wounds
+// 12249 - wand of inflict moderate wounds
+// 12250 - wand of inflict serious wounds
+// 12253 - wand of invisibility
+// 12244 - wand of invisibility, greater
+// 12254 - wand of invisibility purge
+// 12255 - wand of invisibility sphere
+// 12261 - wand of keen edge
+// 12262 - wand of knock
+// 12275 - wand of lightning bolt (5th lvl)
+// 12571 - wand of longstrider
+// 12280 - wand of mage armor
+// 12282 - wand of magic circle against chaos
+// 12283 - wand of magic circle against evil
+// 12284 - wand of magic circle against good
+// 12285 - wand of magic circle against law
+// 12286 - wand of magic fang
+// 12204 - wand of magic fang, greater
+// 12007 - wand of magic missiles (caster lvl 7)
+// 12290 - wand of magic stone
+// 12291 - wand of magic vestment
+// 12292 - wand of magic weapon
+// 12205 - wand of magic weapon, greater
+// 12303 - wand of meld into stone
+// 12304 - wand of melf's acid arrow
+// 12309 - 
+// 12315 - wand of mirror image
+// 12320 - 
+// 12327 - wand of neutralize poison
+// 12333 - wand of obscuring mist
+// 12334 - wand of open/close
+// 12335 - wand of order's wrath (8th lvl)
+// 12337 - wand of otiluke's resilient sphere
+// 12572 - wand of Owls wisdom
+// 12345 - wand of phantasmal killer
+// 12352 - wand of poison
+// 12359 - wand of prayer
+// 12364 - wand of produce flame
+// 12367 - wand of protection from arrows
+// 12368 - wand of protection from chaos
+// 12369 - wand of protection from energy
+// 12370 - wand of protection from evil
+// 12371 - wand of protection from good
+// 12372 - wand of protection from law
+// 12573 - wand of quench
+// 12379 - 
+// 12383 - wand of ray of enfeeblement
+// 12384 - wand of ray of frost
+// 12385 - wand of read magic
+// 12574 - wand of reduce animal
+// 12386 - wand of reduce person
+// 12390 - wand of remove blindness/deafness
+// 12391 - wand of remove curse
+// 12392 - wand of remove disease
+// 12393 - wand of remove fear
+// 12394 - wand of remove paralysis
+// 12396 - wand of repel vermin
+// 12399 - wand of resistance
+// 12400 - wand of resist energy
+// 12401 - wand of restoration
+// 12272 - wand of restoration, lesser
+// 12404 - 
+// 12407 - wand of sanctuary
+// 12408 - wand of scare
+// 12412 - wand of searing light (6th lvl)
+// 12414 - wand of see invisibility
+// 12425 - wand of shatter
+// 12426 - wand of shield
+// 12427 - wand of shield of faith
+// 12430 - wand of shillelagh
+// 12431 - wand of shocking grasp
+// 12432 - wand of shout
+// 12434 - wand of silence
+// 12437 - 
+// 12438 - wand of sleep
+// 12439 - wand of sleet storm
+// 12440 - wand of slow
+// 12442 - wand of soften earth and stone
+// 12443 - wand of solid fog
+// 12445 - wand of sound burst
+// 12451 - 
+// 12455 - wand of spike growth
+// 12456 - wand of spike stones
+// 12457 - wand of spiritual weapon
+// 12460 - wand of stinking cloud
+// 12462 - wand of stoneskin
+// 12466 - wand of suggestion
+// 12467 - wand of summon monster I
+// 12468 - wand of summon monster II
+// 12469 - wand of summon monster III
+// 12470 - wand of summon monster IV
+// 12471 - 
+// 12476 - wand of summon nature's ally I
+// 12477 - wand of summon nature's ally II
+// 12478 - wand of summon nature's ally III
+// 12479 - wand of summon nature's ally IV
+// 12480 - 
+// 12485 - wand of summon swarm
+// 12490 - wand of tasha's hideous laughter
+// 12492 - 
+// 12505 - wand of tree shape
+// 12508 - 
+// 12509 - wand of true strike
+// 12513 - wand of unholy blight (8th lvl)
+// 12515 - wand of vampiric touch
+// 12519 - wand of virtue
+// 12531 - wand of web
+// 12553 - wand of wind wall
+
+
+{3}{12554 12400 12553 12531 12519 12515 12513 12509 12505 12490 12485 12479 12478 12477 12476 12470 12469 12468 12467 12466 12462 12460 12457 12456 12455 12445 12443 12442 12440 12439 12438 12434 12432 12431 12430 12427 12426 12425 12414 12412 12408 12407 12401 12399 12396 12394 12393 12392 12391 12390 12386 12574 12385 12384 12383 12573 12372 12371 12370 12369 12368 12367 12364 12359 12352 12345 12572 12337 12335 12334 12333 12327 12315 12311 12304 12303 12292 12291 12290 12286 12285 12284 12283 12282 12280 12275 12272 12262 12261 12255 12254 12244 12253 12250 12249 12248 12247 12246 12238 12237 12231 12228 12226 12257 12256 12223 12219 12217 12214 12213 12205 12204 12200 12199 12196 12567 12195 12194 12189 12188 12566 12183 12180 12173 12169 12580 12163 12159 12155 12153 12152 12149 12147 12579 12142 12139 12138 12137 12135 12134 12133 12128 12125 12123 12122 12120 12117 12114 12113 12112 12111 12110 12107 12104 12578 12101 12100 12577 12099 12094 12093 12092 12091 12090 12089 12576 12079 12076 12074 12570 12073 12066 12062 12059 12058 12057 12056 12055 12560 12552 12551 12550 12549 12548 12575 12547 12546 12545 12544 12543 12542 12541 12540 12148 12539 12538 12537 12536 12535 12533 12532 12006 12007 12591 12592}
+
+// 4 - craft rod
+//     hijacked to be forge arms and armor
+
+// 4124 - rod of smiting
+// 4139 - rod of the viper
+// 4111 - rod of the python
+
+{4}{4124 4139 4111 4227 4228 4229 4230 4231 4232 4233 4234}
+
+// 5 - craft wonderous item
+
+// 12009 - dust of disappearance (CL 7th)
+// 6090 - scarab of proof against poison (CL 5th) // check back with Aaron on this
+// 6085 - cloak of resistance +1 (CL 5th)
+// 6086 - cloak of resistance +2
+// 6087 - cloak of resistance +3
+// 6058 - cloak of elvenkind
+// 6115 - braces of armor +5
+// 6119 - braces of armor +3
+// 6240 - amulet of health +2
+// 6241 - amulet of health +4
+// 6242 - amulet of health +6
+// 6257 - amulet of mighty fists +1
+// 6258 - amulet of mighty fists +2
+// 6259 - amulet of mighty fists +3
+// 6260 - amulet of mighty fists +4
+// 6261 - amulet of mighty fists +5
+// 6262 - amulet of natural armor +1
+// 6263 - amulet of natural armor +2
+// 6264 - amulet of natural armor +3
+// 6243 - gloves of giant strength +4
+// 6244 - gloves of giant strength +6
+// 6255 - circlet of persuasion
+// 6252 - cloak of charisma +2
+// 6253 - cloak of charisma +4
+// 6254 - cloak of charisma +6
+// 8034 - elixir of hiding
+// 8035 - elixir of sneaking
+// 8036 - elixir of vision
+// 6245 - gauntlets of ogre power
+// 6199 - gloves of dexterity +2
+// 6200 - gloves of dexterity +4
+// 6201 - gloves of dexterity +6
+// 6246 - headband of intellect +2
+// 6247 - headband of intellect +4
+// 6248 - headband of intellect +6
+// 6256 - necklace of detection
+// 6249 - amulet of wisdom +2
+// 6250 - amulet of wisdom +4
+// 6251 - amulet of wisdom +6
+// 6268 - bracers of archery, lesser
+// 6267 - bracers of archery, greater
+
+{5}{6267 6268 6251 6250 6249 6256 6248 6247 6246 6201 6200 6199 6245 8036 8035 8034 6254 6253 6252 6255 6244 6243 6264 6263 6262 6261 6260 6259 6258 6257 6242 6241 6240 6115 6119 12009 6090 6085 6086 6087 6058 6271 6272 6273 6274 6275 6276 6277 6278 6279 6280 12594 12595 12596 12597 12598 12599 12600 12601}
+
+
+// 6 - Craft Staff
+{6}{}
+
+// 7 - Forge Ring
+{7}{}
+
+// 8 - magic arms and armor (handled different, leave blank for now)
+{8}{}
+
+// 100 - 199 : prereqs for craft magic arms and armor
+{100}{}//WE_PLUS_1
+{101}{}//WE_PLUS_2
+{102}{}//WE_PLUS_3
+{103}{"O'Sshield' 'Sshield of faith'" C8}//WE_DEFENDING,
+{104}{"O'Sflame blade' 'Sflame strike' 'Sfireball'" C10}//WE_FLAMING,
+{105}{"O'Schill metal' 'Sice storm'" C8}//WE_FROST,
+{106}{"O'Scall lightning' 'Slightning bolt'" C8}//WE_SHOCK,
+{107}{}//WE_GHOST_TOUCH,
+{108}{"Skeen edge" C10}//WE_KEEN,
+{109}{"Sdivine power" C8}//WE_MIGHTY_CLEAVING,
+{110}{}//WE_SPELL_STORING,
+{111}{}//WE_THROWING,
+{112}{}//WE_BANE,
+{113}{"Sheal" C14}//WE_DISRUPTION,
+{114}{"O'Sflame blade' 'Sflame strike' 'Sfireball'" C12}//WE_FLAMING_BURST,
+{115}{"O'Schill metal' 'Sice storm'" C10}//WE_ICY_BURST,
+{116}{"O'Scall lightning' 'Slightning bolt'" C10}//WE_SHOCKING_BURST,
+{117}{}//WE_THUNDERING,
+{118}{}//WE_WOUNDING,
+{119}{"Sholy smite" C7 Agood}//WE_HOLY,
+{120}{"Sunholy blight" C7 Aevil}//WE_UNHOLY,
+{121}{"Sorders wrath" C7 Alawful}//WE_LAWFUL,
+{122}{"Schaos hammer" C7 Achaotic}//WE_CHAOTIC,
+{123}{}//AE_PLUS_1,
+{124}{}//AE_PLUS_2,
+{125}{}//AE_PLUS_3,
+{126}{}//AE_LIGHT_FORTIFICATION,
+{127}{}//AE_GLAMERED,
+{128}{}//AE_SLICK,
+{129}{}//AE_SHADOW,
+{130}{}//AE_SILENT_MOVES,
+{131}{}//AE_SPELL_RESISTANCE_13,
+{132}{}//SE_PLUS_1,
+{133}{}//SE_PLUS_2,
+{134}{}//SE_PLUS_3,
+{135}{}//SE_BASHING,
+{136}{}//SE_BLINDING,
+{137}{}//SE_LIGHT_FORTIFICATION,
+{138}{}//SE_ARROW_DEFLECTION,
+{139}{}//SE_ANIMATED,
+{140}{}//SE_SPELL_RESISTANCE_13,
+
+// item creation prereqs:
+// C# - caster level minimum # (1-20)
+// S# - can cast spell # (# can be replaced with the enum as well)
+
+{8001}{}
+{8003}{}
+{8006}{"Scure moderate wounds"}
+{8007}{"Scure serious wounds"}
+{8008}{"Shaste"}
+{8009}{"Senlarge"}
+{8010}{"Sinvisibility"}
+{8012}{"Said"}
+{8013}{"Sbulls strength"}
+{8014}{"Scure light wounds"}
+{8015}{"Sheroism"}
+{8016}{}
+{8017}{"Sneutralize poison"}
+{8018}{"Splant control"}
+{8019}{"Spoison"}
+{8020}{"Sprotection from elements (fire)"}
+{8021}{"Ssuper-heroism"}
+{8022}{"Seagles splendor"}
+{8023}{"Sglibness"}
+{8024}{}
+{8025}{"Sreduce person"}
+{8026}{"Ssneaking"}
+{8027}{"Sprotection from undead"}
+{8028}{"Sprotection from outsiders"}
+{8029}{"Sprotection from earth"}
+{8030}{"Sprotection from elementals"}
+{8031}{"Sprotection from magic"} // Steve told me to leave this in! -Mary
+{8032}{"Sprotection from acid"}
+{8033}{"Sprotection from electricity"}
+
+
+{9549}{"SAcid Splash"}
+{9002}{"SAid"}
+{9006}{"SAnimal Friendship"}
+{9008}{"SAnimal Growth"}
+{9010}{"SAnimal Trance"}
+{9011}{"SAnimate Dead"}
+{9025}{"SBane"}
+{9027}{"SBarkskin"}
+{9148}{"SBears Endurance"}
+{9028}{"SBestow Curse"}
+{9037}{"SBless"}
+{9038}{"SBless Water"}
+{9542}{"SBlight"}
+{9040}{"SBlindness/Deafness"}
+{9041}{"SBlink"}
+{9042}{"SBlur"}
+{9043}{"SBreak Enchantment"}
+{9044}{"SBulls Strength"}
+{9045}{"SBurning Hands"}
+{9046}{"SCall Lightning"}
+{9550}{"SCall Lightning Storm"}
+{9047}{"SCalm Animals"}
+{9048}{"SCalm Emotions"}
+{9049}{"SCats Grace"}
+{9050}{"SCause Fear"}
+{9051}{"SChain Lightning"}
+{9054}{"SChaos Hammer"}
+{9055}{"SCharm Monster"}
+{9056}{"SCharm Person"}
+{9057}{"SCharm Person or Animal"}
+{9058}{"SChill Metal"}
+{9059}{"SChill Touch"}
+{9061}{"SCircle of Doom"}
+{9062}{"SClairaudience/Clairvoyance"}
+{9065}{"SCloudkill"}
+{9066}{"SColor Spray"}
+{9067}{"SCommand"}
+{9201}{"SGreater Command"}
+{9072}{"SCone of Cold"}
+{9073}{"SConfusion"}
+{9660}{"SLesser Confusion"}
+{9074}{"SConsecrate"}
+{9076}{"SContagion"}
+{9079}{"SControl Plants"}
+{9551}{"SCrushing Despair"}
+{9089}{"SCure Critical Wounds"}
+{9090}{"SCure Light Wounds"}
+{9091}{"SCure Minor Wounds"}
+{9092}{"SCure Moderate Wounds"}
+{9093}{"SCure Serious Wounds"}
+{9094}{"SCurse Water"}
+{9099}{"SDaze"}
+{9552}{"SDaze Monster"}
+{9100}{"SDeath Knell"}
+{9101}{"SDeath Ward"}
+{9553}{"SDeep Slumber"}
+{9104}{"SDelay Poison"}
+{9107}{"SDesecrate"}
+{9110}{"SDetect Chaos"}
+{9111}{"SDetect Evil"}
+{9112}{"SDetect Good"}
+{9113}{"SDetect Law"}
+{9114}{"SDetect Magic"}
+{9117}{"SDetect Secret Doors"}
+{9120}{"SDetect Undead"}
+{9122}{"SDimensional Anchor"}
+{9123}{"SDimension Door"}
+{9125}{"SDiscern Lies"}
+{9128}{"SDismissal"}
+{9543}{"SDispel Air"}
+{9129}{"SDispel Chaos"}
+{9544}{"SDispel Earth"}
+{9130}{"SDispel Evil"}
+{9545}{"SDispel Fire"}
+{9131}{"SDispel Good"}
+{9132}{"SDispel Law"}
+{9133}{"SDispel Magic"}
+{9546}{"SDispel Water"}
+{9134}{"SDisplacement"}
+{9135}{"SDisrupt Undead"}
+{9137}{"SDivine Favor"}
+{9138}{"SDivine Power"}
+{9139}{"SDominate Animal"}
+{9141}{"SDominate Person"}
+{9142}{"SDoom"}
+{9554}{"SEagles Splendor"}
+{9147}{"SEmotion"}
+{9149}{"SEndure Elements"}
+{9152}{"SEnlarge"}
+{9153}{"SEntangle"}
+{9155}{"SEntropic Shield"}
+{9159}{"SExpeditious Retreat"}
+{9163}{"SFaerie Fire"}
+{9555}{"SFalse Life"}
+{9165}{"SFear"}
+{9167}{"SFeeblemind"}
+{9169}{"SFind Traps"}
+{9171}{"SFireball"}
+{9173}{"SFire Shield"}
+{9178}{"SFlame Strike"}
+{9180}{"SFlare"}
+{9183}{"SFog Cloud"}
+{9556}{"SFoxs Cunning"}
+{9188}{"SFreedom of Movement"}
+{9189}{"SGaseous Form"}
+{9194}{"SGhoul Touch"}
+{9195}{"SGiant Vermin"}
+{9557}{"SGlibness"}
+{9196}{"SGlitterdust"}
+{9311}{"SLesser Globe of Invulnerability"}
+{9199}{"SGoodberry"}
+{9558}{"SGood Hope"}
+{9200}{"SGrease"}
+{9213}{"SGuidance"}
+{9214}{"SGust of Wind"}
+{9217}{"SHalt Undead"}
+{9219}{"SHaste"}
+{9548}{"SHeal"}
+{9223}{"SHeat Metal"}
+{9559}{"SHeroism"}
+{9665}{"SGreater Heroism"}
+{9256}{"SInvisibility to Animals"}
+{9257}{"SInvisibility to Undead"}
+{9226}{"SHold Animal"}
+{9227}{"SHold Monster"}
+{9228}{"SHold Person"}
+{9229}{"SHold Portal"}
+{9231}{"SHoly Smite"}
+{9237}{"SIce Storm"}
+{9238}{"SIdentify"}
+{9246}{"SInflict Critical Wounds"}
+{9247}{"SInflict Light Wounds"}
+{9248}{"SInflict Minor Wounds"}
+{9249}{"SInflict Moderate Wounds"}
+{9250}{"SInflict Serious Wounds"}
+{9253}{"SInvisibility"}
+{9244}{"SGreater Invisibility"}
+{9254}{"SInvisibility Purge"}
+{9255}{"SInvisibility Sphere"}
+{9261}{"SKeen Edge"}
+{9262}{"SKnock"}
+{9275}{"SLightning Bolt"}
+{9661}{"SLongstrider"}
+{9280}{"SMage Armor"}
+{9282}{"SMagic Circle Against Chaos"}
+{9283}{"SMagic Circle Against Evil"}
+{9284}{"SMagic Circle Against Good"}
+{9285}{"SMagic Circle Against Law"}
+{9286}{"SMagic Fang"}
+{9204}{"SGreater Magic Fang"}
+{9288}{"SMagic Missile"}
+{9290}{"SMagic Stone"}
+{9291}{"SMagic Vestment"}
+{9292}{"SMagic Weapon"}
+{9205}{"SGreater Magic Weapon"}
+{9303}{"SMeld Into Stone"}
+{9304}{"SMelfs Acid Arrow"}
+{9309}{"SMind Fog"}
+{9315}{"SMirror Image"}
+{9320}{"SMordenkainens Faithful Hound"}
+{9327}{"SNeutralize Poison"}
+{9333}{"SObscuring Mist"}
+{9334}{"SOpen/Close"}
+{9335}{"SOrders Wrath"}
+{9337}{"SOtilukes Resilient Sphere"}
+{9662}{"SOwls Wisdom"}
+{9345}{"SPhantasmal Killer"}
+{9352}{"SPoison"}
+{9359}{"SPrayer"}
+{9364}{"SProduce Flame"}
+{9367}{"SProtection from Arrows"}
+{9368}{"SProtection from Chaos"}
+{9369}{"SProtection from Energy"}
+{9370}{"SProtection from Evil"}
+{9371}{"SProtection from Good"}
+{9372}{"SProtection from Law"}
+{9663}{"SQuench"}
+{9547}{"SRage"}
+{9379}{"SRaise Dead"}
+{9383}{"SRay of Enfeeblement"}
+{9384}{"SRay of Frost"}
+{9385}{"SRead Magic"}
+{9664}{"SReduce Animal"}
+{9386}{"SReduce Person"}
+{9390}{"SRemove Blindness/Deafness"}
+{9391}{"SRemove Curse"}
+{9392}{"SRemove Disease"}
+{9393}{"SRemove Fear"}
+{9394}{"SRemove Paralysis"}
+{9396}{"SRepel Vermin"}
+{9399}{"SResistance"}
+{9400}{"SResist Energy"}
+{9401}{"SRestoration"}
+{9404}{"SRighteous Might"}
+{9272}{"SLesser Restoration"}
+{9407}{"SSanctuary"}
+{9408}{"SScare"}
+{9412}{"SSearing Light"}
+{9414}{"SSee Invisibility"}
+{9425}{"SShatter"}
+{9426}{"SShield"}
+{9427}{"SShield of Faith"}
+{9430}{"SShillelagh"}
+{9431}{"SShocking Grasp"}
+{9432}{"SShout"}
+{9434}{"SSilence"}
+{9437}{"SSlay Living"}
+{9438}{"SSleep"}
+{9439}{"SSleet Storm"}
+{9440}{"SSlow"}
+{9442}{"SSoften Earth and Stone"}
+{9443}{"SSolid Fog"}
+{9445}{"SSound Burst"}
+{9451}{"SSpell Resistance"}
+{9455}{"SSpike Growth"}
+{9456}{"SSpike Stones"}
+{9457}{"SSpiritual Weapon"}
+{9460}{"SStinking Cloud"}
+{9462}{"SStoneskin"}
+{9466}{"SSuggestion"}
+{9467}{"SSummon Monster I"}
+{9468}{"SSummon Monster II"}
+{9469}{"SSummon Monster III"}
+{9470}{"SSummon Monster IV"}
+{9471}{"SSummon Monster V"}
+{9476}{"SSummon Natures Ally I"}
+{9477}{"SSummon Natures Ally II"}
+{9478}{"SSummon Natures Ally III"}
+{9479}{"SSummon Natures Ally IV"}
+{9480}{"SSummon Natures Ally V"}
+{9485}{"SSummon Swarm"}
+{9490}{"STashas Hideous Laughter"}
+{9492}{"STeleport"}
+{9505}{"STree Shape"}
+{9508}{"STrue Seeing"}
+{9509}{"STrue Strike"}
+{9513}{"SUnholy Blight"}
+{9515}{"SVampiric Touch"}
+{9519}{"SVirtue"}
+{9531}{"SWeb"}
+{9536}{"SWind Wall"}
+
+
+{12532}{"SAcid Splash"}
+{12533}{"SAid"}
+{12534}{}
+{12535}{"SAnimal Trance"}
+{12536}{"SBane"}
+{12537}{"SBarkskin"}
+{12148}{"SBears Endurance"}
+{12538}{"SBestow Curse"}
+{12539}{"SBless"}
+{12540}{"SBless Water"}
+{12541}{"SBlindness/Deafness"}
+{12542}{"SBlink"}
+{12554}{"SBlight"}
+{12543}{"SBlur"}
+{12544}{"SBreak Enchantment"}
+{12545}{"SBulls Strength"}
+{12546}{"SBurning Hands"}
+{12547}{"SCall Lightning"}
+{12575}{"SCall Lightning Storm" C5}
+{12548}{"SCalm Animals"}
+{12549}{"SCalm Emotions"}
+{12550}{"SCats Grace"}
+{12551}{"SCause Fear"}
+{12552}{"SChaos Hammer" C8}
+{12560}{"SChain Lightning"}
+{12057}{"SCharm Person or Animal"}
+{12055}{"SCharm Monster"}
+{12056}{"SCharm Person"}
+{12058}{"SChill Metal"}
+{12059}{"SChill Touch"}
+{12062}{"SClairaudience/Clairvoyance"}
+{12065}{}
+{12066}{"SColor Spray"}
+{12067}{"SCommand"}
+{12201}{}
+{12072}{}
+{12073}{"SConfusion"}
+{12570}{"SLesser Confusion"}
+{12074}{"SConsecrate"}
+{12076}{"SContagion"}
+{12079}{"SControl Plants"}
+{12576}{"SCrushing Despair"}
+{12089}{"SCure Critical Wounds"}
+{12090}{"SCure Light Wounds"}
+{12091}{"SCure Minor Wounds"}
+{12092}{"SCure Moderate Wounds"}
+{12093}{"SCure Serious Wounds"}
+{12094}{"SCurse Water"}
+{12099}{"SDaze"}
+{12577}{"SDaze Monster"}
+{12100}{"SDeath Knell"}
+{12101}{"SDeath Ward"}
+{12578}{"SDeep Slumber"}
+{12104}{"SDelay Poison"}
+{12107}{"SDesecrate"}
+{12110}{"SDetect Chaos"}
+{12111}{"SDetect Evil"}
+{12112}{"SDetect Good"}
+{12113}{"SDetect Law"}
+{12114}{"SDetect Magic"}
+{12117}{"SDetect Secret Doors"}
+{12120}{"SDetect Undead"}
+{12122}{"SDimensional Anchor"}
+{12123}{"SDimension Door"}
+{12125}{"SDiscern Lies"}
+{12128}{"SDismissal"}
+{12555}{}
+{12129}{}
+{12556}{}
+{12130}{}
+{12557}{}
+{12131}{}
+{12132}{}
+{12133}{"SDispel Magic" C10}
+{12558}{}
+{12134}{"SDisplacement"}
+{12135}{"SDisrupt Undead"}
+{12137}{"SDivine Favor"}
+{12138}{"SDivine Power"}
+{12139}{"SDominate Animal"}
+{12141}{"SDominate Person"}
+{12142}{"SDoom"}
+{12579}{"SEagles Splendor"}
+{12147}{"SEmotion"}
+{12149}{"SEndure Elements"}
+{12152}{"SEnlarge"}
+{12153}{"SEntangle"}
+{12155}{"SEntropic Shield"}
+{12159}{"SExpeditious Retreat"}
+{12163}{"SFaerie Fire"}
+{12580}{"SFalse Life"}
+{12167}{}
+{12169}{"SFind Traps"}
+{12006}{"SFireball" C5}
+{12173}{"SFire Shield"}
+{12178}{}
+{12180}{"SFlare"}
+{12183}{"SFog Cloud"}
+{12566}{"SFoxs Cunning"}
+{12188}{"SFreedom of Movement"}
+{12189}{"SGaseous Form"}
+{12194}{"SGhoul Touch"}
+{12195}{"SGiant Vermin"}
+{12567}{"SGlibness"}
+{12196}{"SGlitterdust"}
+{12311}{"SLesser Globe of Invulnerability"}
+{12199}{"SGoodberry"}
+{12200}{"SGrease"}
+{12213}{"SGuidance"}
+{12214}{"SGust of Wind"}
+{12217}{"SHalt Undead"}
+{12219}{"SHaste"}
+{12223}{"SHeat Metal"}
+{12256}{"SInvisibility to Animals"}
+{12257}{"SInvisibility to Undead"}
+{12226}{"SHold Animal"}
+{12227}{}
+{12228}{"SHold Person"}
+{12229}{"SHold Portal"}
+{12231}{"SHoly Smite" C8}
+{12237}{"SIce Storm"}
+{12238}{"SIdentify"}
+{12246}{"SInflict Critical Wounds"}
+{12247}{"SInflict Light Wounds"}
+{12248}{"SInflict Minor Wounds"}
+{12249}{"SInflict Moderate Wounds"}
+{12250}{"SInflict Serious Wounds"}
+{12253}{"SInvisibility"}
+{12244}{"SGreater Invisibility"}
+{12254}{"SInvisibility Purge"}
+{12255}{"SInvisibility Sphere"}
+{12261}{"SKeen Edge"}
+{12262}{"SKnock"}
+{12275}{"SLightning Bolt" C5}
+{12571}{"SLongstrider"}
+{12280}{"SMage Armor"}
+{12282}{"SMagic Circle against Chaos"}
+{12283}{"SMagic Circle against Evil"}
+{12284}{"SMagic Circle against Good"}
+{12285}{"SMagic Circle against Law"}
+{12007}{"SMagic Missile" C9}
+{12286}{"SMagic Fang"}
+{12204}{"SGreater Magic Fang"}
+{12290}{"SMagic Stone"}
+{12291}{"SMagic Vestment"}
+{12292}{"SMagic Weapon"}
+{12205}{"SGreater Magic Weapon"}
+{12303}{"SMeld into Stone"}
+{12304}{"SMelfs Acid Arrow"}
+{12309}{}
+{12315}{"SMirror Image"}
+{12320}{}
+{12327}{"SNeutralize Poison"}
+{12333}{"SObscuring Mist"}
+{12334}{"SOpen/Close"}
+{12335}{"SOrders Wrath" C8}
+{12337}{"SOtilukes Resilient Sphere"}
+{12572}{"SOwls Wisdom"}
+{12345}{"SPhantasmal Killer"}
+{12352}{"SPoison"}
+{12359}{"SPrayer"}
+{12364}{"SProduce Flame"}
+{12367}{"SProtection from Arrows"}
+{12368}{"SProtection from Chaos"}
+{12369}{"SProtection from Energy"}
+{12370}{"SProtection from Evil"}
+{12371}{"SProtection from Good"}
+{12372}{"SProtection from Law"}
+{12573}{"SQuench"}
+{12379}{}
+{12383}{"SRay of Enfeeblement"}
+{12384}{"SRay of Frost"}
+{12385}{"SRead Magic"}
+{12574}{"SReduce Animal"}
+{12386}{"SReduce Person"}
+{12390}{"SRemove Blindness/Deafness"}
+{12391}{"SRemove Curse"}
+{12392}{"SRemove Disease"}
+{12393}{"SRemove Fear"}
+{12394}{"SRemove Paralysis"}
+{12396}{"SRepel Vermin"}
+{12399}{"SResistance"}
+{12400}{"SResist Energy"}
+{12401}{"SRestoration"}
+{12272}{"SLesser Restoration"}
+{12404}{}
+{12407}{"SSanctuary"}
+{12408}{"SScare"}
+{12412}{"SSearing Light" C6}
+{12414}{"SSee Invisibility"}
+{12425}{"SShatter"}
+{12426}{"SShield"}
+{12427}{"SShield of Faith"}
+{12430}{"SShillelagh"}
+{12431}{"SShocking Grasp"}
+{12432}{"SShout"}
+{12434}{"SSilence"}
+{12437}{}
+{12438}{"SSleep"}
+{12439}{"SSleet Storm"}
+{12440}{"SSlow"}
+{12442}{"SSoften Earth and Stone"}
+{12443}{"SSolid Fog"}
+{12445}{"SSound Burst"}
+{12451}{}
+{12455}{"SSpike Growth"}
+{12456}{"SSpike Stones"}
+{12457}{"SSpiritual Weapon"}
+{12460}{"SStinking Cloud"}
+{12462}{"SStoneskin"}
+{12466}{"SSuggestion"}
+{12467}{"SSummon Monster I"}
+{12468}{"SSummon Monster II"}
+{12469}{"SSummon Monster III"}
+{12470}{"SSummon Monster IV"}
+{12471}{}
+{12476}{"SSummon Natures Ally I"}
+{12477}{"SSummon Natures Ally II"}
+{12478}{"SSummon Natures Ally III"}
+{12479}{"SSummon Natures Ally IV"}
+{12480}{}
+{12485}{"SSummon Swarm"}
+{12490}{"STashas Hideous Laughter"}
+{12492}{}
+{12505}{"STree Shape"}
+{12508}{}
+{12509}{"STrue Strike"}
+{12513}{"SUnholy Blight" C8}
+{12515}{"SVampiric Touch"}
+{12519}{"SVirtue"}
+{12531}{"SWeb"}
+{12553}{"SWind Wall"}
+{12591}{"SMagic Missile" C3}
+{12592}{"SMagic Missile" C5}
+
+// Previous items
+{4124}{"FCraft Rod" "FCraft Magic Arms and Armor" "SGreater Magic Weapon" "Agood"} // rod of smiting
+{4139}{"FCraft Rod" "FCraft Magic Arms and Armor" "SPoison" "Aevil"} // rod of the viper
+{4111}{"FCraft Rod" "FCraft Magic Arms and Armor" "Agood"} // rod of the python 
+
+{4227}{"FCraft Rod" "FCraft Magic Arms and Armor" "Agood" C5} // white rod, minor
+{4228}{"FCraft Rod" "FCraft Magic Arms and Armor" "Agood" C9} // white rod
+{4229}{"FCraft Rod" "FCraft Magic Arms and Armor" "SSummon Natures Ally I" C5} // gray rod, minor
+{4230}{"FCraft Rod" "FCraft Magic Arms and Armor" "SSummon Natures Ally III" C9} // gray rod
+{4231}{"FCraft Rod" "FCraft Magic Arms and Armor" "Aevil" C5}
+{4232}{"FCraft Rod" "FCraft Magic Arms and Armor" "Aevil" C9} // black rod
+{4233}{"FCraft Rod" "SMage Armor" "SShield" "SMirror Image" "SProtection from Arrows" "SFog Cloud" C5}
+{4234}{"FCraft Rod" "SOwls Wisdom" "SBears Endurance" "SEagles Splendor" "SBulls Strength" "SCats Grace" "SFoxs Cunning" C5} 
+
+{12009}{"FCraft Wondrous Item" "SGreater Invisibility" } // dust of disappearance
+{6090}{"FCraft Wondrous Item" "SNeutralize Poison" } // scarab of proof against poison
+{6085}{"FCraft Wondrous Item" "SResistance" } // cloak of resistance +1
+{6086}{"FCraft Wondrous Item" "SResistance" } // cloak of resistance +2
+{6087}{"FCraft Wondrous Item" "SResistance" } // cloak of resistance +3
+{6058}{"FCraft Wondrous Item" "SInvisibility" "Rrace_elf" } // cloak of elvenkind
+{6115}{"FCraft Wondrous Item" "SMage Armor" C10} // bracers of armor +5
+{6119}{"FCraft Wondrous Item" "SMage Armor" C6} // bracers of armor +3
+{6240}{"FCraft Wondrous Item" "SBears Endurance" } // amulet of health +2
+{6241}{"FCraft Wondrous Item" "SBears Endurance" } // amulet of health +4
+{6242}{"FCraft Wondrous Item" "SBears Endurance" } // amulet of health +6
+{6257}{"FCraft Wondrous Item" "SGreater Magic Fang" } // amulet of mighty fists +1
+{6258}{"FCraft Wondrous Item" "SGreater Magic Fang" } // amulet of mighty fists +2
+{6259}{"FCraft Wondrous Item" "SGreater Magic Fang" } // amulet of mighty fists +3
+{6260}{"FCraft Wondrous Item" "SGreater Magic Fang" } // amulet of mighty fists +4
+{6261}{"FCraft Wondrous Item" "SGreater Magic Fang" } // amulet of mighty fists +5
+{6262}{"FCraft Wondrous Item" "SBarkskin" C5} // amulet of natural armor +1
+{6263}{"FCraft Wondrous Item" "SBarkskin" C6} // amulet of natural armor +2
+{6264}{"FCraft Wondrous Item" "SBarkskin" C9} // amulet of natural armor +3
+{6243}{"FCraft Wondrous Item" "SBulls Strength" } // gloves of giant strength
+{6244}{"FCraft Wondrous Item" "SBulls Strength" } // gloves of giant strength
+{6255}{"FCraft Wondrous Item" "SEagles Splendor" } // circlet of persuasion
+{6252}{"FCraft Wondrous Item" "SEagles Splendor" } // cloak of charisma +2
+{6253}{"FCraft Wondrous Item" "SEagles Splendor" } // cloak of charisma +4
+{6254}{"FCraft Wondrous Item" "SEagles Splendor" } // cloak of charisma +6
+{8034}{"FCraft Wondrous Item" "SInvisibility" } // elixir of hiding
+{8035}{"FCraft Wondrous Item" "SSilence" } // elixir of sneaking
+{8036}{"FCraft Wondrous Item" "STrue Seeing" } // elixir of vision
+{6245}{"FCraft Wondrous Item" "SBulls Strength" } // gauntlets of ogre power
+{6199}{"FCraft Wondrous Item" "SCats Grace" } // gloves of dexterity +2
+{6200}{"FCraft Wondrous Item" "SCats Grace" } // gloves of dexterity +4
+{6201}{"FCraft Wondrous Item" "SCats Grace" } // gloves of dexterity +6
+{6246}{"FCraft Wondrous Item" "SFoxs Cunning" } // headband of intellect +2
+{6247}{"FCraft Wondrous Item" "SFoxs Cunning" } // headband of intellect +4
+{6248}{"FCraft Wondrous Item" "SFoxs Cunning" } // headband of intellect +6
+{6256}{"FCraft Wondrous Item" "STrue Seeing" } // necklace of detection
+{6249}{"FCraft Wondrous Item" "SOwls Wisdom" } // amulet of wisdom +2
+{6250}{"FCraft Wondrous Item" "SOwls Wisdom" } // amulet of wisdom +4
+{6251}{"FCraft Wondrous Item" "SOwls Wisdom" } // amulet of wisdom +6
+{6268}{"FCraft Wondrous Item" "FCraft Magic Arms and Armor" C4} // bracers of archery, lesser
+{6267}{"FCraft Wondrous Item" "FCraft Magic Arms and Armor" C6} // bracers of archery, greater
+{6271}{"FCraft Wondrous Item" "SSearing Light" C5} // Circlet of Blasting, Minor
+{6272}{"FCraft Wondrous Item" "SMage Armor" C2} // bracers of armor +1
+{6273}{"FCraft Wondrous Item" "SMage Armor" C4} // bracers of armor +2
+{6274}{"FCraft Wondrous Item" "SMage Armor" C8} // bracers of armor +4
+{6275}{"FCraft Wondrous Item" "SWeb" C6} // Cloak of Arachnida
+{6276}{"FCraft Wondrous Item" "SBurning Hands" C3} // gloves of flame
+{6277}{"FCraft Wondrous Item" "SChill Touch" C3} // gloves of cold
+{6278}{"FCraft Wondrous Item" "SShocking Grasp" C3} // gloves of elec
+{6279}{"FCraft Wondrous Item" "SCure Light Wounds" C3} // gloves of good
+{6280}{"FCraft Wondrous Item" "SInflict Light Wounds" C3} // gloves of evil
+{12594}{"FCraft Wondrous Item" C10} // Ioun Stones
+{12595}{"FCraft Wondrous Item" C10} // Ioun Stones
+{12596}{"FCraft Wondrous Item" C10} // Ioun Stones
+{12597}{"FCraft Wondrous Item" C10} // Ioun Stones
+{12598}{"FCraft Wondrous Item" C10} // Ioun Stones
+{12599}{"FCraft Wondrous Item" C10} // Ioun Stones
+{12600}{"FCraft Wondrous Item" C10} // Ioun Stones
+{12601}{"FCraft Wondrous Item" "SSummon Natures Ally III" C5} // Tan Bag o Tricks

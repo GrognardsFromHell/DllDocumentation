@@ -1,0 +1,586 @@
+This file documents the changes to temple.dll for Monk Feats.
+
+Greater Flurry (do not use without Open Hand Damage mods):
+
+First we change the offset to the new Flurry of Blows function we're going to write.
+		70 94 0F 10
+		00 00 00 00
+		00 00 00 00
+		34 00 00 00
+		00 00 00 00
+002ED9AC	30 94 0F 10
+		00 00 00 00
+		00 00 00 00
+		1F 00 00 00
+		00 00 00 00
+		90 93 0F 10
+
+002ED9AC	10 E9 0E 10
+
+(note: this section overwrites the now unused part of open-hand damage)
+000EE910	8B 44 24 0C	mov eax, [esp + 0x0C]
+000EE914	8B 4C 24 08	mov ecx, [esp + 0x08]
+000EE918	8B 54 24 04	mov edx, [esp + 0x04]
+000EE91C	50		push eax
+000EE91D	51		push ecx
+000EE91E	52		push edx
+000EE91F	E8 FC A9 00 00	call 000F9320
+000EE924	83 C4 0C	add esp, 0x0C
+000EE927	85 C0		test eax, eax
+000EE929	74 39		jz 000EE964
+000EE92B	8B 44 24 18	mov eax, [esp + 0x18]
+000EE92F	50		push eax
+000EE930	E8 2B EF F5 FF	call 0004d860
+000EE935	8B 48 08	mov ecx, [eax + 0x08]
+000EE938	8A 51 08	mov dl, [ecx + 0x08]
+000EE93B	83 C4 04	add esp, 0x04
+000EE93E	F6 C2 04	test dl, 0x04
+000EE941	75 21		jnz 000EE964
+000EE943	FF 40 04	inc [eax + 0x04]
+000EE946	50		push eax
+000EE947	6A 0C		push 0x0C
+000EE949	8B 44 24 14	mov eax, [esp + 0x14]
+000EE94D	50		push eax
+000EE94E	8B 44 24 14	mov eax, [esp + 0x14]
+000EE952	50		push eax
+000EE953	E8 A8 5E F8 FF	call 00074800
+000EE958	83 C4 0C	add esp, 0x0C
+000EE95B	83 F8 0B	cmp eax, 0x0B
+000EE95E	58		pop eax
+000EE95F	7C 03		jl 000EE964
+000EE961	FF 40 04	inc [eax + 0x04]
+000EE964	33 C0		xor eax, eax
+000EE966	C3		retn
+
+Ki Strike:
+bonus.mes: {334}{~Ki Strike~[TAG_CLASS_FEATURES_MONK_KI_STRIKE]: Attack Treated as Magic, Lawful, Adamantium}
+
+000FAB0A	83 F8 0A	cmp eax, 0x0A
+000FAB0D	6A 04		push 4
+000FAB0F	53		push ebx
+000FAB10	7D 19		jge 000FAB2B
+000FAB12	E8 09 5A FE FF	call 000E0520
+000FAB17	68 4B 01 00 00	push 0x014B
+000FAB1C	53		push ebx
+000FAB1D	E8 CE 66 FE FF	call bonus_mes1
+000FAB22	83 C4 10	add esp, 0x10
+000FAB25	5F		pop edi
+000FAB26	5E		pop esi
+000FAB27	33 C0		xor eax, eax
+000FAB29	5B		pop ebx
+000FAB2A	C3		retn
+000FAB2B	E8 F0 59 FE FF	call set_damage_type
+000FAB30	6A 40		push 0x40
+000FAB32	53		push ebx
+000FAB33	E8 E8 59 FE FF	call set_damage_type
+000FAB38	68 4C 01 00 00	push 0x014C
+000FAB3D	53		push ebx
+000FAB3E	E8 AD 66 FE FF	call bonus_mes1
+000FAB43	83 C4 18	add esp, 0x18
+
+000FAB0A	33 F6		xor esi, esi
+000FAB0C	BF 4B 01 00 00	mov edi, 0x0000014B
+000FAB11	83 F8 10	cmp eax, 0x10
+000FAB14	7C 08		jl 000FAB1E
+000FAB16	83 C7 02	add edi, 0x02
+000FAB19	BE 80 00 00 00	mov esi, 0x00000080
+000FAB1E	83 F8 0A	cmp eax, 0x0A
+000FAB21	7C 04		jl 000FAB27
+000FAB23	47		inc edi
+000FAB24	83 CE 40	or esi, 0x40
+000FAB27	83 CE 04	or esi, 0x04
+000FAB2A	56		push esi
+000FAB2B	53		push ebx
+000FAB2C	E8 EF 59 FE FF	call set_damage_type
+000FAB31	57		push edi
+000FAB32	53		push ebx
+000FAB33	E8 B8 66 FE FF	call bonus_mes1
+000FAB38	83 C4 10	add esp, 0x10
+000FAB3B	5F		pop edi
+000FAB3C	5E		pop esi
+000FAB3D	33 C0		xor eax, eax
+000FAB3F	5B		pop ebx
+000FAB40	C3		retn
+000FAB41	90 90 90 90 90	nops
+
+Open Hand Damage:
+000EE8AF	83 F8 05		cmp eax, 0x05
+000EE8B2	7D 51			jge 000EE905
+000EE8B4	83 FB 08		cmp ebx, 0x08
+000EE8B7	7D 6B			jge 000EE924
+000EE8B9	83 Fb 04		cmp ebx, 0x04
+000EE8BC	6A 00			push 0x00
+000EE8BE	7C 13			jl 000EE8D3
+000EE8C0	6A 06			push 0x06
+000EE8C2	6A 01			push 0x01
+000EE8C4	E8 87 A3 F4 FF		call 00038C50
+000EE8C9	83 C4 0C		add esp, 0x0C
+000EE8CC	8B D8			mov ebx, eax
+000EE8CE	E9 F6 00 00 00		jmp 000EE9C9
+000EE8D3	85 DB			test ebx, ebx
+000EE8D5	7E 13			jle 000EE8EA
+000EE8D7	6A 04			push 0x04
+000EE8D9	6A 01			push 0x01
+000EE8DB	E8 70 A3 F4 FF		call 00038C50
+000EE8E0	83 C4 0C		add esp, 0x0C
+000EE8E3	8B D8			mov ebx, eax
+000EE8E5	E9 DF 00 00 00		jmp 000EE9C9
+000EE8EA	6A 02			push 0x02
+000EE8EC	6A 01			push 0x01
+000EE8EE	E8 5D A3 F4 FF		call 00038C50
+000EE8F3	83 C4 0C		add esp, 0x0C
+000EE8F6	8B D8			mov ebx, eax
+000EE8F8	C7 44 24 5C 0D 00 00 00	mov dword ptr [esp + 0x5C], 0x0000000D
+000EE900	E9 C4 00 00 00		jmp 000EE9C9
+000EE905	83 Fb 08		cmp ebx, 0x08
+000EE90A	6A 00			push 0x00
+000EE90C	6A 0A			push 0x0A
+000EE90E	6A 01			push 0x01
+000EE910	E8 3B A3 F4 FF		call 00038C50
+000EE915	83 C4 0C		add esp, 0x0C
+000EE918	8B D8			mov ebx, eax
+000EE91A	E9 AA 00 00 00		jmp 000EE9C9
+000EE91F	83 FB 04		cmp ebx, 0x04
+000EE922	7C 15			jl 000EE939
+
+000EE8AF	85 DB			test ebx, ebx
+000EE8B1	9C			pushf
+000EE8B2	C1 EB 02		shr ebx, 0x02
+000EE8B5	83 FB 05		cmp ebx, 0x05
+000EE8B8	7C 04			jl 000EE8BE
+000EE8BA	31 DB			xor ebx, ebx
+000EE8BC	B3 03			mov bl, 0x05
+000EE8BE	8D 1C 5B		lea ebx, [ebx * 2 + ebx]
+000EE8C1	83 F8 05		cmp eax, 0x05
+000EE8C4	7C 04			jl 000EE8CB
+000EE8C6	74 01			jz 000EE8CA
+000EE8C8	43			inc ebx
+000EE8C9	43			inc ebx
+000EE8CA	E8 00 00 00 00		call 000EE8CF
+000EE8CF	5A			pop edx
+000EE8D0	0F B6 44 1A 2F		movzx eax, [ebx + edx + 0x1F]
+000EE8D5	89 C3			mov ebx, eax
+000EE8D7	83 E3 0F		and ebx, 0x0F
+000EE8DA	C1 E8 04		shr ebx, 0x04
+000EE8DD	9D			popf
+000EE8DE	75 0B			jnz 000EE8E7
+000EE8E0	C1 EB 01		shr ebx, 0x01
+000EE8E3	C7 44 24 5C 0D 00 00 00	mov [esp + 0x5C], 0x0000000D
+000EE8EB	6A 00			push 0
+000EE8ED	53			push ebx
+000EE8EE	50			push eax
+000EE8EF	E8 5C A3 F4 FF		call 00038C50
+000EE8F4	83 C4 0C		add esp, 0x0C
+000EE9F7	8B D8			mov ebx, eax
+000EE8F9	E9 CB 00 00 00		jmp 000EE9C9
+000EE8FE	14 16 18
+000EE901	16 18 26
+000EE904	18 1A 28
+000EE907	1A 26 36
+000EE90A	26 28 38
+000EE90D	28 2A 48
+
+Fast Movement:
+000FA510	56			push esi
+000FA511	57			push edi
+000FA512	8B 44 24 20		mov eax, [esp + 0x20]
+000FA516	50			push eax
+000FA517	E8 64 33 F5 FF		call 0004D880
+000FA51C	8B 78 04		mov edi, [eax + 0x04]
+000FA51F	6A 0C			push 0x0C
+000FA521	8B 44 24 1C		mov eax, [esp + 0x1C]
+000FA525	50			push eax
+000FA526	8B 44 24 1C		mov eax, [esp + 0x1C]
+000FA52A	50			push eax
+000FA52B	E8 D0 A2 F7 FF		call 00074800
+000FA530	83 F8 03		cmp eax, 0x03
+000FA533	7C 3A			jl 000FA56F
+000FA535	89 C6			mov esi, eax
+000FA537	E8 A4 47 00 00		call 000FECE0
+000FA53C	85 C0			test eax, eax
+000FA53F	74 21			jz 000FA561
+000FA540	89 F0			mov eax, esi
+000FA542	99			cdq
+000FA543	BE 03 00 00 00		mov esi, 0x00000003
+000FA548	F7 F6			div esi
+000FA54A	B2 0A			mov dl, 0x0A
+000FA54C	F7 E2			mul edx
+000FA54E	68 D6 00 00 00		push 0x000000D6
+000FA553	6A 0C			push 0x0C
+000FA555	50			push eax
+000FA556	57			push edi
+000FA557	E8 B4 BB FE FF		call 000E6110
+000FA55C	83 C4 10		add esp, 0x10
+000FA55F	EB 0E			jmp 000FA56F
+000FA561	68 49 01 00 00		push 0x00000149
+000FA566	57			push edi
+000FA567	E8 14 BE FE FF		call 000E6380
+000FA56C	83 C4 08		add esp, 0x08
+000FA56F	C7 44 24 08 07 00 00 00	mov [esp + 0x08], 0x00000007
+000FA577	E8 84 A2 F7 FF		call 00074800
+000FA57C	85 C0			test eax, eax
+000FA57E	74 6B			jz 000FA5EB
+000FA580	C7 44 24 08 0F 01 00 00	mov [esp + 0x08], 0x0000010F
+000FA588	E8 73 A2 F7 FF		call 00074800
+000FA58D	83 F8 03		cmp eax, 0x03
+000FA590	7D 37			jge 000FA5C9
+000FA592	85 ED			test ebp, ebp
+000FA594	74 43			jz 000FA5D9
+000FA596	C7 44 24 08 05 00 00 00	mov [esp + 0x08], 0x00000005
+000FA59E	E8 6D AA F6 FF		call 00065010
+000FA5A3	83 C4 0C		add esp, 0x0C
+000FA5A6	68 DC 00 00 00		push 0x000000DC
+000FA5AB	52			push edx
+000FA5AC	50			push eax
+000FA5AD	09 D0			or eax, edx
+000FA5AF	74 28			jz 000FA5D9
+000FA5B1	E8 1A 3C FA FF		call 0009E1D0
+000FA5B6	50			push eax
+000FA5B7	E8 04 B6 F6 FF		call 00065BC0
+000FA5BC	83 C4 04		add esp, 0x04
+000FA5BF	83 F8 10		cmp eax, 0x10
+000FA5C2	74 15			jz 000FA5D9
+000FA5C4	83 F8 01		cmp eax, 0x01
+000FA5C7	7E 10			jle 000FA5D9
+000FA5C9	68 49 01 00 00		push 0x00000149
+000FA5CE	57			push edi
+000FA5CF	E8 AC BD FE FF		call 000E6380
+000FA5D4	83 C4 08		add esp, 0x08
+000FA5D7	EB 12			jmp 000FA5EB
+000FA5D9	68 D6 00 00 00		push 0x000000D6
+000FA5DE	6A 00			push 0x00
+000FA5E0	6A 0A			push 0x0A
+000FA5E2	57			push edi
+000FA5E3	E8 28 BB FE FF		call 000E6110
+000FA5E8	83 C4 10		add esp, 0x10
+000FA5EB	83 C4 10		add esp, 0x10
+000FA5EE	5F			pop edi
+000FA5EF	5E			pop esi
+000FA5F0	33 C0			xor eax, eax
+000FA5F2	C3			retn
+
+000FA600 - haste?  min(0x1E, use get_base_stat(self1, self2, 0x10D))
+
+This above bit is a complete rewrite.  It separates Barbarian and Monk Fast Movement
+into separate effects - Barbarian is treated as an unnamed bonus, while Monk is
+treated as an enhancement bonus, as per the PHB.
+
+load checks:
+000FED5A	5F			pop edi
+000FED5B	5E			pop esi
+000FED5C	5D			pop ebp
+000FED5D	33 C0			xor eax, eax
+000FED5F	5B			pop ebx
+000FED60	C3			retn
+000FEDB9	5F			pop edi
+000FEDBA	5E			pop esi
+000FEDBB	5D			pop ebp
+000FEDBC	B8 01 00 00 00		mov eax, 0x00000001
+000FEDC1	5B			pop ebx
+000FEDC2	C3			retn
+000746AE	3B D7			cmp edx, edi
+000746C0	3B CF			cmp ecx, edi
+000750C6	3B D7			cmp edx, edi
+000750D8	3B CF			cmp ecx, edi
+
+000FED5A	33 C0			xor eax, eax
+000FED5C	5F			pop edi
+000FED5D	5E			pop esi
+000FED5E	5D			pop ebp
+000FED5F	5B			pop ebx
+000FED60	C3			retn
+000FEDB9	68 0F 01 00 00		push 0x0000010F
+000FEDBE	53			push ebx
+000FEDBF	55			push ebp
+000FEDC0	E8 3B 5A F7 FF		call 00074800
+000FEDC5	83 C4 0C		add esp, 0x0C
+000FEDC8	48			dec eax
+000FEDC9	F7 D8			neg eax
+000FEDCB	19 C0			sbb eax, eax
+000FEDCD	40			inc eax
+000FEDCE	EB 8C			jmp 000FED5C
+000746AE	3B FA			cmp edi, edx
+000746C0	3B F9			cmp edi, ecx
+000750C6	3B FA			cmp edi, edx
+000750D8	3B F9			cmp edi, ecx
+
+Note: it appears stat_level_get(stat_load) and get_base_level(stat_load)
+were just wrong.  It used to return 3 for light encumberance, and 1 for
+everything else.  Now it should return 1 for light, 2 for medium, and 3
+for heavy.  It also appears that NO ONE EVER USED THIS FUNCTION.
+Barbarian: heavy armor or heavy load
+
+So You Want To Add A Feat...
+
+Okay, first off, remember that the basic feats range from 0 to 0x0288.
+Meta-feats (or feat groups like Weapon Finesse, Weapon Specialization, etc.)
+range from 0x289 - 0x291.  Luckily, adding new feats at 0x292 doesn't
+exactly break things, as long as these feats are NOT SELECTABLE during
+character creation and level up.  This is perfect for adding new class feats
+though.  There's a couple changes you have to make.
+
+Okay, here are the Monk feats for levels 11 - 20:
+	11 Diamond Body: Immune to Poison (see Purity of Body and Venom Immunity)
+	12 Abundant Step: Dimension Door (level / 2, 1 / day)
+	13 Diamond Soul: SR: level + 10
+	15 Quivering Palm: Kill!
+	19 Empty Body: Etherealness (level rounds / day)
+	20 Perfect Self: Outsider, DR: 10/magic
+
+First off, we've got the feat_table at 0x002BFD78.  It's a bunch of flags
+indicating which some information about the various feats.  We just go down
+to the 0x292th entry and start adding new data.  One word of caution: we're
+technically overwriting bits of the feat requirements table - this is okay.
+The feat requirements table starts at 0x002C07A0, and each entry consists of
+eight eight-byte words.  Since the last requirement is always a string of
+eight FF's, as long as we only start adding new feat_table entries after
+this last requirement, we'll be fine.  Space your feat numbers appropriately.
+
+Secondly, we will not be adding feat requirements.  Feat requirements are more
+or less unnecessary for any feat you can not pick during character creation or
+leveling up.
+
+feat_table	002BFD78	1 x 4-byte word
+				0x00000002 - Not implemented
+				0x00000004 - Race Specific Feat
+				0x00000008 - Class Specific Feat
+				0x00000010 - Fighter Feat?
+				0x00020000 - Metamagic Feat
+				0x00040000 - Rogue Feat
+		002C07C0	08 00 00 00
+		002C07C4	08 00 00 00
+		002C07C8	08 00 00 00
+		002C07CC	08 00 00 00
+		002C07D0	08 00 00 00
+		002C07D4	08 00 00 00
+
+Okay, the class feat table starts at 0x002CAAF8.  Each entry consists of forty
+eight-byte words, one entry per class.  Each eight-byte word consists of
+the feat number and the level at which it is gained.
+
+class_feat_tbl	002CAAF8	40 x 8-byte words
+				<feat number (4-bytes)> <level (4-bytes)>
+				entry ends with FF FF FF FF FF FF FF FF
+		002CB1A0	92 02 00 00 0B 00 00 00
+		002CB1A8	93 02 00 00 0C 00 00 00
+		002CB1B0	94 02 00 00 0D 00 00 00
+		002CB1B8	95 02 00 00 0F 00 00 00
+		002CB1C0	96 02 00 00 13 00 00 00
+		002CB1C8	97 02 00 00 14 00 00 00
+		002CB1D0	FF FF FF FF FF FF FF FF
+
+Okay, now we've got to boost the total number of feats that the game expects.
+In each case we'll be changing a 89 02 00 00 to whatever the new maximum we
+want is.
+
+				46			inc esi
+get_char_feats	0007C3B7	81 FE 89 02 00 00	cmp esi, 0x00000289	
+				7C C1			jl ...
+
+		0007C3B7	81 FE 98 02 00 00	cmp esi, 0x00000298
+
+				68 80 BF 07 10		push [1007BF80]
+load_feat_names	0007BFDD	B9 89 02 00 00		cmp ecx, 0x00000289
+				BF 68 62 AB 10		mov edi, 10AB6268
+		...
+				40			inc eax
+		0007C05C	3D 89 02 00 00		cmp eax, 0x00000289
+				89 44 24 04		mov [esp + 0x04], eax
+
+		0007BFDD	B9 98 02 00 00		cmp ecx, 0x00000298
+		0007C05C	3D 98 02 00 00		cmp eax, 0x00000298
+
+				46			inc esi
+get_feat_list	001BBDF4	81 FE 89 02 00 00	cmp esi, 0x00000289
+				7C D6			jl 001BBDD2
+
+		001BBDF4	81 FE 98 02 00 00	cmp esi, 0x00000298
+
+Also, this'll cause the feat name table to overlap with a string buffer of some sort
+that starts at 0x10AB6C90.  We'll need to move the start of that string buffer down,
+and hope that it doesn't lead to any buffer overruns.
+
+		0007BAB6	68 90 6C AB 10		push 0x10AB7C90
+		0007BABB	E8 DB 81 1D 00		call sprintf
+		0007BAC0	83 C4 10		add esp, 0x10
+		0007BAC3	B8 90 6C AB 10		mov eax, 0x10AB7C90
+
+		0007BAB6	C8 C8 6C AB 10		push 0x10AB7CC8
+		0007BABB	E8 DB 81 1D 00		call sprintf
+		0007BAC0	83 C4 10		add esp, 0x10
+		0007BAC3	B8 C8 6C AB 10		mov eax, 0x10AB7CC8
+
+So this'll get the feats showing up during the feats already selected on level
+up and your feat list on your character sheet.
+
+Okay, now we have to modify what I call the feat effects table.  It consists of
+79 sixteen-byte words, which have some basic information about which feats the
+entry applies to and a pointer to some another structure that actually has real
+information in it.
+
+feat_effects	002EEC40	79 x 16-byte words
+				<feat effect offset>
+				<starting feat number>
+				<ending feat number or -1>
+				<I don't know.  Leave as 0>
+
+One problem is, we can't actually expand the table in a downward direction.
+This isn't as big a problem as it sounds, as the table is unsorted, so we can add
+to the top.
+
+Of course, directly above the feat effects table is the Greater Weapon Specialization
+feat effect information.  We'll have to move this.  It starts at 0x002EEBF8, and
+goes to 0x002EEC3F.  Maybe.  I'm not positive.  Anyways, find some dead space, and copy
+the GWS feat effect information there.  I'd suggest 0x002AAF58, which seems to be the
+end of one of the code sections.  It's right after the spot DWG sticks his new xp
+table in.  YMMV.  One thing to note is that "F8 EB 2E 10" shows up in this - it's the
+location of the GWS feat effect information that you've just moved.  Change it to
+"58 AF 2A 10" instead.
+
+002AAF58	50 F6 28 10 02 00 00 00
+002AAF60	03 00 00 00 00 00 00 00
+002AAF68	60 CF 0E 10 *F8 EB 2E 10* <- offset of the GWS feat effect information
+002AAF70	00 00 00 00 10 00 00 00
+002AAF78	00 00 00 00 20 82 0F 10
+002AAF80	00 00 00 00 00 00 00 00
+002AAF88	00 00 00 00 00 00 00 00
+002AAF90	00 00 00 00 00 00 00 00
+002AAF98	00 00 00 00 00 00 00 00
+
+You'll also have to change the GWS entry in the feat effect table.  It shows up
+at offset 0x002EF110.
+
+Okay, you're now free to add new entries to the top of the table.  So let's do
+Diamond Body, which is really just a copy of Venom Immunity.
+
+So at 0x002EEC30, add "18 D4 2E 10 92 02 00 00 FF FF FF FF 00 00 00 00".
+
+Next we'll try Diamond Soul which is spell resistance... sort of.
+So at 0x002EEC20, add "80 AE 2A 10 94 02 00 00 FF FF FF FF 00 00 00 00".
+
+Now just using the Spell Resistance effect won't work.  You'll end up with a
+spell resistance of 660 (like that's a bad thing!) which is the feat number of
+Diamond Soul.  So, we write a function to get the class and add ten, and set
+that as the spell resistance.  Fortunately, we can set this up so it runs on
+startup and whenever the character levels up.  Bonus.
+
+Diamond Soul Setup Code:
+000F9430	6A 0C			push 0x0C
+000F9432	8B 44 24 10		mov eax, [esp + 0x10]
+000F9436	50			push eax
+000F9437	8B 44 24 10		mov eax, [esp + 0x10]
+000F943B	50			push eax
+000F943C	E8 BF B3 F7 FF		call 00074800
+000F9441	05 0A 00 00 00		add eax, 0x0000000A
+000F9446	50			push eax
+000F9447	8B 4C 24 14		mov ecx, [esp + 0x14]
+000F944B	8B 41 04		mov eax, [ecx + 0x04]
+000F944E	6A 00			push 0x00
+000F9450	50			push eax
+000F9451	E8 7A 86 FE FF		call 000E1AD0
+000F9456	83 C4 18		add esp, 0x18
+000F9459	33 C0			xor eax, eax
+000F945B	C3			retn
+000F945C	90 90 90 90
+
+And the following feat effect:
+002AAE80	80 88 27 10 03 00 00 00
+002AAE88	01 00 00 00 00 00 00 00
+002AAE90	60 D4 0E 10 00 00 00 00
+002AAE98	00 00 00 00 01 00 00 00
+002AAEA0	00 00 00 00 30 94 0F 10
+002AAEA8	00 00 00 00 00 00 00 00
+002AAEB0	2D 00 00 00 00 00 00 00
+002AAEB8	C0 D4 0E 10 B8 13 00 00
+002AAEC0	00 00 00 00 1D 00 00 00
+002AAEC8	E9 00 00 00 80 D4 0E 10
+002AAED0	00 00 00 00 00 00 00 00
+002AAED8	20 00 00 00 00 00 00 00
+002AAEE0	00 D5 0E 10 B8 13 00 00
+002AAEE8	00 00 00 00 00 00 00 00
+002AAEF0	00 00 00 00 00 00 00 00
+002AAEF8	00 00 00 00 00 00 00 00
+
+Now we have to get the code to recognize the new entries, by changing the following:
+
+000F7BC0	8B 86 40 EC 2E 10	mov eax, [esi + 0x002EEC40]
+000F7BC6	50			push eax
+000F7BC7	E8 F4 9D FE FF		call 000E19C0
+000F7BCC	83 C6 10		add esi, 0x10
+000F7BCF	83 C4 04		add esp, 0x04
+000F7BD2	FE F0 04 00 00		cmp esi, 0x000004F0
+
+000F7BC0	8B 86 20 EC 2E 10	mov eax, [esi + 0x002EEC20]
+000F7BC6	50			push eax
+000F7BC7	E8 F4 9D FE FF		call 000E19C0
+000F7BCC	83 C6 10		add esi, 0x10
+000F7BCF	83 C4 04		add esp, 0x04
+000F7BD2	FE 10 05 00 00		cmp esi, 0x00000510
+
+And also:
+
+000F7BE5	B8 44 EC 2E 10		mov eax, 0x002EEC44
+000F7BEA	33 F6			xor esi, esi
+000F7BEC	8D 64 24 00		lea esp, [esp + 0]
+000F7BF0	8B 08			mov ecx, [eax]
+000F7BF2	3B D1			cmp edx, ecx
+000F7BF4	75 06			jnz 000F7BFC
+000F7BF6	83 78 04 FF		cmp [eax + 0x04], 0xFFFFFFFF
+000F7BFA	74 1B			jz 000F7C17
+000F7BFC	3B 50 04		cmp edx, [eax + 0x04]
+000F7BFF	7D 04			jge 000F7C05
+000F7C01	3B D1			cmp edx, ecx
+000F7C03	7D 12			jge 000F7C17
+000F7C05	83 C6 10		add esi, 0x10
+000F7C08	83 C0 10		add eax, 0x10
+000F7C0B	81 FE F0 04 00 00	cmp esi, 0x000004F0
+
+000F7BE5	B8 24 EC 2E 10		mov eax, 0x002EEC24
+000F7BEA	33 F6			xor esi, esi
+000F7BEC	8D 64 24 00		lea esp, [esp + 0]
+000F7BF0	8B 08			mov ecx, [eax]
+000F7BF2	3B D1			cmp edx, ecx
+000F7BF4	75 06			jnz 000F7BFC
+000F7BF6	83 78 04 FF		cmp [eax + 0x04], 0xFFFFFFFF
+000F7BFA	74 1B			jz 000F7C17
+000F7BFC	3B 50 04		cmp edx, [eax + 0x04]
+000F7BFF	7D 04			jge 000F7C05
+000F7C01	3B D1			cmp edx, ecx
+000F7C03	7D 12			jge 000F7C17
+000F7C05	83 C6 10		add esi, 0x10
+000F7C08	83 C0 10		add eax, 0x10
+000F7C0B	81 FE 10 05 00 00	cmp esi, 0x00000510
+
+Do not forget to add entries in feat.mes.  Failure to do so can cause the game to
+crash.  Don't get the numbers wrong either.
+
+feat.mes: {658}{Diamond Body}
+feat.mes: {659}{Abundant Step}
+feat.mes: {660}{Diamond Soul}
+feat.mes: {661}{Quivering Palm}
+feat.mes: {662}{Empty Body}
+feat.mes: {663}{Perfect Self}
+feat.mes: {5658}{Diamond Body}
+feat.mes: {5659}{Abundant Step}
+feat.mes: {5660}{Diamond Soul}
+feat.mes: {5661}{Quivering Palm}
+feat.mes: {5662}{Empty Body}
+feat.mes: {5663}{Perfect Self}
+feat.mes: {10658} Diamond Body {}
+feat.mes: {10659} Abundant Step {}
+feat.mes: {10660} Diamond Soul {}
+feat.mes: {10661} Quivering Palm {}
+feat.mes: {10662} Empty Body {}
+feat.mes: {10663} Perfect Self {}
+
+Given that if I have Diamond Body point to Wholeness of Body, I get that on my radial
+menu even though I don't have Wholeness of Body, I *think* this should work.  For
+Diamond Body.  Also, Diamond Soul is giving monks spell resistance.  It even gives the
+correct total in the Resistance: [..] when you mouse over the monk, so that's good.
+And the monk occassionally will resist spells from hostile spell casters, so that's also
+good.
+
+If you're feeling really adventurous, you can go back and figure out what sorts of relocs
+you need, and edit the .reloc segment in temple.dll.  I've done this, but I'm not sure if
+my edits are correct, as temple.dll is always loaded at it's preferred base, and no
+relocations are necessary.

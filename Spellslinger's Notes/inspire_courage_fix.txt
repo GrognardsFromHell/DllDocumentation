@@ -1,0 +1,115 @@
+Fixes the Inspire Courage bardic music ability. Bonuses provided now scale correctly with bard level, and in synergy with the D20STD_F related fixes the bonuses for save and charm saves are now enabled.
+
+v12
+code changes:
+
+old:
+100EA5DF       83C4 18         ADD ESP,18
+100EA5E2       33C0            XOR EAX,EAX
+100EA5E4       5E              POP ESI
+100EA5E5       C3              RETN
+new:
+100EA5DF     - E9 FCC1DC01     JMP <temple.InspireCourage_init_args_hook>
+100EA5E4       90              NOP
+100EA5E5       90              NOP
+
+old:
+100EA620       E8 EBBAFFFF     CALL <temple.add_bonus_to_bonuslist>
+new:
+100EA620   |.  E8 E3C1DC01     CALL <temple.InspireCourage_atk_hook>
+
+old:
+100EA65D       E8 4E5FFFFF     CALL temple.100E05B0
+new:
+100EA65D   |.  E8 CEC1DC01     CALL <temple.InspireCourage_dmg_hook>
+
+old:
+100EA6A2   |.  83E0 04         AND EAX,4
+new:
+100EA6A2       83E0 02         AND EAX,2
+
+old:
+100EA6C4       E8 47BAFFFF     CALL <temple.add_bonus_to_bonuslist>
+new:
+100EA6C4   |.  E8 8FC1DC01     CALL <temple.InspireCourage_save_hook>
+
+new:
+11EB67A4 <getCourageBonus>                   6A 08             PUSH 8
+11EB67A6                                     FF7424 0C         PUSH DWORD PTR SS:[ESP+C]
+11EB67AA                                     FF7424 0C         PUSH DWORD PTR SS:[ESP+C]
+11EB67AE                                     E8 4DE01BFE       CALL <temple.obj_get_stat>
+11EB67B3                                     83C4 0C           ADD ESP,0C
+11EB67B6                                     8BC8              MOV ECX,EAX
+11EB67B8                                     C7C0 01000000     MOV EAX,1
+11EB67BE                                     83F9 08           CMP ECX,8
+11EB67C1                                     7C 1C             JL SHORT <temple.gcb_back>
+11EB67C3                                     C7C0 02000000     MOV EAX,2
+11EB67C9                                     83F9 0E           CMP ECX,0E
+11EB67CC                                     7C 11             JL SHORT <temple.gcb_back>
+11EB67CE                                     C7C0 03000000     MOV EAX,3
+11EB67D4                                     83F9 14           CMP ECX,14
+11EB67D7                                     7C 06             JL SHORT <temple.gcb_back>
+11EB67D9                                     C7C0 04000000     MOV EAX,4
+11EB67DF <gcb_back>                          C3                RETN
+
+11EB67E0 <InspireCourage_init_args_hook>     FFB424 A8000000   PUSH DWORD PTR SS:[ESP+A8]
+11EB67E7                                     FFB424 A8000000   PUSH DWORD PTR SS:[ESP+A8]
+11EB67EE                                     E8 B1FFFFFF       CALL <temple.getCourageBonus>
+11EB67F3                                     83C4 08           ADD ESP,8
+11EB67F6                                     50                PUSH EAX
+11EB67F7                                     6A 03             PUSH 3
+11EB67F9                                     FF76 04           PUSH DWORD PTR DS:[ESI+4]
+11EB67FC                                     E8 CFB222FE       CALL <temple.set_condition_arg>
+11EB6801                                     83C4 24           ADD ESP,24
+11EB6804                                     33C0              XOR EAX,EAX
+11EB6806                                     5E                POP ESI
+11EB6807                                     C3                RETN
+
+11EB6808 <InspireCourage_atk_hook>           6A 03             PUSH 3
+11EB680A                                     8B4424 20         MOV EAX,DWORD PTR SS:[ESP+20]
+11EB680E                                     8B40 04           MOV EAX,DWORD PTR DS:[EAX+4]
+11EB6811                                     50                PUSH EAX
+11EB6812                                     E8 99B222FE       CALL <temple.get_condition_arg>
+11EB6817                                     83C4 08           ADD ESP,8
+11EB681A                                     FF7424 10         PUSH DWORD PTR SS:[ESP+10]
+11EB681E                                     FF7424 10         PUSH DWORD PTR SS:[ESP+10]
+11EB6822                                     50                PUSH EAX
+11EB6823                                     FF7424 10         PUSH DWORD PTR SS:[ESP+10]
+11EB6827                                     E8 E4F822FE       CALL <temple.add_bonus_to_bonuslist>
+11EB682C                                     83C4 10           ADD ESP,10
+11EB682F                                     C3                RETN
+
+11EB6830 <InspireCourage_dmg_hook>           6A 03             PUSH 3
+11EB6832                                     8B4424 20         MOV EAX,DWORD PTR SS:[ESP+20]
+11EB6836                                     8B40 04           MOV EAX,DWORD PTR DS:[EAX+4]
+11EB6839                                     50                PUSH EAX
+11EB683A                                     E8 71B222FE       CALL <temple.get_condition_arg>
+11EB683F                                     83C4 08           ADD ESP,8
+11EB6842                                     FF7424 10         PUSH DWORD PTR SS:[ESP+10]
+11EB6846                                     FF7424 10         PUSH DWORD PTR SS:[ESP+10]
+11EB684A                                     50                PUSH EAX
+11EB684B                                     FF7424 10         PUSH DWORD PTR SS:[ESP+10]
+11EB684F                                     E8 5C9D22FE       CALL temple.100E05B0
+11EB6854                                     83C4 10           ADD ESP,10
+11EB6857                                     C3                RETN
+
+11EB6858 <InspireCourage_save_hook>          6A 03             PUSH 3
+11EB685A                                     8B4424 28         MOV EAX,DWORD PTR SS:[ESP+28]
+11EB685E                                     8B40 04           MOV EAX,DWORD PTR DS:[EAX+4]
+11EB6861                                     50                PUSH EAX
+11EB6862                                     E8 49B222FE       CALL <temple.get_condition_arg>
+11EB6867                                     83C4 08           ADD ESP,8
+11EB686A                                     FF7424 10         PUSH DWORD PTR SS:[ESP+10]
+11EB686E                                     FF7424 10         PUSH DWORD PTR SS:[ESP+10]
+11EB6872                                     50                PUSH EAX
+11EB6873                                     FF7424 10         PUSH DWORD PTR SS:[ESP+10]
+11EB6877                                     E8 94F822FE       CALL <temple.add_bonus_to_bonuslist>
+11EB687C                                     83C4 10           ADD ESP,10
+11EB687F                                     C3                RETN
+
+data changes:
+old:
+102E6264              03
+new:
+102E6264              04
+

@@ -1,0 +1,365 @@
+-adds the possibility to add up to 6 new travel locations to the game (but without clickable icons on the map, you can access them over the known locations list on the worldmap screen)
+-this release will change nothing ingame until the modders have completed the new pathways for travelling
+*UPDATE(v15)*:
+-Fixes the misalignment of buttons in the worldmap GUI when using non-standard resolutions.
+
+note:
+Getting this to work was a long and difficult journey, so I don't have as concise notes as usual. I hope it is complete. ;)
+
+v11
+code changes:
+
+old:
+1006EC34      05 78ECFFFF               ADD EAX,-1388
+new:
+1006EC34   .- E9 177AE401               JMP <temple.Wmap_return_gamearea_hook>
+
+old:
+1012B965      05 77ECFFFF               ADD EAX,-1389
+new:
+1012B965    - E9 76ADD801               JMP <temple.can_map_access_WMAP_hook>
+
+old:
+101598E5      6A 38         PUSH 38
+new:
+101598E5      6A 50         PUSH 50
+
+old:
+1015E12B      6A 38         PUSH 38
+new:
+1015E12B      6A 50         PUSH 50
+
+new:
+1015A5FC    - E9 6FC1D501               JMP <temple.Wmap_URhere_btn_fix>
+1015A601      90            		NOP
+1015A602      90            		NOP
+
+new: replaces original function
+1015DF70 >    E8 1B30F1FF               CALL <temple.?get_current_mapID>
+1015DF75      50                        PUSH EAX
+1015DF76      E8 B50CF1FF               CALL <temple.?return_PyLoc_from_MapID>
+1015DF7B      83C4 04                   ADD ESP,4
+1015DF7E      3E:8B0485 1036EA11        MOV EAX,DWORD PTR DS:[EAX*4+<test_worldmap_PyLoc_to_CLoc_table>;  reverse lookup on PyLoc_to_Cloc table
+1015DF86      C3                        RETN
+1015DF87      90                        NOP
+1015DF88      90                        NOP
+1015DF89      90                        NOP
+1015DF8A      90                        NOP
+1015DF8B      90                        NOP
+1015DF8C      90                        NOP
+
+old:
+1015ED7C      8D1440                    LEA EDX,DWORD PTR DS:[EAX+EAX*2]
+1015ED7F      50                        PUSH EAX
+1015ED80      8D1491                    LEA EDX,DWORD PTR DS:[ECX+EDX*4]
+new: new table pos calculation
+1015ED7C  |.  50                        PUSH EAX
+1015ED7D  |.  E8 BE78D501               CALL <temple.test_table_calc>
+1015ED82  |.  90                        NOP
+
+old:
+1015ED97   83FF D0       CMP EDI,-30
+1015ED9A   EB 14         JMP SHORT temple.1015EDB0
+1015ED9C   83FF 30       CMP EDI,30
+1015ED9F   7E 0F         JLE SHORT temple.1015EDB0
+new: 
+1015ED97 - E9 EB79D501   JMP <temple.WMap_pathID_limit_hook>
+1015ED9C   90            NOP
+1015ED9D   90            NOP
+1015ED9E   90            NOP
+1015ED9F   90            NOP
+1015EDA0   90            NOP
+
+new:
+1015FD67  |.  81F9 54020000             |CMP ECX,254	(was 238)
+
+new:
+101604B8  |.  68 58020000               PUSH 258 (was 23C)
+
+new: (15 was 0E)
+101597B4  |.  B9 15000000               MOV ECX,15
+101597C0  |.  B9 15000000               MOV ECX,15
+101597CC  |.  B9 15000000               MOV ECX,15
+1015A33F   .  83FA 15                   CMP EDX,15
+1015E30B  |.  83F9 15                   |CMP ECX,15
+1015F37B  |.  83F9 15                   |CMP ECX,15
+1015F398  |.  83F9 15                   |CMP ECX,15
+1015F42C  |.  83F9 15                   |CMP ECX,15
+101604CE  |.  B9 15000000               MOV ECX,15
+101604DA  |.  B9 15000000               MOV ECX,15
+101604E6  |.  B9 15000000               MOV ECX,15
+
+new:
+10160605      81FE E635EA11             CMP ESI,temple.11EA35E6
+
+old:
+empty
+new:
+11EB6640 <test_table_calc>      50                          PUSH EAX
+11EB6641                        51                          PUSH ECX
+11EB6642                        B9 14000000                 MOV ECX,14
+11EB6647                        F7E1                        MUL ECX
+11EB6649                        8BD0                        MOV EDX,EAX
+11EB664B                        59                          POP ECX
+11EB664C                        58                          POP EAX
+11EB664D                        03D1                        ADD EDX,ECX
+11EB664F                        C3                          RETN
+
+old:
+empty
+new: this is dynamically changed by the Worldmapper tool
+11EB6650 <Wmap_return_gamearea_hook>     05 78ECFFFF                 ADD EAX,-1388
+reserved up to
+11EB66DF                                 90                          NOP
+
+old:
+empty
+new: this is dynamically changed by the Worldmapper tool
+11EB66E0 <can_map_access_WMAP_hook>      05 77ECFFFF                 ADD EAX,-1389
+reserved up to
+11EB676F                                 90                          NOP
+
+old:
+empty
+new:
+11EB6770 <Wmap_URhere_btn_fix>     3E:8B0485 1036EA11          MOV EAX,DWORD PTR DS:[EAX*4+<test_worldmap_PyLoc_to_CLoc_table>
+11EB6778                           83F8 0E                     CMP EAX,0E
+11EB677B                           7C 05                       JL SHORT temple.11EB6782
+11EB677D                         - E9 7E3F2AFE                 JMP temple.1015A700
+11EB6782                         - E9 7C3E2AFE                 JMP temple.1015A603
+
+old:
+empty
+new:
+11EB6787 <WMap_pathID_limit_hook>     81FF 42FFFFFF   CMP EDI,-0BF
+11EB678D                            - 0F8E 0E862AFE   JLE temple.1015EDA1
+11EB6793                              81FF BE000000   CMP EDI,0BF
+11EB6799                            - 0F8E 11862AFE   JLE temple.1015EDB0
+11EB679F                            - E9 FD852AFE     JMP temple.1015EDA1
+
+
+v15:
+new: (was 238)
+1015B3E8      81FE 54020000 CMP ESI,254
+1015F30B      81FE 54020000 CMP ESI,254
+
+old:
+10159A1A      ****
+10159A1F      8B01          MOV EAX,DWORD PTR DS:[ECX]
+10159A21      2978 58       SUB DWORD PTR DS:[EAX+58],EDI
+10159A24      8B41 04       MOV EAX,DWORD PTR DS:[ECX+4]
+10159A27      2970 54       SUB DWORD PTR DS:[EAX+54],ESI
+10159A2A      8B41 04       MOV EAX,DWORD PTR DS:[ECX+4]
+10159A2D      2978 58       SUB DWORD PTR DS:[EAX+58],EDI
+10159A30      8B41 08       MOV EAX,DWORD PTR DS:[ECX+8]
+10159A33      2970 54       SUB DWORD PTR DS:[EAX+54],ESI
+10159A36      8B41 08       MOV EAX,DWORD PTR DS:[ECX+8]
+new:
+10159A1A      33DB          XOR EBX,EBX                              
+10159A1C      8B01          MOV EAX,DWORD PTR DS:[ECX
+10159A1E      2970 54       SUB DWORD PTR DS:[EAX+54],ESI
+10159A21      2978 58       SUB DWORD PTR DS:[EAX+58],EDI
+10159A24      83C1 04       ADD ECX,4
+10159A27      43            INC EBX
+10159A28      81FB 95000000 CMP EBX,95
+10159A2E    ^ 0F8E E8FFFFFF JLE temple.10159A1C
+10159A34      33DB          XOR EBX,EBX
+10159A36      EB 7C         JMP SHORT temple.10159AB4
+
+old:
+1015FBFB  |.  8981 38020000 MOV DWORD PTR DS:[ECX+238],EAX 
+new:
+1015FBFB      8981 54020000 MOV DWORD PTR DS:[ECX+254],EAX 
+
+
+
+v11
+data changes: (several tables had to be moved and enlarged, all references to them adjusted)
+Sorry, it's messy. But if you really need it, it's here.
+-------------------------------------------------------------------
+<?bin_path_ptr_table> = 10BEEE98
+replaced to
+11EA2406 <test_bin>       
+
+References in temple:.text to 10BEEE98..10BEF2C3
+Address       Disassembly                                            Comment
+1015E0CF      MOV ESI,temple.10BEEEAC                                10BEEEAC=temple.10BEEEAC
+1015EE11      MOV EDX,DWORD PTR DS:[ECX+10BEEEA8]
+1015EE33      MOV EDX,DWORD PTR DS:[ECX+<?bin_path_ptr_table>]
+1015EE3E      MOV EDX,DWORD PTR DS:[ECX+10BEEE9C]
+1015EE4F      MOV EDX,DWORD PTR DS:[ECX+10BEEEA8]
+1015EE70      MOV EAX,DWORD PTR DS:[ECX+10BEEEAC]
+1015EEAF      MOV EDX,DWORD PTR DS:[ECX+<?bin_path_ptr_table>]
+1015EEBC      MOV EDX,DWORD PTR DS:[ECX+10BEEE9C]
+1015EED0      MOV EAX,DWORD PTR DS:[ECX+10BEEEA8]
+1015EF03      MOV EDX,DWORD PTR DS:[ECX+10BEEEA8]
+1015EF19      MOV EAX,DWORD PTR DS:[ECX+<?bin_path_ptr_table>]
+1015EF32      MOV EAX,DWORD PTR DS:[ECX+10BEEE9C]
+1015EF6E      MOV EAX,DWORD PTR DS:[ESI+10BEEEA8]
+1015EFA0      MOV EAX,DWORD PTR DS:[ESI+10BEEEAC]
+1015EFDF      MOV EDX,DWORD PTR DS:[ESI+<?bin_path_ptr_table>]
+1015EFEC      MOV EDX,DWORD PTR DS:[ESI+10BEEE9C]
+1015F004      MOV EAX,DWORD PTR DS:[ESI+10BEEEA8]
+10160585      MOV ESI,temple.10BEEEA8                                10BEEEA8=temple.10BEEEA8
+
+replace table:	(in co8 temple.dll)
+10BEEE98	11EA2406	4x	98EEBE10	0624EA11	ok
+10BEEEAC	11EA241A	3x	ACEEBE10	1A24EA11	ok
+10BEEEA8	11EA2416	7x	A8EEBE10	1624EA11	ok
+10BEEE9C	11EA240A	4x	9CEEBE10	0A24EA11	ok
+10BEF2E0	11EA284E	1x	E0F2BE10	4E28EA11	ok
+
+@10160605: 11ea35e6 as limit for 190 paths
+
+-------------------------------------------------------------------
+replace <temple.?wmap_locs_known>
+to
+11EA3310 <test_wmap_locs_known>
+to
+11EA4800 <test_wmap_locs_known>
+
+References in temple:.text to 10BEF78C..10BEF78C
+Address    Disassembly                                      Comment
+10159620   MOV EAX,DWORD PTR DS:[ECX*4+<?wmap_locs_known>]
+10159645   MOV DWORD PTR DS:[EDX*4+<?wmap_locs_known>],ECX
+10159720   MOV EAX,DWORD PTR DS:[ESI*4+<?wmap_locs_known>]
+1015975C   MOV EAX,DWORD PTR DS:[ESI*4+<?wmap_locs_known>]
+10159769   MOV DWORD PTR DS:[ESI*4+<?wmap_locs_known>],EAX
+101597D1   MOV EDI,OFFSET <temple.?wmap_locs_known>         10BEF78C=OFFSET <temple.?wmap_locs_known>
+1015983E   MOV DWORD PTR DS:[EAX*4+<?wmap_locs_known>],903
+1015984A   MOV DWORD PTR DS:[EAX*4+<?wmap_locs_known>],0A0
+10159856   MOV DWORD PTR DS:[EAX*4+<?wmap_locs_known>],0B0
+101598E7   PUSH OFFSET <temple.?wmap_locs_known>
+1015A344   CMP DWORD PTR DS:[ESI*4+<?wmap_locs_known>],EBX
+1015A40D   MOV ECX,DWORD PTR DS:[ESI*4+<?wmap_locs_known>]
+1015A427   MOV EDX,DWORD PTR DS:[ESI*4+<?wmap_locs_known>]
+1015DFE3   MOV EAX,DWORD PTR DS:[EDI*4+<?wmap_locs_known>]
+1015E025   TEST BYTE PTR DS:[EDI*4+<?wmap_locs_known>],BL
+1015E12D   PUSH OFFSET <temple.?wmap_locs_known>
+1015E314   MOV ECX,OFFSET <temple.?wmap_locs_known>         10BEF78C=OFFSET <temple.?wmap_locs_known>
+1015F2D7   MOV EBX,OFFSET <temple.?wmap_locs_known>         10BEF78C=OFFSET <temple.?wmap_locs_known>
+1015F3B0   MOV ESI,DWORD PTR DS:[EAX*4+<?wmap_locs_known>]
+1015F3CC   MOV ECX,DWORD PTR DS:[EDI*4+<?wmap_locs_known>]
+1015F441   MOV EDX,DWORD PTR DS:[EAX*4+<?wmap_locs_known>]
+101604D3   MOV EDI,OFFSET <temple.?wmap_locs_known>         10BEF78C=OFFSET <temple.?wmap_locs_known>
+101604F7   MOV DWORD PTR DS:[EAX*4+<?wmap_locs_known>],903
+10160503   MOV DWORD PTR DS:[EAX*4+<?wmap_locs_known>],0A0
+1016050F   MOV DWORD PTR DS:[EAX*4+<?wmap_locs_known>],0B0
+
+8CF7BE10	1033EA11	25x	ok
+to
+1033EA11	0048EA11	25x	ok
+new limit 15h (so 14h or 20 entries)
+
+special case:
+1015E32C      81F9 6433EA11 CMP ECX,temple.11EA3364                  ;  **CHANGE wmap_loc related ***
+upper limit of wmap_known_locs for drawing corresponding icon on map
+to
+1015E32C      81F9 5448EA11   CMP ECX,temple.11EA4854                  ;  **CHANGE wmap_loc related ***
+
+-------------------------------------------------------------------
+replace 10BEF5E4 <Loc_name_table>
+to
+11EA4000 <test_loc_name_table>   00                                               .
+
+References in temple:.text to 10BEF5E4..10BEF5E4
+Address    Disassembly                                            Comment
+1015A431   MOV EAX,DWORD PTR DS:[EDX*4+<Loc_name_table>]
+1015B1C5   MOV EAX,DWORD PTR DS:[EDI*4+<Loc_name_table>]
+1015DEF0   MOV DWORD PTR DS:[ESI*4+<Loc_name_table>],EAX
+1015DF47   MOV ESI,OFFSET <temple.Loc_name_table>                 10BEF5E4=OFFSET 
+
+E4F5BE10	0040EA11	4x	ok
+
+1015DF62  |.  81FE 1CF6BE10 |CMP ESI,temple.10BEF61C       ;  **special case for loc_name_table**
+-> 11EA4054 for 15h limit
+
+-------------------------------------------------------------------
+replace 10BEEE28 <??Wmap_loc_related1> 
+to
+11EA3410 <test_??Wmap_loc_related1>
+to
+11EA4900 <test_wmap_loc_related1>
+
+
+References in temple:.text to 10BEEE28..10BEEE28
+Address    Disassembly                               Comment
+10159607   CMP DWORD PTR DS:[ESI*4+<??Wmap_loc_rela
+10159659   MOV DWORD PTR DS:[ESI*4+<??Wmap_loc_rela
+101597B9   MOV EDI,OFFSET <temple.??Wmap_loc_relate  10BEEE28=OFFSET <temple.??Wmap_loc_related1>
+1015E01E   MOV DWORD PTR DS:[ESI*4+<??Wmap_loc_rela
+1015E44A   MOV EAX,DWORD PTR DS:[ESI*4+<??Wmap_loc_
+1015E454   LEA ESI,DWORD PTR DS:[ESI*4+<??Wmap_loc_
+1015F29B   CMP ECX,OFFSET <temple.??Wmap_loc_relate  10BEEE28=OFFSET <temple.??Wmap_loc_related1>
+101604DF   MOV EDI,OFFSET <temple.??Wmap_loc_relate  10BEEE28=OFFSET <temple.??Wmap_loc_related1>
+
+28EEBE10	1034EA11	8x(-1)	ok
+to
+1034EA11	0049EA11	8x(-1)	ok
+
+special:
+1015F29B  |.  81F9 28EEBE10 |CMP ECX,OFFSET <temple.??Wmap_loc_related1>
+don't change, limit for other loop
+
+-------------------------------------------------------------------
+replace 10BEF748 <??Wmap_loc_related2>   
+to
+11EA3510 <test_??Wmap_loc_related2>
+to
+11EA4A00 <test_wmap_loc_related2>
+
+
+References in temple:.text to 10BEF748..10BEF748
+Address    Disassembly                               Comment
+101596F2   CMP DWORD PTR DS:[EDI+<??Wmap_loc_relate
+10159743   MOV DWORD PTR DS:[EDI+<??Wmap_loc_relate
+101597C5   MOV EDI,OFFSET <temple.??Wmap_loc_relate  10BEF748=OFFSET <temple.??Wmap_loc_related2>
+1015E045   MOV DWORD PTR DS:[ESI*4+<??Wmap_loc_rela
+1015E68F   MOV EAX,DWORD PTR DS:[ESI*4+<??Wmap_loc_
+1015E699   LEA ESI,DWORD PTR DS:[ESI*4+<??Wmap_loc_
+101604EB   MOV EDI,OFFSET <temple.??Wmap_loc_relate  10BEF748=OFFSET <temple.??Wmap_loc_related2>
+
+48F7BE10	1035EA11	7x	ok
+to
+1035EA11	004AEA11	7x	ok
+
+-------------------------------------------------------------------
+replace 10297250 <worldmap_PyLoc_to_CLoc_table>   
+to
+11EA3610 <test_worldmap_PyLoc_to_CLoc_table>
+
+References in temple:.text to 10297250..102972BB
+Address    Disassembly                               Comment
+101595E5   MOV ESI,DWORD PTR DS:[EAX*4+<worldmap_Py
+//101596FB   MOV EAX,DWORD PTR DS:[EDI+10297284]
+1015A5FC   MOV EAX,DWORD PTR DS:[EAX*4+<worldmap_Py
+1015F2B7   MOV EAX,DWORD PTR DS:[EAX*4+<worldmap_Py
+10160454   MOV ECX,DWORD PTR DS:[EAX*4+<worldmap_Py
+
+50722910	1036EA11	4x	ok
+
+-------------------------------------------------------------------
+replace 102972BC <worldmap_Cloc_to_mapID>   
+to
+11EA3710 <test_worldmap_Cloc_to_mapID>  
+
+References in temple:.text to 102972BC..102972BC
+Address    Disassembly                               Comment
+101596B0   CMP DWORD PTR DS:[EAX*4+<worldmap_Cloc_t
+1015EA32   MOV EDX,DWORD PTR DS:[ECX*4+<worldmap_Cl
+
+BC722910	1037EA11	2x	ok
+
+special case:
+(obsolete)1015DF7F MOV EDX,temple.102972C0                  ;  ignore relocation of Cloc_table for now
+
+-------------------------------------------------------------------
+replace 102972F8 <?pathID_table>   
+to
+11EA4100 <test_?pathID_table>   
+
+References in temple:.text to 102972F8..102972F8
+Address    Disassembly                               Comment
+1015ED83   MOV EDI,DWORD PTR DS:[EDX*4+<?pathID_tab
+
+F8722910	0041EA11	1x	ok

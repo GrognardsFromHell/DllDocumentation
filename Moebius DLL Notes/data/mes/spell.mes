@@ -1,0 +1,1588 @@
+
+//
+// Spell System Messages
+//
+
+
+//
+// Spell Names
+//
+
+
+{0}{SPELL_NONE}
+{1}{Aid}
+{2}{Air Walk}
+{3}{Alarm} 
+{4}{Alter Self} 
+{5}{Analyze Dweomer}
+{6}{Animal Friendship} 
+{7}{Animal Growth}
+{8}{Animal Messenger} 
+{9}{Animal Shapes}
+{10}{Animal Trance} 
+{11}{Animate Dead} 
+{12}{Animate Objects}
+{13}{Animate Rope} 
+{14}{Antilife Shell}
+{15}{Antimagic Field}
+{16}{Antipathy}
+{17}{Antiplant Shell} 
+{18}{Arcane Eye} 
+{19}{Arcane Lock} 
+{20}{Arcane Mark}
+{21}{Astral Projection}
+{22}{Atonement} 
+{23}{Augury} 
+{24}{Awaken} 
+{25}{Bane}
+{26}{Banishment} 
+{27}{Barkskin}
+{28}{Bestow Curse}
+{29}{Bigby's Clenched Fist}
+{30}{Bigby's Crushing Hand}
+{31}{Bigby's Forceful Hand} 
+{32}{Bigby's Grasping Hand} 
+{33}{Bigby's Interposing Hand} 
+{34}{Binding} 
+{35}{Blade Barrier} 
+{36}{Blasphemy} 
+{37}{Bless}
+{38}{Bless Water}
+{39}{Bless Weapon}
+{40}{Blindness/Deafness}
+{41}{Blink}
+{42}{Blur}
+{43}{Break Enchantment}
+{44}{Bull's Strength}
+{45}{Burning Hands}
+{46}{Call Lightning}
+{47}{Calm Animals}
+{48}{Calm Emotions}
+{49}{Cat's Grace}
+{50}{Cause Fear}
+{51}{Chain Lightning} 
+{52}{Change Self}
+{53}{Changestaff} 
+{54}{Chaos Hammer}
+{55}{Charm Monster}
+{56}{Charm Person}
+{57}{Charm Animal} --HTN - 3.5, was Charm Person or Animal
+{58}{Chill Metal}
+{59}{Chill Touch}
+{60}{Circle of Death} 
+{61}{Inflict Light Wounds, Mass} --HTN - 3.5, was Circle of Doom
+{62}{Clairaudience/Clairvoyance}
+{63}{Cloak of Chaos} 
+{64}{Clone} 
+{65}{Cloudkill}
+{66}{Color Spray}
+{67}{Command}
+{68}{Command Plants} 
+{69}{Commune}
+{70}{Commune with Nature}
+{71}{Comprehend Languages}
+{72}{Cone of Cold}
+{73}{Confusion}
+{74}{Consecrate}
+{75}{Contact Other Plane}
+{76}{Contagion}
+{77}{Contingency}
+{78}{Continual Flame}
+{79}{Control Plants}
+{80}{Control Undead}
+{81}{Control Water}
+{82}{Control Weather}
+{83}{Control Winds}
+{84}{Create Food and Water}
+{85}{Create Greater Undead}
+{86}{Create Undead}
+{87}{Create Water}
+{88}{Creeping Doom}
+{89}{Cure Critical Wounds}
+{90}{Cure Light Wounds}
+{91}{Cure Minor Wounds}
+{92}{Cure Moderate Wounds}
+{93}{Cure Serious Wounds}
+{94}{Curse Water}
+{95}{Dancing Lights}
+{96}{Darkness}
+{97}{Darkvision}
+{98}{Daylight}
+{99}{Daze}
+{100}{Death Knell}
+{101}{Death Ward}
+{102}{Deathwatch}
+{103}{Deeper Darkness}
+{104}{Delay Poison}
+{105}{Delayed Blast Fireball}
+{106}{Demand}
+{107}{Desecrate}
+{108}{Destruction}
+{109}{Detect Animals or Plants}
+{110}{Detect Chaos}
+{111}{Detect Evil}
+{112}{Detect Good}
+{113}{Detect Law}
+{114}{Detect Magic}
+{115}{Detect Poison}
+{116}{Detect Scrying}
+{117}{Detect Secret Doors}
+{118}{Detect Snares and Pits}
+{119}{Detect Thoughts}
+{120}{Detect Undead}
+{121}{Dictum}
+{122}{Dimensional Anchor}
+{123}{Dimension Door}
+{124}{Diminish Plants}
+{125}{Discern Lies}
+{126}{Discern Location}
+{127}{Disintegrate}
+{128}{Dismissal}
+{129}{Dispel Chaos}
+{130}{Dispel Evil}
+{131}{Dispel Good}
+{132}{Dispel Law}
+{133}{Dispel Magic}
+{134}{Displacement}
+{135}{Disrupt Undead}
+{136}{Divination}
+{137}{Divine Favor}
+{138}{Divine Power}
+{139}{Dominate Animal}
+{140}{Dominate Monster}
+{141}{Dominate Person}
+{142}{Doom}
+{143}{Drawmij's Instant Summons}
+{144}{Dream}
+{145}{Earthquake}
+{146}{Elemental Swarm}
+{147}{Emotion}
+{148}{Bear's Endurance}
+{149}{Endure Elements}
+{150}{Energy Drain}
+{151}{Enervation}
+{152}{Enlarge Person} --HTN - 3.5, was Enlarge
+{153}{Entangle}
+{154}{Enthrall}
+{155}{Entropic Shield}
+{156}{Ethereal Jaunt}
+{157}{Etherealness}
+{158}{Evard's Black Tentacles}
+{159}{Expeditious Retreat}
+{160}{Explosive Runes}
+{161}{Eyebite}
+{162}{Fabricate}
+{163}{Faerie Fire}
+{164}{False Vision}
+{165}{Fear}
+{166}{Feather Fall}
+{167}{Feeblemind}
+{168}{Find the Path}
+{169}{Find Traps}
+{170}{Finger of Death}
+{171}{Fireball}
+{172}{Fire Seeds}
+{173}{Fire Shield}
+{174}{Fire Storm}
+{175}{Fire Trap}
+{176}{Flame Arrow}
+{177}{Flame Blade}
+{178}{Flame Strike}
+{179}{Flaming Sphere}
+{180}{Flare}
+{181}{Flesh to Stone}
+{182}{Fly}
+{183}{Fog Cloud}
+{184}{Forbiddance}
+{185}{Forcecage}
+{186}{Foresight}
+{187}{Freedom}
+{188}{Freedom of Movement}
+{189}{Gaseous Form}
+{190}{Gate}
+{191}{Geas/Quest}
+{192}{Gentle Repose}
+{193}{Ghost Sound}
+{194}{Ghoul Touch}
+{195}{Giant Vermin}
+{196}{Glitterdust}
+{197}{Globe of Invulnerability}
+{198}{Glyph of Warding}
+{199}{Goodberry}
+{200}{Grease}
+{201}{Greater Command}
+{202}{Greater Dispelling}
+{203}{Greater Glyph of Warding}
+{204}{Greater Magic Fang}
+{205}{Greater Magic Weapon}
+{206}{Greater Planar Ally}
+{207}{Greater Planar Binding}
+{208}{Greater Restoration}
+{209}{Greater Scrying}
+{210}{Greater Shadow Conjuration}
+{211}{Greater Shadow Evocation}
+{212}{Guards and Wards}
+{213}{Guidance}
+{214}{Gust of Wind}
+{215}{Hallow}
+{216}{Hallucinatory Terrain}
+{217}{Halt Undead}
+{218}{Harm}
+{219}{Haste}
+{220}{Heal}
+{221}{Cure Light Wounds, Mass} --HTN - 3.5, was Healing Circle
+{222}{Heal Mount}
+{223}{Heat Metal}
+{224}{Helping Hand}
+{225}{Heroes' Feast}
+{226}{Hold Animal}
+{227}{Hold Monster}
+{228}{Hold Person}
+{229}{Hold Portal}
+{230}{Holy Aura}
+{231}{Holy Smite}
+{232}{Holy Sword}
+{233}{Holy Word}
+{234}{Horrid Wilting}
+{235}{Hypnotic Pattern}
+{236}{Hypnotism}
+{237}{Ice Storm}
+{238}{Identify}
+{239}{Illusory Script}
+{240}{Illusory Wall}
+{241}{Imbue with Spell Ability}
+{242}{Implosion}
+{243}{Imprisonment}
+{244}{Greater Invisibility} --HTN - 3.5, was Improved Invisibility
+{245}{Incendiary Cloud}
+{246}{Inflict Critical Wounds}
+{247}{Inflict Light Wounds}
+{248}{Inflict Minor Wounds}
+{249}{Inflict Moderate Wounds}
+{250}{Inflict Serious Wounds}
+{251}{Insanity}
+{252}{Insect Plague}
+{253}{Invisibility}
+{254}{Invisibility Purge}
+{255}{Invisibility Sphere}
+{256}{Hide from Animals} --HTN - 3.5, was Invisibility to Animals
+{257}{Hide from Undead} --HTN - 3.5, was Invisibility to Undead
+{258}{Iron Body}
+{259}{Ironwood}
+{260}{Jump}
+{261}{Keen Edge}
+{262}{Knock}
+{263}{Know Direction}
+{264}{Legend Lore}
+{265}{Leomund's Secret Chest}
+{266}{Leomund's Secure Shelter}
+{267}{Leomund's Tiny Hut}
+{268}{Leomund's Trap}
+{269}{Lesser Geas}
+{270}{Lesser Planar Ally}
+{271}{Lesser Planar Binding}
+{272}{Lesser Restoration}
+{273}{Levitate}
+{274}{Light}
+{275}{Lightning Bolt}
+{276}{Limited Wish}
+{277}{Liveoak}
+{278}{Locate Creature}
+{279}{Locate Object}
+{280}{Mage Armor}
+{281}{Mage Hand}
+{282}{Magic Circle against Chaos}
+{283}{Magic Circle against Evil}
+{284}{Magic Circle against Good}
+{285}{Magic Circle against Law}
+{286}{Magic Fang}
+{287}{Magic Jar}
+{288}{Magic Missile}
+{289}{Magic Mouth}
+{290}{Magic Stone}
+{291}{Magic Vestment}
+{292}{Magic Weapon}
+{293}{Major Creation}
+{294}{Major Image}
+{295}{Make Whole}
+{296}{Mark of Justice}
+{297}{Mass Charm}
+{298}{Mass Haste}
+{299}{Mass Heal}
+{300}{Mass Invisibility}
+{301}{Mass Suggestion}
+{302}{Maze}
+{303}{Meld into Stone}
+{304}{Melf's Acid Arrow}
+{305}{Mending}
+{306}{Message}
+{307}{Meteor Swarm}
+{308}{Mind Blank}
+{309}{Mind Fog}
+{310}{Minor Creation}
+{311}{Lesser Globe of Invulnerability} --HTN - 3.5, was Minor Globe of Invulnerability
+{312}{Minor Image}
+{313}{Miracle}
+{314}{Mirage Arcana}
+{315}{Mirror Image}
+{316}{Misdirection}
+{317}{Mislead}
+{318}{Modify Memory}
+{319}{Mordenkainen's Disjunction}
+{320}{Mordenkainen's Faithful Hound}
+{321}{Mordenkainen's Lucubration}
+{322}{Mordenkainen's Magnificent Mansion}
+{323}{Mordenkainen's Sword}
+{324}{Mount}
+{325}{Move Earth}
+{326}{Negative Energy Protection}
+{327}{Neutralize Poison}
+{328}{Nightmare}
+{329}{Nondetection}
+{330}{Nystul's Magic Aura}
+{331}{Nystul's Undetectable Aura}
+{332}{Obscure Object}
+{333}{Obscuring Mist}
+{334}{Open/Close}
+{335}{Order's Wrath}
+{336}{Otiluke's Freezing Sphere}
+{337}{Otiluke's Resilient Sphere}
+{338}{Otiluke's Telekinetic Sphere}
+{339}{Otto's Irresistible Dance}
+{340}{Passwall}
+{341}{Pass without Trace}
+{342}{Permanency}
+{343}{Permanent Image}
+{344}{Persistent Image}
+{345}{Phantasmal Killer}
+{346}{Phantom Steed}
+{347}{Phase Door}
+{348}{Planar Ally}
+{349}{Planar Binding}
+{350}{Plane Shift}
+{351}{Plant Growth}
+{352}{Poison}
+{353}{Polymorph Any Object}
+{354}{Polymorph Other}
+{355}{Polymorph Self}
+{356}{Power Word, Blind}
+{357}{Power Word, Kill}
+{358}{Power Word, Stun}
+{359}{Prayer}
+{360}{Prestidigitation}
+{361}{Prismatic Sphere}
+{362}{Prismatic Spray}
+{363}{Prismatic Wall}
+{364}{Produce Flame}
+{365}{Programmed Image}
+{366}{Project Image}
+{367}{Protection from Arrows}
+{368}{Protection from Chaos}
+{369}{Protection from Energy} --HTN - 3.5, was Protection from Elements
+{370}{Protection from Evil}
+{371}{Protection from Good}
+{372}{Protection from Law}
+{373}{Protection from Spells}
+{374}{Prying Eyes}
+{375}{Purify Food and Drink}
+{376}{Pyrotechnics}
+{377}{Quench}
+{378}{Rainbow Pattern}
+{379}{Raise Dead}
+{380}{Random Action}
+{381}{Rary's Mnemonic Enhancer}
+{382}{Rary's Telepathic Bond}
+{383}{Ray of Enfeeblement}
+{384}{Ray of Frost}
+{385}{Read Magic}
+{386}{Reduce Person} --HTN - 3.5, was Reduce
+{387}{Refuge}
+{388}{Regenerate}
+{389}{Reincarnate}
+{390}{Remove Blindness/Deafness}
+{391}{Remove Curse}
+{392}{Remove Disease}
+{393}{Remove Fear}
+{394}{Remove Paralysis}
+{395}{Repel Metal or Stone}
+{396}{Repel Vermin}
+{397}{Repel Wood}
+{398}{Repulsion}
+{399}{Resistance}
+{400}{Resist Energy} --HTN - 3.5, was Resist Elements
+{401}{Restoration}
+{402}{Resurrection}
+{403}{Reverse Gravity}
+{404}{Righteous Might}
+{405}{Rope Trick}
+{406}{Rusting Grasp}
+{407}{Sanctuary}
+{408}{Scare}
+{409}{Screen}
+{410}{Scrying}
+{411}{Sculpt Sound}
+{412}{Searing Light}
+{413}{Secret Page}
+{414}{See Invisibility}
+{415}{Seeming}
+{416}{Sending}
+{417}{Sepia Snake Sigil}
+{418}{Sequester}
+{419}{Shades}
+{420}{Shadow Conjuration}
+{421}{Shadow Evocation}
+{422}{Shadow Walk}
+{423}{Shambler}
+{424}{Shapechange}
+{425}{Shatter}
+{426}{Shield}
+{427}{Shield of Faith}
+{428}{Shield of Law}
+{429}{Shield Other}
+{430}{Shillelagh}
+{431}{Shocking Grasp}
+{432}{Shout}
+{433}{Shrink Item}
+{434}{Silence}
+{435}{Silent Image}
+{436}{Simulacrum}
+{437}{Slay Living}
+{438}{Sleep}
+{439}{Sleet Storm}
+{440}{Slow}
+{441}{Snare}
+{442}{Soften Earth and Stone}
+{443}{Solid Fog}
+{444}{Soul Bind}
+{445}{Sound Burst}
+{446}{Speak with Animals}
+{447}{Speak with Dead}
+{448}{Speak with Plants}
+{449}{Spectral Hand}
+{450}{Spell Immunity}
+{451}{Spell Resistance}
+{452}{Spellstaff}
+{453}{Spell Turning}
+{454}{Spider Climb}
+{455}{Spike Growth}
+{456}{Spike Stones}
+{457}{Spiritual Weapon}
+{458}{Statue}
+{459}{Status}
+{460}{Stinking Cloud}
+{461}{Stone Shape}
+{462}{Stoneskin}
+{463}{Stone Tell}
+{464}{Stone to Flesh}
+{465}{Storm of Vengeance}
+{466}{Suggestion}
+{467}{Summon Monster I}
+{468}{Summon Monster II}
+{469}{Summon Monster III}
+{470}{Summon Monster IV}
+{471}{Summon Monster V}
+{472}{Summon Monster VI}
+{473}{Summon Monster VII}
+{474}{Summon Monster VIII}
+{475}{Summon Monster IX}
+{476}{Summon Nature's Ally I}
+{477}{Summon Nature's Ally II}
+{478}{Summon Nature's Ally III}
+{479}{Summon Nature's Ally IV}
+{480}{Summon Nature's Ally V}
+{481}{Summon Nature's Ally VI}
+{482}{Summon Nature's Ally VII}
+{483}{Summon Nature's Ally VIII}
+{484}{Summon Nature's Ally IX}
+{485}{Summon Swarm}
+{486}{Sunbeam}
+{487}{Sunburst}
+{488}{Symbol}
+{489}{Sympathy}
+{490}{Tasha's Hideous Laughter}
+{491}{Telekinesis}
+{492}{Teleport}
+{493}{Teleportation Circle}
+{494}{Teleport without Error}
+{495}{Temporal Stasis}
+{496}{Tenser's Floating Disk}
+{497}{Tenser's Transformation}
+{498}{Time Stop}
+{499}{Tongues}
+{500}{Transmute Metal to Wood}
+{501}{Transmute Mud to Rock}
+{502}{Transmute Rock to Mud}
+{503}{Transport via Plants}
+{504}{Trap the Soul}
+{505}{Tree Shape}
+{506}{Tree Stride}
+{507}{True Resurrection}
+{508}{True Seeing}
+{509}{True Strike}
+{510}{Undetectable Alignment}
+{511}{Unhallow}
+{512}{Unholy Aura}
+{513}{Unholy Blight}
+{514}{Unseen Servant}
+{515}{Vampiric Touch}
+{516}{Vanish}
+{517}{Veil}
+{518}{Ventriloquism}
+{519}{Virtue}
+{520}{Vision}
+{521}{Wail of the Banshee}
+{522}{Wall of Fire}
+{523}{Wall of Force}
+{524}{Wall of Ice}
+{525}{Wall of Iron}
+{526}{Wall of Stone}
+{527}{Wall of Thorns}
+{528}{Warp Wood}
+{529}{Water Breathing}
+{530}{Water Walk}
+{531}{Web}
+{532}{Weird}
+{533}{Whirlwind}
+{534}{Whispering Wind}
+{535}{Wind Walk}
+{536}{Wind Wall}
+{537}{Wish}
+{538}{Wood Shape}
+{539}{Word of Chaos}
+{540}{Word of Recall}
+{541}{Zone of Truth} 
+{542}{Blight}
+{543}{Dispel Air}
+{544}{Dispel Earth}
+{545}{Dispel Fire}
+{546}{Dispel Water}
+{547}{Rage}
+{548}{Eagle's Splendor}
+{549}{Fox's Cunning}
+{550}{Owl's Wisdom}
+{551}{Reduce Animal}
+{552}{Glibness}
+{553}{False Life}
+{554}{Longstrider}
+{555}{Acid Splash}
+{556}{Daze Monster}
+{557}{Heroism}
+{558}{Greater Heroism}
+{559}{Quench}
+{560}{Call Lightning Storm}
+{561}{Lesser Confusion}
+{562}{Deep Slumber}
+{563}{Crushing Despair}
+{564}{Good Hope}
+{565}{Heal}
+{566}{Harm}
+{567}{Reincarnation}
+{568}{Mordenkainen's Private Sanctum}
+{569}{}
+{570}{}
+{571}{}
+{572}{}
+{573}{}
+{574}{}
+{575}{}
+{576}{}
+{577}{}
+{578}{}
+{579}{}
+{580}{}
+{581}{}
+{582}{}
+{583}{}
+{584}{}
+{585}{}
+{586}{}
+{587}{}
+{588}{}
+{589}{}
+{590}{}
+{591}{}
+{592}{}
+{593}{}
+{594}{}
+{595}{}
+{596}{}
+{597}{}
+{598}{}
+{599}{}
+{600}{Frog Tongue}
+{601}{Vrock Screech}
+{602}{Vrock Spores}
+{603}{Zuggtmoy Summon Fungi}
+{604}{Glabrezu Summon Quasits}
+{605}{senshock summon elemental}
+{606}{summon fungi}
+{607}{summon lamia}
+{608}{Gate}
+{609}{phycomid attack}
+{699}{Summoned}
+{700}{Ring of Freedom of Movement}
+{701}{Potion of Enlarge Person}
+{702}{Potion of Haste}
+{703}{Boots of Speed}
+{704}{Dust of Disappearance}
+{705}{Potion of eagle's splendor}
+{706}{Potion of glibness}
+{707}{Potion of hiding}
+{708}{Potion of sneaking}
+{709}{Potion of heroism}
+{710}{Potion of super-heroism}
+{711}{Potion of protection from fire}
+{712}{Javelin of lightning}
+{713}{Flame Tongue}
+{714}{Potion of protection from outsiders}
+{715}{Potion of protection from elementals}
+{716}{Potion of protection from earth}
+{717}{Potion of protection from magic}
+{718}{Potion of protection from undead}
+{719}{Ring of Animal Summoning (Dog)}
+{720}{Potion of Protection from Acid}
+{721}{Potion of Protection from Electricity}
+{722}{Summon Air Elemental}
+{723}{Summon Earth Elemental}
+{724}{Summon Fire Elemental}
+{725}{Summon Water Elemental}
+{726}{Summon Balor}
+{727}{Summon Glabrezu}
+{728}{Summon Hezrou}
+{729}{Summon Vrock}
+{730}{Elixir of hiding}
+{731}{Elixir of sneaking}
+{732}{Elixir of vision}
+{733}{Scorching Ray}
+
+{800}{Dispel Magic Area}
+{801}{Dispel Magic Target}
+
+// spell domain names
+{4000}{None}
+{4001}{Air} 
+{4002}{Animal}
+{4003}{Chaos}
+{4004}{Death}
+{4005}{Destruction}
+{4006}{Earth}
+{4007}{Evil}
+{4008}{Fire}
+{4009}{Good}
+{4010}{Healing}
+{4011}{Knowledge}
+{4012}{Law}
+{4013}{Luck}
+{4014}{Magic}
+{4015}{Plant}
+{4016}{Protection}
+{4017}{Strength}
+{4018}{Sun}
+{4019}{Travel}
+{4020}{Trickery}
+{4021}{War}
+{4022}{Water}
+{4023}{Special}
+
+//
+// Spell Descriptions
+//
+{5000}{SPELL_NONE}
+{5001} Aid {[Enchantment] +1 on attack rolls and saves against fear, 1d8 temporary hit points + 1/level (max 10).}
+{5002}{Air Walk}
+{5003}{Alarm} 
+{5004}{Alter Self} 
+{5005}{Analyze Dweomer}
+{5006}{Animal Friendship} 
+{5007} Animal Growth {[Transmutation] For every two levels, one animal doubles in size.}
+{5008}{Animal Messenger} 
+{5009}{Animal Shapes}
+{5010} Animal Trance {[Enchantment] Fascinates 2d6 Hit Dice of animals.} 
+{5011} Animate Dead {[Necromancy] Creates undead skeletons and zombies.} 
+{5012}{Animate Objects}
+{5013}{Animate Rope} 
+{5014}{Antilife Shell}
+{5015}{Antimagic Field}
+{5016}{Antipathy}
+{5017}{Antiplant Shell} 
+{5018}{Arcane Eye} 
+{5019}{Arcane Lock} 
+{5020}{Arcane Mark}
+{5021}{Astral Projection}
+{5022}{Atonement} 
+{5023}{Augury} 
+{5024}{Awaken} 
+{5025} Bane {[Enchantment] Enemies take a -1 penalty on attack rolls and saves against fear.}
+{5026}{Banishment} 
+{5027} Barkskin {[Transmutation] Grants +2 (or higher) enhancement to natural armor.}
+{5028} Bestow Curse {[Necromancy] -6 penalty to an ability score; -4 penalty on attack rolls, saves and checks; or 50% chance of losing each action.}
+{5029}{Bigby's Clenched Fist}
+{5030}{Bigby's Crushing Hand}
+{5031}{Bigby's Forceful Hand} 
+{5032}{Bigby's Grasping Hand} 
+{5033}{Bigby's Interposing Hand} 
+{5034}{Binding} 
+{5035}{Blade Barrier} 
+{5036}{Blasphemy} 
+{5037} Bless {[Enchantment] Allies gain +1 on attack rolls and saves against fear.}
+{5038} Bless Water {[Transmutation] Makes holy water.}
+{5039}{Bless Weapon}
+{5040} Blindness/Deafness {[Necromancy] Makes subject blinded or deafened.}
+{5041} Blink {[Transmutation] You randomly vanish and reappear for 1 round/level.}
+{5042} Blur {[Illusion] Attacks miss subject 20% of the time.}
+{5043} Break Enchantment {[Abjuration] Frees subjects from enchantments, alterations, curses, and petrification.}
+{5044} Bull's Strength {[Transmutation] Subject gains +4 to Strength for 1 min./level.}
+{5045} Burning Hands {[Evocation] Fire damage, 1d4 per level (max 5d4).} 
+{5046} Call Lightning {[Evocation] Calls down lightning bolts (3d6 per bolt) from the sky.}
+{5047} Calm Animals {[Enchantment] Calms (2d4 + level) Hit Dice of animals.}
+{5048} Calm Emotions {[Enchantment] Calms creatures, negating emotion effects (positive and negative); suppresses fear, morale bonuses, and confusion.}
+{5049} Cat's Grace {[Transmutation] Subject gains +4 to Dexterity for 1 min./level.}
+{5050} Cause Fear {[Necromancy] One creature of 5 Hit Dice or less flees for 1d4 rounds.}
+{5051} Chain Lightning {[Evocation] 1d6/level damage; 1 secondary bolt/level each deals half damage.} 
+{5052}{Change Self}
+{5053}{Changestaff} 
+{5054} Chaos Hammer {[Evocation] Damages and staggers lawful creatures; deals 1d8 points of damage per two caster levels (1d6 to outsiders) and slows creatures.}
+{5055} Charm Monster {[Enchantment] Makes monster believe that it is your ally.}
+{5056} Charm Person {[Enchantment] Makes one person your friend.}
+{5057} Charm Animal {[Enchantment] Makes one animal your friend.}
+{5058} Chill Metal {[Transmutation] Creature wearing metal armor takes cold damage.}
+{5059} Chill Touch {[Necromancy] One touch/level deals 1d6 damage and possibly 1 point of Strength damage.}
+{5060}{Circle of Death} 
+{5061}{Inflict Light Wounds, Mass}
+{5062} Clairaudience/Clairvoyance {[Divination] Hear or see at a distance for 1 min./level.}
+{5063}{Cloak of Chaos} 
+{5064}{Clone} 
+{5065} Cloudkill {[Conjuration] Kills creatures with 3 Hit Dice (HD) or less; 4-6 HD creatures save or die; 6+ HD creatures take Constitution damage.}
+{5066} Color Spray {[Illusion] Knocks unconscious, blinds, and/or stuns 1d6 weak creatures.}
+{5067} Command {[Enchantment] One subject obeys selected command (approach, fall, flee, or halt) for 1 round.}
+{5068}{Command Plants} 
+{5069}{Commune}
+{5070}{Commune with Nature}
+{5071}{Comprehend Languages}
+{5072} Cone of Cold {[Evocation] Deals 1d6/level of cold damage.}
+{5073} Confusion {[Enchantment] Subjects behave oddly for 1 round/level.}
+{5074} Consecrate {[Evocation] Fills area with positive energy, making undead weaker.}
+{5075}{Contact Other Plane}
+{5076} Contagion {[Necromancy] Infects subject with chosen disease.}
+{5077}{Contingency}
+{5078}{Continual Flame}
+{5079}{Control Plants}
+{5080}{Control Undead}
+{5081}{Control Water}
+{5082}{Control Weather}
+{5083}{Control Winds}
+{5084}{Create Food and Water}
+{5085}{Create Greater Undead}
+{5086}{Create Undead}
+{5087}{Create Water}
+{5088}{Creeping Doom}
+{5089} Cure Critical Wounds {[Conjuration] Cures 4d8 damage + 1/level (max +10).}
+{5090} Cure Light Wounds {[Conjuration] Cures 1d8 damage +1/level (max +5).}
+{5091} Cure Minor Wounds {[Conjuration] Cures 1 point of damage.}
+{5092} Cure Moderate Wounds {[Conjuration] Cures 2d8 damage +1/level (max +10).}
+{5093} Cure Serious Wounds {[Conjuration] Cures 3d8 damage +1/level (max +10).}
+{5094} Curse Water {[Necromancy] Makes unholy water.}
+{5095}{Dancing Lights}
+{5096}{Darkness}
+{5097}{Darkvision}
+{5098}{Daylight}
+{5099} Daze {[Enchantment] Humanoid creature of 4 Hit Dice or less loses next action.}
+{5100} Death Knell {[Necromancy] Kills dying creature; you gain 1d8 temporary hit points, +2 to Strength, and add one caster level, which improves spell effects dependent upon caster level.}
+{5101} Death Ward {[Necromancy] Grants immunity to death spells and negative energy effects.}
+{5102}{Deathwatch}
+{5103}{Deeper Darkness}
+{5104} Delay Poison {[Conjuration] Stops poison from harming subject for 1 hour/level.}
+{5105}{Delayed Blast Fireball}
+{5106}{Demand}
+{5107} Desecrate {[Evocation] Fills area with negative energy, making undead stronger.}
+{5108}{Destruction}
+{5109}{Detect Animals or Plants}
+{5110} Detect Chaos {[Divination] Reveals creatures, spells, or objects of selected alignment.}
+{5111} Detect Evil {[Divination] Reveals creatures, spells, or objects of selected alignment.}
+{5112} Detect Good {[Divination] Reveals creatures, spells, or objects of selected alignment.}
+{5113} Detect Law {[Divination] Reveals creatures, spells, or objects of selected alignment.}
+{5114} Detect Magic {[Divination] Detects spells and magic items within 60 ft.}
+{5115}{Detect Poison}
+{5116}{Detect Scrying}
+{5117} Detect Secret Doors {[Divination] Reveals hidden doors within 60 ft.}
+{5118}{Detect Snares and Pits}
+{5119}{Detect Thoughts}
+{5120} Detect Undead {[Divination] Reveals undead within 60 ft.}
+{5121}{Dictum}
+{5122} Dimensional Anchor {[Abjuration] Bars extradimensional movement.}
+{5123} Dimension Door {[Conjuration] Can teleport a short distance.}
+{5124}{Diminish Plants}
+{5125} Discern Lies {[Divination] Reveals deliberate falsehoods.}
+{5126}{Discern Location}
+{5127}{Disintegrate}
+{5128} Dismissal {[Abjuration] Forces a creature to return to its native plane.}
+{5129} Dispel Chaos {[Abjuration] +4 bonus against attacks by chaotic creatures.}
+{5130} Dispel Evil {[Abjuration] +4 bonus against attacks by evil creatures.}
+{5131} Dispel Good {[Abjuration] +4 bonus against attacks by good creatures.}
+{5132} Dispel Law {[Abjuration] +4 bonus against attacks by lawful creatures.}
+{5133} Dispel Magic {[Abjuration] Cancels spells and magical effects.}
+{5134} Displacement {[Illusion] Attacks will have a 50% miss chance on a subject.}
+{5135} Disrupt Undead {[Necromancy] Deals 1d6 damage to one undead.}
+{5136}{Divination}
+{5137} Divine Favor {[Evocation] You gain +1 per three levels on attack and damage rolls.}
+{5138} Divine Power {[Evocation] You gain attack bonus, +6 to Strength, and 1 hit point/level.}
+{5139} Dominate Animal {[Enchantment] Subject animal is enchanted and made a member of your party.}
+{5140}{Dominate Monster} 
+{5141} Dominate Person {[Enchantment] Controls humanoid subject telepathically.}
+{5142} Doom {[Necromancy] One subject takes -2 on attack rolls, damage rolls, saves, and checks.}
+{5143}{Drawmij's Instant Summons}
+{5144}{Dream}
+{5145}{Earthquake}
+{5146}{Elemental Swarm}
+{5147}{Emotion}
+{5148} Bear's Endurance {[Transmutation] Subject gains +4 to Con for 1 min./level.}
+{5149} Endure Elements {[Abjuration] Grants limited protection (based on your choice) from either acid, cold, electricity, fire, or sonic damage.}
+{5150}{Energy Drain}
+{5151}{Enervation}
+{5152} Enlarge Person {[Transmutation] Humanoid creature increases from current size to one size category higher.}
+{5153} Entangle {[Transmutation] Plants entangle everyone in a 40-ft.-radius.}
+{5154}{Enthrall}
+{5155} Entropic Shield {[Abjuration] Ranged attacks against you have a 20% miss chance.}
+{5156}{Ethereal Jaunt}
+{5157}{Etherealness}
+{5158}{Evard's Black Tentacles}
+{5159} Expeditious Retreat {[Transmutation] Your speed increases by 30 feet.}
+{5160}{Explosive Runes}
+{5161}{Eyebite}
+{5162}{Fabricate}
+{5163} Faerie Fire {[Evocation] Outlines subjects with light, therefore cancelling the effects of Blur, concealment, and the like.}
+{5164}{False Vision}
+{5165} Fear {[Necromancy] Subjects within cone flee for 1 round/level.}
+{5166}{Feather Fall}
+{5167} Feeblemind {[Enchantment] Subject's Intelligence and Charisma drop to 1.}
+{5168}{Find the Path}
+{5169} Find Traps {[Divination] Notice traps the way a rogue does.}
+{5170}{Finger of Death}
+{5171} Fireball {[Evocation] 1d6 damage per level, 20-ft.-radius.}
+{5172}{Fire Seeds}
+{5173} Fire Shield {[Evocation] Creatures attacking you take fire damage; you are also protected from either heat or cold.}
+{5175}{Fire Trap}
+{5176}{Flame Arrow}
+{5177}{Flame Blade}
+{5178} Flame Strike {[Evocation] Smite foes with divine fire (1d6/level damage).}
+{5179}{Flaming Sphere}
+{5180} Flare {[Evocation] Dazzles one creature (-1 on attack rolls).}
+{5181}{Flesh to Stone}
+{5182}{Fly}
+{5183} Fog Cloud {[Conjuration] Fog obscures all sight within 5 feet.}
+{5184}{Forbiddance}
+{5185}{Forcecage}
+{5186}{Foresight}
+{5187}{Freedom}
+{5188} Freedom of Movement {[Abjuration] Subject moves normally despite impediments.}
+{5189} Gaseous Form {[Transmutation] Subject becomes translucent and insubstantial and gains damage reduction, unless it's magic.}
+{5190}{Gate}
+{5191}{Geas/Quest}
+{5192}{Gentle Repose}
+{5193}{Ghost Sound}
+{5194} Ghoul Touch {[Necromancy] Paralyzes one subect, which exudes a stench that makes those nearby sickened.} 
+{5195} Giant Vermin {[Transmutation] You choose one giant monster and it is summoned into your party.}
+{5196} Glitterdust {[Conjuration] Blinds creatures, outlines invisible creatures.}
+{5197} Globe of Invulnerability, Lesser {Stops 1st- through -3rd-level spell effects.}
+{5198}{Glyph of Warding}
+{5199} Goodberry {[Transmutation] Summons 2d4 berries into your inventory; each berry cures 1 hit point.}
+{5200} Grease {[Conjuration] Makes 10-ft. square or one object slippery.}
+{5201} Greater Command {[Enchantment] 1 subject/level obeys selected command (approach, fall, flee, or halt) for 1 round/level.}
+{5202}{Greater Dispelling}
+{5203}{Greater Glyph of Warding}
+{5204} Greater Magic Fang {[Transmutation] One natural weapon of subject creature gets +1/four levels on attack and damage rolls (max +3).}
+{5205} Greater Magic Weapon {[Transmutation] +1 every four levels (max +2).}
+{5206}{Greater Planar Ally}
+{5207}{Greater Planar Binding}
+{5208}{Greater Restoration}
+{5209}{Greater Scrying}
+{5210}{Greater Shadow Conjuration}
+{5211}{Greater Shadow Evocation}
+{5212}{Guards and Wards}
+{5213} Guidance {[Divination] +1 competence bonus on attack rolls, saving throws, or skill checks.}
+{5214} Gust of Wind {[Evocation] Blows away or knocks down smaller creatures.}
+{5215}{Hallow}
+{5216}{Hallucinatory Terrain}
+{5217} Halt Undead {[Necromancy] Immobilizes undead for 1 round/level.}
+{5218} Harm {[Necromancy] Deals 10 points/level damage to target.}
+{5219} Haste {[Transmutation] One creature/level moves faster, +2 on attack rolls and AC.}
+{5220} Heal {[Conjuration] Cures 10 points/level of damage, all diseases and mental conditions.}
+{5221} Cure Light Wounds, Mass {Cures 1d8 damage +1/level for many creatures.} // Mary added this after text lock.
+{5222}{Heal Mount}
+{5223} Heat Metal {[Transmutation] Make metal armor so hot that it damages those who come into contact with it.}
+{5224}{Helping Hand}
+{5225}{Heroes' Feast}
+{5226} Hold Animal {[Enchantment] Paralyzes one animal for 1 round/level.}
+{5227} Hold Monster {[Enchantment] Paralyzes any creature for 1 round/level.}
+{5228} Hold Person {[Enchantment] Paralyzes one humanoid for 1 round/level.}
+{5229} Hold Portal {[Abjuration] Magically holds doors and gates shut.}
+{5230}{Holy Aura}
+{5231} Holy Smite {[Evocation] Damages and blinds evil creatures.}
+{5232}{Holy Sword}
+{5233}{Holy Word}
+{5234}{Horrid Wilting}
+{5235}{Hypnotic Pattern}
+{5236}{Hypnotism}
+{5237} Ice Storm {[Evocation] Hail deals 5d6 damage in cylinder 40 ft. across.} 
+{5238} Identify {[Divination] Determines properties of magic items.}
+{5239}{Illusory Script}
+{5240}{Illusory Wall}
+{5241}{Imbue with Spell Ability}
+{5242}{Implosion}
+{5243}{Imprisonment}
+{5244} Greater Invisibility {[Illusion] Subject is invisible for 1 min./level, and remains invisible even while attacking.}
+{5245}{Incendiary Cloud}
+{5246} Inflict Critical Wounds {[Necromancy] Touch attack, 4d8 damage +1/level (max +10).}
+{5247} Inflict Light Wounds {[Necromancy] Touch deals 1d8 damage +1/level (max +5).}
+{5248} Inflict Minor Wounds {[Necromancy] Touch attack, 1 point of damage.}
+{5249} Inflict Moderate Wounds {[Necromancy] Touch attack, 2d8 damage +1/level (max +10).}
+{5250} Inflict Serious Wounds {[Necromancy] Touch attack, 3d8 damage +1/level (max +10).}
+{5251}{Insanity}
+{5252}{Insect Plague}
+{5253} Invisibility {[Illusion] Subject is invisible for 1 min./level or until it attacks.}
+{5254} Invisibility Purge {[Evocation] Dispels invisibility within 5 ft./level.}
+{5255} Invisibility Sphere {[Illusion] Makes everyone within 10 feet invisible.}
+{5256} Hide from Animals {[Abjuration] Animals can't perceive one subject per level.}
+{5257} Hide from Undead {[Abjuration] Undead can't perceive one subject per level.}
+{5258}{Iron Body}
+{5259}{Ironwood}
+{5260}{Jump}
+{5261} Keen Edge {[Transmutation] Doubles a normal weapon's threat range.}
+{5262} Knock {[Transmutation] Opens locked doors, secret doors, and chests; loosens chains and shackles.}
+{5263}{Know Direction}
+{5264}{Legend Lore}
+{5265}{Leomund's Secret Chest}
+{5266}{Leomund's Secure Shelter}
+{5267}{Leomund's Tiny Hut}
+{5268}{Leomund's Trap}
+{5269}{Lesser Geas}
+{5270}{Lesser Planar Ally}
+{5271}{Lesser Planar Binding}
+{5272} Lesser Restoration {[Conjuration] Dispels magical ability penalty or repairs 1d4 points of temporary ability damage.}
+{5273}{Levitate}
+{5274}{Light}
+{5275} Lightning Bolt {[Evocation] Deals 1d6/level of electricity damage.}
+{5276}{Limited Wish}
+{5277}{Liveoak}
+{5278}{Locate Creature}
+{5279}{Locate Object}
+{5280} Mage Armor {[Conjuration] Gives subject +4 armor bonus.}
+{5281}{Mage Hand}
+{5282} Magic Circle against Chaos {[[Abjuration] Acts like a Protection spell against Chaos, can be cast on friendly creatures (outward circle) or a hostile creature (inward circle) for 10 min./level, 10-ft-radius.}
+{5283} Magic Circle against Evil {[Abjuration] Acts like a Protection spell against Evil, can be cast on friendly creatures (outward circle) or hostile creatures (inward circle) for 10 min./level, 10-ft-radius.}
+{5284} Magic Circle against Good {[Abjuration] Acts like a Protection spell against Good, can be cast on friendly creatures (outward circle) or hostile creatures (inward circle) for 10 min./level, 10-ft-radius.}
+{5285} Magic Circle against Law {[Abjuration] Acts like a Protection spell against Law, can be cast on friendly creatures (outward circle) or hostile creatures (inward circle) for 10 min./level, 10-ft-radius.}
+{5286} Magic Fang {[Transmutation] One natural weapon of subject creature gets +1 on attack and damage rolls.}
+{5287}{Magic Jar}
+{5288} Magic Missile {[Evocation] 1d4 +1 damage, +1 missile per two levels above 1st (max +4).}
+{5289}{Magic Mouth}
+{5290} Magic Stone {[Transmutation] Three stones gain +1 on attack, deal 1d6 +1 damage.}
+{5291} Magic Vestment {[Transmutation] Armor or shield gains +1 enhancement bonus per four levels.}
+{5292} Magic Weapon {[Transmutation] Weapon gains +1 bonus on attack and damage rolls.}
+{5293}{Major Creation}
+{5294}{Major Image}
+{5295}{Make Whole}
+{5296}{Mark of Justice}
+{5297}{Mass Charm}
+{5298}{Mass Haste}
+{5299}{Mass Heal}
+{5300}{Mass Invisibility}
+{5301}{Mass Suggestion}
+{5302}{Maze}
+{5303} Meld into Stone {[Transmutation] You and your gear merge into stone; you cannot make any actions, nor do you take any damage.}
+{5304} Melf's Acid Arrow {[Conjuration] Ranged touch attack; 2d4 damage for 1 round +1 round/three levels.}
+{5305}{Mending}
+{5306}{Message}
+{5307}{Meteor Swarm}
+{5308}{Mind Blank}
+{5309} Mind Fog {[Abjuration] Subjects in fog get -10 to Wisdom and Will checks.}
+{5310}{Minor Creation}
+{5311} Lesser Globe of Invulnerability {[Abjuration] Stops 1st- through 3rd-level spell effects.}
+{5312}{Minor Image}
+{5313}{Miracle}
+{5314}{Mirage Arcana}
+{5315} Mirror Image {[Illusion] Creates decoy duplicates of you (1d4 +1 per three levels, max 3).}
+{5316}{Misdirection}
+{5317}{Mislead}
+{5318}{Modify Memory}
+{5319}{Mordenkainen's Disjunction}
+{5320} Mordenkainen's Faithful Hound {[Conjuration] Phantom dog can guard and attack; dog has +10 attack bonus.}
+{5321}{Mordenkainen's Lucubration}
+{5322}{Mordenkainen's Magnificent Mansion}
+{5323}{Mordenkainen's Sword}
+{5324}{Mount}
+{5325}{Move Earth}
+{5326}{Negative Energy Protection}
+{5327} Neutralize Poison {[Conjuration] Immunizes subject against poison, detoxifies venom in or out on subject.}
+{5328}{Nightmare}
+{5329}{Nondetection}
+{5330}{Nystul's Magic Aura}
+{5331}{Nystul's Undetectable Aura}
+{5332}{Obscure Object}
+{5333} Obscuring Mist {[Conjuration] Fog surrounds you; it obscures all sight beyond 5 feet in front of you and creatures have different levels of concealment.}
+{5334} Open/Close {[Transmutation] Opens or closes doors and small chests; will not open doors that have been magically locked.} 
+{5335} Order's Wrath {[Evocation] Damages and dazes chaotic creatures.}
+{5336}{Otiluke's Freezing Sphere}
+{5337} Otiluke's Resilient Sphere {[Evocation] Force globe protects but traps one subject.}
+{5338}{Otiluke's Telekinetic Sphere}
+{5339}{Otto's Irresistible Dance}
+{5340}{Passwall}
+{5341}{Pass without Trace}
+{5342}{Permanency}
+{5343}{Permanent Image}
+{5344}{Persistent Image}
+{5345} Phantasmal Killer {[Illusion] Fearsome illusion kills subject or deals 3d6 damage.}
+{5346}{Phantom Steed}
+{5347}{Phase Door}
+{5348}{Planar Ally}
+{5349}{Planar Binding}
+{5350}{Plane Shift}
+{5351}{Plant Growth}
+{5352} Poison {[Necromancy] Touch deals 1d10 Constitution damage, repeats in 1 min.}
+{5353}{Polymorph Any Object}
+{5354}{Polymorph Other}
+{5355}{Polymorph Self}
+{5356}{Power Word, Blind}
+{5357}{Power Word, Kill}
+{5358}{Power Word, Stun}
+{5359} Prayer {[Enchantment] Allies receive +1 bonus on most rolls, enemies take -1 penalty.}
+{5360}{Prestidigitation}
+{5361}{Prismatic Sphere}
+{5362}{Prismatic Spray}
+{5363}{Prismatic Wall}
+{5364} Produce Flame {[Evocation] 1d6 damage +1/level, touch or thrown.}
+{5365}{Programmed Image}
+{5366}{Project Image}
+{5367} Protection from Arrows {[Abjuration] Subject immune to most ranged attacks.}
+{5368} Protection from Chaos {[Abjuration] +2 to AC and saves against chaotic creatures, counter mind control, hedge out elementals and outsiders.}
+{5369} Protection from Energy {[Abjuration] Absorb 12 points/level damage from one kind of energy.}
+{5370} Protection from Evil {[Abjuration] +2 to AC and saves against evil creatures, counter mind control, hedge out elementals and outsiders.}
+{5371} Protection from Good {[Abjuration] +2 to AC and saves against good creatures, counter mind control, hedge out elementals and outsiders.}
+{5372} Protection from Law {[Abjuration] +2 to AC and saves against lawful creatures, counter mind control, hedge out elementals and outsiders.}
+{5373}{Protection from Spells}
+{5374}{Prying Eyes}
+{5375}{Purify Food and Drink}
+{5376}{Pyrotechnics}
+{5377}{Quench}
+{5378}{Rainbow Pattern}
+{5379} Raise Dead {[Conjuration] Restores life to subject.}
+{5380}{Random Action}
+{5381}{Rary's Mnemonic Enhancer}
+{5382}{Rary's Telepathic Bond}
+{5383} Ray of Enfeeblement {[Necromancy] Ray deals 1d6+1 per two levels of Strength damage.}
+{5384} Ray of Frost {[Evocation] Ray deals 1d3 cold damage.}
+{5385} Read Magic {[Divination] Ability to read scrolls.}
+{5386} Reduce Person {[Transmutation] Humanoid creature halves in size.}
+{5387}{Refuge}
+{5388}{Regenerate}
+{5389}{Reincarnate}
+{5390} Remove Blindness/Deafness {[Conjuration] Cures blindness or deafness; condition can be magical or normal and spell still applies.}
+{5391} Remove Curse {[Abjuration] Frees object or person from curse.}
+{5392} Remove Disease {[Conjuration] Cures all diseases affecting the subject.}
+{5393} Remove Fear {[Abjuration] Instills courage, grants +4 morale bonus to subject for 10 min.} 
+{5394} Remove Paralysis {[Conjuration] Frees one or more creatures from paralysis or effects from the spell Slow.}
+{5395}{Repel Metal or Stone}
+{5396} Repel Vermin {[Abjuration] An invisible barrier holds back vermin.}
+{5397}{Repel Wood}
+{5398}{Repulsion}
+{5399} Resistance {[Abjuration] Subject gains +1 on saving throws.}
+{5400} Resist Energy {[Abjuration] Ignores 10 (or more) points of damage per attack from specified energy type.}  
+{5401} Restoration {[Conjuration] Restores level (experience points) and ability score drains.}
+{5402}{Resurrection}
+{5403}{Reverse Gravity}
+{5404} Righteous Might {[Transmutation] Your size increases (which your character stats reflect) and you gain combat bonuses.} 
+{5405}{Rope Trick}
+{5406}{Rusting Grasp}
+{5407} Sanctuary {[Abjuration] Opponents cannot attack you and you cannot attack back.}
+{5408} Scare {[Necromancy] Panics creatures of less than 6 Hit Dice.}
+{5409}{Screen}
+{5410}{Scrying}
+{5411}{Sculpt Sound}
+{5412} Searing Light {[Evocation] Ray deals 1d8/two levels damage (max 5d8); more against undead (1d6 per caster level, max 10d6).}
+{5413}{Secret Page}
+{5414} See Invisibility {[Divination] You can see any objects or beings that are invisible within your range of vision, as if they were normally visible.}  
+{5415}{Seeming}
+{5416}{Sending}
+{5417}{Sepia Snake Sigil}
+{5418}{Sequester}
+{5419}{Shades}
+{5420}{Shadow Conjuration}
+{5421}{Shadow Evocation}
+{5422}{Shadow Walk}
+{5423}{Shambler}
+{5424}{Shapechange}
+{5425} Shatter {[Evocation] Sonic vibration results in damage to earth elementals.}
+{5426} Shield {[Abjuration] Invisible disc gives +4 to AC, blocks magic missiles.}
+{5427} Shield of Faith {[Abjuration] Aura grants +2 or higher deflection bonus.}
+{5428}{Shield of Law}
+{5429}{Shield Other}
+{5430} Shillelagh {[Transmutation] Quarterstaff becomes a +1 weapon (1d10 damage) for 1 min./level.} 
+{5431} Shocking Grasp {[Evocation] Touch delivers 1d6/level electricity damage (max. 5d6).}
+{5432} Shout {[Evocation] Deafens all within cone and deals 5d6 sonic damage.}
+{5433}{Shrink Item}
+{5434} Silence {[Illusion] Negates sound in a 20-ft. radius or targets a creature and the creature is forced to be silent.}
+{5435}{Silent Image}
+{5436}{Simulacrum}
+{5437} Slay Living {[Necromancy] Touch attack kills subject, unless creature makes a Fortitude save.}
+{5438} Sleep {[Enchantment] Puts 4HD of creatures into a magical slumber.}
+{5439} Sleet Storm {[Conjuration] Hamper vision and movement, causing creatures to move at half speed.}
+{5440} Slow {[Transmutation] One subject/level takes only one action/round; -1 penalty to AC, attack rolls, and reflex saves.}
+{5441}{Snare}
+{5442} Soften Earth and Stone {[Transmutation] Turns stone to clay or dirt to sand or mud.}
+{5443} Solid Fog {[Conjuration] Blocks vision and slows movement; creatures move at a speed of 5 feet and take a -2 penalty on melee attack and melee damage rolls.}
+{5444}{Soul Bind}
+{5445} Sound Burst {[Evocation] Deals 1d8 sonic damage to subjects; may stun them.}
+{5446}{Speak with Animals}
+{5447}{Speak with Dead}
+{5448}{Speak with Plants}
+{5449}{Spectral Hand}
+{5450}{Spell Immunity}
+{5451} Spell Resistance {[Abjuration] Subject gains spell resistance of 12 + level (max. 10).}
+{5452}{Spellstaff}
+{5453}{Spell Turning}
+{5454}{Spider Climb}
+{5455} Spike Growth {[Transmutation] Creatures in area take 1d4 damage, may be Slowed.}
+{5456} Spike Stones {[Transmutation] Creatures in area take 1d8 damage, may be Slowed.}
+{5457} Spiritual Weapon {[Evocation] Magic weapon attacks on its own, strikes as a spell, and can only be countered with Dispel Magic.}
+{5458}{Statue}
+{5459}{Status}
+{5460} Stinking Cloud {[Conjuration] Nauseating vapors, lasts for 1 round/level.}
+{5461}{Stone Shape}
+{5462} Stoneskin {[Abjuration] Allows subject to ignore the first 10 points of damage per attack.}
+{5463}{Stone Tell}
+{5464}{Stone to Flesh}
+{5465}{Storm of Vengeance}
+{5466} Suggestion {[Enchantment] Compels subject to follow course of action; subject is added as a controllable NPC.}
+{5467} Summon Monster I {[Conjuration] Calls creature for you, based on what you select from the radial menu in the game.}
+{5468} Summon Monster II {[Conjuration] Calls creature for you, based on what you select from the radial menu in the game.}  
+{5469} Summon Monster III {[Conjuration] Calls creature for you, based on what you select from the radial menu in the game.}
+{5470} Summon Monster IV {[Conjuration] Calls creature for you, based on what you select from the radial menu in the game.}
+{5471} Summon Monster V {[Conjuration] Calls creature for you, based on what you select from the radial menu in the game.}
+{5472}{Summon Monster VI}
+{5473}{Summon Monster VII}
+{5474}{Summon Monster VIII}
+{5475}{Summon Monster IX}
+{5476} Summon Nature's Ally I {[Conjuration] Allows you to summon a creature; choice of creature based on what you select from the radial menu in the game.}
+{5477} Summon Nature's Ally II {[Conjuration] Allows you to summon a creature; choice of creature based on what you select from the radial menu in the game.}
+{5478} Summon Nature's Ally III {[Conjuration] Allows you to summon a creature; choice of creature based on what you select from the radial menu in the game.}
+{5479} Summon Nature's Ally IV {[Conjuration] Allows you to summon a creature; choice of creature based on what you select from the radial menu in the game.}
+{5480} Summon Nature's Ally V {[Conjuration] Allows you to summon a creature; choice of creature based on what you select from the radial menu in the game.}
+{5481}{Summon Nature's Ally VI}
+{5482}{Summon Nature's Ally VII}
+{5483}{Summon Nature's Ally VIII}
+{5484}{Summon Nature's Ally IX}
+{5485} Summon Swarm {[Conjuration] You summon a swarm of animals, based on what you select from the radial menu within the game.}
+{5486}{Sunbeam}
+{5487}{Sunburst}
+{5488}{Symbol}
+{5489}{Sympathy}
+{5490} Tasha's Hideous Laughter {[Enchantment] Subject loses actions for 1 round/level because they are afflicted with uncontrollable laughter.}
+{5491}{Telekinesis}
+{5492} Teleport {[Conjuration] Allows caster to bring up World Map in the game and teleport their entire party to the selected location.}
+{5493}{Teleportation Circle}
+{5494}{Teleport without Error}
+{5495}{Temporal Stasis}
+{5496}{Tenser's Floating Disk}
+{5497}{Tenser's Transformation}
+{5498}{Time Stop}
+{5499}{Tongues}
+{5500}{Transmute Metal to Wood}
+{5501}{Transmute Mud to Rock}
+{5502}{Transmute Rock to Mud}
+{5503}{Transport via Plants}
+{5504}{Trap the Soul}
+{5505} Tree Shape {[Transmutation] You look exactly like a tree for 1 hour/level and gain a +10 natural armor bonus.}
+{5506}{Tree Stride}
+{5507}{True Resurrection}
+{5508} True Seeing {[Divination] Lets you see all things as they really are.}
+{5509} True Strike {[Divination] +20 insight bonus on your next attack roll.}
+{5510}{Undetectable Alignment}
+{5511}{Unhallow}
+{5512}{Unholy Aura}
+{5513} Unholy Blight {[Evocation] Damages and sickens good creatures.}
+{5514}{Unseen Servant}
+{5515} Vampiric Touch {[Necromancy] Touch deals 1d6/two levels damage; caster gains damage as temporary hit points.}
+{5516}{Vanish}
+{5517}{Veil}
+{5518}{Ventriloquism}
+{5519} Virtue {[Transmutation] Subject gains 1 temporary hit point.}
+{5520}{Vision}
+{5521}{Wail of the Banshee}
+{5522}{Wall of Fire}
+{5523}{Wall of Force}
+{5524}{Wall of Ice}
+{5525}{Wall of Iron}
+{5526}{Wall of Stone}
+{5527}{Wall of Thorns}
+{5528}{Warp Wood}
+{5529}{Water Breathing}
+{5530}{Water Walk}
+{5531} Web {[Conjuration] Fills 20-ft.-radius spread with sticky spiderwebs.}
+{5532}{Weird}
+{5533}{Whirlwind}
+{5534}{Whispering Wind}
+{5535}{Wind Walk}
+{5536} Wind Wall {[Evocation] Deflects arrows and smaller creatures.}
+{5537}{Wish}
+{5538}{Wood Shape}
+{5539}{Word of Chaos}
+{5540}{Word of Recall}
+{5541}{Zone of Truth} 
+{5542} Blight {[Necromancy] Withers one plant or deals 1d6/level damage to plant creature.}
+{5543} Dispel Air {[Abjuration] +4 bonus on attacks against air creatures.}
+{5544} Dispel Earth {[Abjuration] +4 bonus on attacks against earth creatures.}
+{5545} Dispel Fire {[Abjuration] +4 bonus on attacks against fire creatures.} // edited after text lock-Mary
+{5546} Dispel Water {[Abjuration] +4 bonus on attacks against water creatures.}
+{5547} Rage {[Enchantment] Subject gains +2 to Strength and Constitutions, +1 on Will saves, -2 to AC.}
+{5548} Eagle's Splendor {[Transmutation] Subject gains +4 to Cha for 1 min./level.} // added this after text lock-Mary
+{5549} Fox's Cunning {[Transmutation] Subject gains +4 Int for 1 min./level.} // added this after text lock-Mary
+{5550} Owl's Wisdom {[Transmutation] Subject gains +4 to Wis for 1 min./level.} // added this after text lock-Mary
+{5551} Reduce Animal {[Transmutation] Creature halves in size.} // added this after text lock-Mary
+{5552} Glibness {[Transmutation] You gain +30 bonus on Bluff checks, and your lies can escape magical discernment.} // added this after text lock-Mary
+{5553} False Life {[Necromancy] Gain 1d10 temporary hp + 1/level (max.+10).} // added this after text lock-Mary
+{5554} Longstrider {[Transmutation] Your speed increases by 10 feet.} // added this after text lock-Mary
+{5555} Acid Splash {[Conjuration] Orb deals 1d3 acid damage.} // added this after text lock-Mary
+{5556} Daze Monster {[Enchantment] Living creature of 6 HD or less loses next action.} // added this after text lock-Mary
+{5557} Heroism {[Enchantment] Gives +2 bonus on attack rolls, saves, skill checks.} // added this after text lock-Mary
+{5558} Greater Heroism {[Enchantment] This spell functions like Heroism, except the creature gains a +4 morale bonus on attack rolls, saves, and skill checks, immunity to fear, and temporary hit points equal to the level of the caster.}
+{5559} Quench {[Transmutation] Extinguishes nonmagical fires or one magic item.} // added this after text lock-Mary
+{5560} Call Lightning Storm {[Evocation] Similar to Call Lightning, but with 5d6 damage per bolt.} // added this after text lock-Mary
+{5561} Lesser Confusion {[Enchantment] One creature is confused for 1 round.} // added this after text lock-Mary
+{5562} Deep Slumber {[Enchantment] Puts 10 HD of creatures to sleep.} // added this after text lock-Mary
+{5563} Crushing Despair {[Enchantment] Subjects take -2 on attack rolls, damage rolls, saves, and checks.} // added this after text lock-Mary
+{5564} Good Hope {[Enchantment] Subject gains +2 on attack rolls, damage rolls, saves, and checks.} // added this after text lock-Mary
+{5565} Heal {}
+{5566} Harm {}
+{5567} Reincarnation {[Transmutation] Bring back a dead creature, possibly in another body.}
+{5568} Mordenkainen's Private Sanctum {[Abjuration] Allows safe resting in otherwise hostile environments.}
+{5569}{}
+{5570}{}
+{5571}{}
+{5572}{}
+{5573}{}
+{5574}{}
+{5575}{}
+{5576}{}
+{5577}{}
+{5578}{}
+{5579}{}
+{5580}{}
+{5581}{}
+{5582}{}
+{5583}{}
+{5584}{}
+{5585}{}
+{5586}{}
+{5587}{}
+{5588}{}
+{5589}{}
+{5590}{}
+{5591}{}
+{5592}{}
+{5593}{}
+{5594}{}
+{5595}{}
+{5596}{}
+{5597}{}
+{5598}{}
+{5599}{}
+{5600}{Frog Tongue (INTERNAL)}
+{5601}{Vrock Screech (INTERNAL)}
+{5602}{Vrock Spores (INTERNAL)}
+{5603}{Zuggtmoy Summon Fungi (INTERNAL)}
+{5604}{Glabrezu Summon Quasits (INTERNAL)}
+{5605}{senshock summon elemental (INTERNAL)}
+{5606}{summon fungi (INTERNAL)}
+{5607}{summon lamia (INTERNAL)}
+{5608}{Gate (INTERNAL)}
+{5609}{phycomid attack (INTERNAL)}
+{5699}{Summoned (INTERNAL)}
+{5700}{Ring of Freedom of Movement (INTERNAL)}
+{5701}{Potion of Enlarge Person (INTERNAL)}
+{5702}{Potion of Haste (INTERNAL)}
+{5703}{Boots of Speed (INTERNAL)}
+{5704}{Dust of Disappearance (INTERNAL)}
+{5705}{Potion of eagle's splendor}
+{5706}{Potion of glibness (INTERNAL)}
+{5707}{Potion of hiding (INTERNAL)}
+{5708}{Potion of sneaking (INTERNAL)}
+{5709}{Potion of heroism (INTERNAL)}
+{5710}{Potion of super-heroism (INTERNAL)}
+{5711}{Potion of protection from fire (INTERNAL)}
+{5712}{Javelin of lightning (INTERNAL)}
+{5713}{Flame tongue (INTERNAL)}
+{5714}{Potion of protection from outsiders (INTERNAL)}
+{5715}{Potion of protection from elementals (INTERNAL)}
+{5716}{Potion of protection from earth (INTERNAL)}
+{5717}{Potion of protection from magic (INTERNAL)}
+{5718}{Potion of protection from undead (INTERNAL)}
+{5719}{Ring of Animal Summoning (Dog) (INTERNAL)}
+{5720}{Potion of Protection from Acid (INTERNAL)}
+{5721}{Potion of Protection from Electricity (INTERNAL)}
+{5722}{Summon Air Elemental(INTERNAL)}
+{5723}{Summon Earth Elemental(INTERNAL)}
+{5724}{Summon Fire Elemental(INTERNAL)}
+{5725}{Summon Water Elemental(INTERNAL)}
+{5726}{Summon Balor(INTERNAL)}
+{5727}{Summon Glabrezu(INTERNAL)}
+{5728}{Summon Hezrou(INTERNAL)}
+{5729}{Summon Vrock(INTERNAL)}
+{5733} Scorching Ray {[Evocation] You blast your enemies with fiery rays. You may fire one ray, plus one additional ray for every four levels beyond 3rd (to a maximum of three rays at 11th level). Each ray requires a ranged touch attack to hit and deals 4d6 points of fire damage.The rays may be fired at the same or different targets, but all bolts must be aimed at targets within 30 feet of each other and fired simultaneously.}
+
+// Schools of Magic Names
+{15000}{None}
+{15001}{Abjuration}
+{15002}{Conjuration}
+{15003}{Divination}
+{15004}{Enchantment}
+{15005}{Evocation}
+{15006}{Illusion}
+{15007}{Necromancy}
+{15008}{Transmutation}
+
+// Subschools of magic
+{15100}{None}
+{15101}{Calling}
+{15102}{Creation}
+{15103}{Healing}
+{15104}{Summoning}
+{15105}{Charm}
+{15106}{Compulsion}
+{15107}{Figment}
+{15108}{Glamer}
+{15109}{Pattern}
+{15110}{Phantasm}
+{15111}{Shadow}
+{15112}{Scrying}
+
+// Descriptors of Magic
+{15200}{Acid}
+{15201}{Chaotic}
+{15202}{Cold}
+{15203}{Darkness}
+{15204}{Death}
+{15205}{Electricity}
+{15206}{Evil}
+{15207}{Fear}
+{15208}{Fire}
+{15209}{Force}
+{15210}{Good}
+{15211}{Language}
+{15212}{Lawful}
+{15213}{Light}
+{15214}{Mind}
+{15215}{Sonic}
+{15216}{Teleportation}
+{15217}{Air}
+{15218}{Earth}
+{15219}{Water}
+
+
+//
+// Spell Error Messages
+//
+{16000}{Not enough Energy.}
+{16001}{Maintain terminated.}
+{16002}{You lose your concentration.}
+{16003}{The effect is nullified.}
+{16004}{You cannot see the target.}
+{16005}{This life cannot be replenished.}
+{16006}{The target is already fully healed.}
+
+//
+//  Error Message Descriptions
+//
+
+{10000}{This place seems to block your attempt to teleport.}
+
+//
+// Spell casting messages
+//
+{20000} {A spell has expired.}
+{20001} {Paralyzed.}
+{20002} {Dispel attempt successful.}
+{20003} {Dispel attempt failed.}
+{20004} {Falls asleep.}
+{20005} {Temporary Hit Points Gained.}
+{20006} {Woke up!}
+{20007} {Baned!}
+{20008} {Blessed!}
+{20009} {DR Remaining:}
+{20010} {Doomed!}
+{20011} {Divine Favor!}
+{20012} {Dazed!}
+{20013} {Afraid!}
+{20014} {Staggered!}
+{20015} {Slowed!}
+{20016} {Hastened!}
+{20017} {Invisible!}
+{20018} {Charmed!}
+{20019} {Blinded!}	// after textlock
+{20020} {Deafness!}		// after textlock
+{20021} {Stunned!}
+{20022} {Ability Drained!}
+{20023} {Ability Enhanced!}
+{20024} {Unconscious!}
+{20025} {DR Remaining [Elements]: }
+{20026} {Sickened!}
+{20027} {Entangled!}
+{20028} {Webbed!}
+{20029} {Slippery Mind takes affect!}
+{20030} {Concealed!}
+{20031} {Calmed.}
+{20032} {Cursed!}
+{20033} {Effects delayed due to Delay Poison!}
+{20034} {Gained Spell Resistance.}
+{20035} {Restoration}
+{20036} {Resurrection failed!}
+{20037} {Resurrection successful!}
+{20038} {Confused!}
+{20039} {Silenced!}
+{20040} {Sleet Storm!}
+{20041} {Fallen!}
+{20042} {Skill check failed!}
+{20043} {Skill check successful!}
+{20044} {Sanctuary!}
+{20045} {Spell suppressed!}
+{20046} {Raging!}
+
+{20500} {Swallowed!}
+{20501} {Vrock Spores!}
+{20502} {Vrock Spores Disappear!}
+
+{21000} {Grapple successful!}
+{21001} {Grapple failed!}
+{21002} {Grappled!}
+{21003} {Escaped!}
+{21004} {Grapple Ended!}
+{21005} {Grappling!}
+
+// history - after text-lock!
+{25000} {Holding Charge}
+{25001} {Discharge}
+{25002} {Concentrating}
+{25003} {Concentration loss}
+{25004} {Temporary HP gained}
+{25005} {Creatures affected}
+{25006} {Hit dice affected}
+{25007} {Bonus gained}
+{25008} {Penalty suffered}
+{25009} {Ability cursed}
+{25010} {Rolls cursed}
+{25011} {Actions cursed}
+{25012} {Enchantment broken}
+{25013} {Ability drained}
+{25014} {Creature banished}
+{25015} {Creature grows}
+{25016} {Creature shrinks}
+{25017} {Mobility is enhanced}
+{25018} {Mobility is reduced}
+{25019} {Damaged by Fire Shield}
+{25020} {Ailment cured}
+{25021} {Images created}
+{25022} {Break free attempt}
+
+//
+// Python Spell Float line Messages
+//
+{30000} {Spell has fizzled!}            		; general messages
+{30001} {Saving throw successful!}
+{30002} {Saving throw failed!}
+{30003} {Invalid target!}
+{30004} {Unlocked!}
+{30005} {Arcane lock suppressed!}
+{30006} {Portal was not locked!}
+{30007} {Ranged touch attack missed!}
+{30008} {Unaffected due to [Spell Resistance]}
+{30009} {Spell Resistance Failed!}
+{30010} {Spell Resistance Successful!}
+{30011} {Unaffected due to [Dimensional Anchor]}
+{30012} {Unaffected due to [Slippery Mind]}
+{30013} {Opened!}
+{30014} {Closed!}
+{30015} {Unaffected due to [Blink]}
+{30016} {Target is not dead!}
+{30017} {Unaffected due to [Lesser Globe of Invulnerability]}
+{30018} {Unaffected due to [Otiluke's Resilient Sphere]}
+{30019} {Unaffected due to}
+
+{31000} {Target is not a portal.}           	; hold portal
+{31001} {Target is not a critter.}          	; improved invisibility
+{31002} {Target is not a animal.}           	; hold animal
+{31003} {Target is not a monster.}          	; hold monster
+{31004} {Target is not a person.}           	; hold person
+{31005} {Target larger than medium size.}   	; hold person
+{31006} {Target is not near death!}				; death knell
+{31007} {Target is not extraplanar!}			; dismissal/dispel xxx
+{31008} {Target is not undead!}					; disrupt undead
+{31009} {Target cannot be animated!}			; animate dead
+{31010} {Target is not wearing metal armor!}	; chill/heat metal
+{31011} {Target is not of type [Earth]!}		; shatter
+{31012} {Target is not of type [Plant]!}		; blight
+{31013} {Target is not of type [Fire]!}			; quench
+
+{32000} {Target is immune!}						; immunity
+
+; cleric domains
+{32001} {Target is immune to [Air]!}			; immunity
+{32002} {Target is immune to [Animal]!}			; immunity
+{32003} {Target is immune to [Chaos]!}			; immunity
+{32004} {Target is immune to [Death]!}			; immunity
+{32005} {Target is immune to [Destruction]!}	; immunity
+{32006} {Target is immune to [Earth]!}			; immunity
+{32007} {Target is immune to [Fire]!}			; immunity
+{32008} {Target is immune to [Good]!}			; immunity
+{32009} {Target is immune to [Healing]!}		; immunity
+{32010} {Target is immune to [Knowledge]!}		; immunity
+{32011} {Target is immune to [Law]!}			; immunity
+{32012} {Target is immune to [Luck]!}			; immunity
+{32013} {Target is immune to [Magic]!}			; immunity
+{32014} {Target is immune to [Plant]!}			; immunity
+{32015} {Target is immune to [Protection]!}		; immunity
+{32016} {Target is immune to [Strength]!}		; immunity
+{32017} {Target is immune to [Sun]!}			; immunity
+{32018} {Target is immune to [Travel]!}			; immunity
+{32019} {Target is immune to [Trickery]!}		; immunity
+{32020} {Target is immune to [War]!}			; immunity
+{32021} {Target is immune to [Water]!}			; immunity
+
+; schools
+{32030} {Target is immune to [Abjuration]!}		; immunity
+{32031} {Target is immune to [Conjuration]!}	; immunity
+{32032} {Target is immune to [Divination]!}		; immunity
+{32033} {Target is immune to [Enchantment]!}	; immunity
+{32034} {Target is immune to [Evocation]!}		; immunity
+{32035} {Target is immune to [Illusion]!}		; immunity
+{32036} {Target is immune to [Necromancy]!}		; immunity
+{32037} {Target is immune to [Transmutation]!}	; immunity
+
+; subschools
+{32040} {Target is immune to [Creation]!}		; immunity
+{32041} {Target is immune to [Healing]!}		; immunity
+{32042} {Target is immune to [Summoning]!}		; immunity
+{32043} {Target is immune to [Charm]!}			; immunity
+{32044} {Target is immune to [Compulsion]!}		; immunity
+{32045} {Target is immune to [Figment]!}		; immunity
+{32046} {Target is immune to [Glamer]!}			; immunity
+{32047} {Target is immune to [Pattern]!}		; immunity
+{32048} {Target is immune to [Phantasm]!}		; immunity
+{32049} {Target is immune to [Shadow]!}			; immunity
+
+; descriptors
+{32050} {Target is immune to [Acid]!}			; immunity
+{32051} {Target is immune to [Chaotic]!}		; immunity
+{32052} {Target is immune to [Cold]!}			; immunity
+{32053} {Target is immune to [Darkness]!}		; immunity
+{32054} {Target is immune to [Death]!}			; immunity
+{32055} {Target is immune to [Electricity]!}	; immunity
+{32056} {Target is immune to [Evil]!}			; immunity
+{32057} {Target is immune to [Fear]!}			; immunity
+{32058} {Target is immune to [Fire]!}			; immunity
+{32059} {Target is immune to [Force]!}			; immunity
+{32060} {Target is immune to [Good]!}			; immunity
+{32061} {Target is immune to [Language-Dependent]!}	; immunity
+{32062} {Target is immune to [Lawful]!}			; immunity
+{32063} {Target is immune to [Light]!}			; immunity
+{32064} {Target is immune to [Mind-affecting]!}	; immunity
+{32065} {Target is immune to [Sonic]!}			; immunity
+{32066} {Target is immune to [Teleportation]!}	; immunity

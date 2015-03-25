@@ -1,0 +1,7 @@
+The spell Discern Lies now provides a +30 bonus on sense motive checks.
+
+data changes:
+old:
+102D5454  3E 00 00 00 0A 00 00 00 A0 D5 0E 10 0A 00 00 00
+new:
+102D5454  1E 00 00 00 22 00 00 00 00 2B 0D 10 00 00 00 00

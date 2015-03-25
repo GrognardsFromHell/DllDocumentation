@@ -1,0 +1,2147 @@
+//
+//_spell_names_(to_the_python_interpreter)
+//
+
+{0}{spell_none}
+{1}{spell_aid}
+{2}{spell_air_walk}
+{3}{spell_alarm}
+{4}{spell_alter_self}
+{5}{spell_analyze_dweomer}
+{6}{spell_animal_friendship}
+{7}{spell_animal_growth}
+{8}{spell_animal_messenger}
+{9}{spell_animal_shapes}
+{10}{spell_animal_trance}
+{11}{spell_animate_dead}
+{12}{spell_animate_objects}
+{13}{spell_animate_rope}
+{14}{spell_antilife_shell}
+{15}{spell_antimagic_field}
+{16}{spell_antipathy}
+{17}{spell_antiplant_shell}
+{18}{spell_arcane_eye}
+{19}{spell_arcane_lock}
+{20}{spell_arcane_mark}
+{21}{spell_astral_projection}
+{22}{spell_atonement}
+{23}{spell_augury}
+{24}{spell_awaken}
+{25}{spell_bane}
+{26}{spell_banishment}
+{27}{spell_barkskin}
+{28}{spell_bestow_curse}
+{29}{spell_bigbys_clenched_fist}
+{30}{spell_bigbys_crushing_hand}
+{31}{spell_bigbys_forceful_hand}
+{32}{spell_bigbys_grasping_hand}
+{33}{spell_bigbys_interposing_hand}
+{34}{spell_binding}
+{35}{spell_blade_barrier}
+{36}{spell_blasphemy}
+{37}{spell_bless}
+{38}{spell_bless_water}
+{39}{spell_bless_weapon}
+{40}{spell_blindness_deafness}
+{41}{spell_blink}
+{42}{spell_blur}
+{43}{spell_break_enchantment}
+{44}{spell_bulls_strength}
+{45}{spell_burning_hands}
+{46}{spell_call_lightning}
+{47}{spell_calm_animals}
+{48}{spell_calm_emotions}
+{49}{spell_cats_grace}
+{50}{spell_cause_fear}
+{51}{spell_chain_lightning}
+{52}{spell_change_self}
+{53}{spell_changestaff}
+{54}{spell_chaos_hammer}
+{55}{spell_charm_monster}
+{56}{spell_charm_person}
+{57}{spell_charm_person_or_animal}
+{58}{spell_chill_metal}
+{59}{spell_chill_touch}
+{60}{spell_circle_of_death}
+{61}{spell_circle_of_doom}
+{62}{spell_clairaudience_clairvoyance}
+{63}{spell_cloak_of_chaos}
+{64}{spell_clone}
+{65}{spell_cloudkill}
+{66}{spell_color_spray}
+{67}{spell_command}
+{68}{spell_command_plants}
+{69}{spell_commune}
+{70}{spell_commune_with_nature}
+{71}{spell_comprehend_languages}
+{72}{spell_cone_of_cold}
+{73}{spell_confusion}
+{74}{spell_consecrate}
+{75}{spell_contact_other_plane}
+{76}{spell_contagion}
+{77}{spell_contingency}
+{78}{spell_continual_flame}
+{79}{spell_control_plants}
+{80}{spell_control_undead}
+{81}{spell_control_water}
+{82}{spell_control_weather}
+{83}{spell_control_winds}
+{84}{spell_create_food_and_water}
+{85}{spell_create_greater_undead}
+{86}{spell_create_undead}
+{87}{spell_create_water}
+{88}{spell_creeping_doom}
+{89}{spell_cure_critical_wounds}
+{90}{spell_cure_light_wounds}
+{91}{spell_cure_minor_wounds}
+{92}{spell_cure_moderate_wounds}
+{93}{spell_cure_serious_wounds}
+{94}{spell_curse_water}
+{95}{spell_dancing_lights}
+{96}{spell_darkness}
+{97}{spell_darkvision}
+{98}{spell_daylight}
+{99}{spell_daze}
+{100}{spell_death_knell}
+{101}{spell_death_ward}
+{102}{spell_deathwatch}
+{103}{spell_deeper_darkness}
+{104}{spell_delay_poison}
+{105}{spell_delayed_blast_fireball}
+{106}{spell_demand}
+{107}{spell_desecrate}
+{108}{spell_destruction}
+{109}{spell_detect_animals_or_plants}
+{110}{spell_detect_chaos}
+{111}{spell_detect_evil}
+{112}{spell_detect_good}
+{113}{spell_detect_law}
+{114}{spell_detect_magic}
+{115}{spell_detect_poison}
+{116}{spell_detect_scrying}
+{117}{spell_detect_secret_doors}
+{118}{spell_detect_snares_and_pits}
+{119}{spell_detect_thoughts}
+{120}{spell_detect_undead}
+{121}{spell_dictum}
+{122}{spell_dimensional_anchor}
+{123}{spell_dimension_door}
+{124}{spell_diminish_plants}
+{125}{spell_discern_lies}
+{126}{spell_discern_location}
+{127}{spell_disintegrate}
+{128}{spell_dismissal}
+{129}{spell_dispel_chaos}
+{130}{spell_dispel_evil}
+{131}{spell_dispel_good}
+{132}{spell_dispel_law}
+{133}{spell_dispel_magic}
+{134}{spell_displacement}
+{135}{spell_disrupt_undead}
+{136}{spell_divination}
+{137}{spell_divine_favor}
+{138}{spell_divine_power}
+{139}{spell_dominate_animal}
+{140}{spell_dominate_monster}
+{141}{spell_dominate_person}
+{142}{spell_doom}
+{143}{spell_drawmijs_instant_summons}
+{144}{spell_dream}
+{145}{spell_earthquake}
+{146}{spell_elemental_swarm}
+{147}{spell_emotion}
+{148}{spell_endurance}
+{149}{spell_endure_elements}
+{150}{spell_energy_drain}
+{151}{spell_enervation}
+{152}{spell_enlarge}
+{153}{spell_entangle}
+{154}{spell_enthrall}
+{155}{spell_entropic_shield}
+{156}{spell_ethereal_jaunt}
+{157}{spell_etherealness}
+{158}{spell_evards_black_tentacles}
+{159}{spell_expeditious_retreat}
+{160}{spell_explosive_runes}
+{161}{spell_eyebite}
+{162}{spell_fabricate}
+{163}{spell_faerie_fire}
+{164}{spell_false_vision}
+{165}{spell_fear}
+{166}{spell_feather_fall}
+{167}{spell_feeblemind}
+{168}{spell_find_the_path}
+{169}{spell_find_traps}
+{170}{spell_finger_of_death}
+{171}{spell_fireball}
+{172}{spell_fire_seeds}
+{173}{spell_fire_shield}
+{174}{spell_fire_storm}
+{175}{spell_fire_trap}
+{176}{spell_flame_arrow}
+{177}{spell_flame_blade}
+{178}{spell_flame_strike}
+{179}{spell_flaming_sphere}
+{180}{spell_flare}
+{181}{spell_flesh_to_stone}
+{182}{spell_fly}
+{183}{spell_fog_cloud}
+{184}{spell_forbiddance}
+{185}{spell_forcecage}
+{186}{spell_foresight}
+{187}{spell_freedom}
+{188}{spell_freedom_of_movement}
+{189}{spell_gaseous_form}
+{190}{spell_gate}
+{191}{spell_geas_quest}
+{192}{spell_gentle_repose}
+{193}{spell_ghost_sound}
+{194}{spell_ghoul_touch}
+{195}{spell_giant_vermin}
+{196}{spell_glitterdust}
+{197}{spell_globe_of_invulnerability}
+{198}{spell_glyph_of_warding}
+{199}{spell_goodberry}
+{200}{spell_grease}
+{201}{spell_greater_command}
+{202}{spell_greater_dispelling}
+{203}{spell_greater_glyph_of_warding}
+{204}{spell_greater_magic_fang}
+{205}{spell_greater_magic_weapon}
+{206}{spell_greater_planar_ally}
+{207}{spell_greater_planar_binding}
+{208}{spell_greater_restoration}
+{209}{spell_greater_scrying}
+{210}{spell_greater_shadow_conjuration}
+{211}{spell_greater_shadow_evocation}
+{212}{spell_guards_and_wards}
+{213}{spell_guidance}
+{214}{spell_gust_of_wind}
+{215}{spell_hallow}
+{216}{spell_hallucinatory_terrain}
+{217}{spell_halt_undead}
+{218}{spell_harm}
+{219}{spell_haste}
+{220}{}
+{221}{spell_healing_circle}
+{222}{spell_heal_mount}
+{223}{spell_heat_metal}
+{224}{spell_helping_hand}
+{225}{spell_heroes_feast}
+{226}{spell_hold_animal}
+{227}{spell_hold_monster}
+{228}{spell_hold_person}
+{229}{spell_hold_portal}
+{230}{spell_holy_aura}
+{231}{spell_holy_smite}
+{232}{spell_holy_sword}
+{233}{spell_holy_word}
+{234}{spell_horrid_wilting}
+{235}{spell_hypnotic_pattern}
+{236}{spell_hypnotism}
+{237}{spell_ice_storm}
+{238}{spell_identify}
+{239}{spell_illusory_script}
+{240}{spell_illusory_wall}
+{241}{spell_imbue_with_spell_ability}
+{242}{spell_implosion}
+{243}{spell_imprisonment}
+{244}{spell_improved_invisibility}
+{245}{spell_incendiary_cloud}
+{246}{spell_inflict_critical_wounds}
+{247}{spell_inflict_light_wounds}
+{248}{spell_inflict_minor_wounds}
+{249}{spell_inflict_moderate_wounds}
+{250}{spell_inflict_serious_wounds}
+{251}{spell_insanity}
+{252}{spell_insect_plague}
+{253}{spell_invisibility}
+{254}{spell_invisibility_purge}
+{255}{spell_invisibility_sphere}
+{256}{spell_invisibility_to_animals}
+{257}{spell_invisibility_to_undead}
+{258}{spell_iron_body}
+{259}{spell_ironwood}
+{260}{spell_jump}
+{261}{spell_keen_edge}
+{262}{spell_knock}
+{263}{spell_know_direction}
+{264}{spell_legend_lore}
+{265}{spell_leomunds_secret_chest}
+{266}{spell_leomunds_secure_shelter}
+{267}{spell_leomunds_tiny_hut}
+{268}{spell_leomunds_trap}
+{269}{spell_lesser_geas}
+{270}{spell_lesser_planar_ally}
+{271}{spell_lesser_planar_binding}
+{272}{spell_lesser_restoration}
+{273}{spell_levitate}
+{274}{spell_light}
+{275}{spell_lightning_bolt}
+{276}{spell_limited_wish}
+{277}{spell_liveoak}
+{278}{spell_locate_creature}
+{279}{spell_locate_object}
+{280}{spell_mage_armor}
+{281}{spell_mage_hand}
+{282}{spell_magic_circle_against_chaos}
+{283}{spell_magic_circle_against_evil}
+{284}{spell_magic_circle_against_good}
+{285}{spell_magic_circle_against_law}
+{286}{spell_magic_fang}
+{287}{spell_magic_jar}
+{288}{spell_magic_missile}
+{289}{spell_magic_mouth}
+{290}{spell_magic_stone}
+{291}{spell_magic_vestment}
+{292}{spell_magic_weapon}
+{293}{spell_major_creation}
+{294}{spell_major_image}
+{295}{spell_make_whole}
+{296}{spell_mark_of_justice}
+{297}{spell_mass_charm}
+{298}{spell_mass_haste}
+{299}{spell_mass_heal}
+{300}{spell_mass_invisibility}
+{301}{spell_mass_suggestion}
+{302}{spell_maze}
+{303}{spell_meld_into_stone}
+{304}{spell_melfs_acid_arrow}
+{305}{spell_mending}
+{306}{spell_message}
+{307}{spell_meteor_swarm}
+{308}{spell_mind_blank}
+{309}{spell_mind_fog}
+{310}{spell_minor_creation}
+{311}{spell_lesser_globe_of_invulnerability}
+{312}{spell_minor_image}
+{313}{spell_miracle}
+{314}{spell_mirage_arcana}
+{315}{spell_mirror_image}
+{316}{spell_misdirection}
+{317}{spell_mislead}
+{318}{spell_modify_memory}
+{319}{spell_mordenkainens_disjunction}
+{320}{spell_mordenkainens_faithful_hound}
+{321}{spell_mordenkainens_lucubration}
+{322}{spell_mordenkainens_magnificent_mansion}
+{323}{spell_mordenkainens_sword}
+{324}{spell_mount}
+{325}{spell_move_earth}
+{326}{spell_negative_energy_protection}
+{327}{spell_neutralize_poison}
+{328}{spell_nightmare}
+{329}{spell_nondetection}
+{330}{spell_nystuls_magic_aura}
+{331}{spell_nystuls_undetectable_aura}
+{332}{spell_obscure_object}
+{333}{spell_obscuring_mist}
+{334}{spell_open_close}
+{335}{spell_orders_wrath}
+{336}{spell_otilukes_freezing_sphere}
+{337}{spell_otilukes_resilient_sphere}
+{338}{spell_otilukes_telekinetic_sphere}
+{339}{spell_ottos_irresistible_dance}
+{340}{spell_passwall}
+{341}{spell_pass_without_trace}
+{342}{spell_permanency}
+{343}{spell_permanent_image}
+{344}{spell_persistent_image}
+{345}{spell_phantasmal_killer}
+{346}{spell_phantom_steed}
+{347}{spell_phase_door}
+{348}{spell_planar_ally}
+{349}{spell_planar_binding}
+{350}{spell_plane_shift}
+{351}{spell_plant_growth}
+{352}{spell_poison}
+{353}{spell_polymorph_any_object}
+{354}{spell_polymorph_other}
+{355}{spell_polymorph_self}
+{356}{spell_power_word,_blind}
+{357}{spell_power_word,_kill}
+{358}{spell_power_word,_stun}
+{359}{spell_prayer}
+{360}{spell_prestidigitation}
+{361}{spell_prismatic_sphere}
+{362}{spell_prismatic_spray}
+{363}{spell_prismatic_wall}
+{364}{spell_produce_flame}
+{365}{spell_programmed_image}
+{366}{spell_project_image}
+{367}{spell_protection_from_arrows}
+{368}{spell_protection_from_chaos}
+{369}{spell_protection_from_elements}
+{370}{spell_protection_from_evil}
+{371}{spell_protection_from_good}
+{372}{spell_protection_from_law}
+{373}{spell_protection_from_spells}
+{374}{spell_prying_eyes}
+{375}{spell_purify_food_and_drink}
+{376}{spell_pyrotechnics}
+{377}{spell_quench}
+{378}{spell_rainbow_pattern}
+{379}{spell_raise_dead}
+{380}{spell_random_action}
+{381}{spell_rarys_mnemonic_enhancer}
+{382}{spell_rarys_telepathic_bond}
+{383}{spell_ray_of_enfeeblement}
+{384}{spell_ray_of_frost}
+{385}{spell_read_magic}
+{386}{spell_reduce}
+{387}{spell_refuge}
+{388}{spell_regenerate}
+{389}{spell_reincarnate}
+{390}{spell_remove_blindness_deafness}
+{391}{spell_remove_curse}
+{392}{spell_remove_disease}
+{393}{spell_remove_fear}
+{394}{spell_remove_paralysis}
+{395}{spell_repel_metal_or_stone}
+{396}{spell_repel_vermin}
+{397}{spell_repel_wood}
+{398}{spell_repulsion}
+{399}{spell_resistance}
+{400}{spell_resist_elements}
+{401}{spell_restoration}
+{402}{spell_resurrection}
+{403}{spell_reverse_gravity}
+{404}{spell_righteous_might}
+{405}{spell_rope_trick}
+{406}{spell_rusting_grasp}
+{407}{spell_sanctuary}
+{408}{spell_scare}
+{409}{spell_screen}
+{410}{spell_scrying}
+{411}{spell_sculpt_sound}
+{412}{spell_searing_light}
+{413}{spell_secret_page}
+{414}{spell_see_invisibility}
+{415}{spell_seeming}
+{416}{spell_sending}
+{417}{spell_sepia_snake_sigil}
+{418}{spell_sequester}
+{419}{spell_shades}
+{420}{spell_shadow_conjuration}
+{421}{spell_shadow_evocation}
+{422}{spell_shadow_walk}
+{423}{spell_shambler}
+{424}{spell_shapechange}
+{425}{spell_shatter}
+{426}{spell_shield}
+{427}{spell_shield_of_faith}
+{428}{spell_shield_of_law}
+{429}{spell_shield_other}
+{430}{spell_shillelagh}
+{431}{spell_shocking_grasp}
+{432}{spell_shout}
+{433}{spell_shrink_item}
+{434}{spell_silence}
+{435}{spell_silent_image}
+{436}{spell_simulacrum}
+{437}{spell_slay_living}
+{438}{spell_sleep}
+{439}{spell_sleet_storm}
+{440}{spell_slow}
+{441}{spell_snare}
+{442}{spell_soften_earth_and_stone}
+{443}{spell_solid_fog}
+{444}{spell_soul_bind}
+{445}{spell_sound_burst}
+{446}{spell_speak_with_animals}
+{447}{spell_speak_with_dead}
+{448}{spell_speak_with_plants}
+{449}{spell_spectral_hand}
+{450}{spell_spell_immunity}
+{451}{spell_spell_resistance}
+{452}{spell_spellstaff}
+{453}{spell_spell_turning}
+{454}{spell_spider_climb}
+{455}{spell_spike_growth}
+{456}{spell_spike_stones}
+{457}{spell_spiritual_weapon}
+{458}{spell_statue}
+{459}{spell_status}
+{460}{spell_stinking_cloud}
+{461}{spell_stone_shape}
+{462}{spell_stoneskin}
+{463}{spell_stone_tell}
+{464}{spell_stone_to_flesh}
+{465}{spell_storm_of_vengeance}
+{466}{spell_suggestion}
+{467}{spell_summon_monster_i}
+{468}{spell_summon_monster_ii}
+{469}{spell_summon_monster_iii}
+{470}{spell_summon_monster_iv}
+{471}{spell_summon_monster_v}
+{472}{spell_summon_monster_vi}
+{473}{spell_summon_monster_vii}
+{474}{spell_summon_monster_viii}
+{475}{spell_summon_monster_ix}
+{476}{spell_summon_natures_ally_i}
+{477}{spell_summon_natures_ally_ii}
+{478}{spell_summon_natures_ally_iii}
+{479}{spell_summon_natures_ally_iv}
+{480}{spell_summon_natures_ally_v}
+{481}{spell_summon_natures_ally_vi}
+{482}{spell_summon_natures_ally_vii}
+{483}{spell_summon_natures_ally_viii}
+{484}{spell_summon_natures_ally_ix}
+{485}{spell_summon_swarm}
+{486}{spell_sunbeam}
+{487}{spell_sunburst}
+{488}{spell_symbol}
+{489}{spell_sympathy}
+{490}{spell_tashas_hideous_laughter}
+{491}{spell_telekinesis}
+{492}{spell_teleport}
+{493}{spell_teleportation_circle}
+{494}{spell_teleport_without_error}
+{495}{spell_temporal_stasis}
+{496}{spell_tensers_floating_disk}
+{497}{spell_tensers_transformation}
+{498}{spell_time_stop}
+{499}{spell_tongues}
+{500}{spell_transmute_metal_to_wood}
+{501}{spell_transmute_mud_to_rock}
+{502}{spell_transmute_rock_to_mud}
+{503}{spell_transport_via_plants}
+{504}{spell_trap_the_soul}
+{505}{spell_tree_shape}
+{506}{spell_tree_stride}
+{507}{spell_true_resurrection}
+{508}{spell_true_seeing}
+{509}{spell_true_strike}
+{510}{spell_undetectable_alignment}
+{511}{spell_unhallow}
+{512}{spell_unholy_aura}
+{513}{spell_unholy_blight}
+{514}{spell_unseen_servant}
+{515}{spell_vampiric_touch}
+{516}{spell_vanish}
+{517}{spell_veil}
+{518}{spell_ventriloquism}
+{519}{spell_virtue}
+{520}{spell_vision}
+{521}{spell_wail_of_the_banshee}
+{522}{spell_wall_of_fire}
+{523}{spell_wall_of_force}
+{524}{spell_wall_of_ice}
+{525}{spell_wall_of_iron}
+{526}{spell_wall_of_stone}
+{527}{spell_wall_of_thorns}
+{528}{spell_warp_wood}
+{529}{spell_water_breathing}
+{530}{spell_water_walk}
+{531}{spell_web}
+{532}{spell_weird}
+{533}{spell_whirlwind}
+{534}{spell_whispering_wind}
+{535}{spell_wind_walk}
+{536}{spell_wind_wall}
+{537}{spell_wish}
+{538}{spell_wood_shape}
+{539}{spell_word_of_chaos}
+{540}{spell_word_of_recall}
+{541}{spell_zone_of_truth}
+{542}{spell_blight}
+{543}{spell_dispel_air}
+{544}{spell_dispel_earth}
+{545}{spell_dispel_fire}
+{546}{spell_dispel_water}
+{547}{spell_rage}
+{548}{spell_eagles_splendor}
+{549}{spell_foxs_cunning}
+{550}{spell_owls_wisdom}
+{551}{spell_reduce_animal}
+{552}{spell_glibness}
+{553}{spell_false_life}
+{554}{spell_longstrider}
+{555}{spell_acid_splash}
+{556}{spell_daze_monster}
+{557}{spell_heroism}
+{558}{spell_greater_heroism}
+{559}{spell_quench}
+{560}{spell_call_lightning_storm}
+{561}{spell_lesser_confusion}
+{562}{spell_deep_slumber}
+{563}{spell_crushing_despair}
+{564}{spell_good_hope}
+{565}{spell_heal}
+{566}{spell_harm}
+{567}{spell_reincarnation}
+{568}{spell_mordenkainens_private_sanctum}
+{569}{}
+{570}{}
+{571}{}
+{572}{}
+{573}{}
+{574}{}
+{575}{}
+{576}{}
+{577}{}
+{578}{}
+{579}{}
+{580}{}
+{581}{}
+{582}{}
+{583}{}
+{584}{}
+{585}{}
+{586}{}
+{587}{}
+{588}{}
+{589}{}
+{590}{}
+{591}{}
+{592}{}
+{593}{}
+{594}{}
+{595}{}
+{596}{}
+{597}{}
+{598}{}
+{599}{}
+{600}{spell_monster_frog_tongue}
+{601}{spell_monster_vrock_screech}
+{602}{spell_monster_vrock_spores}
+{603}{spell_monster_zuggtmoy_summon_fungi}
+{604}{spell_monster_glabrezu_summon_quasits}
+{605}{spell_senshock_summon_elemental}
+{606}{spell_summon_fungi}
+{607}{spell_summon_lamia}
+{608}{spell_Gate}
+{609}{spell_phycomid_attack}
+{699}{spell_monster_summoned}
+{700}{ring_of_freedom_of_movement}
+{701}{potion_of_enlarge}
+{702}{potion_of_haste}
+{703}{boots_of_speed}
+{704}{dust_of_disappearance}
+{705}{potion_of_charisma}
+{706}{potion_of_glibness}
+{707}{potion_of_hiding}
+{708}{potion_of_sneaking}
+{709}{potion_of_heroism}
+{710}{potion_of_super_heroism}
+{711}{potion_of_protection_from_fire}
+{712}{javelin_of_lightning}
+{713}{flame_tongue}
+{714}{potion_of_protection_from_outsiders}
+{715}{potion_of_protection_from_elementals}
+{716}{potion_of_protection_from_earth}
+{717}{potion_of_protection_from_magic}
+{718}{potion_of_protection_from_undead}
+{719}{ring_of_animal_summoning_dog}
+{720}{potion_of_protection_from_acid}
+{721}{potion_of_protection_from_electricity}
+{722}{summon_air_elemental}
+{723}{summon_earth_elemental}
+{724}{summon_fire_elemental}
+{725}{summon_water_elemental}
+{726}{summon_balor}
+{727}{summon_glabrezu}
+{728}{summon_hezrou}
+{729}{summon_vrock}
+{730}{elixir_of_hiding}
+{731}{elixir_of_sneaking}
+{732}{elixir_of_vision}
+{733}{spell_scorching_ray}
+
+{5000}{SPELL_NONE}
+{5001}{Aid}
+{5002}{Air Walk}
+{5003}{Alarm} 
+{5004}{Alter Self} 
+{5005}{Analyze Dweomer}
+{5006}{Animal Friendship} 
+{5007}{Animal Growth}
+{5008}{Animal Messenger} 
+{5009}{Animal Shapes}
+{5010}{Animal Trance} 
+{5011}{Animate Dead} 
+{5012}{Animate Objects}
+{5013}{Animate Rope} 
+{5014}{Antilife Shell}
+{5015}{Antimagic Field}
+{5016}{Antipathy}
+{5017}{Antiplant Shell} 
+{5018}{Arcane Eye} 
+{5019}{Arcane Lock} 
+{5020}{Arcane Mark}
+{5021}{Astral Projection}
+{5022}{Atonement} 
+{5023}{Augury} 
+{5024}{Awaken} 
+{5025}{Bane}
+{5026}{Banishment} 
+{5027}{Barkskin}
+{5028}{Bestow Curse}
+{5029}{Bigbys Clenched Fist}
+{5030}{Bigbys Crushing Hand}
+{5031}{Bigbys Forceful Hand} 
+{5032}{Bigbys Grasping Hand} 
+{5033}{Bigbys Interposing Hand} 
+{5034}{Binding} 
+{5035}{Blade Barrier} 
+{5036}{Blasphemy} 
+{5037}{Bless}
+{5038}{Bless Water}
+{5039}{Bless Weapon}
+{5040}{Blindness/Deafness}
+{5041}{Blink}
+{5042}{Blur}
+{5043}{Break Enchantment}
+{5044}{Bulls Strength}
+{5045}{Burning Hands}
+{5046}{Call Lightning}
+{5047}{Calm Animals}
+{5048}{Calm Emotions}
+{5049}{Cats Grace}
+{5050}{Cause Fear}
+{5051}{Chain Lightning} 
+{5052}{Change Self}
+{5053}{Changestaff} 
+{5054}{Chaos Hammer}
+{5055}{Charm Monster}
+{5056}{Charm Person}
+{5057}{Charm Person or Animal}
+{5058}{Chill Metal}
+{5059}{Chill Touch}
+{5060}{Circle of Death} 
+{5061}{Circle of Doom}
+{5062}{Clairaudience/Clairvoyance}
+{5063}{Cloak of Chaos} 
+{5064}{Clone} 
+{5065}{Cloudkill}
+{5066}{Color Spray}
+{5067}{Command}
+{5068}{Command Plants} 
+{5069}{Commune}
+{5070}{Commune with Nature}
+{5071}{Comprehend Languages}
+{5072}{Cone of Cold}
+{5073}{Confusion}
+{5074}{Consecrate}
+{5075}{Contact Other Plane}
+{5076}{Contagion}
+{5077}{Contingency}
+{5078}{Continual Flame}
+{5079}{Control Plants}
+{5080}{Control Undead}
+{5081}{Control Water}
+{5082}{Control Weather}
+{5083}{Control Winds}
+{5084}{Create Food and Water}
+{5085}{Create Greater Undead}
+{5086}{Create Undead}
+{5087}{Create Water}
+{5088}{Creeping Doom}
+{5089}{Cure Critical Wounds}
+{5090}{Cure Light Wounds}
+{5091}{Cure Minor Wounds}
+{5092}{Cure Moderate Wounds}
+{5093}{Cure Serious Wounds}
+{5094}{Curse Water}
+{5095}{Dancing Lights}
+{5096}{Darkness}
+{5097}{Darkvision}
+{5098}{Daylight}
+{5099}{Daze}
+{5100}{Death Knell}
+{5101}{Death Ward}
+{5102}{Deathwatch}
+{5103}{Deeper Darkness}
+{5104}{Delay Poison}
+{5105}{Delayed Blast Fireball}
+{5106}{Demand}
+{5107}{Desecrate}
+{5108}{Destruction}
+{5109}{Detect Animals or Plants}
+{5110}{Detect Chaos}
+{5111}{Detect Evil}
+{5112}{Detect Good}
+{5113}{Detect Law}
+{5114}{Detect Magic}
+{5115}{Detect Poison}
+{5116}{Detect Scrying}
+{5117}{Detect Secret Doors}
+{5118}{Detect Snares and Pits}
+{5119}{Detect Thoughts}
+{5120}{Detect Undead}
+{5121}{Dictum}
+{5122}{Dimensional Anchor}
+{5123}{Dimension Door}
+{5124}{Diminish Plants}
+{5125}{Discern Lies}
+{5126}{Discern Location}
+{5127}{Disintegrate}
+{5128}{Dismissal}
+{5129}{Dispel Chaos}
+{5130}{Dispel Evil}
+{5131}{Dispel Good}
+{5132}{Dispel Law}
+{5133}{Dispel Magic}
+{5134}{Displacement}
+{5135}{Disrupt Undead}
+{5136}{Divination}
+{5137}{Divine Favor}
+{5138}{Divine Power}
+{5139}{Dominate Animal}
+{5140}{Dominate Monster}
+{5141}{Dominate Person}
+{5142}{Doom}
+{5143}{Drawmijs Instant Summons}
+{5144}{Dream}
+{5145}{Earthquake}
+{5146}{Elemental Swarm}
+{5147}{Emotion}
+{5148}{Bears Endurance}
+{5149}{Endure Elements}
+{5150}{Energy Drain}
+{5151}{Enervation}
+{5152}{Enlarge}
+{5153}{Entangle}
+{5154}{Enthrall}
+{5155}{Entropic Shield}
+{5156}{Ethereal Jaunt}
+{5157}{Etherealness}
+{5158}{Evards Black Tentacles}
+{5159}{Expeditious Retreat}
+{5160}{Explosive Runes}
+{5161}{Eyebite}
+{5162}{Fabricate}
+{5163}{Faerie Fire}
+{5164}{False Vision}
+{5165}{Fear}
+{5166}{Feather Fall}
+{5167}{Feeblemind}
+{5168}{Find the Path}
+{5169}{Find Traps}
+{5170}{Finger of Death}
+{5171}{Fireball}
+{5172}{Fire Seeds}
+{5173}{Fire Shield}
+{5174}{Fire Storm}
+{5175}{Fire Trap}
+{5176}{Flame Arrow}
+{5177}{Flame Blade}
+{5178}{Flame Strike}
+{5179}{Flaming Sphere}
+{5180}{Flare}
+{5181}{Flesh to Stone}
+{5182}{Fly}
+{5183}{Fog Cloud}
+{5184}{Forbiddance}
+{5185}{Forcecage}
+{5186}{Foresight}
+{5187}{Freedom}
+{5188}{Freedom of Movement}
+{5189}{Gaseous Form}
+{5190}{Gate}
+{5191}{Geas/Quest}
+{5192}{Gentle Repose}
+{5193}{Ghost Sound}
+{5194}{Ghoul Touch}
+{5195}{Giant Vermin}
+{5196}{Glitterdust}
+{5197}{Globe of Invulnerability}
+{5198}{Glyph of Warding}
+{5199}{Goodberry}
+{5200}{Grease}
+{5201}{Greater Command}
+{5202}{Greater Dispelling}
+{5203}{Greater Glyph of Warding}
+{5204}{Greater Magic Fang}
+{5205}{Greater Magic Weapon}
+{5206}{Greater Planar Ally}
+{5207}{Greater Planar Binding}
+{5208}{Greater Restoration}
+{5209}{Greater Scrying}
+{5210}{Greater Shadow Conjuration}
+{5211}{Greater Shadow Evocation}
+{5212}{Guards and Wards}
+{5213}{Guidance}
+{5214}{Gust of Wind}
+{5215}{Hallow}
+{5216}{Hallucinatory Terrain}
+{5217}{Halt Undead}
+{5218}{Harm}
+{5219}{Haste}
+{5220}{}
+{5221}{Healing Circle}
+{5222}{Heal Mount}
+{5223}{Heat Metal}
+{5224}{Helping Hand}
+{5225}{Heroes Feast}
+{5226}{Hold Animal}
+{5227}{Hold Monster}
+{5228}{Hold Person}
+{5229}{Hold Portal}
+{5230}{Holy Aura}
+{5231}{Holy Smite}
+{5232}{Holy Sword}
+{5233}{Holy Word}
+{5234}{Horrid Wilting}
+{5235}{Hypnotic Pattern}
+{5236}{Hypnotism}
+{5237}{Ice Storm}
+{5238}{Identify}
+{5239}{Illusory Script}
+{5240}{Illusory Wall}
+{5241}{Imbue with Spell Ability}
+{5242}{Implosion}
+{5243}{Imprisonment}
+{5244}{Greater Invisibility}
+{5245}{Incendiary Cloud}
+{5246}{Inflict Critical Wounds}
+{5247}{Inflict Light Wounds}
+{5248}{Inflict Minor Wounds}
+{5249}{Inflict Moderate Wounds}
+{5250}{Inflict Serious Wounds}
+{5251}{Insanity}
+{5252}{Insect Plague}
+{5253}{Invisibility}
+{5254}{Invisibility Purge}
+{5255}{Invisibility Sphere}
+{5256}{Invisibility to Animals}
+{5257}{Invisibility to Undead}
+{5258}{Iron Body}
+{5259}{Ironwood}
+{5260}{Jump}
+{5261}{Keen Edge}
+{5262}{Knock}
+{5263}{Know Direction}
+{5264}{Legend Lore}
+{5265}{Leomunds Secret Chest}
+{5266}{Leomunds Secure Shelter}
+{5267}{Leomunds Tiny Hut}
+{5268}{Leomunds Trap}
+{5269}{Lesser Geas}
+{5270}{Lesser Planar Ally}
+{5271}{Lesser Planar Binding}
+{5272}{Lesser Restoration}
+{5273}{Levitate}
+{5274}{Light}
+{5275}{Lightning Bolt}
+{5276}{Limited Wish}
+{5277}{Liveoak}
+{5278}{Locate Creature}
+{5279}{Locate Object}
+{5280}{Mage Armor}
+{5281}{Mage Hand}
+{5282}{Magic Circle against Chaos}
+{5283}{Magic Circle against Evil}
+{5284}{Magic Circle against Good}
+{5285}{Magic Circle against Law}
+{5286}{Magic Fang}
+{5287}{Magic Jar}
+{5288}{Magic Missile}
+{5289}{Magic Mouth}
+{5290}{Magic Stone}
+{5291}{Magic Vestment}
+{5292}{Magic Weapon}
+{5293}{Major Creation}
+{5294}{Major Image}
+{5295}{Make Whole}
+{5296}{Mark of Justice}
+{5297}{Mass Charm}
+{5298}{Mass Haste}
+{5299}{Mass Heal}
+{5300}{Mass Invisibility}
+{5301}{Mass Suggestion}
+{5302}{Maze}
+{5303}{Meld into Stone}
+{5304}{Melfs Acid Arrow}
+{5305}{Mending}
+{5306}{Message}
+{5307}{Meteor Swarm}
+{5308}{Mind Blank}
+{5309}{Mind Fog}
+{5310}{Minor Creation}
+{5311}{Lesser Globe of Invulnerability}
+{5312}{Minor Image}
+{5313}{Miracle}
+{5314}{Mirage Arcana}
+{5315}{Mirror Image}
+{5316}{Misdirection}
+{5317}{Mislead}
+{5318}{Modify Memory}
+{5319}{Mordenkainens Disjunction}
+{5320}{Mordenkainens Faithful Hound}
+{5321}{Mordenkainens Lucubration}
+{5322}{Mordenkainens Magnificent Mansion}
+{5323}{Mordenkainens Sword}
+{5324}{Mount}
+{5325}{Move Earth}
+{5326}{Negative Energy Protection}
+{5327}{Neutralize Poison}
+{5328}{Nightmare}
+{5329}{Nondetection}
+{5330}{Nystuls Magic Aura}
+{5331}{Nystuls Undetectable Aura}
+{5332}{Obscure Object}
+{5333}{Obscuring Mist}
+{5334}{Open/Close}
+{5335}{Orders Wrath}
+{5336}{Otilukes Freezing Sphere}
+{5337}{Otilukes Resilient Sphere}
+{5338}{Otilukes Telekinetic Sphere}
+{5339}{Ottos Irresistible Dance}
+{5340}{Passwall}
+{5341}{Pass without Trace}
+{5342}{Permanency}
+{5343}{Permanent Image}
+{5344}{Persistent Image}
+{5345}{Phantasmal Killer}
+{5346}{Phantom Steed}
+{5347}{Phase Door}
+{5348}{Planar Ally}
+{5349}{Planar Binding}
+{5350}{Plane Shift}
+{5351}{Plant Growth}
+{5352}{Poison}
+{5353}{Polymorph Any Object}
+{5354}{Polymorph Other}
+{5355}{Polymorph Self}
+{5356}{Power Word, Blind}
+{5357}{Power Word, Kill}
+{5358}{Power Word, Stun}
+{5359}{Prayer}
+{5360}{Prestidigitation}
+{5361}{Prismatic Sphere}
+{5362}{Prismatic Spray}
+{5363}{Prismatic Wall}
+{5364}{Produce Flame}
+{5365}{Programmed Image}
+{5366}{Project Image}
+{5367}{Protection from Arrows}
+{5368}{Protection from Chaos}
+{5369}{Protection from Energy}
+{5370}{Protection from Evil}
+{5371}{Protection from Good}
+{5372}{Protection from Law}
+{5373}{Protection from Spells}
+{5374}{Prying Eyes}
+{5375}{Purify Food and Drink}
+{5376}{Pyrotechnics}
+{5377}{Quench}
+{5378}{Rainbow Pattern}
+{5379}{Raise Dead}
+{5380}{Random Action}
+{5381}{Rarys Mnemonic Enhancer}
+{5382}{Rarys Telepathic Bond}
+{5383}{Ray of Enfeeblement}
+{5384}{Ray of Frost}
+{5385}{Read Magic}
+{5386}{Reduce Person}
+{5387}{Refuge}
+{5388}{Regenerate}
+{5389}{Reincarnate}
+{5390}{Remove Blindness/Deafness}
+{5391}{Remove Curse}
+{5392}{Remove Disease}
+{5393}{Remove Fear}
+{5394}{Remove Paralysis}
+{5395}{Repel Metal or Stone}
+{5396}{Repel Vermin}
+{5397}{Repel Wood}
+{5398}{Repulsion}
+{5399}{Resistance}
+{5400}{Resist Energy}
+{5401}{Restoration}
+{5402}{Resurrection}
+{5403}{Reverse Gravity}
+{5404}{Righteous Might}
+{5405}{Rope Trick}
+{5406}{Rusting Grasp}
+{5407}{Sanctuary}
+{5408}{Scare}
+{5409}{Screen}
+{5410}{Scrying}
+{5411}{Sculpt Sound}
+{5412}{Searing Light}
+{5413}{Secret Page}
+{5414}{See Invisibility}
+{5415}{Seeming}
+{5416}{Sending}
+{5417}{Sepia Snake Sigil}
+{5418}{Sequester}
+{5419}{Shades}
+{5420}{Shadow Conjuration}
+{5421}{Shadow Evocation}
+{5422}{Shadow Walk}
+{5423}{Shambler}
+{5424}{Shapechange}
+{5425}{Shatter}
+{5426}{Shield}
+{5427}{Shield of Faith}
+{5428}{Shield of Law}
+{5429}{Shield Other}
+{5430}{Shillelagh}
+{5431}{Shocking Grasp}
+{5432}{Shout}
+{5433}{Shrink Item}
+{5434}{Silence}
+{5435}{Silent Image}
+{5436}{Simulacrum}
+{5437}{Slay Living}
+{5438}{Sleep}
+{5439}{Sleet Storm}
+{5440}{Slow}
+{5441}{Snare}
+{5442}{Soften Earth and Stone}
+{5443}{Solid Fog}
+{5444}{Soul Bind}
+{5445}{Sound Burst}
+{5446}{Speak with Animals}
+{5447}{Speak with Dead}
+{5448}{Speak with Plants}
+{5449}{Spectral Hand}
+{5450}{Spell Immunity}
+{5451}{Spell Resistance}
+{5452}{Spellstaff}
+{5453}{Spell Turning}
+{5454}{Spider Climb}
+{5455}{Spike Growth}
+{5456}{Spike Stones}
+{5457}{Spiritual Weapon}
+{5458}{Statue}
+{5459}{Status}
+{5460}{Stinking Cloud}
+{5461}{Stone Shape}
+{5462}{Stoneskin}
+{5463}{Stone Tell}
+{5464}{Stone to Flesh}
+{5465}{Storm of Vengeance}
+{5466}{Suggestion}
+{5467}{Summon Monster I}
+{5468}{Summon Monster II}
+{5469}{Summon Monster III}
+{5470}{Summon Monster IV}
+{5471}{Summon Monster V}
+{5472}{Summon Monster VI}
+{5473}{Summon Monster VII}
+{5474}{Summon Monster VIII}
+{5475}{Summon Monster IX}
+{5476}{Summon Natures Ally I}
+{5477}{Summon Natures Ally II}
+{5478}{Summon Natures Ally III}
+{5479}{Summon Natures Ally IV}
+{5480}{Summon Natures Ally V}
+{5481}{Summon Natures Ally VI}
+{5482}{Summon Natures Ally VII}
+{5483}{Summon Natures Ally VIII}
+{5484}{Summon Natures Ally IX}
+{5485}{Summon Swarm}
+{5486}{Sunbeam}
+{5487}{Sunburst}
+{5488}{Symbol}
+{5489}{Sympathy}
+{5490}{Tashas Hideous Laughter}
+{5491}{Telekinesis}
+{5492}{Teleport}
+{5493}{Teleportation Circle}
+{5494}{Teleport without Error}
+{5495}{Temporal Stasis}
+{5496}{Tensers Floating Disk}
+{5497}{Tensers Transformation}
+{5498}{Time Stop}
+{5499}{Tongues}
+{5500}{Transmute Metal to Wood}
+{5501}{Transmute Mud to Rock}
+{5502}{Transmute Rock to Mud}
+{5503}{Transport via Plants}
+{5504}{Trap the Soul}
+{5505}{Tree Shape}
+{5506}{Tree Stride}
+{5507}{True Resurrection}
+{5508}{True Seeing}
+{5509}{True Strike}
+{5510}{Undetectable Alignment}
+{5511}{Unhallow}
+{5512}{Unholy Aura}
+{5513}{Unholy Blight}
+{5514}{Unseen Servant}
+{5515}{Vampiric Touch}
+{5516}{Vanish}
+{5517}{Veil}
+{5518}{Ventriloquism}
+{5519}{Virtue}
+{5520}{Vision}
+{5521}{Wail of the Banshee}
+{5522}{Wall of Fire}
+{5523}{Wall of Force}
+{5524}{Wall of Ice}
+{5525}{Wall of Iron}
+{5526}{Wall of Stone}
+{5527}{Wall of Thorns}
+{5528}{Warp Wood}
+{5529}{Water Breathing}
+{5530}{Water Walk}
+{5531}{Web}
+{5532}{Weird}
+{5533}{Whirlwind}
+{5534}{Whispering Wind}
+{5535}{Wind Walk}
+{5536}{Wind Wall}
+{5537}{Wish}
+{5538}{Wood Shape}
+{5539}{Word of Chaos}
+{5540}{Word of Recall}
+{5541}{Zone of Truth} 
+{5542}{Blight}
+{5543}{Dispel Air}
+{5544}{Dispel Earth}
+{5545}{Dispel Fire}
+{5546}{Dispel Water}
+{5547}{Rage}
+{5548}{Eagles Splendor}
+{5549}{Foxs Cunning}
+{5550}{Owls Wisdom}
+{5551}{Reduce Animal}
+{5552}{Glibness}
+{5553}{False Life}
+{5554}{Longstrider}
+{5555}{Acid Splash}
+{5556}{Daze Monster}
+{5557}{Heroism}
+{5558}{Greater Heroism}
+{5559}{Quench}
+{5560}{Call Lightning Storm}
+{5561}{Lesser Confusion}
+{5562}{Deep Slumber}
+{5563}{Crushing Despair}
+{5564}{Good Hope}
+{5565}{Heal}
+{5566}{Harm}
+{5567}{Reincarnation}
+{5568}{Mordenkainens Private Sanctum}
+{5569}{}
+{5570}{}
+{5571}{}
+{5572}{}
+{5573}{}
+{5574}{}
+{5575}{}
+{5576}{}
+{5577}{}
+{5578}{}
+{5579}{}
+{5580}{}
+{5581}{}
+{5582}{}
+{5583}{}
+{5584}{}
+{5585}{}
+{5586}{}
+{5587}{}
+{5588}{}
+{5589}{}
+{5590}{}
+{5591}{}
+{5592}{}
+{5593}{}
+{5594}{}
+{5595}{}
+{5596}{}
+{5597}{}
+{5598}{}
+{5599}{}
+{5600}{Frog Tongue (INTERNAL)}
+{5601}{Vrock Screech (INTERNAL)}
+{5602}{Vrock Spores (INTERNAL)}
+{5603}{Zuggtmoy Summon Fungi (INTERNAL)}
+{5604}{Glabrezu Summon Quasits (INTERNAL)}
+{5605}{senshock summon elemental (INTERNAL)}
+{5606}{summon fungi(INTERNAL)}
+{5607}{summon lamia(INTERNAL)}
+{5608}{Gate (INTERNAL)}
+{5609}{phycomid attack (INTERNAL)}
+{5610}{}
+{5611}{}
+{5612}{}
+{5613}{}
+{5614}{}
+{5615}{}
+{5616}{}
+{5617}{}
+{5618}{}
+{5619}{}
+{5620}{}
+{5621}{}
+{5622}{}
+{5623}{}
+{5624}{}
+{5625}{}
+{5626}{}
+{5627}{}
+{5628}{}
+{5629}{}
+{5630}{}
+{5631}{}
+{5632}{}
+{5633}{}
+{5634}{}
+{5635}{}
+{5636}{}
+{5637}{}
+{5638}{}
+{5639}{}
+{5640}{}
+{5641}{}
+{5642}{}
+{5643}{}
+{5644}{}
+{5645}{}
+{5646}{}
+{5647}{}
+{5648}{}
+{5649}{}
+{5650}{}
+{5651}{}
+{5652}{}
+{5653}{}
+{5654}{}
+{5655}{}
+{5656}{}
+{5657}{}
+{5658}{}
+{5659}{}
+{5660}{}
+{5661}{}
+{5662}{}
+{5663}{}
+{5664}{}
+{5665}{}
+{5666}{}
+{5667}{}
+{5668}{}
+{5669}{}
+{5670}{}
+{5671}{}
+{5672}{}
+{5673}{}
+{5674}{}
+{5675}{}
+{5676}{}
+{5677}{}
+{5678}{}
+{5679}{}
+{5680}{}
+{5681}{}
+{5682}{}
+{5683}{}
+{5684}{}
+{5685}{}
+{5686}{}
+{5687}{}
+{5688}{}
+{5689}{}
+{5690}{}
+{5691}{}
+{5692}{}
+{5693}{}
+{5694}{}
+{5695}{}
+{5696}{}
+{5697}{}
+{5698}{}
+{5699}{Summoned (INTERNAL)}
+{5700}{Ring of Freedom of Movement (INTERNAL)}
+{5701}{Potion of Enlarge (INTERNAL)}
+{5702}{Potion of Haste (INTERNAL)}
+{5703}{Boots of Speed (INTERNAL)}
+{5704}{Dust of Disappearance (INTERNAL)}
+{5705}{Potion of charisma (INTERNAL)}
+{5706}{Potion of glibness (INTERNAL)}
+{5707}{Potion of hiding (INTERNAL)}
+{5708}{Potion of sneaking (INTERNAL)}
+{5709}{Potion of heroism (INTERNAL)}
+{5710}{Potion of super-heroism (INTERNAL)}
+{5711}{Potion of protection from fire (INTERNAL)}
+{5712}{Javelin of lightning (INTERNAL)}
+{5713}{Flame tongue (INTERNAL)}
+{5714}{Potion of protection from outsiders (INTERNAL)}
+{5715}{Potion of protection from elementals (INTERNAL)}
+{5716}{Potion of protection from earth (INTERNAL)}
+{5717}{Potion of protection from magic (INTERNAL)}
+{5718}{Potion of protection from undead (INTERNAL)}
+{5719}{Ring of Animal Summoning (Dog) (INTERNAL)}
+{5720}{Potion of Protection from Acid (INTERNAL)}
+{5721}{Potion of Protection from Electricity (INTERNAL)}
+{5722}{Summon Air Elemental (INTERNAL)}
+{5723}{Summon Earth Elemental (INTERNAL)}
+{5724}{Summon Fire Elemental (INTERNAL)}
+{5725}{Summon Water Elemental (INTERNAL)}
+{5726}{Summon Balor (INTERNAL)}
+{5727}{Summon Glabrezu (INTERNAL)}
+{5728}{Summon Hezrou (INTERNAL)}
+{5729}{Summon Vrock (INTERNAL)}
+{5730}{Elixir of hiding (INTERNAL)}
+{5731}{Elixir of sneaking (INTERNAL)}
+{5732}{Elixir of vision (INTERNAL)}
+{5733}{Scorching Ray}
+{5734}{}
+{5735}{}
+{5736}{}
+{5737}{}
+{5738}{}
+{5739}{}
+{5740}{}
+{5741}{}
+{5742}{}
+{5743}{}
+{5744}{}
+{5745}{}
+{5746}{}
+{5747}{}
+{5748}{}
+{5749}{}
+{5750}{}
+{5751}{}
+{5752}{}
+{5753}{}
+{5754}{}
+{5755}{}
+{5756}{}
+{5757}{}
+{5758}{}
+{5759}{}
+{5760}{}
+{5761}{}
+{5762}{}
+{5763}{}
+{5764}{}
+{5765}{}
+{5766}{}
+{5767}{}
+{5768}{}
+{5769}{}
+{5770}{}
+{5771}{}
+{5772}{}
+{5773}{}
+{5774}{}
+{5775}{}
+{5776}{}
+{5777}{}
+{5778}{}
+{5779}{}
+{5780}{}
+{5781}{}
+{5782}{}
+{5783}{}
+{5784}{}
+{5785}{}
+{5786}{}
+{5787}{}
+{5788}{}
+{5789}{}
+{5790}{}
+{5791}{}
+{5792}{}
+{5793}{}
+{5794}{}
+{5795}{}
+{5796}{}
+{5797}{}
+{5798}{}
+{5799}{}
+{5800}{}
+{5801}{}
+{5802}{}
+
+{10000}{class_barbarian}
+{10001}{class_bard}
+{10002}{class_cleric}
+{10003}{class_druid}
+{10004}{class_fighter}
+{10005}{class_monk}
+{10006}{class_paladin}
+{10007}{class_ranger}
+{10008}{class_rogue}
+{10009}{class_sorcerer}
+{10010}{class_wizard}
+
+{10500}{domain_none}
+{10501}{domain_air}
+{10502}{domain_animal}
+{10503}{domain_chaos}
+{10504}{domain_death}
+{10505}{domain_destruction}
+{10506}{domain_earth}
+{10507}{domain_evil}
+{10508}{domain_fire}
+{10509}{domain_good}
+{10510}{domain_healing}
+{10511}{domain_knowledge}
+{10512}{domain_law}
+{10513}{domain_luck}
+{10514}{domain_magic}
+{10515}{domain_plant}
+{10516}{domain_protection}
+{10517}{domain_strength}
+{10518}{domain_sun}
+{10519}{domain_travel}
+{10520}{domain_trickery}
+{10521}{domain_war}
+{10522}{domain_water}
+{10523}{domain_special}
+
+{15000}{school_none}
+{15001}{school_abjuration}
+{15002}{school_conjuration}
+{15003}{school_divination}
+{15004}{school_enchantment}
+{15005}{school_evocation}
+{15006}{school_illusion}
+{15007}{school_necromancy}
+{15008}{school_transmutation}
+
+
+{20000}{}//spell_none
+{20001}{TAG_SPELLS_AID}//spell_aid
+{20002}{TAG_SPELLS_AIR_WALK}//spell_air_walk
+{20003}{TAG_SPELLS_ALARM}//spell_alarm
+{20004}{TAG_SPELLS_ALTER_SELF}//spell_alter_self
+{20005}{TAG_SPELLS_ANALYZE_DWEOMER}//spell_analyze_dweomer
+{20006}{TAG_SPELLS_ANIMAL_FRIENDSHIP}//spell_animal_friendship
+{20007}{TAG_SPELLS_ANIMAL_GROWTH}//spell_animal_growth
+{20008}{TAG_SPELLS_ANIMAL_MESSENGER}//spell_animal_messenger
+{20009}{TAG_SPELLS_ANIMAL_SHAPES}//spell_animal_shapes
+{20010}{TAG_SPELLS_ANIMAL_TRANCE}//spell_animal_trance
+{20011}{TAG_SPELLS_ANIMATE_DEAD}//spell_animate_dead
+{20012}{TAG_SPELLS_ANIMATE_OBJECTS}//spell_animate_objects
+{20013}{TAG_SPELLS_ANIMATE_ROPE}//spell_animate_rope
+{20014}{TAG_SPELLS_ANTILIFE_SHELL}//spell_antilife_shell
+{20015}{TAG_SPELLS_ANTIMAGIC_FIELD}//spell_antimagic_field
+{20016}{TAG_SPELLS_ANTIPATHY}//spell_antipathy
+{20017}{TAG_SPELLS_ANTIPLANT_SHELL}//spell_antiplant_shell
+{20018}{TAG_SPELLS_ARCANE_EYE}//spell_arcane_eye
+{20019}{TAG_SPELLS_ARCANE_LOCK}//spell_arcane_lock
+{20020}{TAG_SPELLS_ARCANE_MARK}//spell_arcane_mark
+{20021}{TAG_SPELLS_ASTRAL_PROJECTION}//spell_astral_projection
+{20022}{TAG_SPELLS_ATONEMENT}//spell_atonement
+{20023}{TAG_SPELLS_AUGURY}//spell_augury
+{20024}{TAG_SPELLS_AWAKEN}//spell_awaken
+{20025}{TAG_SPELLS_BANE}//spell_bane
+{20026}{TAG_SPELLS_BANISHMENT}//spell_banishment
+{20027}{TAG_SPELLS_BARKSKIN}//spell_barkskin
+{20028}{TAG_SPELLS_BESTOW_CURSE}//spell_bestow_curse
+{20029}{TAG_SPELLS_BIGBYS_CLENCHED_FIST}//spell_bigbys_clenched_fist
+{20030}{TAG_SPELLS_BIGBYS_CRUSHING_HAND}//spell_bigbys_crushing_hand
+{20031}{TAG_SPELLS_BIGBYS_FORCEFUL_HAND}//spell_bigbys_forceful_hand
+{20032}{TAG_SPELLS_BIGBYS_GRASPING_HAND}//spell_bigbys_grasping_hand
+{20033}{TAG_SPELLS_BIGBYS_INTERPOSING_HAND}//spell_bigbys_interposing_hand
+{20034}{TAG_SPELLS_BINDING}//spell_binding
+{20035}{TAG_SPELLS_BLADE_BARRIER}//spell_blade_barrier
+{20036}{TAG_SPELLS_BLASPHEMY}//spell_blasphemy
+{20037}{TAG_SPELLS_BLESS}//spell_bless
+{20038}{TAG_SPELLS_BLESS_WATER}//spell_bless_water
+{20039}{TAG_SPELLS_BLESS_WEAPON}//spell_bless_weapon
+{20040}{TAG_SPELLS_BLINDNESS_DEAFNESS}//spell_blindness_deafness
+{20041}{TAG_SPELLS_BLINK}//spell_blink
+{20042}{TAG_SPELLS_BLUR}//spell_blur
+{20043}{TAG_SPELLS_BREAK_ENCHANTMENT}//spell_break_enchantment
+{20044}{TAG_SPELLS_BULL'S_STRENGTH}//spell_bulls_strength
+{20045}{TAG_SPELLS_BURNING_HANDS}//spell_burning_hands
+{20046}{TAG_SPELLS_CALL_LIGHTNING}//spell_call_lightning
+{20047}{TAG_SPELLS_CALM_ANIMALS}//spell_calm_animals
+{20048}{TAG_SPELLS_CALM_EMOTIONS}//spell_calm_emotions
+{20049}{TAG_SPELLS_CATS_GRACE}//spell_cats_grace
+{20050}{TAG_SPELLS_CAUSE_FEAR}//spell_cause_fear
+{20051}{TAG_SPELLS_CHAIN_LIGHTNING}//spell_chain_lightning
+{20052}{TAG_SPELLS_CHANGE_SELF}//spell_change_self
+{20053}{TAG_SPELLS_CHANGESTAFF}//spell_changestaff
+{20054}{TAG_SPELLS_CHAOS_HAMMER}//spell_chaos_hammer
+{20055}{TAG_SPELLS_CHARM_MONSTER}//spell_charm_monster
+{20056}{TAG_SPELLS_CHARM_PERSON}//spell_charm_person
+{20057}{TAG_SPELLS_CHARM_PERSON_OR_ANIMAL}//spell_charm_person_or_animal
+{20058}{TAG_SPELLS_CHILL_METAL}//spell_chill_metal
+{20059}{TAG_SPELLS_CHILL_TOUCH}//spell_chill_touch
+{20060}{TAG_SPELLS_CIRCLE_OF_DEATH}//spell_circle_of_death
+{20061}{TAG_SPELLS_CIRCLE_OF_DOOM}//spell_circle_of_doom
+{20062}{TAG_SPELLS_CLAIRAUDIENCE_CLAIRVOYANCE}//spell_clairaudience_clairvoyance
+{20063}{TAG_SPELLS_CLOAK_OF_CHAOS}//spell_cloak_of_chaos
+{20064}{TAG_SPELLS_CLONE}//spell_clone
+{20065}{TAG_SPELLS_CLOUDKILL}//spell_cloudkill
+{20066}{TAG_SPELLS_COLOR_SPRAY}//spell_color_spray
+{20067}{TAG_SPELLS_COMMAND}//spell_command
+{20068}{TAG_SPELLS_COMMAND_PLANTS}//spell_command_plants
+{20069}{TAG_SPELLS_COMMUNE}//spell_commune
+{20070}{TAG_SPELLS_COMMUNE_WITH_NATURE}//spell_commune_with_nature
+{20071}{TAG_SPELLS_COMPREHEND_LANGUAGES}//spell_comprehend_languages
+{20072}{TAG_SPELLS_CONE_OF_COLD}//spell_cone_of_cold
+{20073}{TAG_SPELLS_CONFUSION}//spell_confusion
+{20074}{TAG_SPELLS_CONSECRATE}//spell_consecrate
+{20075}{TAG_SPELLS_CONTACT_OTHER_PLANE}//spell_contact_other_plane
+{20076}{TAG_SPELLS_CONTAGION}//spell_contagion
+{20077}{TAG_SPELLS_CONTIGENCY}//spell_contingency
+{20078}{TAG_SPELLS_CONTINUAL_FLAME}//spell_continual_flame
+{20079}{TAG_SPELLS_CONTROL_PLANTS}//spell_control_plants
+{20080}{TAG_SPELLS_CONTROL_UNDEAD}//spell_control_undead
+{20081}{TAG_SPELLS_CONTROL_WATER}//spell_control_water
+{20082}{TAG_SPELLS_CONTROL_WEATHER}//spell_control_weather
+{20083}{TAG_SPELLS_CONTROL_WINDS}//spell_control_winds
+{20084}{TAG_SPELLS_CREATE_FOOD_AND_WATER}//spell_create_food_and_water
+{20085}{TAG_SPELLS_CREATE_GREATER_UNDEAD}//spell_create_greater_undead
+{20086}{TAG_SPELLS_CREATE_UNDEAD}//spell_create_undead
+{20087}{TAG_SPELLS_CREATE_WATER}//spell_create_water
+{20088}{TAG_SPELLS_CREEPING_DOOM}//spell_creeping_doom
+{20089}{TAG_SPELLS_CURE_CRITICAL_WOUNDS}//spell_cure_critical_wounds
+{20090}{TAG_SPELLS_CURE_LIGHT_WOUNDS}//spell_cure_light_wounds
+{20091}{TAG_SPELLS_CURE_MINOR_WOUNDS}//spell_cure_minor_wounds
+{20092}{TAG_SPELLS_CURE_MODERATE_WOUNDS}//spell_cure_moderate_wounds
+{20093}{TAG_SPELLS_CURE_SERIOUS_WOUNDS}//spell_cure_serious_wounds
+{20094}{TAG_SPELLS_CURSE_WATER}//spell_curse_water
+{20095}{TAG_SPELLS_DANCING_LIGHTS}//spell_dancing_lights
+{20096}{TAG_SPELLS_DARKNESS}//spell_darkness
+{20097}{TAG_SPELLS_DARKVISION}//spell_darkvision
+{20098}{TAG_SPELLS_DAYLIGHT}//spell_daylight
+{20099}{TAG_SPELLS_DAZE}//spell_daze
+{20100}{TAG_SPELLS_DEATH_KNELL}//spell_death_knell
+{20101}{TAG_SPELLS_DEATH_WARD}//spell_death_ward
+{20102}{TAG_SPELLS_DEATHWATCH}//spell_deathwatch
+{20103}{TAG_SPELLS_DEEPER_DARKNESS}//spell_deeper_darkness
+{20104}{TAG_SPELLS_DELAY_POISON}//spell_delay_poison
+{20105}{TAG_SPELLS_DELAYED_BLAST_FIREBALL}//spell_delayed_blast_fireball
+{20106}{TAG_SPELLS_DEMAND}//spell_demand
+{20107}{TAG_SPELLS_DESECRATE}//spell_desecrate
+{20108}{TAG_SPELLS_DESTRUCTION}//spell_destruction
+{20109}{TAG_SPELLS_DETECT_ANIMALS_OR_PLANTS}//spell_detect_animals_or_plants
+{20110}{TAG_SPELLS_DETECT_CHAOS}//spell_detect_chaos
+{20111}{TAG_SPELLS_DETECT_EVIL}//spell_detect_evil
+{20112}{TAG_SPELLS_DETECT_GOOD}//spell_detect_good
+{20113}{TAG_SPELLS_DETECT_LAW}//spell_detect_law
+{20114}{TAG_SPELLS_DETECT_MAGIC}//spell_detect_magic
+{20115}{TAG_SPELLS_DETECT_POISON}//spell_detect_poison
+{20116}{TAG_SPELLS_DETECT_SCRYING}//spell_detect_scrying
+{20117}{TAG_SPELLS_DETECT_SECRET_DOORS}//spell_detect_secret_doors
+{20118}{TAG_SPELLS_DETECT_SNARES_AND_PITS}//spell_detect_snares_and_pits
+{20119}{TAG_SPELLS_DETECT_THOUGHTS}//spell_detect_thoughts
+{20120}{TAG_SPELLS_DETECT_UNDEAD}//spell_detect_undead
+{20121}{TAG_SPELLS_DICTUM}//spell_dictum
+{20122}{TAG_SPELLS_DIMENSIONAL_ANCHOR}//spell_dimensional_anchor
+{20123}{TAG_SPELLS_DIMENSION_DOOR}//spell_dimension_door
+{20124}{TAG_SPELLS_DIMINISH_PLANTS}//spell_diminish_plants
+{20125}{TAG_SPELLS_DISCERN_LIES}//spell_discern_lies
+{20126}{TAG_SPELLS_DISCERN_LOCATION}//spell_discern_location
+{20127}{TAG_SPELLS_DISINTEGRATE}//spell_disintegrate
+{20128}{TAG_SPELLS_DISMISSAL}//spell_dismissal
+{20129}{TAG_SPELLS_DISPEL_CHAOS}//spell_dispel_chaos
+{20130}{TAG_SPELLS_DISPEL_EVIL}//spell_dispel_evil
+{20131}{TAG_SPELLS_DISPEL_GOOD}//spell_dispel_good
+{20132}{TAG_SPELLS_DISPEL_LAW}//spell_dispel_law
+{20133}{TAG_SPELLS_DISPEL_MAGIC}//spell_dispel_magic
+{20134}{TAG_SPELLS_DISPLACEMENT}//spell_displacement
+{20135}{TAG_SPELLS_DISRUPT_UNDEAD}//spell_disrupt_undead
+{20136}{TAG_SPELLS_SPELL_DIVINATION}//spell_divination
+{20137}{TAG_SPELLS_DIVINE_FAVOR}//spell_divine_favor
+{20138}{TAG_SPELLS_DIVINE_POWER}//spell_divine_power
+{20139}{TAG_SPELLS_DOMINATE_ANIMAL}//spell_dominate_animal
+{20140}{TAG_SPELLS_DOMINATE_MONSTER}//spell_dominate_monster
+{20141}{TAG_SPELLS_DOMINATE_PERSON}//spell_dominate_person
+{20142}{TAG_SPELLS_DOOM}//spell_doom
+{20143}{TAG_SPELLS_DRAWNIJS_INSTANT_SUMMONS}//spell_drawmijs_instant_summons
+{20144}{TAG_SPELLS_DREAM}//spell_dream
+{20145}{TAG_SPELLS_EARTHQUAKE}//spell_earthquake
+{20146}{TAG_SPELLS_ELEMENTAL_SWARM}//spell_elemental_swarm
+{20147}{}//spell_emotion
+{20148}{TAG_SPELLS_ENDURANCE}//spell_endurance
+{20149}{TAG_SPELLS_ENDURE_ELEMENTS}//spell_endure_elements
+{20150}{TAG_SPELLS_ENERGY_DRAIN}//spell_energy_drain
+{20151}{TAG_SPELLS_ENERVATION}//spell_enervation
+{20152}{TAG_SPELLS_ENLARGE_PERSON}//spell_enlarge_person
+{20153}{TAG_SPELLS_ENTANGLE}//spell_entangle
+{20154}{TAG_SPELLS_ENTHRALL}//spell_enthrall
+{20155}{TAG_SPELLS_ENTROPIC_SHIELD}//spell_entropic_shield
+{20156}{TAG_SPELLS_ETHEREAL_JAUNT}//spell_ethereal_jaunt
+{20157}{TAG_SPELLS_ETHEREALNESS}//spell_etherealness
+{20158}{TAG_SPELLS_EVARDS_BLACK_TENTACLES}//spell_evards_black_tentacles
+{20159}{TAG_SPELLS_EXPEDITIOUS_RETREAT}//spell_expeditious_retreat
+{20160}{TAG_SPELLS_EXPLOSIVE_RUNES}//spell_explosive_runes
+{20161}{TAG_SPELLS_EYEBITE}//spell_eyebite
+{20162}{TAG_SPELLS_FABRICATE}//spell_fabricate
+{20163}{TAG_SPELLS_FAERIE_FIRE}//spell_faerie_fire
+{20164}{TAG_SPELLS_FALSE_VISION}//spell_false_vision
+{20165}{TAG_SPELLS_FEAR}//spell_fear
+{20166}{TAG_SPELLS_FEATHER_FALL}//spell_feather_fall
+{20167}{TAG_SPELLS_FEEBLEMIND}//spell_feeblemind
+{20168}{TAG_SPELLS_FIND_THE_PATH}//spell_find_the_path
+{20169}{TAG_SPELLS_FIND_TRAPS}//spell_find_traps
+{20170}{TAG_SPELLS_FINGER_OF_DEATH}//spell_finger_of_death
+{20171}{TAG_SPELLS_FIREBALL}//spell_fireball
+{20172}{TAG_SPELLS_FIRE_SEEDS}//spell_fire_seeds
+{20173}{TAG_SPELLS_FIRE_SHIELD}//spell_fire_shield
+{20174}{TAG_SPELLS_FIRE_STORM}//spell_fire_storm
+{20175}{TAG_SPELLS_FIRE_TRAP}//spell_fire_trap
+{20176}{TAG_SPELLS_FLAME_ARROW}//spell_flame_arrow
+{20177}{TAG_SPELLS_FLAME_BLADE}//spell_flame_blade
+{20178}{TAG_SPELLS_FLAME_STRIKE}//spell_flame_strike
+{20179}{TAG_SPELLS_FLAMING_SPHERE}//spell_flaming_sphere
+{20180}{TAG_SPELLS_FLARE}//spell_flare
+{20181}{TAG_SPELLS_FLESH_TO_STONE}//spell_flesh_to_stone
+{20182}{TAG_SPELLS_FLY}//spell_fly
+{20183}{TAG_SPELLS_FOG_CLOUD}//spell_fog_cloud
+{20184}{TAG_SPELLS_FORBIDDANCE}//spell_forbiddance
+{20185}{TAG_SPELLS_FORCECAGE}//spell_forcecage
+{20186}{TAG_SPELLS_FORESIGHT}//spell_foresight
+{20187}{TAG_SPELLS_FREEDOM}//spell_freedom
+{20188}{TAG_SPELLS_FREEDOM_OF_MOVEMENT}//spell_freedom_of_movement
+{20189}{TAG_SPELLS_GASEOUS_FORM}//spell_gaseous_form
+{20190}{TAG_SPELLS_GATE}//spell_gate
+{20191}{TAG_SPELLS_GEAS_QUEST}//spell_geas_quest
+{20192}{TAG_SPELLS_GENTLE_REPOSE}//spell_gentle_repose
+{20193}{TAG_SPELLS_GHOST_SOUND}//spell_ghost_sound
+{20194}{TAG_SPELLS_GHOUL_TOUCH}//spell_ghoul_touch
+{20195}{TAG_SPELLS_GIANT_VERMIN}//spell_giant_vermin
+{20196}{TAG_SPELLS_GLITTERDUST}//spell_glitterdust
+{20197}{TAG_SPELLS_GLOBE_OF_INVULNERABILITY}//spell_globe_of_invulnerability
+{20198}{}//spell_glyph_of_warding
+{20199}{TAG_SPELLS_GOODBERRY}//spell_goodberry
+{20200}{TAG_SPELLS_GREASE}//spell_grease
+{20201}{}//spell_greater_command
+{20202}{}//spell_greater_dispelling
+{20203}{}//spell_greater_glyph_of_warding
+{20204}{TAG_SPELLS_GREATER_MAGIC_FANG}//spell_greater_magic_fang
+{20205}{TAG_SPELLS_GREATER_MAGIC_WEAPON}//spell_greater_magic_weapon
+{20206}{}//spell_greater_planar_ally
+{20207}{}//spell_greater_planar_binding
+{20208}{}//spell_greater_restoration
+{20209}{}//spell_greater_scrying
+{20210}{}//spell_greater_shadow_conjuration
+{20211}{}//spell_greater_shadow_evocation
+{20212}{}//spell_guards_and_wards
+{20213}{TAG_SPELLS_GUIDANCE}//spell_guidance
+{20214}{TAG_SPELLS_GUST_OF_WIND}//spell_gust_of_wind
+{20215}{}//spell_hallow
+{20216}{}//spell_hallucinatory_terrain
+{20217}{TAG_SPELLS_HALT_UNDEAD}//spell_halt_undead
+{20218}{TAG_SPELLS_HARM}//spell_harm
+{20219}{TAG_SPELLS_HASTE}//spell_haste
+{20220}{TAG_SPELLS_HEAL}//spell_heal
+{20221}{TAG_SPELLS_CURE_LIGHT_WOUNDS_MASS}//spell_healing_circle
+{20222}{}//spell_heal_mount
+{20223}{TAG_SPELLS_HEAT_METAL}//spell_heat_metal
+{20224}{}//spell_helping_hand
+{20225}{}//spell_heroes_feast
+{20226}{TAG_SPELLS_HOLD_ANIMAL}//spell_hold_animal
+{20227}{TAG_SPELLS_HOLD_MONSTER}//spell_hold_monster
+{20228}{TAG_SPELLS_HOLD_PERSON}//spell_hold_person
+{20229}{TAG_SPELLS_HOLD_PORTAL}//spell_hold_portal
+{20230}{}//spell_holy_aura
+{20231}{TAG_SPELLS_HOLY_SMITE}//spell_holy_smite
+{20232}{}//spell_holy_sword
+{20233}{}//spell_holy_word
+{20234}{}//spell_horrid_wilting
+{20235}{}//spell_hypnotic_pattern
+{20236}{}//spell_hypnotism
+{20237}{TAG_SPELLS_ICE_STORM}//spell_ice_storm
+{20238}{TAG_SPELLS_IDENTIFY}//spell_identify
+{20239}{}//spell_illusory_script
+{20240}{}//spell_illusory_wall
+{20241}{}//spell_imbue_with_spell_ability
+{20242}{}//spell_implosion
+{20243}{}//spell_imprisonment
+{20244}{TAG_SPELLS_INVISIBILITY_GREATER}//spell_improved_invisibility
+{20245}{}//spell_incendiary_cloud
+{20246}{TAG_SPELLS_INFLICT_CRITICAL_WOUNDS}//spell_inflict_critical_wounds
+{20247}{TAG_SPELLS_INFLICT_LIGHT_WOUNDS}//spell_inflict_light_wounds
+{20248}{TAG_SPELLS_INFLICT_MINOR_WOUNDS}//spell_inflict_minor_wounds
+{20249}{TAG_SPELLS_INFLICT_MODERATE_WOUNDS}//spell_inflict_moderate_wounds
+{20250}{TAG_SPELLS_INFLICT_SERIOUS_WOUNDS}//spell_inflict_serious_wounds
+{20251}{}//spell_insanity
+{20252}{}//spell_insect_plague
+{20253}{TAG_SPELLS_INVISIBILITY}//spell_invisibility
+{20254}{TAG_SPELLS_INVISIBILITY_PURGE}//spell_invisibility_purge
+{20255}{TAG_SPELLS_INVISIBILITY_SPHERE}//spell_invisibility_sphere
+{20256}{TAG_SPELLS_HIDE_FROM_ANIMALS}//spell_invisibility_to_animals
+{20257}{TAG_SPELLS_HIDE_FROM_UNDEAD}//spell_invisibility_to_undead
+{20258}{}//spell_iron_body
+{20259}{}//spell_ironwood
+{20260}{}//spell_jump
+{20261}{TAG_SPELLS_KEEN_EDGE}//spell_keen_edge
+{20262}{TAG_SPELLS_KNOCK}//spell_knock
+{20263}{}//spell_know_direction
+{20264}{}//spell_legend_lore
+{20265}{}//spell_leomunds_secret_chest
+{20266}{}//spell_leomunds_secure_shelter
+{20267}{}//spell_leomunds_tiny_hut
+{20268}{}//spell_leomunds_trap
+{20269}{}//spell_lesser_geas
+{20270}{}//spell_lesser_planar_ally
+{20271}{}//spell_lesser_planar_binding
+{20272}{TAG_SPELLS_LESSER_RESTORATION}//spell_lesser_restoration
+{20273}{}//spell_levitate
+{20274}{}//spell_light
+{20275}{TAG_SPELLS_LIGHTNING_BOLT}//spell_lightning_bolt
+{20276}{}//spell_limited_wish
+{20277}{}//spell_liveoak
+{20278}{}//spell_locate_creature
+{20279}{}//spell_locate_object
+{20280}{TAG_SPELLS_MAGE_ARMOR}//spell_mage_armor
+{20281}{}//spell_mage_hand
+{20282}{TAG_SPELLS_MAGIC_CIRCLE_AGAINST_CHAOS}//spell_magic_circle_against_chaos
+{20283}{TAG_SPELLS_MAGIC_CIRCLE_AGAINST_EVIL}//spell_magic_circle_against_evil
+{20284}{TAG_SPELLS_MAGIC_CIRCLE_AGAINST_GOOD}//spell_magic_circle_against_good
+{20285}{TAG_SPELLS_MAGIC_CIRCLE_AGAINST_LAW}//spell_magic_circle_against_law
+{20286}{TAG_SPELLS_MAGIC_FANG}//spell_magic_fang
+{20287}{}//spell_magic_jar
+{20288}{TAG_SPELLS_MAGIC_MISSILE}//spell_magic_missile
+{20289}{}//spell_magic_mouth
+{20290}{TAG_SPELLS_MAGIC_STONE}//spell_magic_stone
+{20291}{TAG_SPELLS_MAGIC_VESTMENT}//spell_magic_vestment
+{20292}{TAG_SPELLS_MAGIC_WEAPON}//spell_magic_weapon
+{20293}{}//spell_major_creation
+{20294}{}//spell_major_image
+{20295}{}//spell_make_whole
+{20296}{}//spell_mark_of_justice
+{20297}{}//spell_mass_charm
+{20298}{}//spell_mass_haste
+{20299}{}//spell_mass_heal
+{20300}{}//spell_mass_invisibility
+{20301}{}//spell_mass_suggestion
+{20302}{}//spell_maze
+{20303}{TAG_SPELLS_MELD_INTO_STONE}//spell_meld_into_stone
+{20304}{TAG_SPELLS_MELF'S_ACID_ARROW}//spell_melfs_acid_arrow
+{20305}{}//spell_mending
+{20306}{}//spell_message
+{20307}{}//spell_meteor_swarm
+{20308}{}//spell_mind_blank
+{20309}{TAG_SPELLS_MIND_FOG}//spell_mind_fog
+{20310}{}//spell_minor_creation
+{20311}{TAG_SPELLS_LESSER_GLOBE_OF_INVULNERABILITY}//spell_lesser_globe_of_invulnerability
+{20312}{}//spell_minor_image
+{20313}{}//spell_miracle
+{20314}{}//spell_mirage_arcana
+{20315}{TAG_SPELLS_MIRROR_IMAGE}//spell_mirror_image
+{20316}{}//spell_misdirection
+{20317}{}//spell_mislead
+{20318}{}//spell_modify_memory
+{20319}{}//spell_mordenkainens_disjunction
+{20320}{TAG_SPELLS_MORDENKAINEN'S_FAITHFUL_HOUND}//spell_mordenkainens_faithful_hound
+{20321}{}//spell_mordenkainens_lucubration
+{20322}{}//spell_mordenkainens_magnificent_mansion
+{20323}{}//spell_mordenkainens_sword
+{20324}{}//spell_mount
+{20325}{}//spell_move_earth
+{20326}{}//spell_negative_energy_protection
+{20327}{TAG_SPELLS_NEUTRALIZE_POISON}//spell_neutralize_poison
+{20328}{}//spell_nightmare
+{20329}{}//spell_nondetection
+{20330}{}//spell_nystuls_magic_aura
+{20331}{}//spell_nystuls_undetectable_aura
+{20332}{}//spell_obscure_object
+{20333}{TAG_SPELLS_OBSCURING_MIST}//spell_obscuring_mist
+{20334}{TAG_SPELLS_OPEN_CLOSE}//spell_open_close
+{20335}{TAG_SPELLS_ORDER'S_WRATH}//spell_orders_wrath
+{20336}{}//spell_otilukes_freezing_sphere
+{20337}{TAG_SPELLS_OTILUKE'S_RESILIENT_SPHERE}//spell_otilukes_resilient_sphere
+{20338}{}//spell_otilukes_telekinetic_sphere
+{20339}{}//spell_otto's_irresistible_dance
+{20340}{}//spell_passwall
+{20341}{}//spell_pass_without_trace
+{20342}{}//spell_permanency
+{20343}{}//spell_permanent_image
+{20344}{}//spell_persistent_image
+{20345}{TAG_SPELLS_PHANTASMAL_KILLER}//spell_phantasmal_killer
+{20346}{}//spell_phantom_steed
+{20347}{}//spell_phase_door
+{20348}{}//spell_planar_ally
+{20349}{}//spell_planar_binding
+{20350}{}//spell_plane_shift
+{20351}{}//spell_plant_growth
+{20352}{TAG_SPELLS_POISON}//spell_poison
+{20353}{}//spell_polymorph_any_object
+{20354}{}//spell_polymorph_other
+{20355}{}//spell_polymorph_self
+{20356}{}//spell_power_word,_blind
+{20357}{}//spell_power_word,_kill
+{20358}{}//spell_power_word,_stun
+{20359}{TAG_SPELLS_PRAYER}//spell_prayer
+{20360}{}//spell_prestidigitation
+{20361}{}//spell_prismatic_sphere
+{20362}{}//spell_prismatic_spray
+{20363}{}//spell_prismatic_wall
+{20364}{TAG_SPELLS_PRODUCE_FLAME}//spell_produce_flame
+{20365}{}//spell_programmed_image
+{20366}{}//spell_project_image
+{20367}{TAG_SPELLS_PROTECTION_FROM_ARROWS}//spell_protection_from_arrows
+{20368}{TAG_SPELLS_PROTECTION_FROM_CHAOS}//spell_protection_from_chaos
+{20369}{TAG_SPELLS_PROTECTION_FROM_ENERGY}//spell_protection_from_energy
+{20370}{TAG_SPELLS_PROTECTION_FROM_EVIL}//spell_protection_from_evil
+{20371}{TAG_SPELLS_PROTECTION_FROM_GOOD}//spell_protection_from_good
+{20372}{TAG_SPELLS_PROTECTION_FROM_LAW}//spell_protection_from_law
+{20373}{}//spell_protection_from_spells
+{20374}{}//spell_prying_eyes
+{20375}{}//spell_purify_food_and_drink
+{20376}{}//spell_pyrotechnics
+{20377}{}
+{20378}{}//spell_rainbow_pattern
+{20379}{TAG_SPELLS_RAISE_DEAD}//spell_raise_dead
+{20380}{}//spell_random_action
+{20381}{}//spell_rary's_mnemonic_enhancer
+{20382}{}//spell_rary's_telepathic_bond
+{20383}{TAG_SPELLS_RAY_OF_ENFEEBLEMENT}//spell_ray_of_enfeeblement
+{20384}{TAG_SPELLS_RAY_OF_FROST}//spell_ray_of_frost
+{20385}{TAG_SPELLS_READ_MAGIC}//spell_read_magic
+{20386}{TAG_SPELLS_REDUCE_PERSON}//spell_reduce_person
+{20387}{}//spell_refuge
+{20388}{}//spell_regenerate
+{20389}{}//spell_reincarnate
+{20390}{TAG_SPELLS_REMOVE_BLINDNESS_DEAFNESS}//spell_remove_blindness_deafness
+{20391}{TAG_SPELLS_REMOVE_CURSE}//spell_remove_curse
+{20392}{TAG_SPELLS_REMOVE_DISEASE}//spell_remove_disease
+{20393}{TAG_SPELLS_REMOVE_FEAR}//spell_remove_fear
+{20394}{TAG_SPELLS_REMOVE_PARALYSIS}//spell_remove_paralysis
+{20395}{}//spell_repel_metal_or_stone
+{20396}{TAG_SPELLS_REPEL_VERMIN}//spell_repel_vermin
+{20397}{}//spell_repel_wood
+{20398}{}//spell_repulsion
+{20399}{TAG_SPELLS_RESISTANCE}//spell_resistance
+{20400}{TAG_RESIST_ENERGY}//spell_resist_energy
+{20401}{TAG_SPELLS_RESTORATION}//spell_restoration
+{20402}{}//spell_resurrection
+{20403}{}//spell_reverse_gravity
+{20404}{TAG_SPELLS_RIGHTEOUS_MIGHT}//spell_righteous_might
+{20405}{}//spell_rope_trick
+{20406}{}//spell_rusting_grasp
+{20407}{TAG_SPELLS_SANCTUARY}//spell_sanctuary
+{20408}{TAG_SPELLS_SCARE}//spell_scare
+{20409}{}//spell_screen
+{20410}{}//spell_scrying
+{20411}{}//spell_sculpt_sound
+{20412}{TAG_SPELLS_SEARING_LIGHT}//spell_searing_light
+{20413}{}//spell_secret_page
+{20414}{TAG_SPELLS_SEE_INVISIBILITY}//spell_see_invisibility
+{20415}{}//spell_seeming
+{20416}{}//spell_sending
+{20417}{}//spell_sepia_snake_sigil
+{20418}{}//spell_sequester
+{20419}{}//spell_shades
+{20420}{}//spell_shadow_conjuration
+{20421}{}//spell_shadow_evocation
+{20422}{}//spell_shadow_walk
+{20423}{}//spell_shambler
+{20424}{}//spell_shapechange
+{20425}{TAG_SPELLS_SHATTER}//spell_shatter
+{20426}{TAG_SPELLS_SHIELD}//spell_shield
+{20427}{TAG_SPELLS_SHIELD_OF_FAITH}//spell_shield_of_faith
+{20428}{}//spell_shield_of_law
+{20429}{}//spell_shield_other
+{20430}{TAG_SPELLS_SHILLELAGH}//spell_shillelagh
+{20431}{TAG_SPELLS_SHOCKING_GRASP}//spell_shocking_grasp
+{20432}{TAG_SPELLS_SHOUT}//spell_shout
+{20433}{}//spell_shrink_item
+{20434}{TAG_SPELLS_SILENCE}//spell_silence
+{20435}{}//spell_silent_image
+{20436}{}//spell_simulacrum
+{20437}{TAG_SPELLS_SLAY_LIVING}//spell_slay_living
+{20438}{TAG_SPELLS_SLEEP}//spell_sleep
+{20439}{TAG_SPELLS_SLEET_STORM}//spell_sleet_storm
+{20440}{TAG_SPELLS_SLOW}//spell_slow
+{20441}{}//spell_snare
+{20442}{TAG_SPELLS_SOFTEN_EARTH_AND_STONE}//spell_soften_earth_and_stone
+{20443}{TAG_SPELLS_SOLID_FOG}//spell_solid_fog
+{20444}{}//spell_soul_bind
+{20445}{TAG_SPELLS_SOUND_BURST}//spell_sound_burst
+{20446}{}//spell_speak_with_animals
+{20447}{}//spell_speak_with_dead
+{20448}{}//spell_speak_with_plants
+{20449}{}//spell_spectral_hand
+{20450}{}//spell_spell_immunity
+{20451}{TAG_SPELLS_SPELL_RESISTANCE}//spell_spell_resistance
+{20452}{}//spell_spellstaff
+{20453}{}//spell_spell_turning
+{20454}{}//spell_spider_climb
+{20455}{TAG_SPELLS_SPIKE_GROWTH}//spell_spike_growth
+{20456}{TAG_SPELLS_SPIKE_STONES}//spell_spike_stones
+{20457}{TAG_SPELLS_SPIRITUAL_WEAPON}//spell_spiritual_weapon
+{20458}{}//spell_statue
+{20459}{}//spell_status
+{20460}{TAG_SPELLS_STINKING_CLOUD}//spell_stinking_cloud
+{20461}{}//spell_stone_shape
+{20462}{TAG_SPELLS_STONESKIN}//spell_stoneskin
+{20463}{}//spell_stone_tell
+{20464}{}//spell_stone_to_flesh
+{20465}{}//spell_storm_of_vengeance
+{20466}{TAG_SPELLS_SUGGESTION}//spell_suggestion
+{20467}{TAG_SPELLS_SUMMON_MONSTER_I}//spell_summon_monster_i
+{20468}{TAG_SPELLS_SUMMON_MONSTER_II}//spell_summon_monster_ii
+{20469}{TAG_SPELLS_SUMMON_MONSTER_III}//spell_summon_monster_iii
+{20470}{TAG_SPELLS_SUMMON_MONSTER_IV}//spell_summon_monster_iv
+{20471}{TAG_SPELLS_SUMMON_MONSTER_V}//spell_summon_monster_v
+{20472}{}//spell_summon_monster_vi
+{20473}{}//spell_summon_monster_vii
+{20474}{}//spell_summon_monster_viii
+{20475}{}//spell_summon_monster_ix
+{20476}{TAG_SPELLS_SUMMON_NATURE'S_ALLY_I}//spell_summon_nature's_ally_i
+{20477}{TAG_SPELLS_SUMMON_NATURE'S_ALLY_II}//spell_summon_nature's_ally_ii
+{20478}{TAG_SPELLS_SUMMON_NATURE'S_ALLY_III}//spell_summon_nature's_ally_iii
+{20479}{TAG_SPELLS_SUMMON_NATURE'S_ALLY_IV}//spell_summon_nature's_ally_iv
+{20480}{TAG_SPELLS_SUMMON_NATURE'S_ALLY_V}//spell_summon_nature's_ally_v
+{20481}{}//spell_summon_nature's_ally_vi
+{20482}{}//spell_summon_nature's_ally_vii
+{20483}{}//spell_summon_nature's_ally_viii
+{20484}{}//spell_summon_nature's_ally_ix
+{20485}{TAG_SPELLS_SUMMON_SWARM}//spell_summon_swarm
+{20486}{}//spell_sunbeam
+{20487}{}//spell_sunburst
+{20488}{}//spell_symbol
+{20489}{}//spell_sympathy
+{20490}{TAG_SPELLS_TASHA'S_HIDEOUS_LAUGHTER}//spell_tasha's_hideous_laughter
+{20491}{}//spell_telekinesis
+{20492}{TAG_SPELLS_TELEPORT}//spell_teleport
+{20493}{}//spell_teleportation_circle
+{20494}{}//spell_teleport_without_error
+{20495}{}//spell_temporal_stasis
+{20496}{}//spell_tenser's_floating_disk
+{20497}{}//spell_tenser's_transformation
+{20498}{}//spell_time_stop
+{20499}{}//spell_tongues
+{20500}{}//spell_transmute_metal_to_wood
+{20501}{}//spell_transmute_mud_to_rock
+{20502}{}//spell_transmute_rock_to_mud
+{20503}{}//spell_transport_via_plants
+{20504}{}//spell_trap_the_soul
+{20505}{TAG_SPELLS_TREE_SHAPE}//spell_tree_shape
+{20506}{}//spell_tree_stride
+{20507}{}//spell_true_resurrection
+{20508}{TAG_SPELLS_TRUE_SEEING}//spell_true_seeing
+{20509}{TAG_SPELLS_TRUE_STRIKE}//spell_true_strike
+{20510}{}//spell_undetectable_alignment
+{20511}{}//spell_unhallow
+{20512}{}//spell_unholy_aura
+{20513}{TAG_SPELLS_UNHOLY_BLIGHT}//spell_unholy_blight
+{20514}{}//spell_unseen_servant
+{20515}{TAG_SPELLS_VAMPIRIC_TOUCH}//spell_vampiric_touch
+{20516}{}//spell_vanish
+{20517}{}//spell_veil
+{20518}{}//spell_ventriloquism
+{20519}{TAG_SPELLS_VIRTUE}//spell_virtue
+{20520}{}//spell_vision
+{20521}{}//spell_wail_of_the_banshee
+{20522}{}//spell_wall_of_fire
+{20523}{}//spell_wall_of_force
+{20524}{}//spell_wall_of_ice
+{20525}{}//spell_wall_of_iron
+{20526}{}//spell_wall_of_stone
+{20527}{}//spell_wall_of_thorns
+{20528}{}//spell_warp_wood
+{20529}{}//spell_water_breathing
+{20530}{}//spell_water_walk
+{20531}{TAG_SPELLS_WEB}//spell_web
+{20532}{}//spell_weird
+{20533}{}//spell_whirlwind
+{20534}{}//spell_whispering_wind
+{20535}{}//spell_wind_walk
+{20536}{TAG_SPELLS_WIND_WALL}//spell_wind_wall
+{20537}{}//spell_wish
+{20538}{}//spell_wood_shape
+{20539}{}//spell_word_of_chaos
+{20540}{}//spell_word_of_recall
+{20541}{}//spell_zone_of_truth
+{20542}{TAG_SPELLS_BLIGHT}//spell_blight
+{20543}{TAG_SPELLS_DISPEL_AIR}//spell_dispel_air
+{20544}{TAG_SPELLS_DISPEL_EARTH}//spell_dispel_earth
+{20545}{TAG_SPELLS_DISPEL_FIRE}//spell_dispel_fire
+{20546}{TAG_SPELLS_DISPEL_WATER}//spell_dispel_water
+{20547}{TAG_SPELLS_RAGE}//spell_rage
+{20548}{TAG_SPELLS_EAGLE'S_SPLENDOR}//spell_eagle's_splendor
+{20549}{TAG_SPELLS_FOX'S_CUNNING}//spell_fox's_cunning
+{20550}{TAG_SPELLS_OWL'S_WISDOM}//spell_owl's_wisdom
+{20551}{TAG_SPELLS_REDUCE_ANIMAL}//spell_reduce_animal
+{20552}{TAG_SPELLS_GLIBNESS}//spell_glibness
+{20553}{TAG_SPELLS_FALSE_LIFE}//spell_false_life
+{20554}{TAG_SPELLS_LONGSTRIDER}//spell_longstrider
+{20555}{TAG_SPELLS_ACID_SPLASH}//spell_acid_splash
+{20556}{TAG_SPELLS_DAZE_MONSTER}//spell_daze_monster
+{20557}{TAG_SPELLS_HEROISM}//spell_heroism
+{20558}{}
+{20559}{TAG_SPELLS_QUENCH}//spell_quench
+{20560}{TAG_SPELLS_CALL_LIGHTNING_STORM}//spell_call_lightning_storm
+{20561}{TAG_SPELLS_LESSER_CONFUSION}//spell_lesser_confusion
+{20562}{TAG_SPELLS_DEEP_SLUMBER}//spell_deep_slumber
+{20563}{TAG_SPELLS_CRUSHING_DESPAIR}//spell_crushing_despair
+{20564}{TAG_SPELLS_GOOD_HOPE}//spell_good_hope
+{20565}{TAG_SPELLS_HEAL}//spell_heal
+{20566}{TAG_SPELLS_HARM}//spell_harm
+{20567}{TAG_SPELLS_REINCARNATION}//spell_reincarnation
+{20568}{TAG_SPELLS_MORDENKAINENS_PRIVATE_SANCTUM}
+{20569}{}
+{20570}{}
+{20571}{}
+{20572}{}
+{20573}{}
+{20574}{}
+{20575}{}
+{20576}{}
+{20577}{}
+{20578}{}
+{20579}{}
+{20580}{}
+{20581}{}
+{20582}{}
+{20583}{}
+{20584}{}
+{20585}{}
+{20586}{}
+{20587}{}
+{20588}{}
+{20589}{}
+{20590}{}
+{20591}{}
+{20592}{}
+{20593}{}
+{20594}{}
+{20595}{}
+{20596}{}
+{20597}{}
+{20598}{}
+{20599}{}
+{20600}{}//spell_monster_frog_tongue
+{20601}{}//spell_monster_vrock_screech
+{20602}{}//spell_monster_vrock_spores
+{20603}{}//spell_monster_zuggtmoy_summon_fungi
+{20604}{}//spell_monster_glabrezu_summon_quasits
+{20605}{}//spell_senshock_summon_elemental
+{20606}{}//spell_summon_fungi
+{20607}{}//spell_summon_lamia
+{20608}{}//spell_Gate
+{20609}{}//spell_phycomid attack
+{20699}{}//spell_monster_summoned
+{20700}{}//ring_of_freedom_of_movement
+{20701}{}//potion_of_enlarge
+{20702}{}//potion_of_haste
+{20703}{}//boots_of_speed
+{20704}{}//dust_of_disappearance
+{20705}{}//potion_of_charisma
+{20706}{}//potion_of_glibness
+{20707}{}//potion_of_hiding
+{20708}{}//potion_of_sneaking
+{20709}{}//potion_of_heroism
+{20710}{}//potion_of_super_heroism
+{20711}{}//potion_of_protection_from_fire
+{20712}{}//javelin_of_lightning
+{20713}{}//flame_tongue
+{20714}{}//potion_of_protection_from_outsiders
+{20715}{}//potion_of_protection_from_elementals
+{20716}{}//potion_of_protection_from_earth
+{20717}{}//potion_of_protection_from_magic
+{20718}{}//potion_of_protection_from_undead
+{20719}{}//ring_of_animal_summoning_dog
+{20720}{}//potion_of_protection_from_acid
+{20721}{}//potion_of_protection_from_electricity
+{20722}{}//Air gem - summon air elemental
+{20723}{}//Earth gem - summon air elemental
+{20724}{}//Fire gem - summon air elemental
+{20725}{}//Water gem - summon air elemental
+{20726}{}//summon Balor
+{20727}{}//summon Glabrezu
+{20728}{}//summon Hezrou
+{20729}{}//summon Vrock
+{20730}{}//Elixir of hiding
+{20731}{}//Elixir of sneaking
+{20732}{}//Elixir of vision
+{20733}{}//spell_scorching_ray

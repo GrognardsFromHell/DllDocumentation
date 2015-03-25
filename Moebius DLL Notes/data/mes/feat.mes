@@ -1,0 +1,1971 @@
+{0}{Acrobatic}
+{1}{Agile}
+{2}{Alertness} 
+{3}{Animal Affinity}
+{4}{Armor Proficiency (light)} 
+{5}{Armor Proficiency (medium)} 
+{6}{Armor Proficiency (heavy)} 
+{7}{Athletic}
+{8}{Augment Summoning}
+{9}{Blind-fight} 
+{10}{Brew Potion} 
+{11}{Cleave} 
+{12}{Combat Casting} 
+{13}{Combat Expertise} 
+{14}{Craft Magic Arms and Armor}
+{15}{Craft Rod}
+{16}{Craft Staff}
+{17}{Craft Wand}
+{18}{Craft Wondrous Item}
+{19}{Deceitful}
+{20}{Deft Hands}
+{21}{Diehard}
+{22}{Diligent}
+{23}{Deflect Arrows}
+{24}{Dodge}
+{25}{Empower Spell}
+{26}{Endurance}
+{27}{Enlarge Spell}
+{28}{Eschew Materials}
+{29}{Exotic Weapon Proficiency (Halfling Kama)}
+{30}{Exotic Weapon Proficiency (Kukri)}
+{31}{Exotic Weapon Proficiency (Halfling Nunchaku)}
+{32}{Exotic Weapon Proficiency (Halfling Siangham)}
+{33}{Exotic Weapon Proficiency (Kama)}
+{34}{Exotic Weapon Proficiency (Nunchaku)}
+{35}{Exotic Weapon Proficiency (Siangham)}
+{36}{Exotic Weapon Proficiency (Bastard Sword)}
+{37}{Exotic Weapon Proficiency (Dwarven Waraxe)}
+{38}{Exotic Weapon Proficiency (Gnome Hooked Hammer)}
+{39}{Exotic Weapon Proficiency (Orc Double Axe)}
+{40}{Exotic Weapon Proficiency (Spike Chain)}
+{41}{Exotic Weapon Proficiency (Dire Flail)}
+{42}{Exotic Weapon Proficiency (Two-bladed Sword)}
+{43}{Exotic Weapon Proficiency (Dwarven Urgrosh)}
+{44}{Exotic Weapon Proficiency (Hand Crossbow)}
+{45}{Exotic Weapon Proficiency (Shuriken)}
+{46}{Exotic Weapon Proficiency (Whip)}
+{47}{Exotic Weapon Proficiency (Repeating Crossbow)}
+{48}{Exotic Weapon Proficiency (Net)}
+{49}{Extend Spell}
+{50}{Extra Turning}
+{51}{Far Shot}
+{52}{Forge Ring}
+{53}{Great Cleave}
+{54}{Great Fortitude}
+{55}{Greater Spell Focus (Abjuration)}
+{56}{Greater Spell Focus (Conjuration)}
+{57}{Greater Spell Focus (Divination)}
+{58}{Greater Spell Focus (Enchantment)}
+{59}{Greater Spell Focus (Evocation)}
+{60}{Greater Spell Focus (Illusion)}
+{61}{Greater Spell Focus (Necromancy)}
+{62}{Greater Spell Focus (Transmutation)}
+{63}{Greater Spell Penetration}
+{64}{Greater Two Weapon Fighting}
+{65}{Greater Weapon Focus (Gauntlet)}
+{66}{Greater Weapon Focus (Unarmed strike)}
+{67}{Greater Weapon Focus (Unarmed strike - small being)}
+{68}{Greater Weapon Focus (Dagger)}
+{69}{Greater Weapon Focus (Punching Dagger)}
+{70}{Greater Weapon Focus (Spiked Gauntlet)}
+{71}{Greater Weapon Focus (Light Mace)}
+{72}{Greater Weapon Focus (Sickle)}
+{73}{Greater Weapon Focus (Club)}
+{74}{Greater Weapon Focus (Shortspear)}
+{75}{Greater Weapon Focus (Heavy mace)}
+{76}{Greater Weapon Focus (Morningstar)}
+{77}{Greater Weapon Focus (Quarterstaff)}
+{78}{Greater Weapon Focus (Spear)}
+{79}{Greater Weapon Focus (Light Crossbow)}
+{80}{Greater Weapon Focus (Dart)}
+{81}{Greater Weapon Focus (Sling)}
+{82}{Greater Weapon Focus (Heavy Crossbow)}
+{83}{Greater Weapon Focus (Javelin)}
+{84}{Greater Weapon Focus (Throwing Axe)}
+{85}{Greater Weapon Focus (Light Hammer)}
+{86}{Greater Weapon Focus (Handaxe)}
+{87}{Greater Weapon Focus (Light Lance)}
+{88}{Greater Weapon Focus (Light Pick)}
+{89}{Greater Weapon Focus (Sap)}
+{90}{Greater Weapon Focus (Short Sword)}
+{91}{Greater Weapon Focus (Battleaxe)}
+{92}{Greater Weapon Focus (Light Flail)}
+{93}{Greater Weapon Focus (Heavy Lance)}
+{94}{Greater Weapon Focus (Longsword)}
+{95}{Greater Weapon Focus (Heavy Pick)}
+{96}{Greater Weapon Focus (Rapier)}
+{97}{Greater Weapon Focus (Scimitar)}
+{98}{Greater Weapon Focus (Trident)}
+{99}{Greater Weapon Focus (Warhammer)}
+{100}{Greater Weapon Focus (Falchion)}
+{101}{Greater Weapon Focus (Heavy Flail)}
+{102}{Greater Weapon Focus (Glaive)}
+{103}{Greater Weapon Focus (Greataxe)}
+{104}{Greater Weapon Focus (Greatclub)}
+{105}{Greater Weapon Focus (Greatsword)}
+{106}{Greater Weapon Focus (Guisarme)}
+{107}{Greater Weapon Focus (Halberd)}
+{108}{Greater Weapon Focus (Longspear)}
+{109}{Greater Weapon Focus (Ranseur)}
+{110}{Greater Weapon Focus (Scythe)}
+{111}{Greater Weapon Focus (Shortbow)}
+{112}{Greater Weapon Focus (Composite Shortbow)}
+{113}{Greater Weapon Focus (Longbow)}
+{114}{Greater Weapon Focus (Composite Longbow)}
+{115}{Greater Weapon Focus (Halfling Kama)}
+{116}{Greater Weapon Focus (Kukri)}
+{117}{Greater Weapon Focus (Halfling Nunchaku)}
+{118}{Greater Weapon Focus (Halfling Siangham)}
+{119}{Greater Weapon Focus (Kama)}
+{120}{Greater Weapon Focus (Nunchaku)}
+{121}{Greater Weapon Focus (Siangham)}
+{122}{Greater Weapon Focus (Bastard Sword)}
+{123}{Greater Weapon Focus (Dwarven Waraxe)}
+{124}{Greater Weapon Focus (Gnome Hooked Hammer)}
+{125}{Greater Weapon Focus (Orc Double Axe)}
+{126}{Greater Weapon Focus (Spike Chain)}
+{127}{Greater Weapon Focus (Dire Flail)}
+{128}{Greater Weapon Focus (Two-bladed Sword)}
+{129}{Greater Weapon Focus (Dwarven Urgrosh)}
+{130}{Greater Weapon Focus (Hand Crossbow)}
+{131}{Greater Weapon Focus (Shuriken)}
+{132}{Greater Weapon Focus (Whip)}
+{133}{Greater Weapon Focus (Repeating Crossbow)}
+{134}{Greater Weapon Focus (Net)}
+{135}{Greater Weapon Focus (Grapple)}
+{136}{Greater Weapon Focus (Ray)}
+{137}{Greater Weapon Specialization}
+{138}{Heighten Spell}
+{139}{Improved Bull Rush}
+{140}{Improved Counterspell}
+{141}{Improved Critical (Gauntlet)}
+{142}{Improved Critical (Unarmed strike)}
+{143}{Improved Critical (Unarmed strike - small being)}
+{144}{Improved Critical (Dagger)}
+{145}{Improved Critical (Punching Dagger)}
+{146}{Improved Critical (Spiked Gauntlet)}
+{147}{Improved Critical (Light Mace)}
+{148}{Improved Critical (Sickle)}
+{149}{Improved Critical (Club)}
+{150}{Improved Critical (Shortpear)}
+{151}{Improved Critical (Heavy mace)}
+{152}{Improved Critical (Morningstar)}
+{153}{Improved Critical (Quarterstaff)}
+{154}{Improved Critical (Spear)}
+{155}{Improved Critical (Light Crossbow)}
+{156}{Improved Critical (Dart)}
+{157}{Improved Critical (Sling)}
+{158}{Improved Critical (Heavy Crossbow)}
+{159}{Improved Critical (Javelin)}
+{160}{Improved Critical (Throwing Axe)}
+{161}{Improved Critical (Light Hammer)}
+{162}{Improved Critical (Handaxe)}
+{163}{Improved Critical (Light Lance)}
+{164}{Improved Critical (Light Pick)}
+{165}{Improved Critical (Sap)}
+{166}{Improved Critical (Short Sword)}
+{167}{Improved Critical (Battleaxe)}
+{168}{Improved Critical (Light Flail)}
+{169}{Improved Critical (Heavy Lance)}
+{170}{Improved Critical (Longsword)}
+{171}{Improved Critical (Heavy Pick)}
+{172}{Improved Critical (Rapier)}
+{173}{Improved Critical (Scimitar)}
+{174}{Improved Critical (Trident)}
+{175}{Improved Critical (Warhammer)}
+{176}{Improved Critical (Falchion)}
+{177}{Improved Critical (Heavy Flail)}
+{178}{Improved Critical (Glaive)}
+{179}{Improved Critical (Greataxe)}
+{180}{Improved Critical (Greatclub)}
+{181}{Improved Critical (Greatsword)}
+{182}{Improved Critical (Guisarme)}
+{183}{Improved Critical (Halberd)}
+{184}{Improved Critical (Longspear)}
+{185}{Improved Critical (Ranseur)}
+{186}{Improved Critical (Scythe)}
+{187}{Improved Critical (Shortbow)}
+{188}{Improved Critical (Composite Shortbow)}
+{189}{Improved Critical (Longbow)}
+{190}{Improved Critical (Composite Longbow)}
+{191}{Improved Critical (Halfling Kama)}
+{192}{Improved Critical (Kukri)}
+{193}{Improved Critical (Halfling Nunchaku)}
+{194}{Improved Critical (Halfling Siangham)}
+{195}{Improved Critical (Kama)}
+{196}{Improved Critical (Nunchaku)}
+{197}{Improved Critical (Siangham)}
+{198}{Improved Critical (Bastard Sword)}
+{199}{Improved Critical (Dwarven Waraxe)}
+{200}{Improved Critical (Gnome Hooked Hammer)}
+{201}{Improved Critical (Orc Double Axe)}
+{202}{Improved Critical (Spike Chain)}
+{203}{Improved Critical (Dire Flail)}
+{204}{Improved Critical (Two-bladed Sword)}
+{205}{Improved Critical (Dwarven Urgrosh)}
+{206}{Improved Critical (Hand Crossbow)}
+{207}{Improved Critical (Shuriken)}
+{208}{Improved Critical (Whip)}
+{209}{Improved Critical (Repeating Crossbow)}
+{210}{Improved Critical (Net)}
+{211}{Improved Disarm}
+{212}{Improved Feint}
+{213}{Improved Grapple}
+{214}{Improved Initiative}
+{215}{Improved Overrun}
+{216}{Improved Shield Bash}
+{217}{Improved Trip}
+{218}{Improved Two-Weapon Fighting}
+{219}{Improved Turning}
+{220}{Improved Unarmed Strike}
+{221}{Improved Uncanny Dodge}
+{222}{Investigator}
+{223}{Iron Will}
+{224}{Leadership}
+{225}{Lightning Reflexes}
+{226}{Magical Affinity}
+{227}{Manyshot}
+{228}{Martial Weapon Proficiency (Throwing Axe)}
+{229}{Martial Weapon Proficiency (Light Hammer)}
+{230}{Martial Weapon Proficiency (Handaxe)}
+{231}{Martial Weapon Proficiency (Light Lance)}
+{232}{Martial Weapon Proficiency (Light Pick)}
+{233}{Martial Weapon Proficiency (Sap)}
+{234}{Martial Weapon Proficiency (Short Sword)}
+{235}{Martial Weapon Proficiency (Battleaxe)}
+{236}{Martial Weapon Proficiency (Light Flail)}
+{237}{Martial Weapon Proficiency (Heavy Lance)}
+{238}{Martial Weapon Proficiency (Longsword)}
+{239}{Martial Weapon Proficiency (Heavy Pick)}
+{240}{Martial Weapon Proficiency (Rapier)}
+{241}{Martial Weapon Proficiency (Scimitar)}
+{242}{Martial Weapon Proficiency (Trident)}
+{243}{Martial Weapon Proficiency (Warhammer)}
+{244}{Martial Weapon Proficiency (Falchion)}
+{245}{Martial Weapon Proficiency (Heavy Flail)}
+{246}{Martial Weapon Proficiency (Glaive)}
+{247}{Martial Weapon Proficiency (Greataxe)}
+{248}{Martial Weapon Proficiency (Greatclub)}
+{249}{Martial Weapon Proficiency (Greatsword)}
+{250}{Martial Weapon Proficiency (Guisarme)}
+{251}{Martial Weapon Proficiency (Halberd)}
+{252}{Martial Weapon Proficiency (Longspear)}
+{253}{Martial Weapon Proficiency (Ranseur)}
+{254}{Martial Weapon Proficiency (Scythe)}
+{255}{Martial Weapon Proficiency (Shortbow)}
+{256}{Martial Weapon Proficiency (Composite Shortbow)}
+{257}{Martial Weapon Proficiency (Longbow)}
+{258}{Martial Weapon Proficiency (Composite Longbow)}
+{259}{Maximize Spell}
+{260}{Mobility}
+{261}{Mounted Archery}
+{262}{Mounted Combat}
+{263}{Natural Spell}
+{264}{Negotiator}
+{265}{Nimble Fingers}
+{266}{Persuasive}
+{267}{Point Blank Shot}
+{268}{Power Attack}
+{269}{Precise Shot}
+{270}{Quick Draw}
+{271}{Quicken Spell}
+{272}{Rapid Shot}
+{273}{Rapid Reload}
+{274}{Ride-by Attack}
+{275}{Run}
+{276}{Scribe Scroll}
+{277}{Self Sufficient}
+{278}{Shield Proficiency}
+{279}{Shot on the Run}
+{280}{Silent Spell}
+{281}{Simple Weapon Proficiency}
+{282}{Skill Focus (Alchemy)}
+{283}{Skill Focus (Animal Empathy)}
+{284}{Skill Focus (Appraise)}
+{285}{Skill Focus (Balance)}
+{286}{Skill Focus (Bluff)}
+{287}{Skill Focus (Climb)}
+{288}{Skill Focus (Concentration)}
+{289}{Skill Focus (Craft)}
+{290}{Skill Focus (Decipher Script)}
+{291}{Skill Focus (Diplomacy)}
+{292}{Skill Focus (Disable Device)}
+{293}{Skill Focus (Disguise)}
+{294}{Skill Focus (Escape Artist)}
+{295}{Skill Focus (Forgery)}
+{296}{Skill Focus (Gather Information)}
+{297}{Skill Focus (Handle Animal)}
+{298}{Skill Focus (Heal)}
+{299}{Skill Focus (Hide)}
+{300}{Skill Focus (Innuendo)}
+{301}{Skill Focus (Intimidate)}
+{302}{Skill Focus (Intuit Direction)}
+{303}{Skill Focus (Jump)}
+{304}{Skill Focus (Knowledge)}
+{305}{Skill Focus (Listen)}
+{306}{Skill Focus (Move Silently)}
+{307}{Skill Focus (Open Lock)}
+{308}{Skill Focus (Performance)}
+{309}{Skill Focus (Pick Pocket)}
+{310}{Skill Focus (Profession)}
+{311}{Skill Focus (Read Lips)}
+{312}{Skill Focus (Ride)}
+{313}{Skill Focus (Scry)}
+{314}{Skill Focus (Search)}
+{315}{Skill Focus (Sense Motive)}
+{316}{Skill Focus (Speak Language)}
+{317}{Skill Focus (Spellcraft)}
+{318}{Skill Focus (Spot)}
+{319}{Skill Focus (Swim)}
+{320}{Skill Focus (Tumble)}
+{321}{Skill Focus (Use Device)}
+{322}{Skill Focus (Use Rope)}
+{323}{Skill Focus (Survival)}
+{324}{Snatch Arrows}
+{325}{Spell Focus (Abjuration)}
+{326}{Spell Focus (Conjuration)}
+{327}{Spell Focus (Divination)}
+{328}{Spell Focus (Enchantment)}
+{329}{Spell Focus (Evocation)}
+{330}{Spell Focus (Illusion)}
+{331}{Spell Focus (Necromancy)}
+{332}{Spell Focus (Transmutation)}
+{333}{Spell Mastery}
+{334}{Spell Penetration}
+{335}{Spirited Charge}
+{336}{Spring Attack}
+{337}{Stealthy}
+{338}{Still Spell}
+{339}{Stunning Fist}
+{340}{Sunder}
+{341}{Toughness}
+{342}{Tower Shield Proficiency}
+{343}{Track}
+{344}{Trample}
+{345}{Two-Weapon Fighting}
+{346}{Two-Weapon Defense}
+{347}{Weapon Finesse}
+{348}{Weapon Finesse}
+{349}{Weapon Finesse}
+{350}{Weapon Finesse}
+{351}{Weapon Finesse}
+{352}{Weapon Finesse}
+{353}{Weapon Finesse}
+{354}{Weapon Finesse}
+{355}{Weapon Finesse}
+{356}{Weapon Finesse}
+{357}{Weapon Finesse}
+{358}{Weapon Finesse}
+{359}{Weapon Finesse}
+{360}{Weapon Finesse}
+{361}{Weapon Finesse}
+{362}{Weapon Finesse}
+{363}{Weapon Finesse}
+{364}{Weapon Finesse}
+{365}{Weapon Finesse}
+{366}{Weapon Finesse}
+{367}{Weapon Finesse}
+{368}{Weapon Finesse}
+{369}{Weapon Finesse}
+{370}{Weapon Finesse}
+{371}{Weapon Finesse}
+{372}{Weapon Finesse}
+{373}{Weapon Finesse}
+{374}{Weapon Finesse}
+{375}{Weapon Finesse}
+{376}{Weapon Finesse}
+{377}{Weapon Finesse}
+{378}{Weapon Finesse}
+{379}{Weapon Finesse}
+{380}{Weapon Finesse}
+{381}{Weapon Finesse}
+{382}{Weapon Finesse}
+{383}{Weapon Finesse}
+{384}{Weapon Finesse}
+{385}{Weapon Finesse}
+{386}{Weapon Finesse}
+{387}{Weapon Finesse}
+{388}{Weapon Finesse}
+{389}{Weapon Finesse}
+{390}{Weapon Finesse}
+{391}{Weapon Finesse}
+{392}{Weapon Finesse}
+{393}{Weapon Finesse}
+{394}{Weapon Finesse}
+{395}{Weapon Finesse}
+{396}{Weapon Finesse}
+{397}{Weapon Finesse}
+{398}{Weapon Finesse}
+{399}{Weapon Finesse}
+{400}{Weapon Finesse}
+{401}{Weapon Finesse}
+{402}{Weapon Finesse}
+{403}{Weapon Finesse}
+{404}{Weapon Finesse}
+{405}{Weapon Finesse}
+{406}{Weapon Finesse}
+{407}{Weapon Finesse}
+{408}{Weapon Finesse}
+{409}{Weapon Finesse}
+{410}{Weapon Finesse}
+{411}{Weapon Finesse}
+{412}{Weapon Finesse}
+{413}{Weapon Finesse}
+{414}{Weapon Finesse}
+{415}{Weapon Finesse}
+{416}{Weapon Finesse}
+{417}{Weapon Focus (Gauntlet)}
+{418}{Weapon Focus (Unarmed strike)}
+{419}{Weapon Focus (Unarmed strike - small being)}
+{420}{Weapon Focus (Dagger)}
+{421}{Weapon Focus (Punching Dagger)}
+{422}{Weapon Focus (Spiked Gauntlet)}
+{423}{Weapon Focus (Light Mace)}
+{424}{Weapon Focus (Sickle)}
+{425}{Weapon Focus (Club)}
+{426}{Weapon Focus (Shortspear)}
+{427}{Weapon Focus (Heavy mace)}
+{428}{Weapon Focus (Morningstar)}
+{429}{Weapon Focus (Quarterstaff)}
+{430}{Weapon Focus (Spear)}
+{431}{Weapon Focus (Light Crossbow)}
+{432}{Weapon Focus (Dart)}
+{433}{Weapon Focus (Sling)}
+{434}{Weapon Focus (Heavy Crossbow)}
+{435}{Weapon Focus (Javelin)}
+{436}{Weapon Focus (Throwing Axe)}
+{437}{Weapon Focus (Light Hammer)}
+{438}{Weapon Focus (Handaxe)}
+{439}{Weapon Focus (Light Lance)}
+{440}{Weapon Focus (Light Pick)}
+{441}{Weapon Focus (Sap)}
+{442}{Weapon Focus (Short Sword)}
+{443}{Weapon Focus (Battleaxe)}
+{444}{Weapon Focus (Light Flail)}
+{445}{Weapon Focus (Heavy Lance)}
+{446}{Weapon Focus (Longsword)}
+{447}{Weapon Focus (Heavy Pick)}
+{448}{Weapon Focus (Rapier)}
+{449}{Weapon Focus (Scimitar)}
+{450}{Weapon Focus (Trident)}
+{451}{Weapon Focus (Warhammer)}
+{452}{Weapon Focus (Falchion)}
+{453}{Weapon Focus (Heavy Flail)}
+{454}{Weapon Focus (Glaive)}
+{455}{Weapon Focus (Greataxe)}
+{456}{Weapon Focus (Greatclub)}
+{457}{Weapon Focus (Greatsword)}
+{458}{Weapon Focus (Guisarme)}
+{459}{Weapon Focus (Halberd)}
+{460}{Weapon Focus (Longspear)}
+{461}{Weapon Focus (Ranseur)}
+{462}{Weapon Focus (Scythe)}
+{463}{Weapon Focus (Shortbow)}
+{464}{Weapon Focus (Composite Shortbow)}
+{465}{Weapon Focus (Longbow)}
+{466}{Weapon Focus (Composite Longbow)}
+{467}{Weapon Focus (Halfling Kama)}
+{468}{Weapon Focus (Kukri)}
+{469}{Weapon Focus (Halfling Nunchaku)}
+{470}{Weapon Focus (Halfling Siangham)}
+{471}{Weapon Focus (Kama)}
+{472}{Weapon Focus (Nunchaku)}
+{473}{Weapon Focus (Siangham)}
+{474}{Weapon Focus (Bastard Sword)}
+{475}{Weapon Focus (Dwarven Waraxe)}
+{476}{Weapon Focus (Gnome Hooked Hammer)}
+{477}{Weapon Focus (Orc Double Axe)}
+{478}{Weapon Focus (Spike Chain)}
+{479}{Weapon Focus (Dire Flail)}
+{480}{Weapon Focus (Two-bladed Sword)}
+{481}{Weapon Focus (Dwarven Urgrosh)}
+{482}{Weapon Focus (Hand Crossbow)}
+{483}{Weapon Focus (Shuriken)}
+{484}{Weapon Focus (Whip)}
+{485}{Weapon Focus (Repeating Crossbow)}
+{486}{Weapon Focus (Net)}
+{487}{Weapon Focus (Grapple)}
+{488}{Weapon Focus (Ray)}
+{489}{Weapon Specialization (Gauntlet)}
+{490}{Weapon Specialization (Unarmed strike)}
+{491}{Weapon Specialization (Unarmed strike - small being)}
+{492}{Weapon Specialization (Dagger)}
+{493}{Weapon Specialization (Punching Dagger)}
+{494}{Weapon Specialization (Spiked Gauntlet)}
+{495}{Weapon Specialization (Light Mace)}
+{496}{Weapon Specialization (Sickle)}
+{497}{Weapon Specialization (Club)}
+{498}{Weapon Specialization (Shortspear)}
+{499}{Weapon Specialization (Heavy mace)}
+{500}{Weapon Specialization (Morningstar)}
+{501}{Weapon Specialization (Quarterstaff)}
+{502}{Weapon Specialization (Spear)}
+{503}{Weapon Specialization (Light Crossbow)}
+{504}{Weapon Specialization (Dart)}
+{505}{Weapon Specialization (Sling)}
+{506}{Weapon Specialization (Heavy Crossbow)}
+{507}{Weapon Specialization (Javelin)}
+{508}{Weapon Specialization (Throwing Axe)}
+{509}{Weapon Specialization (Light Hammer)}
+{510}{Weapon Specialization (Handaxe)}
+{511}{Weapon Specialization (Light Lance)}
+{512}{Weapon Specialization (Light Pick)}
+{513}{Weapon Specialization (Sap)}
+{514}{Weapon Specialization (Short Sword)}
+{515}{Weapon Specialization (Battleaxe)}
+{516}{Weapon Specialization (Light Flail)}
+{517}{Weapon Specialization (Heavy Lance)}
+{518}{Weapon Specialization (Longsword)}
+{519}{Weapon Specialization (Heavy Pick)}
+{520}{Weapon Specialization (Rapier)}
+{521}{Weapon Specialization (Scimitar)}
+{522}{Weapon Specialization (Trident)}
+{523}{Weapon Specialization (Warhammer)}
+{524}{Weapon Specialization (Falchion)}
+{525}{Weapon Specialization (Heavy Flail)}
+{526}{Weapon Specialization (Glaive)}
+{527}{Weapon Specialization (Greataxe)}
+{528}{Weapon Specialization (Greatclub)}
+{529}{Weapon Specialization (Greatsword)}
+{530}{Weapon Specialization (Guisarme)}
+{531}{Weapon Specialization (Halberd)}
+{532}{Weapon Specialization (Longspear)}
+{533}{Weapon Specialization (Ranseur)}
+{534}{Weapon Specialization (Scythe)}
+{535}{Weapon Specialization (Shortbow)}
+{536}{Weapon Specialization (Composite Shortbow)}
+{537}{Weapon Specialization (Longbow)}
+{538}{Weapon Specialization (Composite Longbow)}
+{539}{Weapon Specialization (Halfling Kama)}
+{540}{Weapon Specialization (Kukri)}
+{541}{Weapon Specialization (Halfling Nunchaku)}
+{542}{Weapon Specialization (Halfling Siangham)}
+{543}{Weapon Specialization (Kama)}
+{544}{Weapon Specialization (Nunchaku)}
+{545}{Weapon Specialization (Siangham)}
+{546}{Weapon Specialization (Bastard Sword)}
+{547}{Weapon Specialization (Dwarven Waraxe)}
+{548}{Weapon Specialization (Gnome Hooked Hammer)}
+{549}{Weapon Specialization (Orc Double Axe)}
+{550}{Weapon Specialization (Spike Chain)}
+{551}{Weapon Specialization (Dire Flail)}
+{552}{Weapon Specialization (Two-bladed Sword)}
+{553}{Weapon Specialization (Dwarven Urgrosh)}
+{554}{Weapon Specialization (Hand Crossbow)}
+{555}{Weapon Specialization (Shuriken)}
+{556}{Weapon Specialization (Whip)}
+{557}{Weapon Specialization (Repeating Crossbow)}
+{558}{Weapon Specialization (Net)}
+{559}{Weapon Specialization (Grapple)}
+{560}{Whirlwind Attack}
+{561}{Barbarian Rage}
+{562}{Stunning Attacks}
+{563}{Wholeness of Body}
+{564}{Lay on Hands}
+{565}{Smite Evil}
+{566}{Remove Disease}
+{567}{Detect Evil}
+{568}{Aura of Courage}
+{569}{Divine Health}
+{570}{Divine Grace}
+{571}{Special Mount}
+{572}{Code of Conduct}
+{573}{Associates}
+{574}{Defensive Roll}
+{575}{Turn Undead}
+{576}{Rebuke Undead}
+{577}{Domain Power}
+{578}{Spontaneous Casting Cure}
+{579}{Spontaneous Casting Inflict}
+{580}{Combat Reflexes} 
+{581}{Martial Weapon Proficiency All}
+{582}{Simple Weapon Proficiency Druid}
+{583}{Simple Weapon Proficiency Monk}
+{584}{Simple Weapon Proficiency Rogue}
+{585}{Simple Weapon Proficiency Wizard}
+{586}{Simple Weapon Proficiency Elf}
+{587}{Uncanny Dodge}
+{588}{Fast Movement}
+{589}{Bardic Music}
+{590}{Bardic Knowledge}
+{591}{Nature Sense}
+{592}{Woodland Stride}
+{593}{Trackless Step}
+{594}{Resist Natures Lure}
+{595}{Wild Shape}
+{596}{Venom Immunity}
+{597}{Armor Proficiency Druid}
+{598}{Flurry of Blows}
+{599}{Evasion}
+{600}{Still Mind}
+{601}{Purity of Body}
+{602}{Improved Evasion}
+{603}{Ki Strike}
+{604}{Sneak Attack}
+{605}{Trapfinding}
+{606}{Crippling Strike}
+{607}{Opportunist}
+{608}{Skill Mastery}
+{609}{Slippery Mind}
+{610}{Call Familiar}
+{611}{Favored Enemy Aberration}
+{612}{Favored Enemy Animal}
+{613}{Favored Enemy Beast}
+{614}{Favored Enemy Construct}
+{615}{Favored Enemy Dragon}
+{616}{Favored Enemy Elemental}
+{617}{Favored Enemy Fey}
+{618}{Favored Enemy Giant}
+{619}{Favored Enemy Magical Beast}
+{620}{Favored Enemy Monsterous Humanoid}
+{621}{Favored Enemy Ooze}
+{622}{Favored Enemy Plant}
+{623}{Favored Enemy Shapechanger}
+{624}{Favored Enemy Undead}
+{625}{Favored Enemy Vermin}
+{626}{Favored Enemy Outsider Evil}
+{627}{Favored Enemy Outsider Good}
+{628}{Favored Enemy Outsider Lawful}
+{629}{Favored Enemy Outsider Chaotic}
+{630}{Favored Enemy Humanoid Goblinoid}
+{631}{Favored Enemy Humanoid Reptilian}
+{632}{Favored Enemy Humanoid Dwarf}
+{633}{Favored Enemy Humanoid Elf}
+{634}{Favored Enemy Humanoid Gnoll}
+{635}{Favored Enemy Humanoid Gnome}
+{636}{Favored Enemy Humanoid Halfling}
+{637}{Favored Enemy Humanoid Orc}
+{638}{Favored Enemy Humanoid Human}
+{639}{Ambidexterity Ranger}
+{640}{Two Weapon Fighting Ranger}
+{641}{Improved Two Weapon Fighting Ranger}
+{642}{Animal Companion}
+{643}{Two Weapon Fighting Style}
+{644}{Archery Style}
+{645}{Widen Spell}
+{646}{Rapid Shot (Ranger)}
+{647}{Many Shot (Ranger)}
+{648}{Simple Weapon Proficiency Bard}
+{658}{Diamond Body}
+{659}{Abundant Step}
+{660}{Diamond Soul}
+{661}{Quivering Palm}
+{662}{Empty Body}
+{663}{Perfect Self}
+
+// HTN - these are the short descriptions of each feat
+{5000} Acrobatic {You have excellent body awareness and coordination; +2 bonus on all Slight of Hand and Tumble checks.}
+{5001}{Agile}
+{5002} Alertness {You have finely tuned senses; +2 bonus on all Listen and Spot checks.}
+{5003}{Animal Affinity}
+{5004} Armor Proficiency (light) {You are proficient with light armor; all characters except wizards, sorcerers, and monks automatically have Armor Proficiency (light) as a bonus feat.}
+{5005} Armor Proficiency (medium) {You are proficient with medium armor; fighters, barbarians, paladins, clerics, druids, and bards automatically have Armor Proficiency (medium) as a bonus feat.}
+{5006} Armor Proficiency (heavy) {You are proficient with heavy armor; fighters, paladins, and clerics automatically have Armor Proficiency (heavy) as a bonus feat.}
+{5007}{Athletic}
+{5008} Augment Summoning {Your summoned creatures are more powerful than normal. Any creature you conjure with a Summon spell gains a +4 enhancement bonus to Strength and Constitution.}
+{5009} Blind-fight {You know how to fight in melee without being able to see your opponents. In melee, every time you miss because of concealment, you can reroll your miss chance percentile roll one time to see if you actually hit. An invisible attacker gets no advantages related to hitting you in melee. The invisible attacker's bonuses do still apply for ranged attacks, however. The Blind-Fight feat is of no use against a character who is the subject of a blink spell.}
+{5010} Brew Potion {You can create a potion of any 3rd-level or lower spell that you know and that targets one or more creatures. When you create a potion, you make any choices that you would normally make when casting the spell. Whoever drinks the potion is the target of the spell.}
+{5011} Cleave {You can follow through with powerful blows. If you deal enough damage to a creature to make it drop (typically below 0 hit points or killing it), you get an immediate, extra melee attack against another creature within reach. You can use this ability once per round.}
+{5012} Combat Casting {You are adept at casting spells in combat. You get a +4 bonus on Concentration checks made to cast a spell or use a spell-like ability while on the defensive or while you are grappling or pinned.}
+{5013} Combat Expertise {You are trained at using your combat skill for defense as well as offense. When you attack, you may take a penalty of up to -5 on your attack roll and add the same number as a dodge bonus to your AC. The changes to attack rolls and AC last until your next action.}
+{5014} Craft Magic Arms and Armor {You can create any magic weapon, armor, or shield whose prerequisites you meet. The weapon, armor, or shield to be enhanced must be a masterwork item that you provide.}
+{5015} Craft Rod {You can create magic rods, which have varied magical effects.}
+{5016} Craft Staff {You can create magic staves, which have varied magical effects.}
+{5017} Craft Wand {You can create a wand of any 4th-level or lower spell that you know. A newly created wand has 20 charges.}
+{5018} Craft Wondrous Item {You can create a wide variety of magic items, such as Gauntlets of Dexterity or Dust of Disappearance. The prequisites for item creation vary according to their strength and power.}
+{5020}{Deft Hands}
+{5021} Diehard {You can remain conscious after attacks that would fell others. When reduced to between -1 and -9 hit points, you automatically become stable and do not have to roll a dice to see if you lose 1 hit point each round.}
+{5022}{Diligent}
+{5023} Deflect Arrows {You can deflect incoming arrows, as well as bolts, spears, and other projectile or thrown weapons. You must have at least one hand free to use this feat. Deflect arrows is a passive feat which is automatically used at the first opportunity and can only be used once per round. }
+{5024} Dodge {You are adept at dodging blows; dodge is a passive feat, which gives you bonuses against the first monster to attack you in a round.}
+{5025} Empower Spell {You can cast spells with greater effect. Saving throws and opposed rolls are not affected. An empowered spell is two levels higher than the spell's actual level.}
+{5026}{Endurance}
+{5027} Enlarge Spell {You can cast spells farther than normal. You can alter a spell with a range of close, medium, or long to double the range of the spell. An enlarged spell uses up a slot one level higher than the spell's actual level.}
+{5028}{Eschew Materials}
+{5029} Exotic Weapon Proficiency {Choose a type of exotic weapon. You understand how to use this exotic weapon in combat.}
+{5030} Exotic Weapon Proficiency {Choose a type of exotic weapon. You understand how to use this exotic weapon in combat.}
+{5031} Exotic Weapon Proficiency {Choose a type of exotic weapon. You understand how to use this exotic weapon in combat.}
+{5032} Exotic Weapon Proficiency {Choose a type of exotic weapon. You understand how to use this exotic weapon in combat.}
+{5033} Exotic Weapon Proficiency {Choose a type of exotic weapon. You understand how to use this exotic weapon in combat.}
+{5034} Exotic Weapon Proficiency {Choose a type of exotic weapon. You understand how to use this exotic weapon in combat.}
+{5035} Exotic Weapon Proficiency {Choose a type of exotic weapon. You understand how to use this exotic weapon in combat.}
+{5036} Exotic Weapon Proficiency {Choose a type of exotic weapon. You understand how to use this exotic weapon in combat.}
+{5037} Exotic Weapon Proficiency {Choose a type of exotic weapon. You understand how to use this exotic weapon in combat.}
+{5038} Exotic Weapon Proficiency {Choose a type of exotic weapon. You understand how to use this exotic weapon in combat.}
+{5039} Exotic Weapon Proficiency {Choose a type of exotic weapon. You understand how to use this exotic weapon in combat.}
+{5040} Exotic Weapon Proficiency {Choose a type of exotic weapon. You understand how to use this exotic weapon in combat.}
+{5041} Exotic Weapon Proficiency {Choose a type of exotic weapon. You understand how to use this exotic weapon in combat.}
+{5042} Exotic Weapon Proficiency {Choose a type of exotic weapon. You understand how to use this exotic weapon in combat.}
+{5043} Exotic Weapon Proficiency {Choose a type of exotic weapon. You understand how to use this exotic weapon in combat.}
+{5044} Exotic Weapon Proficiency {Choose a type of exotic weapon. You understand how to use this exotic weapon in combat.}
+{5045} Exotic Weapon Proficiency {Choose a type of exotic weapon. You understand how to use this exotic weapon in combat.}
+{5046} Exotic Weapon Proficiency {Choose a type of exotic weapon. You understand how to use this exotic weapon in combat.}
+{5047} Exotic Weapon Proficiency {Choose a type of exotic weapon. You understand how to use this exotic weapon in combat.}
+{5048} Exotic Weapon Proficiency {Choose a type of exotic weapon. You understand how to use this exotic weapon in combat.}
+{5049} Extend Spell {An extended spell lasts twice as long as normal. A spell with a duration of concentration, instantaneous, or permanent is not affected by this feat. An extended spell is one level higher than the spell's actual level.}
+{5050} Extra Turning {You can turn or rebuke creatures an additional four more times per day.}
+{5051}{Far Shot}
+{5052} Forge Ring {You can craft magical rings.}
+{5053} Great Cleave {You can wield a melee weapon with such power that you can strike multiple times when you fell your foes. There is no limit to the number of times you may Cleave per round.}
+{5054} Great Fortitude {You are tougher than normal; +2 bonus on all Fortitude saving throws.}
+{5055} Greater Spell Focus {The Difficulty Class for all saving throws against spells from the school of Abjuration is increased by +1.}
+{5056} Greater Spell Focus {The Difficulty Class for all saving throws against spells from the school of Conjuration is increased by +1.}
+{5057} Greater Spell Focus {The Difficulty Class for all saving throws against spells from the school of Divination is increased by +1.}
+{5058} Greater Spell Focus {The Difficulty Class for all saving throws against spells from the school of Enchantment is increased by +1.}
+{5059} Greater Spell Focus {The Difficulty Class for all saving throws against spells from the school of Evocation is increased by +1..}
+{5060} Greater Spell Focus {The Difficulty Class for all saving throws against spells from the school of Illusion is increased by +1.}
+{5061} Greater Spell Focus {The Difficulty Class for all saving throws against spells from the school of Necromancy is increased by +1.}
+{5062} Greater Spell Focus {The Difficulty Class for all saving throws against spells from the school of Transmutation is increased by +1.}
+{5063} Greater Spell Penetration {Your spells are remarkably potent, breaking through spell resistance more readily than normal. You get a +2 bonus of caster levels checks made to overcome a creature's spell resistance. This bonus stacks with the one from Spell Penetration.}
+{5064}{Greater Two Weapon Fighting}
+{5065} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5066} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5067} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5068} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5069} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5070} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5071} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5072} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5073} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5074} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5075} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5076} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5077} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5078} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5079} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5080} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5081} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5082} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5083} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5084} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5085} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5086} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5087} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5088} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5089} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5090} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5091} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5092} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5093} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5094} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5095} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5096} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5097} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5098} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5099} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5100} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5101} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5102} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5103} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5104} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5105} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5106} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5107} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5108} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5109} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5110} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5111} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5112} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5113} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5114} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5115} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5116} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5117} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5118} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5119} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5120} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5121} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5122} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5123} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5124} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5125} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5126} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5127} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5128} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5129} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5130} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5131} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5132} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5133} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5134} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5135} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5136} Greater Weapon Focus {Choose one type of weapon for which you have already selected Weapon Focus. You can also choose unarmed strike as your weapon for purposes of this feat. You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses\non attack rolls, including the one from Weapon Focus. You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon.}
+{5137}{Greater Weapon Specialization}
+{5138} Heighten Spell {A heightened spell has a higher spell level than normal. Unlike other metamagic feats, Heighten Spell actually increases the effective level of the spell that it modifies.}
+{5139} Improved Bull Rush {You know how to push opponents back.}
+{5140} Improved Counterspell {You understand the nuances of magic to such an extent that you can counter your opponent's spells with great efficiency. When counterspelling, you may use a spell of the same school that is one or more spell levels higher than the target spell.}
+{5141} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5142} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5143} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5144} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5145} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5146} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5147} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5148} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5149} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5150} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5151} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5152} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5153} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5154} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5155} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5156} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5157} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5158} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5159} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5160} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5161} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5162} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5163} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5164} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5165} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5166} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5167} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5168} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5169} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5170} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5171} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5172} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5173} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5174} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5175} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5176} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5177} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5178} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5179} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5180} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5181} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5182} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5183} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5184} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5185} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5186} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5187} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5188} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5189} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5190} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5191} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5192} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5193} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5194} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5195} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5196} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5197} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5198} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5199} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5200} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5201} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5202} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5203} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5204} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5205} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5206} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5207} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5208} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5209} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5210} Improved Critical {When using the weapon you selected, your threat range is doubled. You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn’t stack with any other effect that expands the threat range of a weapon.}
+{5211}{Improved Disarm}
+{5212} Improved Feint {You are skilled at misdirecting your opponent's attention in combat. You can make a Bluff check to feint in combat as a move action, instead of a standard action.}
+{5213}{Improved Grapple}
+{5214} Improved Initiative {You can react more quickly than normal in a fight; +4 bonus on initiative checks.}
+{5215}{Improved Overrun}
+{5216}{Improved Shield Bash}
+{5217} Improved Trip {You are trained not only in tripping opponents safely but also in following through with an attack. You do not provoke an attack of opportunity when you attempt to trip an opponent while you are unarmed. You also gain a +4 bonus on your Strength check to trip your opponent.}
+{5218} Improved Two-Weapon Fighting {You are an expert in fighting two-handed. You get a second attack with an off-hand weapon, albeit at a -5 penalty to attack rolls.}
+{5219} Improved Turning {Your turning or rebuking attempts are more powerful than normal. You turn or rebuke creatures as if you were one level higher than you are in the class that grants you the ability.}
+{5220} Improved Unarmed Strike {You are skilled at fighting while unarmed; you are considered to be armed while unarmed. You do not provoke attacks of opportunity from armed opponents when attacking them while unarmed. In addition, your unarmed strikes can deal lethal or nonlethal damage, at your option.}
+{5221}{Improved Uncanny Dodge}
+{5222} Investigator {You have a knack for finding information; +2 bonus on all Gather Information and Search checks.}
+{5223} Iron Will {You have a stronger will than normal; +2 bonus on all Will saving throws.}
+{5224}{Leadership}
+{5225} Lightning Reflexes {You have faster than normal reflexes; +2 bonus on all Reflex saving throws.}
+{5226} Magical Affinity {You have a knack for magical endeavors; +2 bonus on Spellcraft and Use Magic Device checks.}
+{5227} Manyshot {You can fire multiple arrows as a single attack against a nearby target. Regardless of the number of arrows you fire, you apply precision-based damage only once. If you score a critical hit, only the first arrow fired deals critical damage; all others deal regular damage.}
+{5228} Martial Weapon Proficiency {Choose a type of martial weapon; you understand how to use this weapon in combat.}
+{5229} Martial Weapon Proficiency {Choose a type of martial weapon; you understand how to use this weapon in combat.}
+{5230} Martial Weapon Proficiency {Choose a type of martial weapon; you understand how to use this weapon in combat.}
+{5231} Martial Weapon Proficiency {Choose a type of martial weapon; you understand how to use this weapon in combat.}
+{5232} Martial Weapon Proficiency {Choose a type of martial weapon; you understand how to use this weapon in combat.}
+{5233} Martial Weapon Proficiency {Choose a type of martial weapon; you understand how to use this weapon in combat.}
+{5234} Martial Weapon Proficiency {Choose a type of martial weapon; you understand how to use this weapon in combat.}
+{5235} Martial Weapon Proficiency {Choose a type of martial weapon; you understand how to use this weapon in combat.}
+{5236} Martial Weapon Proficiency {Choose a type of martial weapon; you understand how to use this weapon in combat.}
+{5237} Martial Weapon Proficiency {Choose a type of martial weapon; you understand how to use this weapon in combat.}
+{5238} Martial Weapon Proficiency {Choose a type of martial weapon; you understand how to use this weapon in combat.}
+{5239} Martial Weapon Proficiency {Choose a type of martial weapon; you understand how to use this weapon in combat.}
+{5240} Martial Weapon Proficiency {Choose a type of martial weapon; you understand how to use this weapon in combat.}
+{5241} Martial Weapon Proficiency {Choose a type of martial weapon; you understand how to use this weapon in combat.}
+{5242} Martial Weapon Proficiency {Choose a type of martial weapon; you understand how to use this weapon in combat.}
+{5243} Martial Weapon Proficiency {Choose a type of martial weapon; you understand how to use this weapon in combat.}
+{5244} Martial Weapon Proficiency {Choose a type of martial weapon; you understand how to use this weapon in combat.}
+{5245} Martial Weapon Proficiency {Choose a type of martial weapon; you understand how to use this weapon in combat.}
+{5246} Martial Weapon Proficiency {Choose a type of martial weapon; you understand how to use this weapon in combat.}
+{5247} Martial Weapon Proficiency {Choose a type of martial weapon; you understand how to use this weapon in combat.}
+{5248} Martial Weapon Proficiency {Choose a type of martial weapon; you understand how to use this weapon in combat.}
+{5249} Martial Weapon Proficiency {Choose a type of martial weapon; you understand how to use this weapon in combat.}
+{5250} Martial Weapon Proficiency {Choose a type of martial weapon; you understand how to use this weapon in combat.}
+{5251} Martial Weapon Proficiency {Choose a type of martial weapon; you understand how to use this weapon in combat.}
+{5252} Martial Weapon Proficiency {Choose a type of martial weapon; you understand how to use this weapon in combat.}
+{5253} Martial Weapon Proficiency {Choose a type of martial weapon; you understand how to use this weapon in combat.}
+{5254} Martial Weapon Proficiency {Choose a type of martial weapon; you understand how to use this weapon in combat.}
+{5255} Martial Weapon Proficiency {Choose a type of martial weapon; you understand how to use this weapon in combat.}
+{5256} Martial Weapon Proficiency {Choose a type of martial weapon; you understand how to use this weapon in combat.}
+{5257} Martial Weapon Proficiency {Choose a type of martial weapon; you understand how to use this weapon in combat.}
+{5258} Martial Weapon Proficiency {Choose a type of martial weapon; you understand how to use this weapon in combat.}
+{5259} Maximize Spell {All variable, numeric effects of a spell are maximized. A maximized spell is three levels higher than the spell's actual level.}
+{5260} Mobility {You are skilled at dodging past opponents and avoiding blows. You get a +4 dodge bonus to AC against attacks of opportunity caused when you move out or within a threaten area.}
+{5261}{Mounted Archery}
+{5262}{Mounted Combat}
+{5263} Natural Spell {You can cast spells while in a wild shape.}
+{5264} Negotiator {You are good at gauging and swaying attitudes; +2 bonus on Diplomacy and Sense Motive checks.}
+{5265} Nimble Fingers {You are adept at manipulating small, delicate objects. You get a +2 bonus on all Disable Device and Open Lock checks.}
+{5266} Persuasive {You have a way with words and body language; +2 bonus on Bluff and Intimidate checks.}
+{5267} Point Blank Shot {You are skilled at making well-placed shots with ranged weapons at close range. You get a +1 bonus on attack and damage rolls with ranged weapons at ranges of up to 30 feet.}
+{5268} Power Attack {You can make exceptionally powerful melee attacks. On your action, before making attack rolls for a round, you may choose to subtract a number from all melee attack rolls and add the same number to all melee damage rolls. If you attack with a two-handed weapon, instead add twice the number subtracted from your attack rolls.  You cannot use Power Attack with a light weapon (except with unarmed strikes or natural weapon attacks) even though the penalty for rolls still applies.}
+{5269} Precise Shot {You are skilled at timing and aiming ranged attacks. You can shoot or throw ranged weapons at an opponent engaged in melee with taking the standard -4 penalty on your attack roll.}
+{5270} Quick Draw {You can draw weapons with startling speed; you can draw a weapon as a free action instead of as a move action. You can draw a hidden weapon as a move action. A character that has this feat may throw weapons at her full normal rate of attacks.}
+{5271} Quicken Spell {You can cast a spell with a moment's thought. Casting the spell is a free action. You can perform another action, even casting another non-quickened spell. The spell is 4 levels higher, no AoO.}
+{5272} Rapid Shot {You can use ranged weapons with exceptional speed. You can get one extra attack per round with a ranged weapon. All attack rolls take a -2 penalty.}
+{5273} Rapid Reload {You can reload heavy, and light crossbows more quickly than normal. The time required for you to reload your chosen type of crossbow is reduced to a free action (for a light crossbow) or a move action (for a heavy crossbow). }
+{5274}{Ride-by Attack}
+{5275}{Run}
+{5276} Scribe Scroll {You can create scrolls, from which you or anyone else skilled in the use of magic can cast the scribed spells.}
+{5277} Self Sufficient {You can take care of yourself in harsh environments and situations. You get a +2 bonus on all Heal and Survival checks.}
+{5278} Shield Proficiency {You are proficient with bucklers, small shields, and large shields. You no longer take the shield's AC penalty on attack rolls and on all skill checks that involve moving.}
+{5279} Shot on the Run {You are highly trained in skirmish ranged weapon tactics. When attacking with a ranged weapon, you can move before and after you shoot.}
+{5280} Silent Spell {You can cast spells silently (with no verbal components). A silent spell uses up a spell slot one level higher than the spell's actual level.}
+{5281} Simple Weapon Proficiency {You understand how to use all types of simple weapons in combat, including the dagger, light mace, club, heavy mace, morningstar, spear, shortspear, longspear, quarterstaff, crossbow, light crossbow, heavy crossbow, dart, javelin, and sling.}
+{5282} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5283} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5284} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5285} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5286} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5287} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5288} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5289} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5290} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5291} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5292} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5293} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5294} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5295} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5296} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5297} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5298} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5299} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5300} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5301} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5302} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5303} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5304} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5305} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5306} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5307} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5308} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5309} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5310} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5311} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5312} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5313} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5314} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5315} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5316} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5317} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5318} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5319} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5320} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5321} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5322} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5323} Skill Focus {Choose a skill; you have a special knack with this skill.}
+{5324} Snatch Arrows {You are adept at snatching incoming arrows, as well as crossbow bolts, spears, and other projectile or thrown weapons. When using the Deflect Arrows feat, you may catch the weapon instead of deflecting it. Thrown weapons can immediately be thrown back at the original attacker or kept for later use.}
+{5325} Spell Focus {The Difficulty Class for all saving throws against spells from this school is increased by +1.}
+{5326} Spell Focus {The Difficulty Class for all saving throws against spells from this school is increased by +1.}
+{5327} Spell Focus {The Difficulty Class for all saving throws against spells from this school is increased by +1.}
+{5328} Spell Focus {The Difficulty Class for all saving throws against spells from this school is increased by +1.}
+{5329} Spell Focus {The Difficulty Class for all saving throws against spells from this school is increased by +1.}
+{5330} Spell Focus {The Difficulty Class for all saving throws against spells from this school is increased by +1.}
+{5331} Spell Focus {The Difficulty Class for all saving throws against spells from this school is increased by +1.}
+{5332} Spell Focus {The Difficulty Class for all saving throws against spells from this school is increased by +1.}
+{5333}{Spell Mastery}
+{5334} Spell Penetration {Your spells are especially potent, breaking through spell resistance more readily than normal. You get a +2 bonus of caster levels checks made to overcome a creature's spell resistance.}
+{5335}{Spirited Charge}
+{5336} Spring Attack {You are trained in fast melee attacks and fancy footwork. When using the attack action with a melee weapon, you can move before and after the attack. Moving in this way does not provoke an attack of opportunity from the defender you attack. You must move at least 5 feet both before and after you make your attack in order to utilize the benefits of Spring Attack.}
+{5337} Stealthy {You are particularly good at avoiding notice; +2 bonus on all Hide and Move Silently checks.}
+{5338} Still Spell {You can cast spells without gestures. A stilled spell uses up a spell slot one level higher than the spell's actual level.}
+{5339} Stunning Fist {Stunning Fist forces a foe damaged by your unarmed attack to make a Fortitude saving throw (DC 10 + 1/2 your character level + your Wis modifier), in addition to dealing damage normally. A defender who fails this saving throw is stunned for 1 round. A stunned character can't act, loses any Dexterity bonus to AC, and takes a -2 penalty to AC. Constructs, oozes, plants, undead, incorporeal creatures, and creatures immune to critical hits cannot be stunned.}
+{5340}{Sunder}
+{5341} Toughness {You are tougher than normal; you gain +3 hit points.}
+{5342}{Tower Shield Proficiency}
+{5343} Track {You can identify different types of creatures (e.g. elementals) and the general direction in which they are traveling.}
+{5344}{Trample}
+{5345} Two-Weapon Fighting {You can fight with a weapon in each hand.  You can make one extra attack each round with the second weapon. Your penalites on attack rolls for fighting with two weapons is reduced. The penalty for your primary hand is reduced by 2 and the penalty for your off-hand is reduced by 6.}
+{5346} Two-Weapon Defense {Your two-weapon fighting style bolsters your defense as well as your offense. When wielding two weapons, you gain a +1 shield bonus to your AC. When you are fighting defensively or using the total defense action, this shield bonus increases to +2}
+{5347} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5348} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5349} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5350} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5351} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5352} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5353} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5354} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5355} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5356} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5357} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5358} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5359} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5360} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5361} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5362} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5363} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5364} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5365} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5366} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5367} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5368} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5369} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5370} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5371} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5372} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5373} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5374} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5375} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5376} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5377} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5378} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5379} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5380} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5381} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5382} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5383} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5384} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5385} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5386} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5387} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5388} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5389} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5390} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5391} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5392} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5393} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5394} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5395} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5396} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5397} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5398} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5399} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5400} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5401} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5402} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5403} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5404} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5405} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5406} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5407} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5408} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5409} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5410} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5411} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5412} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5413} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5414} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5415} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5416} Weapon Finesse {You may use your Dexterity modifier instead of your Strength modifier on attack rolls when your are wielding this weapon. If you carry a shield, its armor check penalty applies to your attack rolls.}
+{5417} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5418} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5419} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5420} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5421} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}}
+{5422} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5423} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5424} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5425} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5426} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5427} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5428} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5429} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5430} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5431} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5432} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5433} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5434} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5435} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5436} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5437} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5438} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5439} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5440} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5441} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5442} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5443} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5444} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5445} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5446} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5447} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5448} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5449} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5450} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5451} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5452} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5453} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5454} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5455} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5456} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5457} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5458} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5459} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5460} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5461} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5462} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5463} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5464} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5465} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5466} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5467} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5468} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5469} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5470} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5471} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5472} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5473} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5474} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5475} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5476} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5477} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5478} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5479} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5480} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5481} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5482} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5483} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5484} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5485} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5486} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5487} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5488} Weapon Focus {You are especially good at using this weapon. You gain a +1 bonus on all attack rolls you make with this weapon.}
+{5489} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5490} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5491} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5492} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5493} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5494} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5495} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5496} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5497} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5498} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5499} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5500} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5501} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5502} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5503} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5504} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5505} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5506} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5507} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5508} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5509} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5510} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5511} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5512} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5513} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5514} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5515} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5516} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5517} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5518} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5519} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5520} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5521} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5522} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5523} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5524} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5525} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5526} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5527} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5528} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5529} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5530} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5531} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5532} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5533} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5534} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5535} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5536} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5537} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5538} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5539} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5540} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5541} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5542} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5543} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5544} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5545} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5546} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5547} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5548} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5549} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5550} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5551} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5552} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5553} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5554} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5555} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5556} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5557} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5558} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5559} Weapon Specialization {You deal extra damage when using this weapon. You gain a +2 bonus on all damage rolls you make using this weapon.}
+{5560} Whirlwind Attack {You can strike nearby opponents in an amazing, spinning attack. When you use the full attack action, you can give up your regular attacks and instead make one melee attack at your full base attack bonus against each opponent within reach.}
+{5561}{Barbarian Rage}
+{5562}{Stunning Attacks}
+{5563}{Wholeness of Body}
+{5564}{Lay on Hands}
+{5565}{Smite Evil}
+{5566}{Remove Disease}
+{5567}{Detect Evil}
+{5568}{Aura of Courage}
+{5569}{Divine Health}
+{5570}{Divine Grace}
+{5571}{Special Mount}
+{5572}{Code of Conduct}
+{5573}{Associates}
+{5574} Defensive Roll {The rogue can roll with a potentially lethal blow to take less damage from it than she otherwise would. Once per day, when she would be reduced to 0 or fewer hit points by damage in combat (non-magical), the rogue must attempt a Reflex saving throw. If the save succeeds, she takes only half damage from the blow. This only applies to non-sneak attacks. Since this effect would not normally allow a character to make a Reflex save for half damage, the rogue’s evasion ability does not apply to the defensive roll.}
+{5575}{Turn Undead}
+{5576}{Rebuke Undead}
+{5577}{Domain Power}
+{5578}{Spontaneous Casting Cure}
+{5579}{Spontaneous Casting Inflict}
+{5580} Combat Reflexes {You can respond quickly and repeatedly to opponents who let their defenses down. You may make a number of additional attacks of opportunity equal to your Dexterity bonus. With this feat, you may also make attacks of opportunity while flat-footed.The Combat Reflexes feat does not allow a rogue to use her opportunist ability more than once per round.}
+{5581}{Martial Weapon Proficiency}
+{5582}{Simple Weapon Proficiency Druid}
+{5583}{Simple Weapon Proficiency Monk}
+{5584}{Simple Weapon Proficiency Rogue}
+{5585}{Simple Weapon Proficiency Wizard}
+{5586}{Simple Weapon Proficiency Elf}
+{5587}{Uncanny Dodge}
+{5588}{Fast Movement}
+{5589}{Bardic Music}
+{5590}{Bardic Knowledge}
+{5591}{Nature Sense}
+{5592}{Woodland Stride}
+{5593}{Trackless Step}
+{5594}{Resist Natures Lure}
+{5595}{Wild Shape}
+{5596}{Venom Immunity}
+{5597}{Armor Proficiency Druid}
+{5598}{Flurry of Blows}
+{5599}{Evasion}
+{5600}{Still Mind}
+{5601}{Purity of Body}
+{5602} Improved Evasion {This ability works like evasion, except that while the rogue still takes no damage on a successful Reflex saving throw against attacks henceforth she henceforth takes only half damage on a failed save. A helpless rogue does not gain the benefit of improved evasion.}
+{5603}{Ki Strike}
+{5604}{Sneak Attack}
+{5605}{Trapfinding}
+{5606} Crippling Strike {A rogue with this ability can sneak attack opponents with such precision that her blows weaken and hamper them. An opponent damaged by one of her sneak attacks also takes 2 points of Strength damage. Ability points lost to damage return on their own at the rate of 1 point per day for each damaged ability.}
+{5607} Opportunist {Once per round, the rogue can make an attack of opportunity against an opponent who has just been struck for damage in melee by another character. This attack counts as the rogue’s attack of opportunity for that round. Even a rogue with the Combat Reflexes feat can’t use the opportunist ability more than once per round.}
+{5608} Skill Mastery {The rogue becomes so certain in the use of certain skills that she can use them reliably even under adverse conditions. Upon gaining this ability, she selects a number of skills equal to 3 + her Intelligence modifier. When making a skill check with one of these skills, she may take 10 even if stress and distractions would normally prevent her from doing so. A rogue may gain this special ability multiple times, selecting additional skills for it to apply to each time.}
+{5609} Slippery Mind {This ability represents the rogue’s ability to wriggle free from magical effects that would otherwise control or compel her. If a rogue with slippery mind is affected by an enchantment spell or effect and fails her saving throw, she can attempt it again 1 round later at the same DC. She gets only this one extra chance to succeed on her saving throw.}
+{5610}{Call Familiar}
+{5611}{Favored Enemy Aberration}
+{5612}{Favored Enemy Animal}
+{5613}{Favored Enemy Beast}
+{5614}{Favored Enemy Construct}
+{5615}{Favored Enemy Dragon}
+{5616}{Favored Enemy Elemental}
+{5617}{Favored Enemy Fey}
+{5618}{Favored Enemy Giant}
+{5619}{Favored Enemy Magical Beast}
+{5620}{Favored Enemy Monsterous Humanoid}
+{5621}{Favored Enemy Ooze}
+{5622}{Favored Enemy Plant}
+{5623}{Favored Enemy Shapechanger}
+{5624}{Favored Enemy Undead}
+{5625}{Favored Enemy Vermin}
+{5626}{Favored Enemy Outsider Evil}
+{5627}{Favored Enemy Outsider Good}
+{5628}{Favored Enemy Outsider Lawful}
+{5629}{Favored Enemy Outsider Chaotic}
+{5630}{Favored Enemy Humanoid Goblinoid}
+{5631}{Favored Enemy Humanoid Reptilian}
+{5632}{Favored Enemy Humanoid Dwarf}
+{5633}{Favored Enemy Humanoid Elf}
+{5634}{Favored Enemy Humanoid Gnoll}
+{5635}{Favored Enemy Humanoid Gnome}
+{5636}{Favored Enemy Humanoid Halfling}
+{5637}{Favored Enemy Humanoid Orc}
+{5638}{Favored Enemy Humanoid Human}
+{5639}{Ambidexterity Ranger}
+{5640}{Two Weapon Fighting Ranger}
+{5641}{Improved Two Weapon Fighting Ranger}
+{5642}{Animal Companion}
+{5643}{Two Weapon Fighting Style}
+{5644}{Archery Style}
+{5645} Widen Spell {You can increase the area of your spells. Any numeric measurements of the spell's area increase by 100%. A widened spell is three levels higher than the spell's actual level.}
+{5646} Rapid Shot(Ranger) {While wearing light or no armor, you can use ranged weapons with exceptional speed.}
+{5647} Many Shot(Ranger) {While wearing light or no armor, you can fire multiple arrows as a single attack against a nearby target.}
+{5648} Simple Weapon Proficiency (Bard) {}
+{5658}{Diamond Body}
+{5659}{Abundant Step}
+{5660}{Diamond Soul}
+{5661}{Quivering Palm}
+{5662}{Empty Body}
+{5663}{Perfect Self}
+
+// HTN - 6/12/03, these lines occur AFTER text-lock!!!
+// these are the prerequisites for each feat
+{9998} {None}
+{9999} {Prerequisites: }
+{10000} Acrobatic {}
+{10001} Agile {}
+{10002} Alertness {} 
+{10003} Animal Affinity {}
+{10004} Armor Proficiency (light) {} 
+{10005} Armor Proficiency (medium) {Armor Proficiency (light)} 
+{10006} Armor Proficiency (heavy) {Armor Proficiency (medium)} 
+{10007} Athletic {}
+{10008} Augment Summoning {Spell Focus (Conjuration)}
+{10009} Blind-fight {} 
+{10010} Brew Potion {Caster level 3rd} 
+{10011} Cleave {Str 13, Power Attack}
+{10012} Combat Casting {} 
+{10013} Combat Expertise {Int 13} 
+{10014} Craft Magic Arms and Armor {Caster level 5th}
+{10015} Craft Rod {Caster level 9th}
+{10016} Craft Staff {Caster level 12th}
+{10017} Craft Wand {Caster level 5th}
+{10018} Craft Wondrous Item {Caster level 3rd}
+{10019} Deceitful {}
+{10020} Deft Hands {}
+{10021} Diehard {Great Fortitude}
+{10022} Diligent {}
+{10023} Deflect Arrows {Dex 13, Improved Unarmed Strike}
+{10024} Dodge {Dex 13}
+{10025} Empower Spell {}
+{10026} Endurance {}
+{10027} Enlarge Spell {}
+{10028} Eschew Materials {}
+{10029} Exotic Weapon Proficiency (Halfling Kama) {}
+{10030} Exotic Weapon Proficiency (Kukri) {Base attack bonus +1}
+{10031} Exotic Weapon Proficiency (Halfling Nunchaku) {}
+{10032} Exotic Weapon Proficiency (Halfling Siangham) {}
+{10033} Exotic Weapon Proficiency (Kama) {Base attack bonus +1}
+{10034} Exotic Weapon Proficiency (Nunchaku) {}
+{10035} Exotic Weapon Proficiency (Siangham) {Base attack bonus +1}
+{10036} Exotic Weapon Proficiency (Bastard Sword) {Base attack bonus +1, Str 13}
+{10037} Exotic Weapon Proficiency (Dwarven Waraxe) {Base attack bonus +1, Str 13}
+{10038} Exotic Weapon Proficiency (Gnome Hooked Hammer) {}
+{10039} Exotic Weapon Proficiency (Orc Double Axe) {}
+{10040} Exotic Weapon Proficiency (Spike Chain) {}
+{10041} Exotic Weapon Proficiency (Dire Flail) {}
+{10042} Exotic Weapon Proficiency (Two-bladed Sword) {}
+{10043} Exotic Weapon Proficiency (Dwarven Urgrosh) {}
+{10044} Exotic Weapon Proficiency (Hand Crossbow) {}
+{10045} Exotic Weapon Proficiency (Shuriken) {Base attack bonus +1}
+{10046} Exotic Weapon Proficiency (Whip) {}
+{10047} Exotic Weapon Proficiency (Repeating Crossbow) {Base attack bonus +1}
+{10048} Exotic Weapon Proficiency (Net) {}
+{10049} Extend Spell {}
+{10050} Extra Turning {Ability to turn or rebuke creatures}
+{10051} Far Shot {}
+{10052} Forge Ring {Caster level 12th}
+{10053} Great Cleave {Str 13, Cleave, Power Attack, base attack bonus +4}
+{10054} Great Fortitude {}
+{10055} Greater Spell Focus (Abjuration) {Spell Focus}
+{10056} Greater Spell Focus (Conjuration) {Spell Focus}
+{10057} Greater Spell Focus (Divination) {Spell Focus}
+{10058} Greater Spell Focus (Enchantment) {Spell Focus}
+{10059} Greater Spell Focus (Evocation) {Spell Focus}
+{10060} Greater Spell Focus (Illusion) {Spell Focus}
+{10061} Greater Spell Focus (Necromancy) {Spell Focus}
+{10062} Greater Spell Focus (Transmutation) {Spell Focus}
+{10063} Greater Spell Penetration {Spell Penetration}
+{10064} Greater Two Weapon Fighting {}
+{10065} Greater Weapon Focus (Gauntlet) {}
+{10066} Greater Weapon Focus (Unarmed strike) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10067} Greater Weapon Focus (Unarmed strike - small being) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10068} Greater Weapon Focus (Dagger) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10069} Greater Weapon Focus (Punching Dagger) {}
+{10070} Greater Weapon Focus (Spiked Gauntlet) {}
+{10071} Greater Weapon Focus (Light Mace) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10072} Greater Weapon Focus (Sickle) {}
+{10073} Greater Weapon Focus (Club) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10074} Greater Weapon Focus (Shortspear) {}
+{10075} Greater Weapon Focus (Heavy mace) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10076} Greater Weapon Focus (Morningstar) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10077} Greater Weapon Focus (Quarterstaff) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10078} Greater Weapon Focus (Spear) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10079} Greater Weapon Focus (Light Crossbow) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10080} Greater Weapon Focus (Dart) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10081} Greater Weapon Focus (Sling) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10082} Greater Weapon Focus (Heavy Crossbow) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10083} Greater Weapon Focus (Javelin) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10084} Greater Weapon Focus (Throwing Axe) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10085} Greater Weapon Focus (Light Hammer) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10086} Greater Weapon Focus (Handaxe) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10087} Greater Weapon Focus (Light Lance) {}
+{10088} Greater Weapon Focus (Light Pick) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10089} Greater Weapon Focus (Sap) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10090} Greater Weapon Focus (Short Sword) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10091} Greater Weapon Focus (Battleaxe) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10092} Greater Weapon Focus (Light Flail) {}
+{10093} Greater Weapon Focus (Heavy Lance) {}
+{10094} Greater Weapon Focus (Longsword) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10095} Greater Weapon Focus (Heavy Pick) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10096} Greater Weapon Focus (Rapier) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10097} Greater Weapon Focus (Scimitar) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10098} Greater Weapon Focus (Trident) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10099} Greater Weapon Focus (Warhammer) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10100} Greater Weapon Focus (Falchion) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10101} Greater Weapon Focus (Heavy Flail) {}
+{10102} Greater Weapon Focus (Glaive) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10103} Greater Weapon Focus (Greataxe) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10104} Greater Weapon Focus (Greatclub) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10105} Greater Weapon Focus (Greatsword) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10106} Greater Weapon Focus (Guisarme) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10107} Greater Weapon Focus (Halberd) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10108} Greater Weapon Focus (Longspear) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10109} Greater Weapon Focus (Ranseur) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10110} Greater Weapon Focus (Scythe) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10111} Greater Weapon Focus (Shortbow) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10112} Greater Weapon Focus (Composite Shortbow) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10113} Greater Weapon Focus (Longbow) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10114} Greater Weapon Focus (Composite Longbow) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10115} Greater Weapon Focus (Halfling Kama) {}
+{10116} Greater Weapon Focus (Kukri) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10117} Greater Weapon Focus (Halfling Nunchaku) {}
+{10118} Greater Weapon Focus (Halfling Siangham) {}
+{10119} Greater Weapon Focus (Kama) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10120} Greater Weapon Focus (Nunchaku) {}
+{10121} Greater Weapon Focus (Siangham) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10122} Greater Weapon Focus (Bastard Sword) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10123} Greater Weapon Focus (Dwarven Waraxe) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10124} Greater Weapon Focus (Gnome Hooked Hammer) {}
+{10125} Greater Weapon Focus (Orc Double Axe) {}
+{10126} Greater Weapon Focus (Spike Chain) {}
+{10127} Greater Weapon Focus (Dire Flail) {}
+{10128} Greater Weapon Focus (Two-bladed Sword) {}
+{10129} Greater Weapon Focus (Dwarven Urgrosh) {}
+{10130} Greater Weapon Focus (Hand Crossbow) {}
+{10131} Greater Weapon Focus (Shuriken) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10132} Greater Weapon Focus (Whip) {}
+{10133} Greater Weapon Focus (Repeating Crossbow) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10134} Greater Weapon Focus (Net) {}
+{10135} Greater Weapon Focus (Grapple) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10136} Greater Weapon Focus (Ray) {Proficiency with selected weapon, Weapon Focus w/ selected weapon, fighter level 8th}
+{10137} Greater Weapon Specialization {}
+{10138} Heighten Spell {}
+{10139} Improved Bull Rush {}
+{10140} Improved Counterspell {}
+{10141} Improved Critical (Gauntlet) {}
+{10142} Improved Critical (Unarmed strike) {Proficient with weapon, base attack bonus +8}
+{10143} Improved Critical (Unarmed strike - small being) {Proficient with weapon, base attack bonus +8}
+{10144} Improved Critical (Dagger) {Proficient with weapon, base attack bonus +8}
+{10145} Improved Critical (Punching Dagger) {}
+{10146} Improved Critical (Spiked Gauntlet) {}
+{10147} Improved Critical (Light Mace) {Proficient with weapon, base attack bonus +8}
+{10148} Improved Critical (Sickle) {}
+{10149} Improved Critical (Club) {Proficient with weapon, base attack bonus +8}
+{10150} Improved Critical (Shortspear) {}
+{10151} Improved Critical (Heavy mace) {Proficient with weapon, base attack bonus +8}
+{10152} Improved Critical (Morningstar) {Proficient with weapon, base attack bonus +8}
+{10153} Improved Critical (Quarterstaff) {Proficient with weapon, base attack bonus +8}
+{10154} Improved Critical (Spear) {Proficient with weapon, base attack bonus +8}
+{10155} Improved Critical (Light Crossbow) {Proficient with weapon, base attack bonus +8}
+{10156} Improved Critical (Dart) {Proficient with weapon, base attack bonus +8}
+{10157} Improved Critical (Sling) {Proficient with weapon, base attack bonus +8}
+{10158} Improved Critical (Heavy Crossbow) {Proficient with weapon, base attack bonus +8}
+{10159} Improved Critical (Javelin) {Proficient with weapon, base attack bonus +8}
+{10160} Improved Critical (Throwing Axe) {Proficient with weapon, base attack bonus +8}
+{10161} Improved Critical (Light Hammer) {Proficient with weapon, base attack bonus +8}
+{10162} Improved Critical (Handaxe) {Proficient with weapon, base attack bonus +8}
+{10163} Improved Critical (Light Lance) {}
+{10164} Improved Critical (Light Pick) {Proficient with weapon, base attack bonus +8}
+{10165} Improved Critical (Sap) {Proficient with weapon, base attack bonus +8}
+{10166} Improved Critical (Short Sword) {Proficient with weapon, base attack bonus +8}
+{10167} Improved Critical (Battleaxe) {Proficient with weapon, base attack bonus +8}
+{10168} Improved Critical (Light Flail) {}
+{10169} Improved Critical (Heavy Lance) {}
+{10170} Improved Critical (Longsword) {Proficient with weapon, base attack bonus +8}
+{10171} Improved Critical (Heavy Pick) {Proficient with weapon, base attack bonus +8}
+{10172} Improved Critical (Rapier) {Proficient with weapon, base attack bonus +8}
+{10173} Improved Critical (Scimitar) {Proficient with weapon, base attack bonus +8}
+{10174} Improved Critical (Trident) {Proficient with weapon, base attack bonus +8}
+{10175} Improved Critical (Warhammer) {Proficient with weapon, base attack bonus +8}
+{10176} Improved Critical (Falchion) {Proficient with weapon, base attack bonus +8}
+{10177} Improved Critical (Heavy Flail) {}
+{10178} Improved Critical (Glaive) {Proficient with weapon, base attack bonus +8}
+{10179} Improved Critical (Greataxe) {Proficient with weapon, base attack bonus +8}
+{10180} Improved Critical (Greatclub) {Proficient with weapon, base attack bonus +8}
+{10181} Improved Critical (Greatsword) {Proficient with weapon, base attack bonus +8}
+{10182} Improved Critical (Guisarme) {Proficient with weapon, base attack bonus +8}
+{10183} Improved Critical (Halberd) {Proficient with weapon, base attack bonus +8}
+{10184} Improved Critical (Longspear) {Proficient with weapon, base attack bonus +8}
+{10185} Improved Critical (Ranseur) {Proficient with weapon, base attack bonus +8}
+{10186} Improved Critical (Scythe) {Proficient with weapon, base attack bonus +8}
+{10187} Improved Critical (Shortbow) {Proficient with weapon, base attack bonus +8}
+{10188} Improved Critical (Composite Shortbow) {Proficient with weapon, base attack bonus +8}
+{10189} Improved Critical (Longbow) {Proficient with weapon, base attack bonus +8}
+{10190} Improved Critical (Composite Longbow) {Proficient with weapon, base attack bonus +8}
+{10191} Improved Critical (Halfling Kama) {}
+{10192} Improved Critical (Kukri) {Proficient with weapon, base attack bonus +8}
+{10193} Improved Critical (Halfling Nunchaku) {}
+{10194} Improved Critical (Halfling Siangham) {}
+{10195} Improved Critical (Kama) {Proficient with weapon, base attack bonus +8}
+{10196} Improved Critical (Nunchaku) {}
+{10197} Improved Critical (Siangham) {Proficient with weapon, base attack bonus +8}
+{10198} Improved Critical (Bastard Sword) {Proficient with weapon, base attack bonus +8}
+{10199} Improved Critical (Dwarven Waraxe) {Proficient with weapon, base attack bonus +8}
+{10200} Improved Critical (Gnome Hooked Hammer) {}
+{10201} Improved Critical (Orc Double Axe) {}
+{10202} Improved Critical (Spike Chain) {}
+{10203} Improved Critical (Dire Flail) {}
+{10204} Improved Critical (Two-bladed Sword) {}
+{10205} Improved Critical (Dwarven Urgrosh) {}
+{10206} Improved Critical (Hand Crossbow) {}
+{10207} Improved Critical (Shuriken) {Proficient with weapon, base attack bonus +8}
+{10208} Improved Critical (Whip) {}
+{10209} Improved Critical (Repeating Crossbow) {Proficient with weapon, base attack bonus +8}
+{10210} Improved Critical (Net) {}
+{10211} Improved Disarm {}
+{10212} Improved Feint {Int 13, Combat Expertise}
+{10213} Improved Grapple {}
+{10214} Improved Initiative {}
+{10215} Improved Overrun {}
+{10216} Improved Shield Bash {}
+{10217} Improved Trip {Int 13, Combat Expertise}
+{10218} Improved Two-Weapon Fighting {Dex 17, Two-Weapon Fighting, base attack bonus +6}
+{10219} Improved Turning {Ability to turn or rebuke creatures}
+{10220} Improved Unarmed Strike {}
+{10221} Improved Uncanny Dodge {}
+{10222} Investigator {}
+{10223} Iron Will {}
+{10224} Leadership {}
+{10225} Lightning Reflexes {}
+{10226} Magical Affinity {}
+{10227} Manyshot {Dex 17, Point Blank Shot, Rapid Shot, base attack bonus +6}
+{10228} Martial Weapon Proficiency (Throwing Axe) {}
+{10229} Martial Weapon Proficiency (Light Hammer) {}
+{10230} Martial Weapon Proficiency (Handaxe) {}
+{10231} Martial Weapon Proficiency (Light Lance) {}
+{10232} Martial Weapon Proficiency (Light Pick) {}
+{10233} Martial Weapon Proficiency (Sap) {}
+{10234} Martial Weapon Proficiency (Short Sword) {}
+{10235} Martial Weapon Proficiency (Battleaxe) {}
+{10236} Martial Weapon Proficiency (Light Flail) {}
+{10237} Martial Weapon Proficiency (Heavy Lance) {}
+{10238} Martial Weapon Proficiency (Longsword) {}
+{10239} Martial Weapon Proficiency (Heavy Pick) {}
+{10240} Martial Weapon Proficiency (Rapier) {}
+{10241} Martial Weapon Proficiency (Scimitar) {}
+{10242} Martial Weapon Proficiency (Trident) {}
+{10243} Martial Weapon Proficiency (Warhammer) {}
+{10244} Martial Weapon Proficiency (Falchion) {}
+{10245} Martial Weapon Proficiency (Heavy Flail) {}
+{10246} Martial Weapon Proficiency (Glaive) {}
+{10247} Martial Weapon Proficiency (Greataxe) {}
+{10248} Martial Weapon Proficiency (Greatclub) {}
+{10249} Martial Weapon Proficiency (Greatsword) {}
+{10250} Martial Weapon Proficiency (Guisarme) {}
+{10251} Martial Weapon Proficiency (Halberd) {}
+{10252} Martial Weapon Proficiency (Longspear) {}
+{10253} Martial Weapon Proficiency (Ranseur) {}
+{10254} Martial Weapon Proficiency (Scythe) {}
+{10255} Martial Weapon Proficiency (Shortbow) {}
+{10256} Martial Weapon Proficiency (Composite Shortbow) {}
+{10257} Martial Weapon Proficiency (Longbow) {}
+{10258} Martial Weapon Proficiency (Composite Longbow) {}
+{10259} Maximize Spell {}
+{10260} Mobility {Dex 13, Dodge}
+{10261} Mounted Archery {}
+{10262} Mounted Combat {}
+{10263} Natural Spell {Wis 13, Wild Shape ability}
+{10264} Negotiator {}
+{10265} Nimble Fingers {}
+{10266} Persuasive {}
+{10267} Point Blank Shot {}
+{10268} Power Attack {Str 13}
+{10269} Precise Shot {Point Blank Shot}
+{10270} Quick Draw {Base attack bonus +1}
+{10271} Quicken Spell {}
+{10272} Rapid Shot {Dex 13, Point Blank Shot}
+{10273} Rapid Reload {Weapon Proficiency (heavy or light crossbow)}
+{10274} Ride-by Attack {}
+{10275} Run {}
+{10276} Scribe Scroll {Caster level 1st}
+{10277} Self Sufficient {}
+{10278} Shield Proficiency {}
+{10279} Shot on the Run {Dex 13, Dodge, Mobility, Point Blank Shot, base attack bonus +4}
+{10280} Silent Spell {}
+{10281} Simple Weapon Proficiency {}
+{10282} Skill Focus (Alchemy) {}
+{10283} Skill Focus (Animal Empathy) {}
+{10284} Skill Focus (Appraise) {}
+{10285} Skill Focus (Balance) {}
+{10286} Skill Focus (Bluff) {}
+{10287} Skill Focus (Climb) {}
+{10288} Skill Focus (Concentration) {}
+{10289} Skill Focus (Craft) {}
+{10290} Skill Focus (Decipher Script) {}
+{10291} Skill Focus (Diplomacy) {}
+{10292} Skill Focus (Disable Device) {}
+{10293} Skill Focus (Disguise) {}
+{10294} Skill Focus (Escape Artist) {}
+{10295} Skill Focus (Forgery) {}
+{10296} Skill Focus (Gather Information) {}
+{10297} Skill Focus (Handle Animal) {}
+{10298} Skill Focus (Heal) {}
+{10299} Skill Focus (Hide) {}
+{10300} Skill Focus (Innuendo) {}
+{10301} Skill Focus (Intimidate) {}
+{10302} Skill Focus (Intuit Direction) {}
+{10303} Skill Focus (Jump) {}
+{10304} Skill Focus (Knowledge) {}
+{10305} Skill Focus (Listen) {}
+{10306} Skill Focus (Move Silently) {}
+{10307} Skill Focus (Open Lock) {}
+{10308} Skill Focus (Performance) {}
+{10309} Skill Focus (Pick Pocket) {}
+{10310} Skill Focus (Profession) {}
+{10311} Skill Focus (Read Lips) {}
+{10312} Skill Focus (Ride) {}
+{10313} Skill Focus (Scry) {}
+{10314} Skill Focus (Search) {}
+{10315} Skill Focus (Sense Motive) {}
+{10316} Skill Focus (Speak Language) {}
+{10317} Skill Focus (Spellcraft) {}
+{10318} Skill Focus (Spot) {}
+{10319} Skill Focus (Swim) {}
+{10320} Skill Focus (Tumble) {}
+{10321} Skill Focus (Use Device) {}
+{10322} Skill Focus (Use Rope) {}
+{10323} Skill Focus (Survival) {}
+{10324} Snatch Arrows {Dex 15, Deflect Arrows, Improved Unarmed Strike}
+{10325} Spell Focus (Abjuration) {}
+{10326} Spell Focus (Conjuration) {}
+{10327} Spell Focus (Divination) {}
+{10328} Spell Focus (Enchantment) {}
+{10329} Spell Focus (Evocation) {}
+{10330} Spell Focus (Illusion) {}
+{10331} Spell Focus (Necromancy) {}
+{10332} Spell Focus (Transmutation) {}
+{10333} Spell Mastery {}
+{10334} Spell Penetration {}
+{10335} Spirited Charge {}
+{10336} Spring Attack {Dex 13, Dodge, Mobility, base attack bonus +4}
+{10337} Stealthy {}
+{10338} Still Spell {}
+{10339} Stunning Fist {}
+{10340} Sunder {}
+{10341} Toughness {}
+{10342} Tower Shield Proficiency {}
+{10343} Track {Survival}
+{10344} Trample {}
+{10345} Two-Weapon Fighting {Dex 15}
+{10346} Two-Weapon Defense {Dex 15, Two-Weapon Fighting}
+{10347} Weapon Finesse (Gauntlet) {}
+{10348} Weapon Finesse (Unarmed strike) {Base attack bonus +1}
+{10349} Weapon Finesse (Unarmed strike - small being) {Base attack bonus +1}
+{10350} Weapon Finesse (Dagger) {Base attack bonus +1}
+{10351} Weapon Finesse (Punching Dagger) {}
+{10352} Weapon Finesse (Spiked Gauntlet) {}
+{10353} Weapon Finesse (Light Mace) {Base attack bonus +1}
+{10354} Weapon Finesse (Sickle) {}
+{10355} Weapon Finesse (Club) {Base attack bonus +1}
+{10356} Weapon Finesse (Shortspear) {}
+{10357} Weapon Finesse (Heavy mace) {Base attack bonus +1}
+{10358} Weapon Finesse (Morningstar) {Base attack bonus +1}
+{10359} Weapon Finesse (Quarterstaff) {Base attack bonus +1}
+{10360} Weapon Finesse (Spear) {Base attack bonus +1}
+{10361} Weapon Finesse (Light Crossbow) {Base attack bonus +1}
+{10362} Weapon Finesse (Dart) {Base attack bonus +1}
+{10363} Weapon Finesse (Sling) {Base attack bonus +1}
+{10364} Weapon Finesse (Heavy Crossbow) {Base attack bonus +1}
+{10365} Weapon Finesse (Javelin) {Base attack bonus +1}
+{10366} Weapon Finesse (Throwing Axe) {Base attack bonus +1}
+{10367} Weapon Finesse (Light Hammer) {Base attack bonus +1}
+{10368} Weapon Finesse (Handaxe) {Base attack bonus +1}
+{10369} Weapon Finesse (Light Lance) {}
+{10370} Weapon Finesse (Light Pick) {Base attack bonus +1}
+{10371} Weapon Finesse (Sap) {Base attack bonus +1}
+{10372} Weapon Finesse (Short Sword) {Base attack bonus +1}
+{10373} Weapon Finesse (Battleaxe) {Base attack bonus +1}
+{10374} Weapon Finesse (Light Flail) {}
+{10375} Weapon Finesse (Heavy Lance) {}
+{10376} Weapon Finesse (Longsword) {Base attack bonus +1}
+{10377} Weapon Finesse (Heavy Pick) {Base attack bonus +1}
+{10378} Weapon Finesse (Rapier) {Base attack bonus +1}
+{10379} Weapon Finesse (Scimitar) {Base attack bonus +1}
+{10380} Weapon Finesse (Trident) {Base attack bonus +1}
+{10381} Weapon Finesse (Warhammer) {Base attack bonus +1}
+{10382} Weapon Finesse (Falchion) {Base attack bonus +1}
+{10383} Weapon Finesse (Heavy Flail) {}
+{10384} Weapon Finesse (Glaive) {Base attack bonus +1}
+{10385} Weapon Finesse (Greataxe) {Base attack bonus +1}
+{10386} Weapon Finesse (Greatclub) {Base attack bonus +1}
+{10387} Weapon Finesse (Greatsword) {Base attack bonus +1}
+{10388} Weapon Finesse (Guisarme) {Base attack bonus +1}
+{10389} Weapon Finesse (Halberd) {Base attack bonus +1}
+{10390} Weapon Finesse (Longspear) {Base attack bonus +1}
+{10391} Weapon Finesse (Ranseur) {Base attack bonus +1}
+{10392} Weapon Finesse (Scythe) Base attack bonus +1{}
+{10393} Weapon Finesse (Shortbow) {Base attack bonus +1}
+{10394} Weapon Finesse (Composite Shortbow) {Base attack bonus +1}
+{10395} Weapon Finesse (Longbow) {Base attack bonus +1}
+{10396} Weapon Finesse (Composite Longbow) {Base attack bonus +1}
+{10397} Weapon Finesse (Halfling Kama) {}
+{10398} Weapon Finesse (Kukri) {Base attack bonus +1}
+{10399} Weapon Finesse (Halfling Nunchaku) {}
+{10400} Weapon Finesse (Halfling Siangham) {}
+{10401} Weapon Finesse (Kama) {Base attack bonus +1}
+{10402} Weapon Finesse (Nunchaku) {}
+{10403} Weapon Finesse (Siangham) {Base attack bonus +1}
+{10404} Weapon Finesse (Bastard Sword) {Base attack bonus +1}
+{10405} Weapon Finesse (Dwarven Waraxe) {Base attack bonus +1}
+{10406} Weapon Finesse (Gnome Hooked Hammer) {}
+{10407} Weapon Finesse (Orc Double Axe) {}
+{10408} Weapon Finesse (Spike Chain) {}
+{10409} Weapon Finesse (Dire Flail) {}
+{10410} Weapon Finesse (Two-bladed Sword) {}
+{10411} Weapon Finesse (Dwarven Urgrosh) {}
+{10412} Weapon Finesse (Hand Crossbow) {}
+{10413} Weapon Finesse (Shuriken) {Base attack bonus +1}
+{10414} Weapon Finesse (Whip) {}
+{10415} Weapon Finesse (Repeating Crossbow) {Base attack bonus +1}
+{10416} Weapon Finesse (Net) {}
+{10417} Weapon Focus (Gauntlet) {}
+{10418} Weapon Focus (Unarmed strike) {Proficiency with selected weapon, base attack bonus +1}
+{10419} Weapon Focus (Unarmed strike - small being) {Proficiency with selected weapon, base attack bonus +1}
+{10420} Weapon Focus (Dagger) {Proficiency with selected weapon, base attack bonus +1}
+{10421} Weapon Focus (Punching Dagger) {}
+{10422} Weapon Focus (Spiked Gauntlet) {}
+{10423} Weapon Focus (Light Mace) {Proficiency with selected weapon, base attack bonus +1}
+{10424} Weapon Focus (Sickle) {}
+{10425} Weapon Focus (Club) {Proficiency with selected weapon, base attack bonus +1}
+{10426} Weapon Focus (Shortspear) {}
+{10427} Weapon Focus (Heavy mace) {Proficiency with selected weapon, base attack bonus +1}
+{10428} Weapon Focus (Morningstar) {Proficiency with selected weapon, base attack bonus +1}
+{10429} Weapon Focus (Quarterstaff) {Proficiency with selected weapon, base attack bonus +1}
+{10430} Weapon Focus (Spear) {Proficiency with selected weapon, base attack bonus +1}
+{10431} Weapon Focus (Light Crossbow) {Proficiency with selected weapon, base attack bonus +1}
+{10432} Weapon Focus (Dart) {Proficiency with selected weapon, base attack bonus +1}
+{10433} Weapon Focus (Sling) {Proficiency with selected weapon, base attack bonus +1}
+{10434} Weapon Focus (Heavy Crossbow) {Proficiency with selected weapon, base attack bonus +1}
+{10435} Weapon Focus (Javelin) {Proficiency with selected weapon, base attack bonus +1}
+{10436} Weapon Focus (Throwing Axe) {Proficiency with selected weapon, base attack bonus +1}
+{10437} Weapon Focus (Light Hammer) {Proficiency with selected weapon, base attack bonus +1}
+{10438} Weapon Focus (Handaxe) {}
+{10439} Weapon Focus (Light Lance) {}
+{10440} Weapon Focus (Light Pick) {Proficiency with selected weapon, base attack bonus +1}
+{10441} Weapon Focus (Sap) {Proficiency with selected weapon, base attack bonus +1}
+{10442} Weapon Focus (Short Sword) {Proficiency with selected weapon, base attack bonus +1}
+{10443} Weapon Focus (Battleaxe) {Proficiency with selected weapon, base attack bonus +1}
+{10444} Weapon Focus (Light Flail) {}
+{10445} Weapon Focus (Heavy Lance) {}
+{10446} Weapon Focus (Longsword) {Proficiency with selected weapon, base attack bonus +1}
+{10447} Weapon Focus (Heavy Pick) {Proficiency with selected weapon, base attack bonus +1}
+{10448} Weapon Focus (Rapier) {Proficiency with selected weapon, base attack bonus +1}
+{10449} Weapon Focus (Scimitar) {Proficiency with selected weapon, base attack bonus +1}
+{10450} Weapon Focus (Trident) {Proficiency with selected weapon, base attack bonus +1}
+{10451} Weapon Focus (Warhammer) {Proficiency with selected weapon, base attack bonus +1}
+{10452} Weapon Focus (Falchion) {Proficiency with selected weapon, base attack bonus +1}
+{10453} Weapon Focus (Heavy Flail) {}
+{10454} Weapon Focus (Glaive) {Proficiency with selected weapon, base attack bonus +1}
+{10455} Weapon Focus (Greataxe) {Proficiency with selected weapon, base attack bonus +1}
+{10456} Weapon Focus (Greatclub) {Proficiency with selected weapon, base attack bonus +1}
+{10457} Weapon Focus (Greatsword) {Proficiency with selected weapon, base attack bonus +1}
+{10458} Weapon Focus (Guisarme) {Proficiency with selected weapon, base attack bonus +1}
+{10459} Weapon Focus (Halberd) {Proficiency with selected weapon, base attack bonus +1}
+{10460} Weapon Focus (Longspear) {Proficiency with selected weapon, base attack bonus +1}
+{10461} Weapon Focus (Ranseur) {Proficiency with selected weapon, base attack bonus +1}
+{10462} Weapon Focus (Scythe) {Proficiency with selected weapon, base attack bonus +1}
+{10463} Weapon Focus (Shortbow) {Proficiency with selected weapon, base attack bonus +1}
+{10464} Weapon Focus (Composite Shortbow) {Proficiency with selected weapon, base attack bonus +1}
+{10465} Weapon Focus (Longbow) {Proficiency with selected weapon, base attack bonus +1}
+{10466} Weapon Focus (Composite Longbow) {Proficiency with selected weapon, base attack bonus +1}
+{10467} Weapon Focus (Halfling Kama) {}
+{10468} Weapon Focus (Kukri) {Proficiency with selected weapon, base attack bonus +1}
+{10469} Weapon Focus (Halfling Nunchaku) {}
+{10470} Weapon Focus (Halfling Siangham) {}
+{10471} Weapon Focus (Kama) {Proficiency with selected weapon, base attack bonus +1}
+{10472} Weapon Focus (Nunchaku) {}
+{10473} Weapon Focus (Siangham) {Proficiency with selected weapon, base attack bonus +1}
+{10474} Weapon Focus (Bastard Sword) {Proficiency with selected weapon, base attack bonus +1}
+{10475} Weapon Focus (Dwarven Waraxe) {Proficiency with selected weapon, base attack bonus +1}
+{10476} Weapon Focus (Gnome Hooked Hammer) {}
+{10477} Weapon Focus (Orc Double Axe) {}
+{10478} Weapon Focus (Spike Chain) {}
+{10479} Weapon Focus (Dire Flail) {}
+{10480} Weapon Focus (Two-bladed Sword) {}
+{10481} Weapon Focus (Dwarven Urgrosh) {}
+{10482} Weapon Focus (Hand Crossbow) {}
+{10483} Weapon Focus (Shuriken) {Proficiency with selected weapon, base attack bonus +1}
+{10484} Weapon Focus (Whip) {}
+{10485} Weapon Focus (Repeating Crossbow) {Proficiency with selected weapon, base attack bonus +1}
+{10486} Weapon Focus (Net) {}
+{10487} Weapon Focus (Grapple) {Proficiency with selected weapon, base attack bonus +1}
+{10488} Weapon Focus (Ray) {Proficiency with selected weapon, base attack bonus +1}
+{10489} Weapon Specialization (Gauntlet) {}
+{10490} Weapon Specialization (Unarmed strike) {Proficiency with selected weapon, Fighter level 4th}
+{10491} Weapon Specialization (Unarmed strike - small being) {Proficiency with selected weapon, Fighter level 4th}
+{10492} Weapon Specialization (Dagger) {Proficiency with selected weapon, Fighter level 4th}
+{10493} Weapon Specialization (Punching Dagger) {}
+{10494} Weapon Specialization (Spiked Gauntlet) {}
+{10495} Weapon Specialization (Light Mace) {Proficiency with selected weapon, Fighter level 4th}
+{10496} Weapon Specialization (Sickle) {}
+{10497} Weapon Specialization (Club) {Proficiency with selected weapon, Fighter level 4th}
+{10498} Weapon Specialization (Shortspear) {}
+{10499} Weapon Specialization (Heavy mace) {Proficiency with selected weapon, Fighter level 4th}
+{10500} Weapon Specialization (Morningstar) {Proficiency with selected weapon, Fighter level 4th}
+{10501} Weapon Specialization (Quarterstaff) {Proficiency with selected weapon, Fighter level 4th}
+{10502} Weapon Specialization (Spear) {Proficiency with selected weapon, Fighter level 4th}
+{10503} Weapon Specialization (Light Crossbow) {Proficiency with selected weapon, Fighter level 4th}
+{10504} Weapon Specialization (Dart) {Proficiency with selected weapon, Fighter level 4th}
+{10505} Weapon Specialization (Sling) {Proficiency with selected weapon, Fighter level 4th}
+{10506} Weapon Specialization (Heavy Crossbow) {Proficiency with selected weapon, Fighter level 4th}
+{10507} Weapon Specialization (Javelin) {Proficiency with selected weapon, Fighter level 4th}
+{10508} Weapon Specialization (Throwing Axe) {Proficiency with selected weapon, Fighter level 4th}
+{10509} Weapon Specialization (Light Hammer) {Proficiency with selected weapon, Fighter level 4th}
+{10510} Weapon Specialization (Handaxe) {Proficiency with selected weapon, Fighter level 4th}
+{10511} Weapon Specialization (Light Lance) {}
+{10512} Weapon Specialization (Light Pick) {Proficiency with selected weapon, Fighter level 4th}
+{10513} Weapon Specialization (Sap) {Proficiency with selected weapon, Fighter level 4th}
+{10514} Weapon Specialization (Short Sword) {Proficiency with selected weapon, Fighter level 4th}
+{10515} Weapon Specialization (Battleaxe) {Proficiency with selected weapon, Fighter level 4th}
+{10516} Weapon Specialization (Light Flail) {}
+{10517} Weapon Specialization (Heavy Lance) {}
+{10518} Weapon Specialization (Longsword) {Proficiency with selected weapon, Fighter level 4th}
+{10519} Weapon Specialization (Heavy Pick) {Proficiency with selected weapon, Fighter level 4th}
+{10520} Weapon Specialization (Rapier) {Proficiency with selected weapon, Fighter level 4th}
+{10521} Weapon Specialization (Scimitar) {Proficiency with selected weapon, Fighter level 4th}
+{10522} Weapon Specialization (Trident) {Proficiency with selected weapon, Fighter level 4th}
+{10523} Weapon Specialization (Warhammer) {Proficiency with selected weapon, Fighter level 4th}
+{10524} Weapon Specialization (Falchion) {Proficiency with selected weapon, Fighter level 4th}
+{10525} Weapon Specialization (Heavy Flail) {}
+{10526} Weapon Specialization (Glaive) {Proficiency with selected weapon, Fighter level 4th}
+{10527} Weapon Specialization (Greataxe) {Proficiency with selected weapon, Fighter level 4th}
+{10528} Weapon Specialization (Greatclub) {Proficiency with selected weapon, Fighter level 4th}
+{10529} Weapon Specialization (Greatsword) {Proficiency with selected weapon, Fighter level 4th}
+{10530} Weapon Specialization (Guisarme) {Proficiency with selected weapon, Fighter level 4th}
+{10531} Weapon Specialization (Halberd) {Proficiency with selected weapon, Fighter level 4th}
+{10532} Weapon Specialization (Longspear) {Proficiency with selected weapon, Fighter level 4th}
+{10533} Weapon Specialization (Ranseur) {Proficiency with selected weapon, Fighter level 4th}
+{10534} Weapon Specialization (Scythe) {Proficiency with selected weapon, Fighter level 4th}
+{10535} Weapon Specialization (Shortbow) {Proficiency with selected weapon, Fighter level 4th}
+{10536} Weapon Specialization (Composite Shortbow) {Proficiency with selected weapon, Fighter level 4th}
+{10537} Weapon Specialization (Longbow) {Proficiency with selected weapon, Fighter level 4th}
+{10538} Weapon Specialization (Composite Longbow) {Proficiency with selected weapon, Fighter level 4th}
+{10539} Weapon Specialization (Halfling Kama) {}
+{10540} Weapon Specialization (Kukri) {Proficiency with selected weapon, Fighter level 4th}
+{10541} Weapon Specialization (Halfling Nunchaku) {}
+{10542} Weapon Specialization (Halfling Siangham) {}
+{10543} Weapon Specialization (Kama) {Proficiency with selected weapon, Fighter level 4th}
+{10544} Weapon Specialization (Nunchaku) {}
+{10545} Weapon Specialization (Siangham) {Proficiency with selected weapon, Fighter level 4th}
+{10546} Weapon Specialization (Bastard Sword) {Proficiency with selected weapon, Fighter level 4th}
+{10547} Weapon Specialization (Dwarven Waraxe) {Proficiency with selected weapon, Fighter level 4th}
+{10548} Weapon Specialization (Gnome Hooked Hammer) {}
+{10549} Weapon Specialization (Orc Double Axe) {}
+{10550} Weapon Specialization (Spike Chain) {}
+{10551} Weapon Specialization (Dire Flail) {}
+{10552} Weapon Specialization (Two-bladed Sword) {}
+{10553} Weapon Specialization (Dwarven Urgrosh) {}
+{10554} Weapon Specialization (Hand Crossbow) {}
+{10555} Weapon Specialization (Shuriken) {Proficiency with selected weapon, Fighter level 4th}
+{10556} Weapon Specialization (Whip) {}
+{10557} Weapon Specialization (Repeating Crossbow) {Proficiency with selected weapon, Fighter level 4th}
+{10558} Weapon Specialization (Net) {}
+{10559} Weapon Specialization (Grapple) {Proficiency with selected weapon, Fighter level 4th}
+{10560} Whirlwind Attack {Dex 13, Int 13, Combat Expertise, Dodge, Mobility, Spring Attack, base attack bonus +4}
+{10561} Barbarian Rage {}
+{10562} Stunning Attacks {}
+{10563} Wholeness of Body {}
+{10564} Lay on Hands {}
+{10565} Smite Evil {}
+{10566} Remove Disease {}
+{10567} Detect Evil {}
+{10568} Aura of Courage {}
+{10569} Divine Health {}
+{10570} Divine Grace {}
+{10571} Special Mount {}
+{10572} Code of Conduct {}
+{10573} Associates {}
+{10574} Defensive Roll {}
+{10575} Turn Undead {}
+{10576} Rebuke Undead {}
+{10577} Domain Power {}
+{10578} Spontaneous Casting Cure {}
+{10579} Spontaneous Casting Inflict {}
+{10580} Combat Reflexes {}
+{10581} Martial Weapon Proficiency All {}
+{10582} Simple Weapon Proficiency Druid {}
+{10583} Simple Weapon Proficiency Monk {}
+{10584} Simple Weapon Proficiency Rogue {}
+{10585} Simple Weapon Proficiency Wizard {}
+{10586} Simple Weapon Proficiency Elf {}
+{10587} Uncanny Dodge {}
+{10588} Fast Movement {}
+{10589} Bardic Music {}
+{10590} Bardic Knowledge {}
+{10591} Nature Sense {}
+{10592} Woodland Stride {}
+{10593} Trackless Step {}
+{10594} Resist Natures Lure {}
+{10595} Wild Shape {}
+{10596} Venom Immunity {}
+{10597} Armor Proficiency Druid {}
+{10598} Flurry of Blows {}
+{10599} Evasion {}
+{10600} Still Mind {}
+{10601} Purity of Body {}
+{10602} Improved Evasion {}
+{10603} Ki Strike {}
+{10604} Sneak Attack {}
+{10605} Trapfinding {}
+{10606} Crippling Strike {}
+{10607} Opportunist {}
+{10608} Skill Mastery {}
+{10609} Slippery Mind {}
+{10610} Call Familiar {}
+{10611} Favored Enemy Aberration {}
+{10612} Favored Enemy Animal {}
+{10613} Favored Enemy Beast {}
+{10614} Favored Enemy Construct {}
+{10615} Favored Enemy Dragon {}
+{10616} Favored Enemy Elemental {}
+{10617} Favored Enemy Fey {}
+{10618} Favored Enemy Giant {}
+{10619} Favored Enemy Magical Beast {}
+{10620} Favored Enemy Monsterous Humanoid {}
+{10621} Favored Enemy Ooze {}
+{10622} Favored Enemy Plant {}
+{10623} Favored Enemy Shapechanger {}
+{10624} Favored Enemy Undead {}
+{10625} Favored Enemy Vermin {}
+{10626} Favored Enemy Outsider Evil {}
+{10627} Favored Enemy Outsider Good {}
+{10628} Favored Enemy Outsider Lawful {}
+{10629} Favored Enemy Outsider Chaotic {}
+{10630} Favored Enemy Humanoid Goblinoid {}
+{10631} Favored Enemy Humanoid Reptilian {}
+{10632} Favored Enemy Humanoid Dwarf {}
+{10633} Favored Enemy Humanoid Elf {}
+{10634} Favored Enemy Humanoid Gnoll {}
+{10635} Favored Enemy Humanoid Gnome {}
+{10636} Favored Enemy Humanoid Halfling {}
+{10637} Favored Enemy Humanoid Orc {}
+{10638} Favored Enemy Humanoid Human {}
+{10639} Ambidexterity Ranger {}
+{10640} Two Weapon Fighting Ranger {}
+{10641} Improved Two Weapon Fighting Ranger {}
+{10642} Animal Companion {}
+{10643} Two Weapon Fighting Style {}
+{10644} Archery Style {}
+{10645} Widen Spell {}
+{10646} Rapid Shot (Ranger) {}
+{10647} Many Shot (Ranger) {}
+{10648} Simple Weapon Proficiency Bard {}
+{10658} Diamond Body {}
+{10659} Abundant Step {}
+{10660} Diamond Soul {}
+{10661} Quivering Palm {}
+{10662} Empty Body {}
+{10663} Perfect Self {}
